@@ -59,7 +59,7 @@ export class MoonPayService {
         baseCurrencyCode: 'usd',
         walletAddress: params.walletAddress,
         ...(params.externalTransactionId && { externalTransactionId: params.externalTransactionId }),
-         redirectURL: 'https://dev-user.mits.net/assets'
+         redirectURL: 'http://localhost:3000/assets'
         // ...(params.externalCustomerId && { externalCustomerId: params.externalCustomerId }),
         // ...(params.redirectURL && { redirectURL: params.redirectURL })
       });
