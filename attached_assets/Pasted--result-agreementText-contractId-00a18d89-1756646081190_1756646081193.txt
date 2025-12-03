@@ -1,0 +1,51 @@
+{
+    "result": [
+        {
+            "agreementText": "",
+            "contractId": "00a18d894e65f753c0f54c699f2706e0f319ba7368c57a8bbbe864298939fed113ca03122044f27face76056c7f0f0ccdf7dcfbb403996b626689398a90a13f3d2d5e03d26",
+            "key": {
+                "_1": "NewBank::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "_2": "NewAlice::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "_3": "GLD"
+            },
+            "observers": [
+                "NewAlice::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d"
+            ],
+            "payload": {
+                "amount": "337",
+                "issuer": "NewBank::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "name": "Gold Token",
+                "owner": "NewAlice::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "symbol": "GLD"
+            },
+            "signatories": [
+                "NewBank::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d"
+            ],
+            "templateId": "323be96aa0b9cd4a6f9cf17a5096b7a69c0cc2da28d31baa5e53c72f2c8ce9c1:TokenExample:Token"
+        },
+        {
+            "agreementText": "",
+            "contractId": "00feaaebbd43c567d05a1c6dae8d9b7f7eb3dd7b0f631724b08453dcb32dda6811ca03122094fcbfe748cca17d9040b9632cefe96947afb98619496b4c7968d2b9a8f81e38",
+            "key": {
+                "_1": "NewBank::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "_2": "NewAlice::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "_3": "SLV"
+            },
+            "observers": [
+                "NewAlice::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d"
+            ],
+            "payload": {
+                "amount": "202",
+                "issuer": "NewBank::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "name": "Silver Token",
+                "owner": "NewAlice::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d",
+                "symbol": "SLV"
+            },
+            "signatories": [
+                "NewBank::1220b845dcf0d9cf52ce1e7457a744a6f3de7eff4a9ee95261b69405d1e0de8a768d"
+            ],
+            "templateId": "323be96aa0b9cd4a6f9cf17a5096b7a69c0cc2da28d31baa5e53c72f2c8ce9c1:TokenExample:Token"
+        }
+    ],
+    "status": 200
+}

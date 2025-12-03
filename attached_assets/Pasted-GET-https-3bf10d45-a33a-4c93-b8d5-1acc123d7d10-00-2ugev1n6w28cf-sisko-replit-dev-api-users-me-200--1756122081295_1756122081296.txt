@@ -1,0 +1,21 @@
+GET https://3bf10d45-a33a-4c93-b8d5-1acc123d7d10-00-2ugev1n6w28cf.sisko.replit.dev/api/users/me 200
+
+Request Headers
+
+Accept: application/json, text/plain, */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjg5YTMyMzI2N2NmYzUxYjhhMjZjNTVmIiwiZW1haWwiOiJ2cGF5YWxAc29sdWxhYi5jbyIsImlhdCI6MTc1NjExMjUyMCwiZXhwIjoxNzU2MTk4OTIwfQ.kdtxuIB5D2ezQg39gd9ZKnSKxn-L78H6nUmFzIwd6eU
+
+Response Headers
+
+cache-control: no-cache, no-store, must-revalidate
+content-length: 1864
+content-type: application/json; charset=utf-8
+date: Mon, 25 Aug 2025 11
+etag: W/"748-Cq+ebq4Yr3xXtmgHno9XHi3g8S4"
+expires: 0
+pragma: no-cache
+replit-cluster: sisko
+x-powered-by: Express
+x-robots-tag: none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex
+
+{"message":"Profile retrieved successfully","user":{"user_id":"689a323267cfc51b8a26c55f","email":"vpayal@solulab.co","first_name":"Vivekk","last_name":"Singh","phone_number":"","country":"Belize","state":"Corozal District","organization_name":"","account_status":"verified","email_verified":true,"terms_accepted":true,"last_login":"2025-08-25T09:02:00.740Z","created_at":"2025-08-11T18:10:58.826Z","updated_at":"2025-08-25T11:28:20.394Z"},"wallets":[{"_id":"689a339867cfc51b8a26c563","userId":"689a323267cfc51b8a26c55f","address":"0x2761fd00934834591b8f93f782364b31cecdbe32","type":"public","label":"secondary","createdAt":"2025-08-11T18:16:56.956Z"},{"_id":"689b38970e3125667747bc68","userId":"689a323267cfc51b8a26c55f","address":"0x25018ce80e703e03fa7f2eb5b0e306fd2a564b70","type":"public","label":"secondary","createdAt":"2025-08-12T12:50:31.698Z"},{"_id":"689d6e9503e54f4cb5d410d1","userId":"689a323267cfc51b8a26c55f","address":"0x6f9f64749a1d96007fcea31b1f665973ccc351c1","type":"public","label":"secondary","createdAt":"2025-08-14T05:05:25.765Z"},{"_id":"68a2be7b6836e222a34dc851","userId":"689a323267cfc51b8a26c55f","address":"bacpvgvdurcxba6sakumeij91x1grtqddceh2sum9fxf","type":"solana","label":"secondary","createdAt":"2025-08-18T05:47:39.072Z"},{"_id":"68a2f3e0f7881b0352bfe650","userId":"689a323267cfc51b8a26c55f","address":"0x2761fd00934834591b8f93f782364b31cecdbs32","type":"public","label":"secondary","createdAt":"2025-08-11T18:16:56.956Z"},{"_id":"68a2f4a64c1e3b5a8b41488e","userId":"689a323267cfc51b8a26c55f","address":"3gtcayjdy9sc7wyjhw5mfkoqwlswfe4rmrvgiffvndmi","type":"solana","label":"secondary","createdAt":"2025-08-18T09:38:46.733Z"},{"_id":"68a952e0d30ee78957c229fa","userId":"689a323267cfc51b8a26c55f","address":"0xcae78048ed21cbdeb1b609bd3efe701cfed3256b","type":"metamask","label":"secondary","createdAt":"2025-08-23T05:34:24.021Z"}]}

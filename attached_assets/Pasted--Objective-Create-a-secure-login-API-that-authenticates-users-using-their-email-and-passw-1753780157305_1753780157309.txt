@@ -1,0 +1,95 @@
+
+> **Objective**:
+> Create a secure login API that authenticates users using their email and password. The user must have a **verified email** (`email_verified: true`) to log in. Upon successful login, return a JWT token (or session) for authenticated access to protected routes.
+
+---
+
+### Endpoint: `POST /api/auth/login`
+
+---
+
+### **Request Body**
+
+```json
+{
+  "email": "johndoe@example.com",
+  "password": "yourSecurePassword123"
+}
+```
+
+---
+
+### **Validation Rules**
+
+* `email` is required and must be a valid format.
+* `password` is required.
+
+---
+
+### **Backend Process**
+
+1. **Validate request body** using Zod or Joi.
+2. **Find user by email** in the `users` collection.
+3. If user not found → return `404 User not found`.
+4. If `email_verified` is false → return `403 Please verify your email first`.
+5. **Compare the submitted password** with `user.password_hash` using `bcrypt.compare()`.
+6. If password mismatch → return `401 Invalid credentials`.
+7. If everything is valid:
+
+   * Generate a JWT token (containing `user_id`, `email`, `user_type`).
+   * Update `last_login` in DB.
+
+---
+
+### **Response**
+
+```json
+{
+  "message": "Login successful",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "user": {
+    "user_id": "uuid-v4",
+    "email": "johndoe@example.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "user_type": "retail",
+    "account_status": "verified"
+  }
+}
+```
+
+---
+
+### **Security Recommendations**
+
+* Use `bcrypt` with a salt round of 10+.
+* Use a **JWT secret stored in environment variables**.
+* Optionally, allow login only for `account_status: verified`.
+
+---
+
+### MongoDB Query Example
+
+```js
+const user = await User.findOne({ email: email.toLowerCase() });
+```
+
+---
+
+### JWT Payload Example
+
+```js
+jwt.sign(
+  { user_id, email, user_type },
+  process.env.JWT_SECRET,
+  { expiresIn: '1h' }
+);
+```
+
+---
+
+### Middleware Ready
+
+The returned JWT can be used for authenticated routes via `Authorization: Bearer <token>` header.
+
+

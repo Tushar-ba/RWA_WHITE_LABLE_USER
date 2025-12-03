@@ -1,0 +1,110 @@
+import {
+  PublicKey,
+  Transaction,
+  SystemProgram,
+} from "@solana/web3.js";
+import {
+  TOKEN_2022_PROGRAM_ID,
+  ASSOCIATED_TOKEN_PROGRAM_ID,
+  getAssociatedTokenAddressSync,
+  createAssociatedTokenAccountInstruction,
+  createTransferCheckedWithTransferHookInstruction,
+} from "@solana/spl-token";
+import { useAppKitProvider } from "@reown/appkit/react";
+import { useAppKitConnection, type Provider } from "@reown/appkit-adapter-solana/react";
+import { useState } from "react";
+
+type TransferProps = {
+  from: string;   // sender wallet address
+  to: string;     // recipient wallet address
+  mint: string;   // token mint address
+  amount: number; // amount in UI tokens (not raw units)
+};
+
+export function useTokenTransfer() {
+  const { connection } = useAppKitConnection();
+  const { walletProvider } = useAppKitProvider<Provider>("solana");
+  const [status, setStatus] = useState<string | null>(null);
+
+  async function transfer({ from, to, mint, amount }: TransferProps) {
+    try {
+      setStatus("Preparing transfer…");
+
+      const fromPk = new PublicKey(from);
+      const toPk = new PublicKey(to);
+      const mintPk = new PublicKey(mint);
+
+      // Derive ATA (associated token accounts)
+      const fromTokenAccount = getAssociatedTokenAddressSync(
+        mintPk,
+        fromPk,
+        false,
+        TOKEN_2022_PROGRAM_ID,
+        ASSOCIATED_TOKEN_PROGRAM_ID
+      );
+
+      const toTokenAccount = getAssociatedTokenAddressSync(
+        mintPk,
+        toPk,
+        false,
+        TOKEN_2022_PROGRAM_ID,
+        ASSOCIATED_TOKEN_PROGRAM_ID
+      );
+
+      // Create destination ATA if needed
+      const toAccountInfo = await connection.getAccountInfo(toTokenAccount);
+      const instructions = [];
+
+      if (!toAccountInfo) {
+        instructions.push(
+          createAssociatedTokenAccountInstruction(
+            fromPk,
+            toTokenAccount,
+            toPk,
+            mintPk,
+            TOKEN_2022_PROGRAM_ID,
+            ASSOCIATED_TOKEN_PROGRAM_ID
+          )
+        );
+        setStatus("Creating recipient token account…");
+      }
+
+      // Amount → raw units (assumes mint has 9 decimals)
+      const rawAmount = BigInt(amount * 10 ** 9);
+
+      // Create transfer instruction with transfer hook
+      const transferIx = await createTransferCheckedWithTransferHookInstruction(
+        connection,
+        fromTokenAccount,
+        mintPk,
+        toTokenAccount,
+        fromPk,
+        rawAmount,
+        9,
+        [],
+        "confirmed",
+        TOKEN_2022_PROGRAM_ID
+      );
+
+      instructions.push(transferIx);
+
+      const tx = new Transaction().add(...instructions);
+      tx.feePayer = walletProvider.publicKey;
+      tx.recentBlockhash = (await connection.getLatestBlockhash("confirmed")).blockhash;
+
+      setStatus("Sending transaction…");
+      const sig = await walletProvider.signAndSendTransaction(tx);
+
+      await connection.confirmTransaction(sig, "confirmed");
+
+      setStatus(`✅ Transfer successful! Tx: ${sig}`);
+      return sig;
+    } catch (err: any) {
+      console.error("❌ Transfer failed:", err);
+      setStatus("❌ Transfer failed");
+      throw err;
+    }
+  }
+
+  return { transfer, status };
+}

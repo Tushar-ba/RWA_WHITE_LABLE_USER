@@ -1,0 +1,1781 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "assets": "Actifs",
+    "portfolio": "Mon Portefeuille",
+    "profile": "Profil",
+    "transactionHistory": "Historique des Transactions",
+    "about": "À propos",
+    "whitepaper": "Livre blanc",
+    "tokenomics": "Tokenomics",
+    "contact": "Contact",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "getStarted": "Commencer",
+    "connectWallet": "Connecter le Portefeuille",
+    "disconnect": "Déconnecter",
+    "connected": "Connecté",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se déconnecter",
+    "auditReport": "Rapport d'Audit",
+    "gifting": "Cadeaux",
+    "sendGift": "Envoyer un Cadeau",
+    "redemption": "Rachat",
+    "addingWallet": "Ajout du Portefeuille...",
+    "adding": "Ajout...",
+    "connect": "Connecter",
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "confirmLogout": "Confirmer la Déconnexion",
+    "logoutConfirmMessage": "Êtes-vous sûr de vouloir vous déconnecter? Vous devrez vous reconnecter pour accéder à votre compte."
+  },
+  "landing": {
+    "heroTitle": "Plateforme de Coffre-fort d'Actifs Numériques",
+    "heroSubtitle": "Plateforme d'actifs tokenisés de qualité professionnelle : transformez l'or et l'argent avec la sécurité de la blockchain et la confiance et liquidité traditionnelles.",
+    "startInvesting": "Commencer à Investir",
+    "learnMore": "En Savoir Plus",
+    "trustIndicators": {
+      "physicallyBacked": "100% Soutenu Physiquement par de l'Or en Coffre",
+      "kycCompliant": "Entièrement Conforme KYC, Accès Global",
+      "priceAccuracy": "Précision du Prix de l'Or : ±0,01% du Spot"
+    }
+  },
+  "features": {
+    "whyChoose": "Pourquoi Choisir Vaulted Assets ?",
+    "subtitle": "Infrastructure de qualité professionnelle conçue pour les investisseurs particuliers et institutionnels",
+    "bankGradeSecurity": "Sécurité de Niveau Bancaire",
+    "bankGradeDescription": "Protocoles de sécurité multicouches, stockage à froid et solutions de garde de niveau institutionnel protègent vos actifs numériques.",
+    "instantLiquidity": "Liquidité Instantanée",
+    "instantLiquidityDescription": "Achetez et vendez des jetons de métaux précieux 24h/24 et 7j/7 avec règlement immédiat et spreads compétitifs.",
+    "regulatoryCompliance": "Conformité Réglementaire",
+    "regulatoryComplianceDescription": "Entièrement conforme aux réglementations financières mondiales, aux exigences KYC/AML et aux audits réguliers de tiers."
+  },
+  "investment": {
+    "buyPreciousMetals": "Acheter des Métaux Précieux",
+    "selectMetal": "Sélectionner le Métal",
+    "gold": "Or",
+    "silver": "Argent",
+    "usdcAmount": "Montant USDC",
+    "balance": "Solde",
+    "useMax": "Utiliser le Maximum",
+    "platformFee": "Frais de plateforme : 1,5% • Achat min. : 100$",
+    "confirmPurchase": "Confirmer l'Achat",
+    "purchaseSummary": "Résumé de l'Achat",
+    "currentPrice": "Prix Actuel {{metal}}",
+    "amount": "Montant",
+    "fee": "Frais de Plateforme (1,5%)",
+    "total": "Total",
+    "estimatedTokenAmount": "Montant de Jetons Estimé",
+    "recentPurchases": "Achats Récents",
+    "completed": "Terminé"
+  },
+  "paymentModal": {
+    "choosePaymentMethod": "Choisir la Méthode de Paiement",
+    "completePurchase": "Complétez votre achat de {{amount}} oz {{metal}} pour {{price}}$",
+    "selectPaymentMethod": "Sélectionner la Méthode de Paiement",
+    "payWithFiat": "Payer avec Fiat",
+    "fiatDescription": "Carte de Crédit/Débit, Virement Bancaire",
+    "payWithWallet": "Payer avec Portefeuille",
+    "walletDescription": "USDC, Ethereum, Bitcoin",
+    "cancel": "Annuler",
+    "confirmPayment": "Confirmer le Paiement"
+  },
+  "auth": {
+    "welcomeBack": "Bon Retour",
+    "signInDescription": "Connectez-vous à votre compte Vaulted Assets",
+    "email": "Email",
+    "password": "Mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signIn": "Se connecter",
+    "dontHaveAccount": "Vous n'avez pas de compte ?",
+    "signUp": "S'inscrire",
+    "createAccount": "Créer un Compte",
+    "joinVaultedAssets": "Rejoignez Vaulted Assets et commencez à investir dans des métaux précieux tokenisés",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "confirmPassword": "Confirmer le Mot de passe",
+    "agreeToTerms": "J'accepte les Conditions d'Utilisation et la Politique de Confidentialité",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "emailPlaceholder": "Entrez votre email",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "wrongPassword": "Mauvais mot de passe. Réessayez ou cliquez sur Mot de passe oublié pour le réinitialiser.",
+    "verifyEmailFirst": "Veuillez d'abord vérifier votre email.",
+    "clickHere": "Cliquez ici",
+    "signingIn": "Connexion...",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "backToLogin": "Retour à la Connexion",
+    "twoFactorAuth": "Authentification à Deux Facteurs",
+    "verifyEmail": "Vérifiez Votre Email",
+    "enter2FACode": "Entrez le code 2FA à 6 chiffres envoyé à",
+    "enterOTPCode": "Entrez le code OTP à 6 chiffres envoyé à",
+    "resendOTPIn": "Renvoyer l'OTP dans",
+    "seconds": "secondes",
+    "resending": "Envoi...",
+    "resendOTP": "Renvoyer l'OTP",
+    "verifying": "Vérification...",
+    "verifyLogin": "Vérifier et Se connecter",
+    "continue": "Continuer",
+    "backToSignUp": "Retour à l'Inscription",
+    "joinPlatform": "Rejoignez notre plateforme",
+    "mobileNumber": "Numéro de Mobile (Optionnel)",
+    "organizationName": "Nom de l'Organisation (Optionnel)",
+    "country": "Pays",
+    "stateProvince": "État/Province",
+    "enterFirstName": "Entrez votre prénom",
+    "enterLastName": "Entrez votre nom de famille",
+    "enterPhoneNumber": "+33 1 23 45 67 89",
+    "enterOrganizationName": "Nom de votre organisation",
+    "selectCountry": "Sélectionnez votre pays",
+    "selectStateProvince": "Sélectionnez votre état/province",
+    "enterStateProvince": "Entrez votre état/province",
+    "termsOfService": "Conditions d'Utilisation",
+    "and": "et",
+    "privacyPolicy": "Politique de Confidentialité",
+    "creating": "Création...",
+    "verifyYourEmail": "Vérifiez Votre Email",
+    "enterOTPSent": "Entrez l'OTP à 6 chiffres envoyé à",
+    "didntReceiveOTP": "Vous n'avez pas reçu l'OTP ?"
+  },
+  "dashboard": {
+    "assets": "Actifs",
+    "browseAndInvest": "Parcourez et investissez dans des métaux précieux",
+    "totalPortfolioValue": "Valeur Totale du Portefeuille",
+    "goldHoldings": "Avoirs en Or",
+    "silverHoldings": "Avoirs en Argent",
+    "assetAllocation": "Répartition des Actifs",
+    "tokens": "jetons",
+    "transactionHistory": "Historique des Transactions",
+    "completeRecord": "Enregistrement complet de votre activité de trading",
+    "date": "Date",
+    "type": "Type",
+    "asset": "Actif",
+    "amount": "Montant",
+    "value": "Valeur",
+    "status": "Statut",
+    "purchase": "Achat",
+    "redeem": "Racheter",
+    "gold": "Or",
+    "silver": "Argent",
+    "completed": "Terminé",
+    "pending": "En attente",
+    "failed": "Échoué",
+    "buyGold": "Acheter de l'Or",
+    "buySilver": "Acheter de l'Argent",
+    "selectAmount": "Sélectionner le Montant",
+    "enterAmount": "Entrez le montant en USD",
+    "paymentMethod": "Méthode de Paiement",
+    "creditCard": "Carte de Crédit",
+    "walletPay": "Paiement par Portefeuille",
+    "review": "Révision",
+    "purchaseDetails": "Détails de l'Achat",
+    "metalType": "Type de Métal",
+    "investmentAmount": "Montant d'Investissement",
+    "estimatedTokens": "Jetons Estimés",
+    "networkFee": "Frais de Réseau",
+    "totalCost": "Coût Total",
+    "confirmPurchase": "Confirmer l'Achat",
+    "processing": "Traitement...",
+    "purchaseHistory": "Historique des Achats",
+    "recentTransactions": "Transactions Récentes",
+    "viewAll": "Voir Tout",
+    "noTransactions": "Aucune transaction trouvée",
+    "loadingTransactions": "Chargement des transactions...",
+    "errorLoadingTransactions": "Erreur lors du chargement des transactions",
+    "selectMetal": "Sélectionner le Métal",
+    "walletAddress": "Adresse du Portefeuille",
+    "enterWalletAddress": "Entrez votre adresse de portefeuille",
+    "walletAddressTooltip": "Entrez l'adresse du portefeuille où vous voulez recevoir les jetons de métaux précieux après l'achat.",
+    "usdAmount": "Montant USD",
+    "enterAmountPlaceholder": "Entrez le montant (ex: 100)",
+    "platformFee": "Frais de plateforme : 1,5% • Achat min. : 10$",
+    "purchaseSummary": "Résumé de l'Achat",
+    "livePrice": "En direct",
+    "pricePerGram": "Prix (par gramme)",
+    "loading": "Chargement...",
+    "purchaseSuccessful": "Achat Réussi",
+    "purchaseRecordCreated": "Enregistrement d'achat créé avec succès. Votre transaction est en cours de traitement.",
+    "registrationSuccessful": "Inscription Réussie",
+    "registrationFailed": "Échec de l'Inscription",
+    "authenticationRequired": "Authentification Requise",
+    "buyPreciousMetals": "Acheter des Métaux Précieux",
+    "liveMarketPrices": "Prix du Marché en Direct",
+    "platformPurchases": "Achats de la Plateforme",
+    "metal": "Métal",
+    "tokenAmount": "Montant de Jetons",
+    "fee": "Frais",
+    "network": "Réseau",
+    "payment": "Paiement",
+    "show": "Afficher",
+    "records": "enregistrements",
+    "first": "Premier",
+    "previous": "Précédent",
+    "page": "Page",
+    "of": "de",
+    "next": "Suivant",
+    "last": "Dernier",
+    "myPortfolio": "Mon Portefeuille",
+    "portfolioOverview": "Aperçu de vos investissements en métaux précieux",
+    "totalValue": "Valeur Totale du Portefeuille",
+    "totalBalance": "Solde Total",
+    "portfolioGrowth": "Croissance du Portefeuille",
+    "performanceChart": "Graphique de Performance",
+    "priceHistory": "Historique des Prix",
+    "marketValue": "Valeur Marchande",
+    "grams": "grammes",
+    "connectWalletToView": "Veuillez connecter votre portefeuille pour voir les détails du portefeuille",
+    "connectWalletDescription": "Connectez votre portefeuille pour accéder à vos soldes de jetons en temps réel et aux informations de portefeuille.",
+    "portfolioPerformance": "Performance du Portefeuille",
+    "currentValue": "Valeur Actuelle",
+    "monthlyChange": "Changement Mensuel",
+    "ytd": "Depuis le début de l'année",
+    "strongPerformanceTrend": "Tendance de Performance Forte",
+    "bestMonth": "Meilleur mois",
+    "platformFeeShort": "Frais de Plateforme (1,5%)",
+    "netAmount": "Montant Net",
+    "estimatedTokenAmount": "Montant de Jetons Estimé",
+    "continueToNetworkSelection": "Continuer vers la Sélection du Réseau",
+    "selectNetwork": "Sélectionner le Réseau",
+    "privateNetwork": "Réseau Privé",
+    "publicNetwork": "Réseau Public",
+    "solanaNetwork": "Réseau Solana",
+    "enhancedSecurityAndPrivacy": "Sécurité et confidentialité renforcées",
+    "standardBlockchainNetwork": "Réseau blockchain standard",
+    "fastAndLowCostTransactions": "Transactions rapides et peu coûteuses",
+    "confirmPayment": "Confirmer le Paiement",
+    "unableToFetchLivePrices": "Impossible de récupérer les prix en direct",
+    "usingFallbackData": "Utilisation des données de secours",
+    "noPlatformPurchasesFound": "Aucun achat de plateforme trouvé",
+    "noPurchaseHistoryFound": "Aucun historique d'achat trouvé",
+    "securePaymentProcessing": "Traitement sécurisé des paiements fiat pour votre achat de {{metal}}"
+  },
+  "gifting": {
+    "sendGift": "Envoyer un Cadeau",
+    "recipientWalletAddress": "Adresse du Portefeuille du Destinataire",
+    "recipientWalletTooltip": "L'adresse du portefeuille doit être un utilisateur enregistré de cette plateforme pour recevoir les jetons cadeaux avec succès.",
+    "enterWalletAddress": "Entrez l'adresse du portefeuille",
+    "cannotSendToSelf": "Vous ne pouvez pas envoyer de jetons à votre propre adresse de portefeuille. Veuillez entrer une adresse de destinataire différente.",
+    "token": "Jeton",
+    "network": "Réseau",
+    "tokenQuantityGrams": "Quantité de Jetons (Grammes)",
+    "balance": "Solde",
+    "loadingBalance": "Chargement du solde...",
+    "enterQuantity": "Entrez la quantité (ex: 1,5)",
+    "insufficientBalance": "Solde insuffisant. Vous avez {{balance}} jetons {{token}}, mais vous essayez d'envoyer {{quantity}}.",
+    "loadingLivePrices": "Chargement des prix en direct...",
+    "usingFallbackPrices": "Utilisation des prix de secours (service de prix indisponible)",
+    "grams": "Grammes",
+    "tokenValue": "Valeur du Jeton",
+    "platformFee": "Frais de Plateforme (2%)",
+    "totalCost": "Coût Total",
+    "updating": "Mise à jour...",
+    "fallbackPrices": "Prix de secours",
+    "livePrices": "Prix en direct",
+    "blockchainTransfer": "Transfert Blockchain : les jetons {{token}} seront envoyés directement via contrat intelligent",
+    "messageOptional": "Message (optionnel)",
+    "addPersonalMessage": "Ajouter un message personnel",
+    "walletConnectionRequired": "Connexion de portefeuille requise pour les transferts de jetons sur le réseau Ethereum.",
+    "transferFailed": "Échec du transfert : {{error}}",
+    "giftSentSuccessfully": "Cadeau {{token}} envoyé avec succès !",
+    "transaction": "Transaction",
+    "validatingWallet": "Validation du Portefeuille...",
+    "confirmingTransfer": "Confirmation du Transfert...",
+    "sendingGift": "Envoi du Cadeau...",
+    "giftTokens": "Jetons Cadeaux",
+    "giftingHistory": "Historique des Cadeaux",
+    "recipient": "Destinataire",
+    "quantity": "Quantité",
+    "message": "Message",
+    "date": "Date",
+    "status": "Statut",
+    "share": "Partager",
+    "errorLoadingHistory": "Erreur lors du chargement de l'historique : {error}",
+    "noGiftingHistory": "Aucun historique de cadeaux trouvé",
+    "confirmGift": "Confirmer le Cadeau",
+    "confirmGiftMessage": "Offrir {{quantity}} jetons {{token}} à {{wallet}} ?",
+    "confirmGiftButton": "Confirmer le Cadeau",
+    "transferSuccessful": "Transfert Réussi !",
+    "giftSent": "Cadeau Envoyé",
+    "giftSentDescription": "Envoi réussi de {{quantity}} jetons {{token}} à {{wallet}}",
+    "giftSentSuccessfullyTitle": "Cadeau Envoyé avec Succès",
+    "giftSentSuccessfullyDescription": "Envoi réussi de {{quantity}} jetons {{token}} via le réseau privé Canton",
+    "transferCompleted": "Transfert Terminé",
+    "transferCompletedDescription": "Transfert Canton terminé mais échec de l'enregistrement du journal",
+    "cantonTransferFailed": "Échec du Transfert Canton",
+    "cantonTransferFailedDescription": "Échec du transfert de jetons via le réseau Canton",
+    "invalidRecipient": "Destinataire Invalide",
+    "invalidRecipientDescription": "Vous ne pouvez pas envoyer de jetons à votre propre adresse de portefeuille.",
+    "insufficientBalanceTitle": "Solde Insuffisant",
+    "insufficientBalanceDescription": "Vous avez {{balance}} jetons {{token}}, mais vous essayez d'envoyer {{quantity}}.",
+    "walletNotFound": "Portefeuille Non Trouvé",
+    "walletNotFoundDescription": "Ce portefeuille n'est pas enregistré dans notre plateforme. Le destinataire doit d'abord créer un compte pour recevoir des jetons.",
+    "validationError": "Erreur de Validation",
+    "validationErrorDescription": "Échec de la validation du portefeuille",
+    "walletNotConnected": "Portefeuille Non Connecté",
+    "walletNotConnectedDescription": "Veuillez connecter votre portefeuille pour envoyer des jetons sur le réseau Ethereum.",
+    "recipientWillReceive": "Le destinataire recevra les jetons dans son portefeuille sous peu.",
+    "shareOnTelegram": "Partager sur Telegram",
+    "shareOnWhatsApp": "Partager sur WhatsApp",
+    "giftRecordedSuccessfully": "Cadeau Enregistré avec Succès",
+    "giftRecordedSuccessfullyDescription": "Votre transaction de cadeau a été enregistrée dans notre système.",
+    "giftRecordingFailed": "Échec de l'Enregistrement du Cadeau",
+    "giftRecordingFailedDescription": "Échec de l'enregistrement de la transaction de cadeau. Veuillez réessayer.",
+    "failedToFetchHistory": "Échec du chargement de l'historique des cadeaux"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "subtitle": "Gérez vos informations personnelles et consultez le statut de votre compte",
+    "personalInformation": "Informations Personnelles",
+    "personalInformationDescription": "Mettez à jour vos détails personnels et informations de contact",
+    "editProfile": "Modifier le Profil",
+    "firstName": "Prénom",
+    "firstNameRequired": "Le prénom est requis",
+    "lastName": "Nom de famille",
+    "lastNameRequired": "Le nom de famille est requis",
+    "email": "Adresse Email",
+    "emailCannotChange": "L'email ne peut pas être modifié",
+    "phoneNumber": "Numéro de Téléphone",
+    "phoneOptional": "Optionnel",
+    "country": "Pays",
+    "countryRequired": "Le pays est requis",
+    "state": "État/Province",
+    "stateRequired": "L'état est requis",
+    "organization": "Organisation",
+    "organizationOptional": "Optionnel",
+    "saveChanges": "Enregistrer les Modifications",
+    "saving": "Enregistrement...",
+    "cancel": "Annuler",
+    "accountStatus": "Statut du Compte",
+    "accountStatusDescription": "Consultez vos informations de portefeuille et le statut de vérification du compte",
+    "connectedWallets": "Portefeuilles Connectés",
+    "wallet": "Portefeuille",
+    "noWalletsConnected": "Aucun portefeuille connecté pour l'instant",
+    "connectWalletToTrade": "Connectez votre portefeuille pour commencer à échanger des métaux précieux",
+    "verified": "Vérifié",
+    "pendingVerification": "Vérification en Attente",
+    "suspended": "Suspendu",
+    "unknown": "Inconnu",
+    "loading": "Chargement...",
+    "accountStatusInfo": "La vérification du compte est requise pour les fonctionnalités avancées",
+    "verificationStatus": "Statut de Vérification",
+    "emailVerified": "Email Vérifié",
+    "emailNotVerified": "Email Non Vérifié",
+    "referralCode": "Code de Parrainage",
+    "noReferralCode": "Aucun code de parrainage défini",
+    "lastLogin": "Dernière Connexion",
+    "memberSince": "Membre Depuis",
+    "termsAccepted": "Conditions Générales Acceptées",
+    "yes": "Oui",
+    "no": "Non",
+    "updateProfileSuccess": "Profil mis à jour avec succès",
+    "updateProfileError": "Échec de la mise à jour du profil",
+    "accountVerifiedMessage": "Votre compte a été vérifié avec succès.",
+    "accountPendingMessage": "La vérification de votre compte est en cours de traitement.",
+    "accountSuspendedMessage": "Votre compte a été suspendu. Veuillez contacter le support.",
+    "securityInfo": "Pour des raisons de sécurité, certaines informations ne peuvent pas être modifiées directement. Si vous devez mettre à jour votre adresse email ou d'autres champs restreints, veuillez contacter notre équipe de support.",
+    "updatePassword": "Mettre à Jour le Mot de Passe",
+    "updatePasswordDescription": "Changez le mot de passe de votre compte pour une sécurité renforcée",
+    "changePassword": "Changer le Mot de Passe",
+    "currentPassword": "Mot de Passe Actuel",
+    "currentPasswordPlaceholder": "Entrez votre mot de passe actuel",
+    "newPassword": "Nouveau Mot de Passe",
+    "newPasswordPlaceholder": "Entrez votre nouveau mot de passe",
+    "confirmPassword": "Confirmer le Nouveau Mot de Passe",
+    "confirmPasswordPlaceholder": "Confirmez votre nouveau mot de passe",
+    "currentPasswordRequired": "Le mot de passe actuel est requis",
+    "newPasswordRequired": "Le nouveau mot de passe est requis",
+    "confirmPasswordRequired": "Veuillez confirmer votre nouveau mot de passe",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères",
+    "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+    "newPasswordSameAsOld": "Le nouveau mot de passe doit être différent du mot de passe actuel",
+    "passwordUpdateSuccess": "Mot de passe mis à jour avec succès",
+    "passwordUpdateError": "Échec de la mise à jour du mot de passe",
+    "updating": "Mise à jour...",
+    "passwordSecurityNote": "Choisissez un mot de passe fort avec au moins 8 caractères, incluant des majuscules, des minuscules, des chiffres et des caractères spéciaux.",
+    "passwordHidden": "Votre mot de passe est chiffré de manière sécurisée et ne peut pas être affiché.",
+    "passwordLastUpdated": "Pour des raisons de sécurité, nous n'indiquons pas quand les mots de passe ont été mis à jour pour la dernière fois."
+  },
+  "redemption": {
+    "title": "Racheter des Métaux Précieux Physiques",
+    "subtitle": "Convertissez vos métaux précieux tokenisés en livraison physique",
+    "redemptionRequest": "Demande de Rachat",
+    "selectToken": "Sélectionner le Jeton",
+    "selectTokenPlaceholder": "Sélectionner le type de jeton",
+    "goldGRT": "Or (GRT)",
+    "silverSRT": "Argent (SRT)",
+    "quantity": "Quantité",
+    "quantityPlaceholder": "Entrez la quantité",
+    "quantityInfo": "{{grams}}g d'{{metal}} • {{value}}$ USD",
+    "quantityInvalid": "La quantité doit être supérieure à 0",
+    "network": "Réseau",
+    "networkPlaceholder": "Sélectionner le réseau",
+    "ethereum": "Ethereum",
+    "solana": "Solana",
+    "private": "Privé",
+    "deliveryAddress": "Adresse de Livraison",
+    "streetAddress": "Adresse",
+    "streetAddressPlaceholder": "123 Rue Principale",
+    "city": "Ville",
+    "cityPlaceholder": "Ville",
+    "zipCode": "Code Postal",
+    "zipCodePlaceholder": "Code Postal",
+    "country": "Pays",
+    "countryPlaceholder": "Sélectionner le pays",
+    "state": "État/Province",
+    "statePlaceholder": "Sélectionner l'état",
+    "blockchainError": "Erreur Blockchain : {error}",
+    "confirmTransaction": "Veuillez confirmer la transaction dans votre portefeuille...",
+    "transactionSubmitted": "Transaction soumise. En attente de confirmation...",
+    "transactionConfirmed": "Transaction confirmée : {{hash}}",
+    "processing": "Traitement...",
+    "walletNotConnected": "Portefeuille Non Connecté",
+    "connectWalletToCancel": "Connectez votre portefeuille pour annuler le rachat",
+    "wrongWallet": "Mauvais Portefeuille Connecté",
+    "connectCorrectWallet": "Connectez-vous au portefeuille qui a créé cette demande de rachat",
+    "submitRedemptionRequest": "Soumettre la Demande de Rachat",
+    "costBreakdown": "Détail des Coûts",
+    "tokenValue": "Valeur du Jeton",
+    "networkFee": "Frais de Réseau",
+    "deliveryFee": "Frais de Livraison",
+    "totalCost": "Coût Total",
+    "redemptionHistory": "Historique des Rachats",
+    "noRedemptionHistory": "Aucun historique de rachat trouvé",
+    "errorLoadingHistory": "Erreur lors du chargement de l'historique : {error}",
+    "loadingHistory": "Chargement de l'historique des rachats...",
+    "id": "ID",
+    "token": "Jeton",
+    "amount": "Montant",
+    "grams": "Grammes",
+    "value": "Valeur",
+    "status": "Statut",
+    "date": "Date",
+    "address": "Adresse",
+    "txHash": "Hash Tx",
+    "action": "Action",
+    "cancelRedemption": "Annuler",
+    "cancelSuccess": "Rachat annulé avec succès",
+    "cancelError": "Échec de l'annulation du rachat",
+    "pending": "En attente",
+    "confirmed": "Confirmé",
+    "shipped": "Expédié",
+    "delivered": "Livré",
+    "failed": "Échoué",
+    "cancelled": "Annulé",
+    "walletNotConnectedTitle": "Portefeuille Non Connecté",
+    "walletNotConnectedDescription": "Veuillez connecter votre portefeuille pour racheter des jetons sur Ethereum",
+    "redemptionFailedTitle": "Échec du Rachat",
+    "redemptionFailedDescription": "Échec du traitement du rachat blockchain",
+    "successTitle": "Succès",
+    "successDescription": "Demande de rachat soumise avec succès",
+    "errorTitle": "Erreur",
+    "errorDescription": "Échec de la soumission de la demande de rachat",
+    "warningTitle": "Avertissement",
+    "warningDescription": "Transaction blockchain réussie mais échec de l'enregistrement en base de données",
+    "createFailedDescription": "Impossible de créer la demande de rachat",
+    "gold": "or",
+    "silver": "argent"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "processing": "Traitement en cours...",
+    "failedToLoadData": "Échec du chargement des données",
+    "error": "Erreur",
+    "success": "Succès",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "more": "Plus",
+    "less": "Moins",
+    "done": "Terminé",
+    "notAvailable": "N/D"
+  },
+  "footer": {
+    "company": "Entreprise",
+    "about": "À propos",
+    "careers": "Carrières",
+    "investors": "Investisseurs",
+    "blog": "Blog",
+    "legal": "Légal",
+    "termsOfService": "Conditions d'Utilisation",
+    "privacyPolicy": "Politique de Confidentialité",
+    "cookiePolicy": "Politique des Cookies",
+    "support": "Support",
+    "helpCenter": "Centre d'Aide",
+    "contactUs": "Nous Contacter",
+    "statusPage": "Page de Statut",
+    "allRightsReserved": "Tous droits réservés.",
+    "description": "Plateforme de tokenisation de métaux précieux de qualité professionnelle. Coffre-fort d'actifs numériques sécurisé, transparent et conforme pour les investisseurs particuliers et institutionnels.",
+    "copyright": "© 2025 Vaulted Assets. Tous droits réservés.",
+    "products": "Produits",
+    "goldTokens": "Jetons d'Or",
+    "silverTokens": "Jetons d'Argent",
+    "portfolioManagement": "Gestion de Portefeuille",
+    "institutionalSolutions": "Solutions Institutionnelles",
+    "apiAccess": "Accès API",
+    "security": "Sécurité",
+    "compliance": "Conformité",
+    "securityAndCompliance": "Sécurité et Conformité",
+    "press": "Presse",
+    "importantNotice": "Avis Important",
+    "complianceNotice": "les jetons sont soutenus par des métaux précieux physiques stockés dans des coffres sécurisés et audités. Tous les investissements comportent des risques. Les performances passées ne garantissent pas les résultats futurs. Veuillez lire nos divulgations de risques avant d'investir. Vaulted Assets est réglementée et conforme aux réglementations financières applicables."
+  },
+  "toasts": {
+    "transactionTimeout": "Délai de transaction dépassé - veuillez réessayer",
+    "databaseUpdateFailed": "Échec de la mise à jour de la base de données",
+    "invalidRedemptionData": "Données de rachat invalides",
+    "transactionSubmitted": "Transaction Soumise",
+    "waitingForConfirmation": "En attente de confirmation blockchain...",
+    "unknownNetworkType": "Type de réseau inconnu - impossible d'annuler",
+    "referralLinkCopied": "Lien de parrainage copié dans le presse-papiers !",
+    "failedToCopyLink": "Échec de la copie du lien",
+    "enterEmailAddress": "Veuillez saisir une adresse e-mail",
+    "enterValidEmail": "Veuillez saisir une adresse e-mail valide",
+    "authenticationRequired": "Authentification Requise",
+    "sessionExpired": "Session Expirée",
+    "walletConnected": "Portefeuille Connecté",
+    "walletConnectionError": "Erreur de Connexion du Portefeuille",
+    "transferInitiated": "Transfert {{token}} Initié",
+    "transferringTokens": "Transfert de {{amount}} jetons {{symbol}} vers {{address}}",
+    "transferFailed": "Échec du Transfert {{token}}",
+    "transferFailedDesc": "Échec du transfert des jetons {{token}}",
+    "transferSuccessful": "Transfert {{token}} Réussi",
+    "transferSuccessfulDesc": "Jetons {{token}} transférés avec succès ! Transaction : {{hash}}...",
+    "transactionError": "Erreur de Transaction {{token}}",
+    "transactionFailed": "Échec de la transaction",
+    "loginRequired": "Veuillez d'abord vous connecter à votre compte",
+    "sessionExpiredDesc": "Votre session a expiré. Veuillez vous reconnecter",
+    "connectWalletDesc": "Connectez votre portefeuille pour continuer",
+    "redemptionRequestInitiated": "Demande de Rachat {{token}} Initiée",
+    "redemptionRequestDescription": "Demande de rachat de {{quantity}} jetons {{symbol}} pour livraison physique.",
+    "redemptionRequestFailed": "Échec de la Demande de Rachat {{token}}",
+    "redemptionRequestFailedDescription": "Échec de la demande de rachat {{token}}",
+    "redemptionCancellationInitiated": "Annulation de Rachat {{token}} Initiée",
+    "redemptionCancellationDescription": "Annulation de la demande de rachat #{{requestId}} pour les jetons {{symbol}}.",
+    "redemptionCancellationFailed": "Échec de l'Annulation de Rachat {{token}}",
+    "redemptionCancellationFailedDescription": "Échec de l'annulation de la demande de rachat {{token}}"
+  },
+  "pages": {
+    "faq":{
+      "title": "Questions Fréquentes",
+      "subtitle": "Trouvez des réponses aux questions courantes sur Vaulted Assets",
+      "categories": {
+        "general": {
+          "title": "Questions Générales"
+        },
+        "tokens": {
+          "title": "Jetons & Blockchain"
+        },
+        "buying": {
+          "title": "Achat & Rachat"
+        },
+        "fees": {
+          "title": "Frais & Transferts"
+        },
+        "security": {
+          "title": "Sécurité & Conformité"
+        },
+        "crossChain": {
+          "title": "Transferts Cross-Chain"
+        },
+        "audit": {
+          "title": "Audit & Transparence"
+        },
+        "wallets": {
+          "title": "Portefeuilles & Accessibilité"
+        },
+        "gifting": {
+          "title": "Cadeaux & Parrainage"
+        },
+        "jurisdictional": {
+          "title": "Restrictions Juridictionnelles"
+        }
+      },
+      "questions": {
+        "q1": {
+          "question": "Qu’est-ce que Vaulted Assets ?",
+          "answer": "Vaulted Assets est une plateforme qui vous permet d’acheter, de détenir, de transférer et d’échanger des jetons numériques adossés à l’or et à l’argent. Chaque jeton représente la propriété directe de métaux précieux entièrement alloués, stockés dans des coffres sécurisés."
+        },
+        "q2": {
+          "question": "En quoi cela diffère-t-il de l'achat physique d’or ou d’argent ?",
+          "answer": "Lorsque vous achetez des jetons via Vaulted Assets, vous possédez de l’or ou de l’argent réel stocké dans des coffres de qualité professionnelle – mais vous pouvez gérer vos avoirs numériquement, les échanger instantanément et les racheter à tout moment."
+        },
+        "q3": {
+          "question": "Où les métaux sont-ils stockés ?",
+          "answer": "Tout l’or et l’argent sont stockés chez des dépositaires agréés, dans des coffres à haute sécurité situés dans des juridictions réglementées."
+        },
+        "q4": {
+          "question": "Mes avoirs sont-ils assurés ?",
+          "answer": "Oui, tous les actifs conservés en coffre sont couverts par des polices d’assurance complètes fournies par les dépositaires."
+        },
+        "q5": {
+          "question": "Quelles blockchains utilisez-vous ?",
+          "answer": "Vaulted Assets prend en charge les blockchains publiques (par ex. Solana, Ethereum) et les blockchains privées/autorisées (par ex. Canton) pour répondre aux différents besoins des utilisateurs."
+        },
+        "q6": {
+          "question": "Puis-je choisir sur quelle blockchain se trouvent mes jetons ?",
+          "answer": "Oui — vous pouvez sélectionner votre réseau préféré lors de l’achat ou du transfert de jetons."
+        },
+        "q7": {
+          "question": "Les transactions blockchain sont-elles réversibles ?",
+          "answer": "Non. Une fois qu’une transaction blockchain est confirmée, elle ne peut pas être annulée. Vérifiez toujours les détails de la transaction avant de confirmer."
+        },
+        "q8": {
+          "question": "Comment puis-je acheter des jetons ?",
+          "answer": "Vous pouvez acheter des jetons en utilisant des monnaies fiduciaires prises en charge ou des crypto-monnaies directement via notre application web ou mobile."
+        },
+        "q9": {
+          "question": "Puis-je échanger mes jetons contre de l’or ou de l’argent physique ?",
+          "answer": "Oui. Vous pouvez demander un rachat sous forme de métaux physiques (soumis à des montants minimums) ou une valeur équivalente en fiat."
+        },
+        "q10": {
+          "question": "Combien de temps faut-il pour le rachat ?",
+          "answer": "Les délais de livraison dépendent de votre emplacement, de la disponibilité et de la méthode sélectionnée (livraison physique ou règlement en espèces)."
+        },
+        "q11": {
+          "question": "Quels frais s'appliquent ?",
+          "answer": "Nous facturons des frais pour les transactions, le stockage et les transferts sur la blockchain. Les frais varient selon que vous utilisez une chaîne publique ou privée."
+        },
+        "q12": {
+          "question": "Les transferts entre utilisateurs de Vaulted Assets sont-ils gratuits ?",
+          "answer": "Les transferts sur des blockchains privées peuvent avoir des frais réduits ou nuls. Les transferts sur des blockchains publiques peuvent entraîner des frais de gaz réseau."
+        },
+        "q13": {
+          "question": "Comment mon compte est-il sécurisé ?",
+          "answer": "Nous utilisons un chiffrement puissant, l’authentification à deux facteurs (2FA) et plusieurs couches de sécurité pour les portefeuilles comme pour l’accès à la plateforme."
+        },
+        "q14": {
+          "question": "Dois-je vérifier mon identité ?",
+          "answer": "Oui — tous les utilisateurs doivent compléter la vérification AML/KYC pour se conformer aux réglementations mondiales."
+        },
+        "q15": {
+          "question": "Que se passe-t-il si Vaulted Assets ferme ?",
+          "answer": "Vos métaux restent votre propriété. En cas de fermeture de la plateforme, vous pourrez racheter vos avoirs ou les transférer à un autre dépositaire."
+        },
+        "q16": {
+          "question": "Puis-je déplacer mes jetons entre Ethereum, Solana et Canton ?",
+          "answer": "Oui. Nous prenons en charge les transferts cross-chain via des ponts de confiance et, dans certains cas, via des modèles d’émission séparés (où un jeton peut être racheté sur une chaîne et réémis sur une autre). Notre documentation explique le processus spécifique pour GLD et SLV."
+        },
+        "q17": {
+          "question": "Le bridging affecte-t-il la propriété de mes jetons ?",
+          "answer": "Non. Que vous déteniez GLD sur Ethereum ou Solana, chaque jeton est entièrement adossé 1:1 à des réserves physiques dans nos coffres."
+        },
+        "q18": {
+          "question": "Comment savoir que les jetons sont entièrement adossés par des réserves d'or et d'argent ?",
+          "answer": "Vaulted Assets maintient une preuve de réserves avec des audits réguliers effectués par des tiers. Nous publions également un tableau de bord en direct montrant l’offre de jetons par rapport aux avoirs de coffre audités, afin que les utilisateurs puissent vérifier le soutien à tout moment."
+        },
+        "q19": {
+          "question": "Qui réalise les audits ?",
+          "answer": "Des cabinets d’audit indépendants et accrédités effectuent nos vérifications de réserves afin de garantir la transparence et la confiance."
+        },
+        "q20": {
+          "question": "Ai-je besoin d’un portefeuille crypto pour utiliser Vaulted Assets ?",
+          "answer": "Pas nécessairement. Notre système de portefeuille hybride vous permet de choisir entre des portefeuilles de garde (connexion de style Web2, sans connaissances techniques) et des portefeuilles en auto-garde (par ex. MetaMask, Phantom ou solutions compatibles Canton)."
+        },
+        "q21": {
+          "question": "Puis-je utiliser mon portefeuille existant ?",
+          "answer": "Oui, vous pouvez connecter votre propre portefeuille Web3 pour gérer vos jetons GLD et SLV si vous préférez l’auto-garde."
+        },
+        "q22": {
+          "question": "Puis-je offrir des jetons à quelqu’un d’autre ?",
+          "answer": "Oui. Notre plateforme permet de faire des cadeaux de jetons, vous pouvez envoyer de l’or ou de l’argent à vos proches directement."
+        },
+        "q23": {
+          "question": "Proposez-vous des incitations de parrainage ?",
+          "answer": "Oui. Vaulted Assets propose des programmes de parrainage où les utilisateurs existants peuvent inviter d’autres et gagner des récompenses en jetons. Les détails sont disponibles dans votre tableau de bord."
+        },
+        "q24": {
+          "question": "Puis-je utiliser Vaulted Assets dans mon pays ?",
+          "answer": "Nos services sont soumis aux lois et réglementations locales. Certaines juridictions peuvent restreindre ou interdire la participation aux plateformes d’actifs numériques. Veuillez consulter nos Conditions d’Utilisation et vos réglementations locales avant d’investir."
+        },
+        "q25": {
+          "question": "La plateforme est-elle disponible pour les utilisateurs américains ou européens ?",
+          "answer": "La disponibilité varie selon le produit. Certaines fonctionnalités peuvent être restreintes en fonction des exigences de conformité. Nous vous en informerons lors de l'intégration si l’accès est limité."
+        }
+      },
+      "stillHaveQuestions": {
+        "title": "Vous avez encore des questions ?",
+        "description": "Vous ne trouvez pas ce que vous recherchez ? Contactez notre équipe de support pour une assistance personnalisée."
+      },
+      "contactSupport": "Contacter le Support"
+    },
+    "cookiePolicy":{
+      "title": "Vaulted Assets – Politique relative aux cookies",
+      "effectiveDate": "Date d’entrée en vigueur : [Insérer la date]",
+      "introduction": {
+        "text1": "Vaulted Assets (« nous », « notre » ou « nos ») utilise des cookies et des technologies similaires pour améliorer votre expérience, analyser l’utilisation de la plateforme et fournir du contenu et des services personnalisés. La présente Politique relative aux cookies explique ce que sont les cookies, comment nous les utilisons et vos choix concernant leur utilisation.",
+        "text2": "En utilisant la plateforme Vaulted Assets, vous consentez à l’utilisation de cookies telle que décrite dans cette politique."
+      },
+      "section1": {
+        "title": "1. Qu’est-ce qu’un cookie ?",
+        "intro": "Les cookies sont de petits fichiers texte placés sur votre ordinateur ou appareil mobile lorsque vous visitez un site web ou utilisez une application. Ils nous permettent de reconnaître votre appareil, de stocker des préférences et d’améliorer votre expérience de navigation.",
+        "types": {
+          "intro": "Les cookies peuvent être :",
+          "session": {
+            "title": "Cookies de session",
+            "description": "Cookies temporaires supprimés lorsque vous fermez votre navigateur."
+          },
+          "persistent": {
+            "title": "Cookies persistants",
+            "description": "Conservés sur votre appareil pendant une période définie jusqu’à leur suppression."
+          },
+          "firstParty": {
+            "title": "Cookies propriétaires",
+            "description": "Définis directement par Vaulted Assets."
+          },
+          "thirdParty": {
+            "title": "Cookies tiers",
+            "description": "Définis par des prestataires tiers à des fins d’analyse, de publicité ou de sécurité."
+          }
+        }
+      },
+      "section2": {
+        "title": "2. Comment nous utilisons les cookies",
+        "intro": "Vaulted Assets utilise des cookies pour les finalités suivantes :",
+        "categories": {
+          "essential": {
+            "title": "1. Cookies essentiels",
+            "description": "Nécessaires au bon fonctionnement de la plateforme (par ex. connexion, gestion des achats de jetons, activation de transactions sécurisées)."
+          },
+          "performance": {
+            "title": "2. Cookies de performance et d’analyse",
+            "description": "Nous aident à comprendre comment les utilisateurs interagissent avec la plateforme, à suivre les tendances d’utilisation et à améliorer l’expérience utilisateur.",
+            "example": "Exemple : surveillance de la fréquence à laquelle les utilisateurs consultent leur portefeuille d’or/argent en temps réel."
+          },
+          "functionality": {
+            "title": "3. Cookies de fonctionnalité",
+            "description": "Enregistrent les préférences utilisateur comme la langue, l’affichage de la devise (or en USD/grammes) et les détails de session de connexion."
+          },
+          "security": {
+            "title": "4. Cookies de sécurité",
+            "description": "Détectent et préviennent les activités frauduleuses, protègent les comptes et sécurisent les transactions sur les blockchains publiques et privées."
+          },
+          "marketing": {
+            "title": "5. Cookies de marketing et de personnalisation",
+            "description": "Diffusent un contenu pertinent, comme des promotions pour des frais de transfert de blockchain réduits ou des programmes de fidélité."
+          }
+        }
+      },
+      "section3": {
+        "title": "3. Cookies tiers",
+        "intro": "Nous pouvons utiliser des services tiers qui placent des cookies sur votre appareil pour fournir :",
+        "services": {
+          "analytics": "Analyse (par ex. Google Analytics, outils de surveillance des transactions blockchain)",
+          "advertising": "Publicité (par ex. reciblage basé sur des visites précédentes de Vaulted Assets)",
+          "payment": "Intégrations de traitement des paiements",
+          "blockchain": "Interactions avec les réseaux blockchain (par ex. explorateurs Solana ou Ethereum)"
+        },
+        "note": "Ces tiers peuvent collecter des informations sur vos habitudes de navigation sur différents sites web."
+      },
+      "section4": {
+        "title": "4. Gestion des cookies",
+        "intro": "Vous pouvez contrôler et gérer les cookies dans les paramètres de votre navigateur. La plupart des navigateurs vous permettent de :",
+        "actions": {
+          "view": "Afficher les cookies stockés sur votre appareil",
+          "delete": "Supprimer des cookies",
+          "block": "Bloquer les cookies de sites spécifiques",
+          "blockAll": "Bloquer tous les cookies (peut affecter la fonctionnalité)"
+        }
+      },
+      "section5": {
+        "title": "5. Durée de conservation des cookies",
+        "periods": {
+          "session": {
+            "title": "Cookies de session :",
+            "description": "Expirent lorsque vous fermez votre navigateur."
+          },
+          "persistent": {
+            "title": "Cookies persistants :",
+            "description": "Conservés sur votre appareil pour une durée fixe. Exemples :",
+            "examples": {
+              "login": "Cookies de connexion et de sécurité : jusqu’à 1 an",
+              "preference": "Cookies de préférences : jusqu’à 6 mois",
+              "analytics": "Cookies d’analyse : généralement 30 à 90 jours"
+            }
+          }
+        },
+        "note": "Vous pouvez supprimer les cookies plus tôt via les paramètres de votre navigateur."
+      },
+      "section6": {
+        "title": "6. Conformité spécifique selon la juridiction",
+        "intro": "Nous respectons les lois applicables en matière de protection des données et de respect de la vie privée, y compris :",
+        "laws": {
+          "gdpr": {
+            "title": "RGPD (utilisateurs de l’UE/EEE)",
+            "description": "Base légale requise avant de définir des cookies non essentiels."
+          },
+          "ccpa": {
+            "title": "CCPA/CPRA (utilisateurs de Californie)",
+            "description": "Les utilisateurs ont le droit de refuser le partage des données basé sur les cookies."
+          },
+          "other": {
+            "title": "Autres juridictions",
+            "description": "Nous appliquons des protections similaires lorsque cela est requis."
+          }
+        }
+      },
+      "section7": {
+        "title": "7. Droits et choix de l’utilisateur",
+        "rights": {
+          "adjust": "Vous pouvez ajuster vos préférences en matière de cookies via les paramètres de votre navigateur ou notre bannière/panneau de cookies.",
+          "essential": "Les cookies essentiels ne peuvent pas être désactivés, car ils sont nécessaires pour la sécurité et la fonctionnalité de base.",
+          "rejecting": "Refuser certains cookies (par ex. fonctionnels ou analytiques) peut limiter votre expérience sur la plateforme."
+        }
+      },
+      "section8": {
+        "title": "8. Votre consentement",
+        "description": "Lorsque vous visitez la plateforme Vaulted Assets pour la première fois, une bannière de cookies apparaît, vous permettant d’accepter tous les cookies ou de gérer vos préférences. En continuant à utiliser notre plateforme sans ajuster les paramètres de votre navigateur, vous consentez à notre utilisation des cookies."
+      },
+      "section9": {
+        "title": "9. Mises à jour de cette politique",
+        "description": "Nous pouvons mettre à jour cette Politique relative aux cookies de temps à autre pour refléter des changements technologiques, des exigences légales ou nos opérations. La politique mise à jour sera publiée avec une nouvelle date d’entrée en vigueur."
+      },
+      "contact": {
+        "title": "10. Contactez-nous",
+        "description": "Si vous avez des questions ou des préoccupations concernant notre utilisation des cookies, contactez-nous :",
+        "info": "Courriel : privacy@vaultedassets.com"
+      }
+    },
+    "goldTokens":{
+      "heroTitle": "Jeton d'Or",
+      "heroSubtitle": "La manière la plus intelligente de posséder de l’or à l’ère numérique",
+      "heroDescription": "Jeton GLD – Votre Or, à Votre Façon. Cette plateforme permet aux investisseurs d’acheter du GLD, adossé à 1 gramme d’or de qualité investissement, stocké en toute sécurité et entièrement audité. Que vous le conserviez, l’offriez ou l’utilisiez pour des transactions, GLD apporte la valeur intemporelle de l’or dans votre vie numérique quotidienne.",
+      "features": {
+        "directlyBacked": {
+          "title": "Directement adossé à de l’or",
+          "description": "1 GLD = 1 gramme d’or physique, vous offrant un actif qui suit en temps réel les prix mondiaux du marché de l’or."
+        },
+        "multiChain": {
+          "title": "Flexibilité Multi-chaînes",
+          "description": "Construit sur ERC-20 (Ethereum), le programme SPL Token (Solana) ou le réseau Canton, GLD assure une interopérabilité maximale et une vitesse de transfert élevée."
+        },
+        "useYourWay": {
+          "title": "Utilisez-le à votre façon",
+          "description": "Conservez-le dans un portefeuille hybride sécurisé, offrez-le à des amis, faites des transactions ou échangez-le – GLD fonctionne comme de l’argent liquide mais est adossé à de l’or."
+        },
+        "auditsProof": {
+          "title": "Audits & Preuves de Réserves",
+          "description": "Des audits indépendants réalisés régulièrement vérifient que chaque Jeton d’Or est entièrement soutenu par de l’or en coffre."
+        },
+        "redeemable": {
+          "title": "Rachetable à tout moment",
+          "description": "Convertissez votre GLD en or physique (selon les politiques de rachat de la plateforme) ou liquidez-le rapidement contre de la monnaie locale."
+        }
+      },
+      "cta": {
+        "title": "Possédez l’avenir de l’or, soutenu par la confiance !",
+        "subtitle": "Entrez dans une nouvelle ère de préservation de la richesse avec le Gold Token (GLD) de Vaulted Assets — un actif numérique 100 % adossé à de l’or physique assuré et audité de manière indépendante.",
+        "getStarted": "Commencez MAINTENANT",
+        "partnerWithUs": "Partenaires avec Nous"
+      },
+      "learnMore": {
+        "title": "En savoir plus sur le jeton d’or (GLD)",
+        "objective": {
+          "title": "Objectif",
+          "description1": "Les utilisateurs peuvent investir dans l’or via la plateforme et recevoir des jetons numériques en retour. Ces jetons — GLD pour l’or — peuvent être conservés, offerts, utilisés pour des transactions ou rachetés à tout moment.",
+          "description2": "GLD est un jeton basé sur ERC-20, le programme SPL Token ou le réseau Canton, chacun étant adossé à raison de 1:1 à de l’or physique. Cela garantit que votre investissement est entièrement sécurisé par des actifs réels tout en vous offrant la flexibilité et la commodité de la monnaie numérique.",
+          "pricing": {
+            "label": "Tarification",
+            "description": "Les prix dépendent des taux du marché ; par exemple, l’achat d’un gramme d’or physique donne exactement 1 jeton GLD. Cependant, le prix du jeton d’or change quotidiennement, reflétant les taux du marché en direct pour l’or de qualité investissement à travers le monde."
+          }
+        }
+      },
+      "technicalDetails": {
+        "title": "Mise en œuvre technique",
+        "creation": {
+          "title": "Création",
+          "description": "Les jetons GLD sont créés lorsque les utilisateurs achètent de l’or via la plateforme, principalement en USD. La quantité équivalente d’or physique est stockée en toute sécurité et les jetons sont émis à l’acheteur."
+        },
+        "redemption": {
+          "title": "Rachat",
+          "description": "À tout moment, les utilisateurs peuvent échanger des jetons GLD contre la valeur équivalente en or physique ou en monnaie fiduciaire, selon le prix du marché."
+        },
+        "custody": {
+          "title": "Conservation & Assurance",
+          "description": "Les jetons d’or sont sécurisés auprès de dépositaires indépendants et stockés dans des coffres entièrement assurés pour une protection maximale des investisseurs."
+        }
+      },
+      "security": {
+        "title": "Sécurité & Conformité",
+        "crossChain": {
+          "title": "Cohérence Multichaîne",
+          "description": "L’offre de jetons d’or est synchronisée entre les blockchains prises en charge pour prévenir la surémission et garantir l’intégrité."
+        },
+        "compliance": {
+          "title": "Conformité Globale",
+          "description": "Notre plateforme fonctionne selon des normes strictes AML/KYC et dans des juridictions de coffres réglementées pour assurer l’accessibilité mondiale."
+        },
+        "infrastructure": {
+          "title": "Infrastructure de Sécurité",
+          "description": "La sécurité des portefeuilles à plusieurs niveaux, combinant des options de garde et d’auto-garde, protège les détenteurs de jetons à chaque étape."
+        }
+      },
+      "tokenSpec": {
+        "title": "Spécifications du Jeton GLD",
+        "ratio": "Ratio Jeton/Or",
+        "backed": "Adossé à des actifs",
+        "redeemable": "Rachetable"
+      },
+      "disclaimer": {
+        "title": "Avertissement réglementaire",
+        "description": "Ne constitue pas un conseil financier. La disponibilité dépend des restrictions juridiques. Veuillez consulter les Conditions générales pour plus de détails."
+      }
+    },
+    "silverTokens":{
+      "heroTitle": "Jeton Argent",
+      "heroSubtitle": "La façon la plus intelligente de posséder de l'argent métal à l'ère numérique",
+      "heroDescription": "Investissez, dépensez ou offrez de l'argent à tout moment, n'importe où. Cette plateforme permet aux investisseurs d'acheter des SLV, adossés à 1 gramme d'argent de qualité investissement, qui est stocké en toute sécurité et entièrement audité. Que vous déteniez, offriez ou transigiez, SLV apporte la valeur durable de l'argent à votre vie numérique quotidienne.",
+      "features": {
+        "directlyBacked": {
+          "title": "Adossé directement à l'argent",
+          "description": "1 SLV = 1 gramme d'argent physique, valorisé en temps réel selon les cours mondiaux de l'argent."
+        },
+        "multiChain": {
+          "title": "Flexibilité multi-chaîne",
+          "description": "Construit sur ERC-20 (Ethereum), le programme de jetons SPL (Solana) ou le réseau Canton, SLV offre une interopérabilité fluide et des transferts rapides."
+        },
+        "useYourWay": {
+          "title": "Utilisez-le à votre façon",
+          "description": "Conservez-le dans un portefeuille hybride sécurisé, offrez-le à des amis, effectuez des transactions ou négociez : SLV fonctionne comme de l'argent liquide mais est adossé à de l'argent métal réel."
+        },
+        "auditsProof": {
+          "title": "Audits et preuve de réserves",
+          "description": "Des audits indépendants et un tableau de bord de preuve de réserves en temps réel garantissent que chaque Silver Token (SLV) est entièrement adossé à de l'argent en coffre."
+        },
+        "redeemable": {
+          "title": "Échangeable",
+          "description": "Échangez votre SLV contre de l'argent physique (selon les politiques de rachat de la plateforme) ou convertissez-le en monnaie locale rapidement et en toute sécurité."
+        }
+      },
+      "cta": {
+        "title": "Découvrez l'argent comme jamais auparavant — sur la chaîne et audité !",
+        "subtitle": "Adossé à des réserves auditées et stocké dans des coffres entièrement assurés, chaque Silver Token (SLV) vous donne une propriété vérifiable de l'argent physique — accessible à tout moment et en tout lieu.",
+        "getStarted": "Commencez maintenant",
+        "partnerWithUs": "Devenir partenaire"
+      },
+      "learnMore": {
+        "title": "En savoir plus sur le Silver Token (SLV)",
+        "objective": {
+          "title": "Objectif",
+          "description1": "Les utilisateurs peuvent investir dans l'argent via la plateforme et recevoir en retour des jetons numériques SLV. Ces jetons peuvent être stockés, offerts, utilisés pour des transactions ou rachetés à tout moment. SLV est un jeton basé sur ERC-20, le programme de jetons SPL ou le réseau Canton, adossé 1:1 à de l'argent physique.",
+          "description2": "Cela garantit que votre investissement est entièrement sécurisé par des actifs tangibles tout en offrant la flexibilité d'une monnaie numérique."
+        }
+      },
+      "technicalDetails": {
+        "title": "Mise en œuvre technique",
+        "pricing": {
+          "title": "Tarification",
+          "description": "La tarification dépend des taux du marché ; par exemple, l'achat de 1 gramme d'argent physique donne à l'investisseur exactement 1 jeton SLV."
+        },
+        "creation": {
+          "title": "Création",
+          "description": "Les jetons SLV sont créés lorsque les utilisateurs achètent de l'argent via la plateforme, principalement en USD. La quantité équivalente d'argent physique est stockée en toute sécurité et des jetons correspondants sont émis à l'acheteur."
+        },
+        "fees": {
+          "title": "Frais",
+          "description": "Des frais nominaux s'appliquent aux transactions et aux rachats pour couvrir les coûts de gaz de la chaîne et les dépenses opérationnelles. Les détails complets sont disponibles dans nos Conditions générales."
+        },
+        "redemption": {
+          "title": "Rachat",
+          "description": "À tout moment, les utilisateurs peuvent racheter des jetons SLV pour l'équivalent en argent physique ou en monnaie fiduciaire, en fonction du prix du marché en cours."
+        }
+      },
+      "security": {
+        "title": "Sécurité et assurance",
+        "custody": {
+          "title": "Garde et assurance",
+          "description": "Tout l'argent physique adossant les jetons SLV est stocké dans des coffres accrédités et assurés. Cela garantit non seulement les normes de sécurité les plus élevées, mais aussi la tranquillité d'esprit des investisseurs, sachant que leurs actifs sont protégés contre la perte ou le vol."
+        }
+      },
+      "tokenSpec": {
+        "title": "Spécification du jeton SLV",
+        "ratio": "Ratio jeton/argent",
+        "backed": "Adossé à un actif",
+        "redeemable": "Échangeable"
+      },
+      "disclaimer": {
+        "title": "Avertissement réglementaire",
+        "description": "Silver Token (SLV) ne constitue pas un conseil en investissement et ne représente pas une offre de vente ni une sollicitation d'achat de titres. L'utilisation et le rachat peuvent être soumis à des restrictions juridiques. Veuillez consulter nos Conditions générales et consulter un conseiller qualifié avant de prendre des décisions financières."
+      }
+    },
+    "termsOfService": {
+      "title": "Vaulted Assets – Politique de sécurité et de conformité",
+      "effectiveDate": "Date d'entrée en vigueur : [Insérer la date]",
+      "introduction": "Chez Vaulted Assets, la sécurité et la conformité réglementaire sont au cœur de nos opérations. Cette politique décrit les mesures que nous prenons pour protéger les actifs des utilisateurs, protéger les données sensibles et assurer le respect des cadres juridiques et réglementaires applicables.",
+      "section1": {
+        "title": "1. Objectif",
+        "intro": "Cette politique de sécurité et de conformité vise à :",
+        "objectives": {
+          "protection": "Protéger les fonds et données des utilisateurs contre l'accès non autorisé, le vol ou l'abus.",
+          "integrity": "Maintenir l'intégrité des systèmes d'or tokenisé (GLD) et d'argent (SLV).",
+          "compliance": "Se conformer aux réglementations financières, de protection des données et de lutte contre le blanchiment d'argent pertinentes."
+        }
+      },
+      "section2": {
+        "title": "2. Objectifs de sécurité",
+        "intro": "Nos principaux objectifs de sécurité sont :",
+        "objectives": {
+          "assetProtection": {
+            "title": "Protection des actifs",
+            "description": "Protection des métaux précieux physiques et de leurs équivalents tokenisés numériques."
+          },
+          "dataConfidentiality": {
+            "title": "Confidentialité des données",
+            "description": "Protection des données utilisateur contre l'accès non autorisé."
+          },
+          "transactionIntegrity": {
+            "title": "Intégrité des transactions",
+            "description": "Prévention de la fraude, de la falsification et des transferts non autorisés."
+          },
+          "systemResilience": {
+            "title": "Résilience du système",
+            "description": "Assurer la disponibilité continue de la plateforme et la récupération après sinistre."
+          }
+        }
+      },
+      "section3": {
+        "title": "3. Portée",
+        "intro": "Cette politique s'applique à :",
+        "applies": {
+          "employees": "Tous les employés, contractants et prestataires de services de Vaulted Assets.",
+          "accounts": "Tous les comptes utilisateur et transactions effectués sur la plateforme.",
+          "assets": "Tous les métaux précieux physiques détenus en garde et leurs jetons numériques correspondants."
+        }
+      },
+      "section4": {
+        "title": "4. Mesures de sécurité",
+        "custodial": {
+          "title": "4.1 Sécurité des actifs de garde",
+          "description": "L'or et l'argent physiques stockés dans des coffres haute sécurité avec surveillance 24/7, sécurité armée et contrôles d'accès biométriques. Les dépositaires sont vérifiés et approuvés sur la base de certifications de sécurité internationales. Couverture d'assurance pour les actifs stockés contre le vol, l'incendie et les catastrophes naturelles."
+        },
+        "blockchain": {
+          "title": "4.2 Sécurité blockchain",
+          "description": "Les jetons émis sur Ethereum (ERC-20), Solana (SPL Token Program) et Canton Network (privé) suivent les normes de réseau respectives.",
+          "features": {
+            "standards": "Les jetons émis sur Ethereum (ERC-20), Solana (SPL Token Program) et Canton Network (privé) suivent les normes de réseau respectives.",
+            "audits": "Le code de contrat intelligent est audité indépendamment pour identifier et corriger les vulnérabilités avant le déploiement.",
+            "monitoring": "Surveillance continue on-chain pour les activités suspectes."
+          }
+        },
+        "smartContracts": {
+          "title": "4.3 Audits de contrats intelligents",
+          "description": "Tous les contrats intelligents liés aux jetons et aux transactions font l'objet d'audits tiers indépendants avant le déploiement. Les rapports d'audit sont publiés sur le site Web de Vaulted Assets pour la transparence. Après le déploiement, les contrats sont surveillés pour les vulnérabilités et mis à niveau si nécessaire."
+        },
+        "wallet": {
+          "title": "4.4 Infrastructure de portefeuille",
+          "features": {
+            "support": "Support pour les portefeuilles de garde et d'auto-garde.",
+            "multiSig": "Protection multi-signature et MPC (Multi-Party Computation) pour les portefeuilles de garde.",
+            "coldStorage": "Stockage froid pour la majorité des réserves de jetons afin de minimiser l'exposition en ligne."
+          }
+        },
+        "dataProtection": {
+          "title": "4.5 Protection et confidentialité des données",
+          "description": "Toutes les données utilisateur sont stockées en utilisant le chiffrement AES-256 et protégées pendant la transmission via TLS 1.3. L'accès aux données utilisateur est basé sur les rôles et enregistré pour assurer la traçabilité. Les principes de minimisation des données sont appliqués : nous ne collectons que ce qui est nécessaire pour fournir nos services. Les droits des utilisateurs, y compris l'accès, la portabilité et la suppression, sont régis par notre politique de confidentialité."
+        },
+        "userProtections": {
+          "title": "4.6 Protections spécifiques aux utilisateurs",
+          "description": "Éducation au phishing et à la sécurité : Vaulted Assets éduque activement les utilisateurs sur les risques tels que le phishing, les liens malveillants et la gestion des clés de portefeuille. Authentification à deux facteurs (2FA) : Des mécanismes d'authentification forte sont requis pour les connexions de compte et les retraits. Surveillance des sessions : Les utilisateurs sont notifiés des connexions inhabituelles, des anomalies géographiques ou des activités de compte suspectes. Conseils de sécurité de portefeuille : Des conseils sur le stockage froid, l'utilisation de portefeuilles matériels et la gestion des clés personnelles sont fournis via des tutoriels et des FAQ."
+        },
+        "custodyFees": {
+          "title": "4.7 Sécurité de garde, de frais et de rachat",
+          "description": "Protections du modèle de frais : Les frais de transfert et de rachat sont surveillés pour prévenir l'utilisation frauduleuse ou manipulatrice. Mesures anti-fraude : Les grandes demandes de rachat sont soumises à des limites de taux, des vérifications de vitesse et des flux de travail d'approbation à plusieurs niveaux pour prévenir l'abus ou les attaques coordonnées. Assurance de garde : Les dépositaires tiers sont tenus de maintenir une assurance contre le vol, les piratages ou les défaillances opérationnelles."
+        }
+      },
+      "section5": {
+        "title": "5. Mesures de conformité",
+        "regulatory": {
+          "title": "5.1 Conformité réglementaire",
+          "description": "Adhésion aux réglementations AML (Anti-Money Laundering) et KYC (Know Your Customer). Filtrage des sanctions contre les listes de surveillance mondiales (OFAC, ONU, UE). Outils de surveillance de conformité pour la détection de transactions suspectes."
+        },
+        "audit": {
+          "title": "5.2 Audit et transparence",
+          "description": "Audits tiers des avoirs de métaux physiques à intervalles réguliers (mensuel/trimestriel). Les audits de contrats intelligents sont effectués par des entreprises de sécurité blockchain indépendantes. Rapports d'audit publiquement disponibles sur la plateforme."
+        },
+        "dataCompliance": {
+          "title": "5.3 Conformité à la protection des données",
+          "description": "Conformité avec le RGPD (Règlement général sur la protection des données) et le CCPA (California Consumer Privacy Act). Mécanismes de consentement utilisateur clairs pour la collecte et le traitement des données. Droits des utilisateurs d'accéder, mettre à jour ou supprimer les informations personnelles."
+        },
+        "certifications": {
+          "title": "5.4 Certifications et normes",
+          "intro": "Vaulted Assets s'associe avec des dépositaires, des auditeurs et des fournisseurs de technologie qui maintiennent des certifications reconnues internationalement :",
+          "iso": {
+            "title": "ISO 27001",
+            "description": "Systèmes de gestion de la sécurité de l'information (ISMS)."
+          },
+          "soc": {
+            "title": "SOC 2 Type II",
+            "description": "Validation indépendante des contrôles internes de sécurité, disponibilité et confidentialité."
+          },
+          "aml": {
+            "title": "Audits AML/KYC",
+            "description": "Menés par des entreprises telles que Chainalysis pour la surveillance blockchain et l'assurance de conformité."
+          },
+          "smartContract": {
+            "title": "Audits de sécurité des contrats intelligents",
+            "description": "Effectués par des entreprises indépendantes telles que CertiK et Trail of Bits avant le déploiement."
+          }
+        }
+      },
+      "section6": {
+        "title": "6. Plan de réponse aux incidents",
+        "intro": "En cas de violation de sécurité ou de perturbation opérationnelle :",
+        "steps": {
+          "detection": {
+            "title": "Détection :",
+            "description": "Alertes en temps réel des systèmes de surveillance."
+          },
+          "containment": {
+            "title": "Confinement :",
+            "description": "Isoler les systèmes et portefeuilles affectés."
+          },
+          "notification": {
+            "title": "Notification :",
+            "description": "Informer les utilisateurs affectés et les autorités réglementaires comme requis par la loi."
+          },
+          "remediation": {
+            "title": "Remédiation :",
+            "description": "Appliquer les correctifs de sécurité, restaurer les services et prévenir la récurrence."
+          }
+        }
+      },
+      "section7": {
+        "title": "7. Sécurité des employés et fournisseurs",
+        "measures": {
+          "training": "Formation obligatoire de sensibilisation à la sécurité pour les employés.",
+          "background": "Vérifications d'antécédents pour les employés dans des rôles sensibles.",
+          "vendor": "Diligence raisonnable des fournisseurs pour s'assurer que les tiers respectent les normes de sécurité et de conformité de Vaulted Assets."
+        }
+      },
+      "section8": {
+        "title": "8. Audits indépendants",
+        "quarterly": {
+          "title": "Audits physiques trimestriels :",
+          "description": "Les installations de coffre subissent des inspections trimestrielles pour confirmer les actifs de réserve et l'intégrité de stockage."
+        },
+        "annual": {
+          "title": "Audits financiers annuels :",
+          "description": "Menés par des auditeurs tiers agréés pour valider la preuve de réserves (PoR)."
+        },
+        "ongoing": {
+          "title": "Surveillance continue de la blockchain :",
+          "description": "Le filtrage des transactions AML/CTF en temps réel est appliqué à tous les flux de jetons."
+        }
+      },
+      "section9": {
+        "title": "9. Évolutivité et risques émergents",
+        "environmental": {
+          "title": "Préparation environnementale et force majeure :",
+          "description": "Conformément à nos clauses de non-responsabilité du livre blanc, des protocoles d'urgence sont en place pour les risques géopolitiques, les catastrophes naturelles ou les chocs réglementaires qui peuvent affecter les emplacements de coffres."
+        },
+        "multiRegion": {
+          "title": "Garde multi-régions :",
+          "description": "Les actifs de réserve sont géographiquement diversifiés pour minimiser les risques de perturbation."
+        },
+        "emergingRisk": {
+          "title": "Surveillance des risques émergents :",
+          "description": "Les évaluations régulières suivent les risques liés aux nouvelles menaces cyber, aux changements réglementaires et aux vulnérabilités blockchain."
+        }
+      },
+      "section10": {
+        "title": "10. Métriques et rapports",
+        "security": {
+          "title": "KPI de sécurité :",
+          "uptime": "99,9% de temps de fonctionnement du système (mensuel).",
+          "response": "Temps de réponse aux incidents < 4 heures à partir de la détection.",
+          "remediation": "Remédiation d'audit dans les 30 jours des conclusions."
+        },
+        "transparency": {
+          "title": "Tableau de bord de transparence :",
+          "description": "Un tableau de bord destiné aux utilisateurs fournit la preuve de réserves (PoR) en temps réel, les rapports d'audit et les certifications de conformité, alignés avec notre engagement envers l'ouverture."
+        }
+      },
+      "section11": {
+        "title": "11. Mises à jour de politique",
+        "description": "Nous révisons et mettons à jour cette politique régulièrement pour répondre aux menaces émergentes, aux changements réglementaires et aux mises à jour technologiques."
+      },
+      "contact": {
+        "title": "12. Informations de contact",
+        "description": "Pour des questions concernant cette politique ou pour signaler un problème de sécurité :",
+        "info": "E-mail : security@vaultedassets.com\nAdresse postale : 123 Financial District, Suite 456, New York, NY 10004\nSite web : https://vaultedassets.com/security"
+      }
+    },
+    "privacyPolicy": {
+      "title": "Vaulted Assets – Politique de Confidentialité",
+      "effectiveDate": "Date d'entrée en vigueur : [Insérer la date]",
+      "introduction": {
+        "text1": "Vaulted Assets (\"nous\", \"notre\", \"nos\") s'engage à protéger vos informations personnelles et à respecter votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et partageons vos données lorsque vous utilisez notre plateforme, y compris nos applications web et mobiles, pour acheter, détenir, transférer et racheter de l'or et de l'argent tokenisés.",
+        "text2": "En utilisant Vaulted Assets, vous acceptez les pratiques décrites dans cette politique de confidentialité. Si vous n'êtes pas d'accord, veuillez ne pas utiliser nos services."
+      },
+      "section1": {
+        "title": "1. Informations que nous collectons",
+        "intro": "Nous collectons les catégories d'informations suivantes :",
+        "personal": {
+          "title": "Informations personnelles :",
+          "description": "Nom, e-mail, numéro de téléphone et documents d'identité (pour la conformité KYC/AML)."
+        },
+        "financial": {
+          "title": "Informations financières :",
+          "description": "Détails des méthodes de paiement, enregistrements de transactions et adresses de portefeuille."
+        },
+        "blockchain": {
+          "title": "Données blockchain :",
+          "description": "Adresses de portefeuille publiques, hachages de transactions et soldes sur Ethereum, Solana et autres blockchains prises en charge. Bien que ces données soient publiques et pseudonymes, les utilisateurs doivent être conscients que des analyses avancées peuvent permettre la dé-anonymisation."
+        },
+        "institutional": {
+          "title": "Confidentialité institutionnelle (Réseau Canton) :",
+          "description": "Pour les utilisateurs institutionnels exploitant Canton, des mesures de confidentialité renforcées s'appliquent, garantissant que les données de transaction ne sont pas diffusées globalement et restent accessibles uniquement aux parties autorisées."
+        },
+        "technical": {
+          "title": "Données techniques :",
+          "description": "Adresses IP, informations sur l'appareil, type de navigateur et cookies (voir notre politique de cookies)."
+        },
+        "usage": {
+          "title": "Analyses d'utilisation :",
+          "description": "Données de flux de clics, modèles d'utilisation de la plateforme, codes de parrainage et comportement agrégé pour l'amélioration du service."
+        }
+      },
+      "section2": {
+        "title": "2. Comment nous utilisons vos informations",
+        "intro": "Nous traitons vos informations pour :",
+        "uses": {
+          "provide": "Fournir des services de plateforme et exécuter des transactions.",
+          "verify": "Vérifier les identités et respecter les réglementations KYC/AML.",
+          "improve": "Améliorer, personnaliser et sécuriser la plateforme.",
+          "enable": "Activer la fonctionnalité d'entrée/sortie de fiat et les transferts inter-chaînes.",
+          "conduct": "Effectuer des analyses pour l'optimisation des performances.",
+          "support": "Fournir un support client et répondre aux demandes.",
+          "meet": "Respecter les obligations réglementaires et légales."
+        }
+      },
+      "section3": {
+        "title": "3. Base légale pour le traitement",
+        "intro": "Nous traitons les données personnelles sous une ou plusieurs des bases légales suivantes :",
+        "bases": {
+          "contract": {
+            "title": "Exécution d'un contrat",
+            "description": "Pour remplir nos obligations envers vous."
+          },
+          "legal": {
+            "title": "Obligation légale",
+            "description": "Pour respecter les lois et réglementations."
+          },
+          "legitimate": {
+            "title": "Intérêts légitimes",
+            "description": "Pour exploiter et améliorer notre plateforme en toute sécurité."
+          },
+          "consent": {
+            "title": "Consentement",
+            "description": "Lorsque vous avez explicitement accepté (par exemple, pour le marketing)."
+          }
+        }
+      },
+      "section4": {
+        "title": "4. Partage de données et intégrations tierces",
+        "intro": "Nous pouvons partager vos informations dans les cas suivants :",
+        "cases": {
+          "blockchain": {
+            "title": "Réseaux blockchain :",
+            "description": "Les transactions soumises aux blockchains sont publiquement visibles et immuables. Nous ne pouvons pas contrôler comment les tiers analysent ces données."
+          },
+          "fiat": {
+            "title": "Rampes d'accès Fiat / Fournisseurs de paiement :",
+            "description": "Pour traiter les dépôts/retraits, les données personnelles et financières pertinentes peuvent être partagées en toute sécurité avec des fournisseurs agréés."
+          },
+          "wallets": {
+            "title": "Portefeuilles tiers et ponts :",
+            "description": "Si vous utilisez des portefeuilles externes ou des services inter-chaînes, certains identifiants (par exemple, adresse de portefeuille, métadonnées de transaction) peuvent être partagés pour l'exécution des transactions."
+          },
+          "analytics": {
+            "title": "Fournisseurs d'analyses :",
+            "description": "Les données d'utilisation agrégées et anonymisées peuvent être partagées pour l'amélioration de la plateforme."
+          },
+          "legal": {
+            "title": "Demandes légales/réglementaires :",
+            "description": "Nous pouvons divulguer des données pour nous conformer aux lois applicables, aux régulateurs ou aux forces de l'ordre."
+          }
+        },
+        "noSale": "Nous ne vendons pas vos informations personnelles."
+      },
+      "section5": {
+        "title": "5. Stockage et sécurité des données",
+        "measures": {
+          "encryption": {
+            "title": "Chiffrement :",
+            "description": "Toutes les données sensibles sont chiffrées au repos (AES-256) et en transit (TLS 1.3)."
+          },
+          "access": {
+            "title": "Contrôle d'accès :",
+            "description": "Permissions basées sur les rôles avec authentification multi-facteurs (MFA)."
+          },
+          "backups": {
+            "title": "Sauvegardes :",
+            "description": "Sauvegardes chiffrées géographiquement distribuées pour la récupération après sinistre."
+          },
+          "physical": {
+            "title": "Sécurité physique :",
+            "description": "Les coffres de dépositaire respectent les normes de sécurité de pointe de l'industrie."
+          }
+        }
+      },
+      "section6": {
+        "title": "6. Sécurité des données et notification de violation",
+        "protocols": "Nous appliquons des protocoles de sécurité robustes, notamment le chiffrement AES-256, les portefeuilles multi-sig, le stockage à froid et des audits réguliers.",
+        "breachIntro": "En cas de violation de données impliquant des données personnelles :",
+        "breachSteps": {
+          "users": "Les utilisateurs affectés seront notifiés dans les 72 heures, en conformité avec le RGPD et d'autres cadres réglementaires.",
+          "authorities": "Les autorités pertinentes seront également informées selon les exigences."
+        }
+      },
+      "section7": {
+        "title": "7. Cookies, suivi et désinscriptions",
+        "intro": "Nous utilisons des cookies et des technologies de suivi similaires comme décrit dans notre politique de cookies. Ceux-ci incluent :",
+        "types": {
+          "essential": {
+            "title": "Cookies essentiels :",
+            "description": "Requis pour la sécurité de la plateforme et la fonctionnalité de connexion."
+          },
+          "performance": {
+            "title": "Analyses de performance :",
+            "description": "Suivre les tendances d'utilisation pour améliorer les services."
+          },
+          "referral": {
+            "title": "Balises de parrainage et marketing :",
+            "description": "Cookies non essentiels pour les performances de campagne et le suivi de parrainage."
+          }
+        },
+        "optOut": {
+          "title": "Désinscription :",
+          "description": "Vous pouvez désactiver les cookies non essentiels via vos paramètres de compte ou via vos préférences de navigateur. Certaines fonctionnalités peuvent ne pas fonctionner si les cookies sont désactivés."
+        }
+      },
+      "section8": {
+        "title": "8. Confidentialité des enfants et données sensibles",
+        "children": "Notre plateforme est destinée uniquement aux utilisateurs âgés de 18 ans et plus. Nous ne collectons pas sciemment de données d'enfants de moins de 18 ans. Si nous apprenons qu'un mineur a soumis des données, nous les supprimerons immédiatement.",
+        "sensitive": "Les données sensibles, y compris les informations biométriques à des fins KYC, sont stockées en toute sécurité et traitées uniquement par des fournisseurs tiers approuvés sous des exigences de conformité strictes."
+      },
+      "section9": {
+        "title": "9. Transferts internationaux de données",
+        "description": "Vos données peuvent être transférées vers et traitées dans des juridictions en dehors de votre pays d'origine, y compris dans des endroits où les lois de protection des données peuvent différer. Nous garantissons une protection adéquate par des garanties contractuelles ou d'autres mécanismes légaux."
+      },
+      "section10": {
+        "title": "10. Conservation des données",
+        "intro": "Nous conservons vos données personnelles :",
+        "periods": {
+          "account": "Tant que vous maintenez un compte avec nous.",
+          "regulations": "Conformément aux exigences réglementaires applicables (généralement 7 ans).",
+          "legal": "Plus longtemps si des obligations légales ou des litiges l'exigent."
+        }
+      },
+      "section11": {
+        "title": "11. Vos droits",
+        "intro": "Sous les lois de protection des données applicables, vous pouvez avoir le droit de :",
+        "rights": {
+          "access": {
+            "title": "Accès",
+            "description": "Demander une copie des informations que nous détenons sur vous."
+          },
+          "rectify": {
+            "title": "Rectification",
+            "description": "Mettre à jour ou corriger des informations inexactes."
+          },
+          "delete": {
+            "title": "Suppression",
+            "description": "Demander la suppression de vos données personnelles (\"droit à l'oubli\")."
+          },
+          "restrict": {
+            "title": "Restriction du traitement",
+            "description": "Limiter la façon dont nous utilisons vos données."
+          },
+          "object": {
+            "title": "Opposition au traitement",
+            "description": "Vous opposer à certains types de traitement de données."
+          },
+          "portability": {
+            "title": "Portabilité des données",
+            "description": "Recevoir vos données dans un format structuré."
+          }
+        },
+        "contact": "Pour exercer ces droits, veuillez nous contacter à [informations de contact]."
+      },
+      "section12": {
+        "title": "12. Mises à jour de cette politique de confidentialité",
+        "description": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Les changements importants vous seront notifiés par e-mail ou notification sur la plateforme. L'utilisation continue de nos services constitue votre acceptation de la politique révisée."
+      },
+      "links": {
+        "title": "Liens vers d'autres politiques",
+        "terms": "Conditions de service",
+        "cookie": "Politique de cookies",
+        "security": "Politique de sécurité"
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Si vous avez des questions sur cette politique de confidentialité ou vos données personnelles, veuillez contacter :",
+        "email": "E-mail : privacy@vaultedassets.com",
+        "address": "Adresse : 123 Financial District, Suite 456, New York, NY 10004",
+        "dpo": "Délégué à la protection des données : dpo@vaultedassets.com"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "titleHighlight": "Vaulted Assets",
+      "subtitle": "Contactez notre équipe pour du support, des partenariats ou des demandes d'informations",
+      "info": {
+        "title": "Entrer en contact",
+        "email": {
+          "title": "E-mail",
+          "support": "support@vaultedassets.com",
+          "partnerships": "partnerships@vaultedassets.com"
+        },
+        "office": {
+          "title": "Bureau",
+          "address": "123 Financial District\nNew York, NY 10005\nÉtats-Unis"
+        },
+        "hours": {
+          "title": "Heures d'ouverture",
+          "weekdays": "Lundi - Vendredi : 9h00 - 18h00 EST",
+          "saturday": "Samedi : 10h00 - 14h00 EST",
+          "sunday": "Dimanche : Fermé"
+        }
+      },
+      "form": {
+        "title": "Envoyez-nous un message",
+        "fields": {
+          "firstName": "Prénom",
+          "lastName": "Nom de famille",
+          "email": "Adresse e-mail",
+          "company": "Entreprise (Optionnel)",
+          "subject": "Sujet",
+          "message": "Message"
+        },
+        "placeholders": {
+          "firstName": "Entrez votre prénom",
+          "lastName": "Entrez votre nom de famille",
+          "email": "votre.email@exemple.com",
+          "company": "Nom de votre entreprise",
+          "subject": "Comment pouvons-nous vous aider ?",
+          "message": "Dites-nous en plus sur votre demande..."
+        },
+        "buttons": {
+          "send": "Envoyer le message",
+          "sending": "Envoi en cours...",
+          "clear": "Vider le formulaire"
+        },
+        "success": {
+          "title": "Message envoyé avec succès !",
+          "description": "Merci de nous avoir contactés. Nous vous répondrons bientôt."
+        },
+        "error": {
+          "title": "Échec de l'envoi du message",
+          "description": "Veuillez réessayer plus tard."
+        }
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Trouvez des réponses aux questions courantes sur Vaulted Assets",
+        "categories": {
+          "general": {
+            "title": "Questions générales"
+          },
+          "tokens": {
+            "title": "Jetons et Blockchain"
+          },
+          "buying": {
+            "title": "Achat et rachat"
+          },
+          "fees": {
+            "title": "Frais et transferts"
+          },
+          "security": {
+            "title": "Sécurité et conformité"
+          },
+          "crossChain": {
+            "title": "Transferts inter-chaînes"
+          },
+          "audit": {
+            "title": "Audit et transparence"
+          },
+          "wallets": {
+            "title": "Portefeuilles et accessibilité"
+          },
+          "gifting": {
+            "title": "Cadeaux et parrainage"
+          },
+          "jurisdictional": {
+            "title": "Restrictions juridictionnelles"
+          }
+        },
+        "questions": {
+          "q1": {
+            "question": "Qu'est-ce que Vaulted Assets ?",
+            "answer": "Vaulted Assets est une plateforme qui vous permet d'acheter, détenir, transférer et racheter des jetons numériques adossés à l'or et à l'argent. Chaque jeton représente la propriété directe de métaux précieux entièrement alloués stockés dans des coffres sécurisés."
+          },
+          "q2": {
+            "question": "En quoi est-ce différent d'acheter de l'or ou de l'argent physiquement ?",
+            "answer": "Lorsque vous achetez des jetons via Vaulted Assets, vous possédez de l'or ou de l'argent réel stocké dans des coffres de niveau professionnel — mais vous pouvez gérer vos avoirs numériquement, les échanger instantanément et les racheter à tout moment."
+          },
+          "q3": {
+            "question": "Où les métaux sont-ils stockés ?",
+            "answer": "Tout l'or et l'argent sont stockés avec des dépositaires agréés dans des coffres haute sécurité situés dans des juridictions réglementées."
+          },
+          "q4": {
+            "question": "Mes avoirs sont-ils assurés ?",
+            "answer": "Oui, tous les actifs en coffre sont couverts par des polices d'assurance complètes fournies par les dépositaires."
+          },
+          "q5": {
+            "question": "Quelles blockchains utilisez-vous ?",
+            "answer": "Vaulted Assets prend en charge les blockchains publiques (par exemple, Solana, Ethereum) et les blockchains privées/à permission (par exemple, Canton) pour répondre à différents besoins d'utilisateurs."
+          },
+          "q6": {
+            "question": "Puis-je choisir sur quelle blockchain mes jetons sont ?",
+            "answer": "Oui — vous pouvez sélectionner votre réseau préféré lors de l'achat ou du transfert de jetons."
+          },
+          "q7": {
+            "question": "Les transactions blockchain sont-elles réversibles ?",
+            "answer": "Non. Une fois qu'une transaction blockchain est confirmée, elle ne peut pas être annulée. Vérifiez toujours les détails de la transaction avant de confirmer."
+          },
+          "q8": {
+            "question": "Comment puis-je acheter des jetons ?",
+            "answer": "Vous pouvez acheter des jetons en utilisant des devises fiduciaires ou des cryptomonnaies supportées directement via notre application web ou mobile."
+          },
+          "q9": {
+            "question": "Puis-je racheter mes jetons contre de l'or ou de l'argent physique ?",
+            "answer": "Oui. Vous pouvez demander un rachat sous forme de métaux physiques (sous réserve de montants minimums) ou de valeur fiduciaire équivalente."
+          },
+          "q10": {
+            "question": "Combien de temps prend le rachat ?",
+            "answer": "Les délais de livraison dépendent de votre emplacement, de la disponibilité et de la méthode sélectionnée (livraison physique ou règlement en espèces)."
+          },
+          "q11": {
+            "question": "Quels frais s'appliquent ?",
+            "answer": "Nous facturons des frais pour les transactions, le stockage et les transferts blockchain. Les frais varient selon que vous utilisez une blockchain publique ou privée."
+          },
+          "q12": {
+            "question": "Les transferts entre utilisateurs Vaulted Assets sont-ils gratuits ?",
+            "answer": "Les transferts sur les blockchains privées peuvent avoir des frais réduits ou nuls. Les transferts sur les blockchains publiques peuvent engendrer des frais de gaz réseau."
+          },
+          "q13": {
+            "question": "Comment mon compte est-il sécurisé ?",
+            "answer": "Nous utilisons un chiffrement fort, l'authentification à deux facteurs (2FA) et plusieurs couches de sécurité pour les portefeuilles et l'accès à la plateforme."
+          },
+          "q14": {
+            "question": "Dois-je vérifier mon identité ?",
+            "answer": "Oui — tous les utilisateurs doivent compléter la vérification AML/KYC pour se conformer aux réglementations mondiales."
+          },
+          "q15": {
+            "question": "Que se passe-t-il si Vaulted Assets ferme ?",
+            "answer": "Vos métaux restent votre propriété. En cas de fermeture de la plateforme, vous pourrez racheter vos avoirs ou les transférer à un dépositaire alternatif."
+          },
+          "q16": {
+            "question": "Puis-je déplacer mes jetons entre Ethereum, Solana et Canton ?",
+            "answer": "Oui. Nous supportons les transferts inter-chaînes via des ponts de confiance et dans certains cas via des modèles d'émission séparés (où un jeton peut être racheté sur une chaîne et réémis sur une autre). Notre documentation explique le processus spécifique pour GLD et SLV."
+          },
+          "q17": {
+            "question": "Le pontage affectera-t-il ma propriété des jetons ?",
+            "answer": "Non. Que vous déteniez GLD sur Ethereum ou Solana, chaque jeton est entièrement adossé 1:1 par des réserves physiques dans nos coffres."
+          },
+          "q18": {
+            "question": "Comment savoir que les jetons sont entièrement adossés par des réserves d'or et d'argent ?",
+            "answer": "Vaulted Assets maintient une Preuve de Réserves avec des audits réguliers de tiers. Nous publions également un tableau de bord en direct montrant l'offre de jetons par rapport aux avoirs de coffre audités, afin que les utilisateurs puissent vérifier l'adossement à tout moment."
+          },
+          "q19": {
+            "question": "Qui mène les audits ?",
+            "answer": "Des cabinets d'audit indépendants et accrédités conduisent nos vérifications de réserves pour assurer la transparence et la confiance."
+          },
+          "q20": {
+            "question": "Ai-je besoin d'un portefeuille crypto pour utiliser Vaulted Assets ?",
+            "answer": "Pas nécessairement. Notre système de portefeuille hybride vous permet de choisir entre : Portefeuilles custodials (simple, connexion de style Web2, aucune connaissance technique nécessaire). Portefeuilles d'auto-garde (par exemple, MetaMask, Phantom, ou solutions compatibles Canton)."
+          },
+          "q21": {
+            "question": "Puis-je utiliser mon portefeuille existant ?",
+            "answer": "Oui, vous pouvez connecter votre propre portefeuille Web3 pour gérer vos jetons GLD et SLV si vous préférez l'auto-garde."
+          },
+          "q22": {
+            "question": "Puis-je offrir des jetons à quelqu'un d'autre ?",
+            "answer": "Oui. Notre plateforme permet l'offre de jetons, vous pouvez donc envoyer de l'or ou de l'argent directement à la famille et aux amis."
+          },
+          "q23": {
+            "question": "Offrez-vous des incitations de parrainage ?",
+            "answer": "Oui. Vaulted Assets gère des programmes de parrainage où les utilisateurs existants peuvent inviter d'autres personnes et gagner des récompenses en jetons. Les détails sont disponibles dans votre tableau de bord de compte."
+          },
+          "q24": {
+            "question": "Puis-je utiliser Vaulted Assets dans mon pays ?",
+            "answer": "Nos services sont soumis aux lois et réglementations locales. Certaines juridictions peuvent restreindre ou interdire la participation aux plateformes d'actifs numériques. Veuillez consulter nos Conditions d'utilisation et consulter vos réglementations locales avant d'investir."
+          },
+          "q25": {
+            "question": "La plateforme est-elle disponible pour les utilisateurs américains ou européens ?",
+            "answer": "La disponibilité varie selon le produit. Certaines fonctionnalités peuvent être restreintes selon les exigences de conformité. Nous informerons les utilisateurs lors de l'intégration si l'accès est limité."
+          }
+        }
+      }
+    },
+    "whitepaper": {
+      "title": "Livre blanc",
+      "subtitle": "Numériser l'investissement en métaux précieux avec la technologie blockchain",
+      "description": "Explorez l'approche révolutionnaire de Vaulted Assets pour transformer les métaux précieux physiques en actifs numériques accessibles et liquides sur les réseaux Ethereum, Solana et Canton. Notre livre blanc complet détaille l'opportunité de marché, l'implémentation technique, la tokenomics et nos plans d'évolutivité.",
+      "downloadPdf": "Télécharger PDF",
+      "viewOnline": "Voir en ligne",
+      "lastUpdated": "Dernière mise à jour : Avril 2024",
+      "executiveSummary": {
+        "title": "Résumé exécutif",
+        "intro": "Vaulted Assets est une plateforme d'actifs numériques innovante qui comble le fossé entre l'investissement traditionnel en métaux précieux et la technologie blockchain moderne. Nous stockons de l'or et de l'argent physiques dans des coffres-forts internationaux sécurisés et émettons des jetons numériques correspondants sur les réseaux Ethereum, Solana et Canton.",
+        "concept": "Notre concept fondamental est simple mais puissant : chaque jeton numérique est soutenu par un stockage équivalent de métal précieux physique que les utilisateurs peuvent racheter à tout moment et en tout lieu. Cette approche élimine les problèmes de stockage, d'assurance et de liquidité de la propriété traditionnelle de métaux précieux tout en offrant la flexibilité et le potentiel de croissance des actifs numériques.",
+        "tokens": "Notre plateforme propose principalement deux jetons : GLD soutenu par l'or et SLV soutenu par l'argent. Chaque jeton bénéficie des mêmes avantages de sécurité, de transparence et de liquidité, mais est influencé par la dynamique de marché unique de sa marchandise respective.",
+        "features": "Notre plateforme technologique comprend une gestion de portefeuille d'investissement intégrée, un traitement automatisé des commandes, un retour de prix en temps réel et des outils d'analyse avancés pour les investisseurs et les partenaires institutionnels. Nous offrons également des options de livraison d'actifs physiques, selon les besoins finaux et l'emplacement géographique de l'utilisateur.",
+        "vision": "Notre vision est de devenir la plateforme de métaux précieux tokenisés de référence mondiale, offrant aux investisseurs individuels et institutionnels un moyen sécurisé, fiable et complet d'accéder aux métaux précieux à l'ère numérique."
+      },
+      "problemStatement": {
+        "title": "Énoncé du problème",
+        "intro": "L'investissement en métaux précieux a longtemps été considéré comme une pierre angulaire de la préservation de la richesse et de la diversification de portefeuille. Cependant, l'investissement traditionnel en métaux précieux souffre de plusieurs limitations importantes qui entravent son adoption et son efficacité dans l'économie numérique.",
+        "inaccessibility": {
+          "title": "Inaccessibilité",
+          "description": "L'investissement traditionnel en métaux précieux nécessite un capital initial important, des arrangements de stockage et une assurance, rendant difficile la participation de nombreux investisseurs potentiels."
+        },
+        "liquidity": {
+          "title": "Problèmes de liquidité",
+          "description": "Les métaux précieux physiques sont difficiles à faire circuler rapidement, avec des coûts de transaction élevés et des barrières d'entrée et de sortie du marché."
+        },
+        "transparency": {
+          "title": "Manque de transparence",
+          "description": "Vérifier l'authenticité et la fiabilité des métaux précieux physiques est souvent difficile et coûteux sur les marchés traditionnels."
+        },
+        "digitalBarriers": {
+          "title": "Barrières numériques",
+          "description": "Les marchés existants de métaux précieux manquent d'intégration avec les systèmes financiers numériques modernes, limitant les possibilités de nouveaux produits et services financiers."
+        },
+        "conclusion": "Ces problèmes créent une opportunité de marché pour une solution intégrée capable de tirer parti des avantages de la technologie blockchain tout en préservant la valeur inhérente des métaux précieux eux-mêmes."
+      },
+      "marketOpportunity": {
+        "title": "Opportunité de marché",
+        "intro": "Le marché mondial des métaux précieux connaît une croissance sans précédent, alimentée par les inquiétudes inflationnistes, l'instabilité géopolitique et l'adoption d'actifs numérisés.",
+        "trends": {
+          "title": "Tendances clés du marché"
+        },
+        "goldSilverDemand": {
+          "title": "Demande croissante d'or et d'argent",
+          "q1Demand": "Demande mondiale d'or au T1 2024",
+          "investmentSurge": "Augmentation de la demande d'investissement",
+          "priceIncrease": "Augmentation des prix (en glissement annuel)"
+        },
+        "trendsTable": {
+          "trend": "Tendance",
+          "relevance": "Pertinence",
+          "risingDemand": "Demande croissante de métaux précieux",
+          "risingDemandRelevance": "La demande mondiale soutenue de métaux précieux alimente notre potentiel de croissance du marché.",
+          "digitalPayments": "Adoption des paiements numériques",
+          "digitalPaymentsRelevance": "L'acceptation croissante des méthodes de paiement numériques rend nos jetons de métaux précieux numérisés plus facilement adoptables.",
+          "assetTokenization": "Croissance de la tokenisation d'actifs",
+          "assetTokenizationRelevance": "La croissance rapide des actifs tokenisés indique une compréhension et une acceptation croissantes de la propriété d'actifs numériques."
+        },
+        "conclusion": "Ces tendances pointent vers une opportunité importante de créer une plateforme intégrée qui répond à la demande croissante d'investissement en métaux précieux sécurisé, accessible et liquide."
+      },
+      "proposedSolution": {
+        "title": "Solution proposée",
+        "intro": "Vaulted Assets résout ces problèmes grâce à une plateforme numérique complète qui combine la sécurité de l'investissement traditionnel en métaux précieux avec la flexibilité de la technologie blockchain moderne.",
+        "keyHighlights": "Points clés",
+        "backedTokens": {
+          "title": "Jetons soutenus par des actifs physiques",
+          "description": "Chaque jeton numérique est soutenu par du stockage de métaux précieux physiques dans des coffres-forts sécurisés."
+        },
+        "platform": {
+          "title": "Plateforme multi-chaînes",
+          "description": "Support pour les réseaux Ethereum, Solana et Canton, offrant aux utilisateurs des options flexibles."
+        },
+        "walletSupport": {
+          "title": "Support de garde et d'auto-garde",
+          "description": "Support pour les portefeuilles de garde et d'auto-garde, s'adaptant à différents besoins et niveaux d'expertise des utilisateurs."
+        },
+        "digitalExperience": {
+          "title": "Expérience numérique intégrée",
+          "description": "Fournit une expérience utilisateur transparente incluant la tarification en temps réel, la gestion de portefeuille d'investissement et les services de contrepartie."
+        },
+        "adminDashboard": {
+          "title": "Tableau de bord administrateur",
+          "description": "Outils de gestion avancés et fonctionnalités d'analyse pour les utilisateurs institutionnels et les administrateurs."
+        },
+        "cantonNetwork": {
+          "title": "Intégration du réseau Canton",
+          "description": "Solution blockchain privée pour les grands partenaires institutionnels, renforçant la protection des données et la conformité."
+        },
+        "conclusion": "Notre approche ne résout pas seulement les limitations actuelles du marché, mais établit également une fondation évolutive et durable pour l'avenir de l'investissement en métaux précieux."
+      },
+      "tokenStructure": {
+        "title": "Structure des jetons",
+        "gld": {
+          "title": "Jeton GLD (Or)",
+          "backedAsset": {
+            "title": "Actif de soutien",
+            "description": "Chaque jeton GLD représente 1 gramme d'or stocké dans un coffre-fort sécurisé."
+          },
+          "standard": {
+            "title": "Standard de jeton",
+            "description": "Compatible ERC-20 (Ethereum), SPL (Solana) et réseau Canton."
+          },
+          "features": {
+            "title": "Caractéristiques principales",
+            "redeemable": "Échangeable contre de l'or physique à tout moment",
+            "usable": "Utilisable pour les paiements et transferts",
+            "transparent": "Preuve de réserves complètement transparente"
+          }
+        },
+        "slv": {
+          "title": "Jeton SLV (Argent)",
+          "backedAsset": {
+            "title": "Actif de soutien",
+            "description": "Chaque jeton SLV représente 1 gramme d'argent stocké dans un coffre-fort sécurisé."
+          },
+          "standard": {
+            "title": "Standard de jeton",
+            "description": "Compatible ERC-20 (Ethereum), SPL (Solana) et réseau Canton."
+          },
+          "features": {
+            "title": "Caractéristiques principales",
+            "realValue": "Reflète la valeur réelle du marché de l'argent",
+            "liquid": "Liquidité élevée et transactions à faible coût",
+            "secure": "Mêmes normes de sécurité et de conformité que GLD"
+          }
+        },
+        "keyFeatures": {
+          "title": "Caractéristiques clés de tous les jetons",
+          "fullyCoded": "Complètement soutenu",
+          "fullyCodedDescription": "Chaque jeton numérique est soutenu par une valeur équivalente de métal précieux physique.",
+          "instant": "Rachat instantané",
+          "instantDescription": "Rachetez les jetons contre des métaux précieux physiques à tout moment, sous réserve de restrictions géographiques et légales.",
+          "regulated": "Réglementé",
+          "regulatedDescription": "Opère dans des cadres réglementaires, incluant des processus complets de KYC/AML et d'audit.",
+          "multiChain": "Support multi-chaînes",
+          "multiChainDescription": "Disponible sur plusieurs réseaux blockchain, offrant flexibilité et choix."
+        }
+      }
+    }
+  },
+  "payment": {
+    "sessionCreated": "Session de Paiement Créée",
+    "redirectingToPayment": "Redirection vers le paiement sécurisé...",
+    "error": "Erreur de Paiement",
+    "initializingPayment": "Initialisation du paiement...",
+    "paymentError": "Erreur de Paiement",
+    "tryAgain": "Réessayer",
+    "goBack": "Retour",
+    "readyToPay": "Prêt à Payer",
+    "securePaymentReady": "Votre session de paiement sécurisé est prête à procéder.",
+    "amount": "Montant",
+    "purchasing": "Achat",
+    "tokens": "Tokens",
+    "walletAddress": "Adresse de Portefeuille",
+    "proceedToPayment": "Procéder au Paiement",
+    "cancel": "Annuler",
+    "secureNote": "Paiement sécurisé alimenté par Transak • Vos fonds sont protégés",
+    "windowClosed": "Fenêtre de Paiement Fermée",
+    "checkTransactionStatus": "Veuillez vérifier votre historique de transactions pour le statut du paiement."
+  }
+}

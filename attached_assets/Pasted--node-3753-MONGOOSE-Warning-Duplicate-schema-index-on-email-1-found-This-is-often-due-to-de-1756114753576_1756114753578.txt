@@ -1,0 +1,61 @@
+(node:3753) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3753) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+[WARN] 2025-08-25T09:36:50.144Z - Failed to fetch gold price from API, using default: Error: Gold API authentication failed. Invalid API key.
+    at GoldApiService.getGoldPrice (/home/runner/workspace/server/services/goldapi.service.ts:73:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BlockchainListener.initializeTokenConfigs (/home/runner/workspace/server/services/blockchain-listener.ts:165:29)
+    at async BlockchainListener.initializeProvider (/home/runner/workspace/server/services/blockchain-listener.ts:146:7)
+[WARN] 2025-08-25T09:36:51.153Z - Failed to fetch silver price from API, using default: Error: Gold API authentication failed. Invalid API key.
+    at GoldApiService.getSilverPrice (/home/runner/workspace/server/services/goldapi.service.ts:121:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BlockchainListener.initializeTokenConfigs (/home/runner/workspace/server/services/blockchain-listener.ts:173:31)
+    at async BlockchainListener.initializeProvider (/home/runner/workspace/server/services/blockchain-listener.ts:146:7)
+[INFO] 2025-08-25T09:36:51.158Z - Blockchain listener initialized with RPC: https://ethereum-holesky-rpc.publicnode.com
+[INFO] 2025-08-25T09:36:51.158Z - Gold contract: 0xE7714e135b33A912C8e6294956230E4Eb01030f4
+[INFO] 2025-08-25T09:36:51.158Z - Silver contract: 0xF486731Ba1E3c9e1D2A53938c9f09633d6625cf8
+✅ Connected to MongoDB
+[INFO] 2025-08-25T09:36:53.991Z - ⚠️ Mongoose disabled - using PostgreSQL storage adapter 
+[INFO] 2025-08-25T09:36:53.991Z - ⚠️ Blockchain listeners disabled during migration 
+[INFO] 2025-08-25T09:36:54.027Z - Express server running on port 5000 
+Signup error: TypeError: Cannot read properties of undefined (reading 'getUserByEmail')
+    at signup (/home/runner/workspace/server/controllers/auth.controller.ts:32:42)
+    at <anonymous> (/home/runner/workspace/server/middleware/error.middleware.ts:51:21)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/home/runner/workspace/server/middleware/validate.middleware.ts:28:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/runner/workspace/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/runner/workspace/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at <anonymous> (/home/runner/workspace/server/index.ts:52:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/runner/workspace/node_modules/body-parser/lib/types/urlencoded.js:85:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at /home/runner/workspace/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/home/runner/workspace/node_modules/raw-body/index.js:238:16)
+    at done (/home/runner/workspace/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/home/runner/workspace/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[API] 2025-08-25T09:38:30.290Z - POST /api/auth/signup 500 in 11ms :: {"message":"Internal server error during s…

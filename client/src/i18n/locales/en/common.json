@@ -1,0 +1,1961 @@
+{
+  "navigation": {
+    "home": "Home",
+    "assets": "Assets",
+    "portfolio": "Portfolio",
+    "profile": "Profile",
+    "transactionHistory": "Transaction History",
+    "about": "About",
+    "whitepaper": "Whitepaper",
+    "tokenomics": "Tokenomics",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout",
+    "getStarted": "Get Started",
+    "connectWallet": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "connected": "Connected",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "auditReport": "Audit Report",
+    "gifting": "Gifting",
+    "sendGift": "Gift",
+    "redemption": "Redemption",
+    "addingWallet": "Adding Wallet...",
+    "adding": "Adding...",
+    "connect": "Connect",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirmLogout": "Confirm Logout",
+    "logoutConfirmMessage": "Are you sure you want to sign out? You will need to sign in again to access your account."
+  },
+  "landing": {
+    "heroTitle": "Digital Asset Vaulting Platform",
+    "heroSubtitle": "Professional-grade tokenized asset platform: turn gold and silver with blockchain's security and traditional trust and liquidity.",
+    "startInvesting": "Start Investing",
+    "learnMore": "Learn More",
+    "trustIndicators": {
+      "physicallyBacked": "100% Physically-Backed by Vaulted Gold or Silver",
+      "kycCompliant": "Fully KYC-Compliant, Global Access",
+      "priceAccuracy": "Gold or Silver Price Peg Accuracy: ±0.01% from Spot"
+    }
+  },
+  "features": {
+    "whyChoose": "Why Choose Vaulted Assets?",
+    "subtitle": "Professional-grade infrastructure built for both retail and institutional investors",
+    "bankGradeSecurity": "Bank-Grade Security",
+    "bankGradeDescription": "Multi-layer security protocols, cold storage, and institutional-grade custody solutions protect your digital assets.",
+    "instantLiquidity": "Instant Liquidity",
+    "instantLiquidityDescription": "Buy and sell precious metal tokens 24/7 with immediate settlement and competitive spreads.",
+    "regulatoryCompliance": "Regulatory Compliance",
+    "regulatoryComplianceDescription": "Fully compliant with global financial regulations, KYC/AML requirements, and regular third-party audits."
+  },
+  "investment": {
+    "buyPreciousMetals": "Buy Precious Metals",
+    "selectMetal": "Select Metal",
+    "gold": "Gold",
+    "silver": "Silver",
+    "usdcAmount": "USDC Amount",
+    "balance": "Balance",
+    "useMax": "Use Max",
+    "platformFee": "Platform fee: 1.5% • Min. purchase: $100",
+    "confirmPurchase": "Confirm Purchase",
+    "purchaseSummary": "Purchase Summary",
+    "currentPrice": "Current {{metal}} Price",
+    "amount": "Amount",
+    "fee": "Platform Fee (1.5%)",
+    "total": "Total",
+    "estimatedTokenAmount": "Estimated Token Amount",
+    "recentPurchases": "Recent Purchases",
+    "completed": "Completed"
+  },
+  "paymentModal": {
+    "choosePaymentMethod": "Choose Payment Method",
+    "completePurchase": "Complete your purchase of {{amount}} oz {{metal}} for ${{price}}",
+    "selectPaymentMethod": "Select Payment Method",
+    "payWithFiat": "Pay with Fiat",
+    "fiatDescription": "Credit/Debit Card, Bank Transfer",
+    "payWithWallet": "Pay with Wallet",
+    "walletDescription": "USDC, Ethereum, Bitcoin",
+    "cancel": "Cancel",
+    "confirmPayment": "Confirm Payment"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "name": "Name",
+    "enterName": "Enter your full name",
+    "signInDescription": "Sign in to your Vaulted Assets account",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign In",
+    "dontHaveAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "createAccount": "Create Account",
+    "joinVaultedAssets": "Join Vaulted Assets and start investing in tokenized precious metals",
+    "firstName": "First Name",
+    "lastName": "Last Name (Optional)",
+    "confirmPassword": "Confirm Password",
+    "agreeToTerms": "I agree to the",
+    "alreadyHaveAccount": "Already have an account?",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "wrongPassword": "Wrong password. Try again or click Forgot password to reset it.",
+    "verifyEmailFirst": "Please verify your email first.",
+    "clickHere": "Click here",
+    "signingIn": "Signing In...",
+    "noAccount": "Don't have an account?",
+    "backToLogin": "Back to Login",
+    "twoFactorAuth": "Two-Factor Authentication",
+    "verifyEmail": "Verify Your Email",
+    "enter2FACode": "Enter the 6-digit 2FA code sent to",
+    "enterOTPCode": "Enter the 6-digit OTP sent to",
+    "resendOTPIn": "Resend OTP in",
+    "seconds": "seconds",
+    "resending": "Sending...",
+    "resendOTP": "Resend OTP",
+    "verifying": "Verifying...",
+    "verifyLogin": "Verify & Login",
+    "continue": "Continue",
+    "backToSignUp": "Back to Sign Up",
+    "joinPlatform": "Join our platform",
+    "mobileNumber": "Mobile Number (Optional)",
+    "organizationName": "Organization Name (Optional)",
+    "country": "Country",
+    "stateProvince": "State/Province",
+    "enterFirstName": "Enter your first name",
+    "enterLastName": "Enter your last name",
+    "enterPhoneNumber": "+1 (555) 123-4567",
+    "enterOrganizationName": "Your organization name",
+    "selectCountry": "Select your country",
+    "selectStateProvince": "Select your state/province",
+    "enterStateProvince": "Enter your state/province",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "creating": "Creating...",
+    "verifyYourEmail": "Verify Your Email",
+    "enterOTPSent": "Enter the 6-digit OTP sent to",
+    "didntReceiveOTP": "Didn't receive the OTP?"
+  },
+  "dashboard": {
+    "assets": "Assets",
+    "browseAndInvest": "Browse and invest in precious metals",
+    "totalPortfolioValue": "Total Portfolio Value",
+    "goldHoldings": "Gold Holdings",
+    "silverHoldings": "Silver Holdings",
+    "assetAllocation": "Asset Allocation",
+    "tokens": "tokens",
+    "transactionHistory": "Transaction History",
+    "completeRecord": "Complete record of your trading activity",
+    "date": "Date",
+    "type": "Type",
+    "asset": "Asset",
+    "amount": "Amount",
+    "value": "Value",
+    "status": "Status",
+    "purchase": "Purchase",
+    "redeem": "Redeem",
+    "gold": "Gold",
+    "silver": "Silver",
+    "completed": "Completed",
+    "pending": "Pending",
+    "failed": "Failed",
+    "buyGold": "Buy Gold",
+    "buySilver": "Buy Silver",
+    "selectAmount": "Select Amount",
+    "enterAmount": "Enter amount in USD",
+    "paymentMethod": "Payment Method",
+    "creditCard": "Credit Card",
+    "walletPay": "Wallet Pay",
+    "review": "Review",
+    "purchaseDetails": "Purchase Details",
+    "metalType": "Metal Type",
+    "investmentAmount": "Investment Amount",
+    "estimatedTokens": "Estimated Tokens",
+    "networkFee": "Network Fee",
+    "totalCost": "Total Cost",
+    "confirmPurchase": "Confirm Purchase",
+    "processing": "Processing",
+    "purchaseHistory": "Purchase History",
+    "recentTransactions": "Recent Transactions",
+    "viewAll": "View All",
+    "noTransactions": "No transactions found",
+    "loadingTransactions": "Loading transactions...",
+    "errorLoadingTransactions": "Error loading transactions",
+    "selectMetal": "Select Metal",
+    "walletAddress": "Wallet Address",
+    "enterWalletAddress": "Enter your wallet address",
+    "walletAddressTooltip": "Enter the wallet address where you want to receive the precious metal tokens after purchase.",
+    "usdAmount": "USD Amount",
+    "enterAmountPlaceholder": "Enter amount (e.g., 100)",
+    "platformFee": "Platform fee: 1.5% • Min. purchase: $10",
+    "platformFeeShort": "Platform Fee (1.5%)",
+    "netAmount": "Net Amount",
+    "estimatedTokenAmount": "Estimated Token Amount",
+    "continueToNetworkSelection": "Continue to Network Selection",
+    "selectNetwork": "Select Network",
+    "privateNetwork": "Canton Network",
+    "publicNetwork": "Polygon Network",
+    "solanaNetwork": "Solana Network",
+    "enhancedSecurityAndPrivacy": "Enhanced security and privacy",
+    "standardBlockchainNetwork": "Standard blockchain network",
+    "fastAndLowCostTransactions": "Fast and low-cost transactions",
+    "confirmPayment": "Confirm Payment",
+    "reviewOrder": "Review your order",
+    "chooseNetworkType": "Choose network type",
+    "completePayment": "Complete payment",
+    "purchaseSummary": "Purchase Summary",
+    "livePrice": "Live",
+    "pricePerGram": "Price (per gram)",
+    "loading": "Loading...",
+    "unableToFetchLivePrices": "Unable to fetch live prices",
+    "usingFallbackData": "Using fallback data",
+    "noPlatformPurchasesFound": "No platform purchases found",
+    "noPurchaseHistoryFound": "No purchase history found",
+    "purchaseSuccessful": "Purchase Successful",
+    "purchaseRecordCreated": "Purchase record created successfully. Your transaction is being processed.",
+    "registrationSuccessful": "Registration Successful",
+    "registrationFailed": "Registration Failed",
+    "authenticationRequired": "Authentication Required",
+    "buyPreciousMetals": "Buy Precious Metals",
+    "liveMarketPrices": "Live Market Prices",
+    "platformPurchases": "Platform Purchases",
+    "metal": "Metal",
+    "tokenAmount": "Token Amount",
+    "fee": "Fee",
+    "network": "Network",
+    "payment": "Payment",
+    "show": "Show",
+    "records": "Records",
+    "first": "First",
+    "previous": "Previous",
+    "page": "Page",
+    "of": "of",
+    "next": "Next",
+    "last": "Last",
+    "myPortfolio": "My Portfolio",
+    "portfolioOverview": "Overview of your precious metals investments",
+    "totalValue": "Total Portfolio Value",
+    "totalBalance": "Total Balance",
+    "portfolioGrowth": "Portfolio Growth",
+    "performanceChart": "Performance Chart",
+    "priceHistory": "Price History",
+    "marketValue": "Market Value",
+    "grams": "grams",
+    "connectWalletToView": "Please connect your wallet to view portfolio details",
+    "connectWalletDescription": "Connect your wallet to access your real-time token balances and portfolio information.",
+    "portfolioPerformance": "Portfolio Performance",
+    "currentValue": "Current Value",
+    "monthlyChange": "Monthly Change",
+    "ytd": "YTD",
+    "strongPerformanceTrend": "Strong Performance Trend",
+    "bestMonth": "Best month",
+    "securePaymentProcessing": "Secure fiat payment processing for your {{metal}} purchase"
+  },
+  "gifting": {
+    "sendGift": "Send Gift",
+    "recipientWalletAddress": "Recipient Wallet Address",
+    "recipientWalletTooltip": "The wallet address should be registered user of this platform to receive the gift tokens successfully.",
+    "enterWalletAddress": "Enter wallet address",
+    "cannotSendToSelf": "You cannot send tokens to your own wallet address. Please enter a different recipient address.",
+    "token": "Token",
+    "network": "Network",
+    "tokenQuantityGrams": "Token Quantity (Grams)",
+    "balance": "Balance",
+    "loadingBalance": "Loading balance...",
+    "enterQuantity": "Enter quantity (e.g., 1.5)",
+    "insufficientBalance": "Insufficient balance. You have {balance} {token} tokens, but trying to send {quantity}.",
+    "loadingLivePrices": "Loading live prices...",
+    "usingFallbackPrices": "Using fallback prices (price service unavailable)",
+    "grams": "Grams",
+    "tokenValue": "Token Value",
+    "platformFee": "Platform Fee (2%)",
+    "totalCost": "Total Cost",
+    "updating": "Updating...",
+    "fallbackPrices": "Fallback prices",
+    "livePrices": "Live prices",
+    "blockchainTransfer": "Blockchain Transfer: {{token}} tokens will be sent directly via smart contract",
+    "messageOptional": "Message (optional)",
+    "addPersonalMessage": "Add a personal message",
+    "walletConnectionRequired": "Wallet connection required for token transfers on Ethereum network.",
+    "transferFailed": "Transfer failed: {{error}}",
+    "giftSentSuccessfully": "{{token}} gift sent successfully!",
+    "transaction": "Transaction",
+    "validatingWallet": "Validating Wallet...",
+    "confirmingTransfer": "Confirming Transfer...",
+    "sendingGift": "Sending Gift...",
+    "giftTokens": "Gift Tokens",
+    "giftingHistory": "Gifting History",
+    "recipient": "Recipient",
+    "quantity": "Quantity",
+    "message": "Message",
+    "date": "Date",
+    "status": "Status",
+    "share": "Share",
+    "errorLoadingHistory": "Error loading history: {{error}}",
+    "noGiftingHistory": "No gifting history found",
+    "confirmGift": "Confirm Gift",
+    "confirmGiftMessage": "Gift {{quantity}} {{token}} tokens to {{wallet}}?",
+    "confirmGiftButton": "Confirm Gift",
+    "transferSuccessful": "Transfer Successful!",
+    "giftSent": "Gift Sent",
+    "giftSentDescription": "Successfully sent {{quantity}} {{token}} tokens to {{wallet}}",
+    "giftSentSuccessfullyTitle": "Gift Sent Successfully",
+    "giftSentSuccessfullyDescription": "Successfully sent {{quantity}} {{token}} tokens via Canton private network",
+    "transferCompleted": "Transfer Completed",
+    "transferCompletedDescription": "Canton transfer completed but failed to log record",
+    "cantonTransferFailed": "Canton Transfer Failed",
+    "cantonTransferFailedDescription": "Failed to transfer tokens via Canton network",
+    "invalidRecipient": "Invalid Recipient",
+    "invalidRecipientDescription": "You cannot send tokens to your own wallet address.",
+    "insufficientBalanceTitle": "Insufficient Balance",
+    "insufficientBalanceDescription": "You have {{balance}} {{token}} tokens, but trying to send {{quantity}}.",
+    "walletNotFound": "Wallet Not Found",
+    "walletNotFoundDescription": "This wallet is not registered in our platform. The recipient needs to create an account first to receive tokens.",
+    "validationError": "Validation Error",
+    "validationErrorDescription": "Failed to validate wallet",
+    "balanceCheckFailed": "Balance Check Failed",
+    "balanceCheckFailedDescription": "Unable to verify your token balance at this time. Please try again.",
+    "walletNotConnected": "Wallet Not Connected",
+    "walletNotConnectedDescription": "Please connect your wallet to send tokens on Ethereum network.",
+    "recipientWillReceive": "The recipient will receive the tokens in their wallet shortly.",
+    "shareOnTelegram": "Share on Telegram",
+    "shareOnWhatsApp": "Share on WhatsApp",
+    "giftRecordedSuccessfully": "Gift Recorded Successfully",
+    "giftRecordedSuccessfullyDescription": "Your gift transaction has been recorded in our system.",
+    "giftRecordingFailed": "Gift Recording Failed",
+    "giftRecordingFailedDescription": "Failed to record gift transaction. Please try again.",
+    "failedToFetchHistory": "Failed to fetch gifting history"
+  },
+  "redemption": {
+    "title": "Token Redemption",
+    "subtitle": "Redeem your precious metal tokens for physical delivery",
+    "redemptionRequest": "Redemption Request",
+    "selectToken": "Select Token",
+    "selectTokenPlaceholder": "Choose token to redeem",
+    "goldGRT": "Gold (GRT)",
+    "silverSRT": "Silver (SRT)",
+    "quantity": "Quantity",
+    "quantityPlaceholder": "Enter token quantity",
+    "quantityInfo": "Redeeming {{grams}}g of {{metal}} • Value: ${{value}}",
+    "quantityInvalid": "Please enter a valid quantity",
+    "network": "Network",
+    "networkPlaceholder": "Select network",
+    "ethereum": "Ethereum",
+    "solana": "Solana",
+    "private": "Private Network",
+    "deliveryAddress": "Delivery Address",
+    "streetAddress": "Street Address",
+    "streetAddressPlaceholder": "Enter your street address",
+    "city": "City",
+    "cityPlaceholder": "Enter city",
+    "zipCode": "ZIP Code",
+    "zipCodePlaceholder": "Enter ZIP code",
+    "country": "Country",
+    "countryPlaceholder": "Select country",
+    "state": "State/Province",
+    "statePlaceholder": "Select state/province",
+    "costBreakdown": "Cost Breakdown",
+    "tokenValue": "Token Value",
+    "networkFee": "Network Fee",
+    "deliveryFee": "Delivery Fee",
+    "totalCost": "Total Cost",
+    "processing": "Processing",
+    "submitRedemptionRequest": "Submit Redemption Request",
+    "redemptionHistory": "Redemption History",
+    "date": "Date",
+    "token": "Token",
+    "status": "Status",
+    "address": "Address",
+    "txHash": "Transaction Hash",
+    "action": "Action",
+    "cancelRedemption": "Cancel",
+    "cancelSuccess": "Redemption cancelled successfully",
+    "cancelError": "Failed to cancel redemption",
+    "noRedemptionHistory": "No redemption history found",
+    "loadingHistory": "Complete your first redemption to see history here",
+    "successTitle": "Success",
+    "successDescription": "Redemption request created successfully",
+    "warningTitle": "Warning",
+    "warningDescription": "Redemption completed but failed to log to database",
+    "createFailedDescription": "Failed to create redemption request",
+    "walletNotConnectedTitle": "Wallet Not Connected",
+    "walletNotConnectedDescription": "Please connect your wallet to redeem tokens on Ethereum network",
+    "walletNotConnected": "Wallet Not Connected",
+    "connectWalletToCancel": "Connect your wallet to cancel redemption",
+    "wrongWallet": "Wrong Wallet Connected",
+    "connectCorrectWallet": "Connect with this address to cancel redemption: {{walletAddress}}",
+    "redemptionFailedTitle": "Redemption Failed",
+    "redemptionFailedDescription": "Failed to process redemption request. Please try again.",
+    "errorTitle": "Error",
+    "errorDescription": "An error occurred while processing your request",
+    "blockchainError": "Blockchain error: {{error}}",
+    "confirmTransaction": "Please confirm the transaction in your wallet",
+    "transactionSubmitted": "Transaction submitted, waiting for confirmation...",
+    "transactionConfirmed": "Transaction confirmed! Hash: {{hash}}",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "failed": "Failed",
+    "cancelled": "Cancelled",
+    "gold": "gold",
+    "silver": "silver",
+    "updateSuccess": "Redemption updated successfully",
+    "updateError": "Failed to update redemption",
+    "completed": "Completed"
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and view your account status",
+    "personalInformation": "Personal Information",
+    "personalInformationDescription": "Update your personal details and contact information",
+    "editProfile": "Edit Profile",
+    "firstName": "First Name",
+    "firstNameRequired": "First name is required",
+    "lastName": "Last Name",
+    "lastNameRequired": "Last name is required",
+    "email": "Email Address",
+    "emailCannotChange": "Email cannot be changed",
+    "phoneNumber": "Phone Number",
+    "phoneOptional": "Optional",
+    "country": "Country",
+    "countryRequired": "Country is required",
+    "state": "State/Province",
+    "stateRequired": "State is required",
+    "organization": "Organization",
+    "organizationOptional": "Optional",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "accountStatus": "Account Status",
+    "accountStatusDescription": "View your wallet information and account verification status",
+    "connectedWallets": "Connected Wallets",
+    "wallet": "Wallet",
+    "noWalletsConnected": "No wallets connected yet",
+    "connectWalletToTrade": "Connect your wallet to start trading precious metals",
+    "verified": "Verified",
+    "pendingVerification": "Pending Verification",
+    "suspended": "Suspended",
+    "unknown": "Unknown",
+    "loading": "Loading...",
+    "accountStatusInfo": "Account verification is required for advanced features",
+    "verificationStatus": "Verification Status",
+    "emailVerified": "Email verified",
+    "emailNotVerified": "Email verification pending",
+    "referralCode": "Referral Code",
+    "noReferralCode": "No referral code set",
+    "lastLogin": "Last Login",
+    "memberSince": "Member Since",
+    "termsAccepted": "Terms & Conditions Accepted",
+    "yes": "Yes",
+    "no": "No",
+    "updateProfileSuccess": "Profile updated successfully",
+    "updateProfileError": "Failed to update profile",
+    "accountVerifiedMessage": "Your account has been verified successfully.",
+    "accountPendingMessage": "Your account verification is currently being processed.",
+    "accountSuspendedMessage": "Your account has been suspended. Please contact support.",
+    "securityInfo": "For security reasons, some information cannot be changed directly. If you need to update your email address or other restricted fields, please contact our support team.",
+    "updatePassword": "Update Password",
+    "updatePasswordDescription": "Change your account password for enhanced security",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "currentPasswordPlaceholder": "Enter your current password",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "confirmPassword": "Confirm New Password",
+    "confirmPasswordPlaceholder": "Confirm your new password",
+    "currentPasswordRequired": "Current password is required",
+    "newPasswordRequired": "New password is required",
+    "confirmPasswordRequired": "Please confirm your new password",
+    "passwordTooShort": "Password must be at least 8 characters long",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "newPasswordSameAsOld": "New password must be different from current password",
+    "passwordUpdateSuccess": "Password updated successfully",
+    "passwordUpdateError": "Failed to update password",
+    "updating": "Updating...",
+    "passwordSecurityNote": "Choose a strong password with at least 8 characters, including uppercase, lowercase, numbers, and special characters.",
+    "passwordHidden": "Your password is securely encrypted and cannot be displayed.",
+    "passwordLastUpdated": "For security reasons, we don't show when passwords were last updated."
+  },
+  "common": {
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "failedToLoadData": "Failed to load data",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "more": "More",
+    "less": "Less",
+    "done": "Done",
+    "notAvailable": "N/A"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "investors": "Investors",
+    "blog": "Blog",
+    "legal": "Legal",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "contactUs": "Contact Us",
+    "statusPage": "Status Page",
+    "allRightsReserved": "All rights reserved.",
+    "description": "Professional-grade precious metal tokenization platform. Secure, transparent, and compliant digital asset vaulting for both retail and institutional investors.",
+    "copyright": "© 2025 Vaulted Assets. All rights reserved.",
+    "products": "Products",
+    "goldTokens": "Gold Tokens",
+    "silverTokens": "Silver Tokens",
+    "portfolioManagement": "Portfolio Management",
+    "institutionalSolutions": "Institutional Solutions",
+    "apiAccess": "API Access",
+    "security": "Security",
+    "compliance": "Compliance",
+    "securityAndCompliance": "Security & Compliance",
+    "press": "Press",
+    "importantNotice": "Important Notice",
+    "complianceNotice": "tokens are backed by physical precious metals stored in secure, audited vaults. All investments carry risk. Past performance does not guarantee future results. Please read our risk disclosures before investing. Vaulted Assets is regulated and compliant with applicable financial regulations.",
+    "faq": "FAQ"
+  },
+  "pages": {
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about Vaulted Assets",
+      "categories": {
+        "general": {
+          "title": "General Questions"
+        },
+        "tokens": {
+          "title": "Tokens & Blockchain"
+        },
+        "buying": {
+          "title": "Buying & Redeeming"
+        },
+        "fees": {
+          "title": "Fees & Transfers"
+        },
+        "security": {
+          "title": "Security & Compliance"
+        },
+        "crossChain": {
+          "title": "Cross-Chain Transfers"
+        },
+        "audit": {
+          "title": "Audit & Transparency"
+        },
+        "wallets": {
+          "title": "Wallets & Accessibility"
+        },
+        "gifting": {
+          "title": "Gifting & Referrals"
+        },
+        "jurisdictional": {
+          "title": "Jurisdictional Restrictions"
+        }
+      },
+      "questions": {
+        "q1": {
+          "question": "What is Vaulted Assets?",
+          "answer": "Vaulted Assets is a platform that allows you to buy, hold, transfer, and redeem gold- and silver-backed digital tokens. Each token represents direct ownership of fully allocated precious metals stored in secure vaults."
+        },
+        "q2": {
+          "question": "How is this different from buying gold or silver physically?",
+          "answer": "When you buy tokens through Vaulted Assets, you own real gold or silver stored in professional-grade vaults   but you can manage your holdings digitally, trade them instantly, and redeem them anytime."
+        },
+        "q3": {
+          "question": "Where are the metals stored?",
+          "answer": "All gold and silver are stored with approved custodians in high-security vaults located in regulated jurisdictions."
+        },
+        "q4": {
+          "question": "Are my holdings insured?",
+          "answer": "Yes, all vaulted assets are covered by comprehensive insurance policies provided by the custodians."
+        },
+        "q5": {
+          "question": "Which blockchains do you use?",
+          "answer": "Vaulted Assets supports both public blockchains (e.g., Solana, Ethereum) and private/permissioned blockchains (e.g., Canton) to meet different user needs."
+        },
+        "q6": {
+          "question": "Can I choose which blockchain my tokens are on?",
+          "answer": "Yes   you can select your preferred network when purchasing or transferring tokens."
+        },
+        "q7": {
+          "question": "Are blockchain transactions reversible?",
+          "answer": "No. Once a blockchain transaction is confirmed, it cannot be undone. Always double-check transaction details before confirming."
+        },
+        "q8": {
+          "question": "How can I buy tokens?",
+          "answer": "You can purchase tokens using supported fiat currencies or cryptocurrencies directly through our web or mobile app."
+        },
+        "q9": {
+          "question": "Can I redeem my tokens for physical gold or silver?",
+          "answer": "Yes. You can request redemption in the form of physical metals (subject to minimum amounts) or equivalent fiat value."
+        },
+        "q10": {
+          "question": "How long does redemption take?",
+          "answer": "Delivery timelines depend on your location, availability, and the selected method (physical delivery or cash settlement)."
+        },
+        "q11": {
+          "question": "What fees apply?",
+          "answer": "We charge fees for transactions, storage, and blockchain transfers. Fees vary depending on whether you use a public or private blockchain."
+        },
+        "q12": {
+          "question": "Are transfers between Vaulted Assets users free?",
+          "answer": "Transfers on private blockchains may have reduced or zero fees. Transfers on public blockchains may incur network gas fees."
+        },
+        "q13": {
+          "question": "How is my account secured?",
+          "answer": "We use strong encryption, two-factor authentication (2FA), and multiple security layers for both wallets and platform access."
+        },
+        "q14": {
+          "question": "Do I need to verify my identity?",
+          "answer": "Yes   all users must complete AML/KYC verification to comply with global regulations."
+        },
+        "q15": {
+          "question": "What happens if Vaulted Assets shuts down?",
+          "answer": "Your metals remain your property. In the event of platform closure, you will be able to redeem your holdings or transfer them to an alternative custodian."
+        },
+        "q16": {
+          "question": "Can I move my tokens between Ethereum, Solana, and Canton?",
+          "answer": "Yes. We support cross-chain transfers through trusted bridges and in some cases via separate issuance models (where a token can be redeemed on one chain and reissued on another). Our documentation explains the specific process for GLD and SLV."
+        },
+        "q17": {
+          "question": "Will bridging affect my ownership of the tokens?",
+          "answer": "No. Whether you hold GLD on Ethereum or Solana, each token is fully backed 1:1 by physical reserves in our vaults."
+        },
+        "q18": {
+          "question": "How do I know tokens are fully backed by gold and silver reserves?",
+          "answer": "Vaulted Assets maintains Proof-of-Reserves with regular third-party audits. We also publish a live dashboard showing token supply against audited vault holdings, so users can verify backing at any time."
+        },
+        "q19": {
+          "question": "Who conducts the audits?",
+          "answer": "Independent, accredited auditing firms conduct our reserve verifications to ensure transparency and trust."
+        },
+        "q20": {
+          "question": "Do I need a crypto wallet to use Vaulted Assets?",
+          "answer": "Not necessarily. Our hybrid wallet system allows you to choose between: Custodial wallets (simple, Web2-style login, no technical knowledge needed). Self-custody wallets (e.g., MetaMask, Phantom, or Canton-compatible solutions)."
+        },
+        "q21": {
+          "question": "Can I use my existing wallet?",
+          "answer": "Yes, you can connect your own Web3 wallet to manage your GLD and SLV tokens if you prefer self-custody."
+        },
+        "q22": {
+          "question": "Can I gift tokens to someone else?",
+          "answer": "Yes. Our platform enables token gifting, so you can send gold or silver to family and friends directly."
+        },
+        "q23": {
+          "question": "Do you offer referral incentives?",
+          "answer": "Yes. Vaulted Assets runs referral programs where existing users can invite others and earn rewards in tokens. Details are available in your account dashboard."
+        },
+        "q24": {
+          "question": "Can I use Vaulted Assets in my country?",
+          "answer": "Our services are subject to local laws and regulations. Some jurisdictions may restrict or prohibit participation in digital asset platforms. Please review our Terms of Use and consult your local regulations before investing."
+        },
+        "q25": {
+          "question": "Is the platform available to U.S. or EU users?",
+          "answer": "Availability varies by product. Certain features may be restricted based on compliance requirements. We will notify users during onboarding if access is limited."
+        }
+      },
+      "stillHaveQuestions": {
+        "title": "Still have questions?",
+        "description": "Can't find what you're looking for? Contact our support team for personalized assistance."
+      },
+      "contactSupport": "Contact Support"
+    },
+    "cookiePolicy": {
+      "title": "Vaulted Assets  Cookie Policy",
+      "effectiveDate": "Effective Date: [Insert Date]",
+      "introduction": {
+        "text1": "Vaulted Assets (\"we,\" \"our,\" or \"us\") uses cookies and similar technologies to improve your experience, analyze platform usage, and provide tailored content and services. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.",
+        "text2": "By using the Vaulted Assets platform, you consent to the use of cookies as described in this policy."
+      },
+      "section1": {
+        "title": "1. What Are Cookies?",
+        "intro": "Cookies are small text files placed on your computer or mobile device when you visit a website or use an application. They allow us to recognize your device, store preferences, and enhance your browsing experience.",
+        "types": {
+          "intro": "Cookies may be:",
+          "session": {
+            "title": "Session Cookies",
+            "description": "Temporary cookies deleted when you close your browser."
+          },
+          "persistent": {
+            "title": "Persistent Cookies",
+            "description": "Stored on your device for a set period until deleted."
+          },
+          "firstParty": {
+            "title": "First-Party Cookies",
+            "description": "Set directly by Vaulted Assets."
+          },
+          "thirdParty": {
+            "title": "Third-Party Cookies",
+            "description": "Set by third-party service providers for analytics, advertising, or security purposes."
+          }
+        }
+      },
+      "section2": {
+        "title": "2. How We Use Cookies",
+        "intro": "Vaulted Assets uses cookies for the following purposes:",
+        "categories": {
+          "essential": {
+            "title": "1. Essential Cookies",
+            "description": "Required for the platform to function properly (e.g., logging in, managing token purchases, enabling secure transactions)."
+          },
+          "performance": {
+            "title": "2. Performance & Analytics Cookies",
+            "description": "Help us understand how users interact with the platform, track usage trends, and improve user experience.",
+            "example": "Example: Monitoring how often users check their real-time gold/silver portfolio."
+          },
+          "functionality": {
+            "title": "3. Functionality Cookies",
+            "description": "Store user preferences such as language, currency display (gold in USD/grams), and login session details."
+          },
+          "security": {
+            "title": "4. Security Cookies",
+            "description": "Detect and prevent fraudulent activity, protect accounts, and secure transactions on both private and public blockchains."
+          },
+          "marketing": {
+            "title": "5. Marketing & Personalization Cookies",
+            "description": "Deliver relevant content, such as promotions for reduced blockchain transfer fees or loyalty programs."
+          }
+        }
+      },
+      "section3": {
+        "title": "3. Third-Party Cookies",
+        "intro": "We may use third-party services that place cookies on your device to provide:",
+        "services": {
+          "analytics": "Analytics (e.g., Google Analytics, blockchain transaction monitoring tools)",
+          "advertising": "Advertising (e.g., retargeting based on previous visits to Vaulted Assets)",
+          "payment": "Payment Processing integrations",
+          "blockchain": "Blockchain Network Interactions (e.g., Solana or Ethereum explorers)"
+        },
+        "note": "These third parties may collect information about your browsing habits across different websites."
+      },
+      "section4": {
+        "title": "4. Managing Cookies",
+        "intro": "You can control and manage cookies in your browser settings. Most browsers allow you to:",
+        "actions": {
+          "view": "View cookies stored on your device",
+          "delete": "Delete cookies",
+          "block": "Block cookies from specific sites",
+          "blockAll": "Block all cookies (may affect functionality)"
+        }
+      },
+      "section5": {
+        "title": "5. Retention Periods for Cookies",
+        "periods": {
+          "session": {
+            "title": "Session Cookies:",
+            "description": "Expire when you close your browser."
+          },
+          "persistent": {
+            "title": "Persistent Cookies:",
+            "description": "Stored on your device for a fixed duration. Examples:",
+            "examples": {
+              "login": "Login & security cookies: up to 1 year",
+              "preference": "Preference cookies: up to 6 months",
+              "analytics": "Analytics cookies: typically 3090 days"
+            }
+          }
+        },
+        "note": "You can delete cookies earlier using your browser settings."
+      },
+      "section6": {
+        "title": "6. Jurisdiction-Specific Compliance",
+        "intro": "We comply with applicable data protection and e-privacy laws, including:",
+        "laws": {
+          "gdpr": {
+            "title": "GDPR (EU/EEA users)",
+            "description": "Lawful basis required before setting non-essential cookies."
+          },
+          "ccpa": {
+            "title": "CCPA/CPRA (California users)",
+            "description": "Users have the right to opt out of cookie-based data sharing."
+          },
+          "other": {
+            "title": "Other jurisdictions",
+            "description": "We apply similar protections where required."
+          }
+        }
+      },
+      "section7": {
+        "title": "7. User Rights & Choices",
+        "rights": {
+          "adjust": "You can adjust cookie preferences through your browser settings or our cookie banner/settings panel.",
+          "essential": "Essential cookies cannot be disabled, as they are necessary for security and core functionality.",
+          "rejecting": "Rejecting certain cookies (e.g., functional or analytics) may limit your experience on the platform."
+        }
+      },
+      "section8": {
+        "title": "8. Your Consent",
+        "description": "When you first visit the Vaulted Assets platform, a cookie banner will appear, allowing you to accept all cookies or manage your preferences. By continuing to use our platform without adjusting your browser settings, you consent to our use of cookies."
+      },
+      "section9": {
+        "title": "9. Updates to This Policy",
+        "description": "We may update this Cookie Policy from time to time to reflect changes in technology, legal requirements, or our operations. The updated policy will be posted with a new effective date."
+      },
+      "contact": {
+        "title": "10. Contact Us",
+        "description": "If you have any questions or concerns about our use of cookies, contact us at:",
+        "info": "Email: privacy@vaultedassets.com"
+      }
+    },
+    "goldTokens": {
+      "heroTitle": "Gold Token",
+      "heroSubtitle": "The Smartest Way to Own Gold in the Digital Age",
+      "heroDescription": "GLD Token  Your Gold, Your Way. This platform enables investors to purchase GLD, backed by 1 gram of investment-grade gold, securely stored and fully audited. Whether you hold, gift, or transact, GLD brings the timeless value of gold into your everyday digital life.",
+      "features": {
+        "directlyBacked": {
+          "title": "Directly Backed by Gold",
+          "description": "1 GLD = 1 gram of physical gold, giving you an asset that follows global gold market prices in real time."
+        },
+        "multiChain": {
+          "title": "Multi-Chain Flexibility",
+          "description": "Built on ERC-20 (Ethereum), SPL Token Program (Solana), or the Canton Network, GLD ensures maximum interoperability and transfer speed."
+        },
+        "useYourWay": {
+          "title": "Use It Your Way",
+          "description": "Hold in a secure hybrid wallet, gift to friends, make transactions, or trade GLD works like cash but is backed by gold."
+        },
+        "auditsProof": {
+          "title": "Audits & Proof-of-Reserves",
+          "description": "Independent third-party audits, conducted on a regular basis, verify that every Gold Token is fully backed by vaulted gold."
+        },
+        "redeemable": {
+          "title": "Redeemable Anytime",
+          "description": "Convert your GLD back into physical gold (as per platform redemption policies) or liquidate for local currency quickly and securely."
+        }
+      },
+      "cta": {
+        "title": "Own the Future of Gold, Backed by Trust!",
+        "subtitle": "Step into a new era of wealth preservation with Vaulted Assets' Gold Token (GLD)   a digital asset 100% backed by insured, independently audited physical gold.",
+        "getStarted": "Get Started NOW",
+        "partnerWithUs": "Partner With Us"
+      },
+      "learnMore": {
+        "title": "Learn More about the Gold token (GLD)",
+        "objective": {
+          "title": "Objective",
+          "description1": "Users can invest in gold through the platform and receive digital tokens in return. These tokens GLD for gold can be stored, gifted, used for transactions, or redeemed at any time.",
+          "description2": "GLD is ERC-20, SPL Token Program, or Canton network-based tokens, each backed 1:1 by physical gold. This ensures your investment is fully secured by real assets while giving you the flexibility and convenience of digital currency.",
+          "pricing": {
+            "label": "Pricing",
+            "description": "Pricing depends on market rates; for example, buying 1 gram of physical gold gives the investor exactly 1 GLD token. However, the price of the Gold Token changes daily, reflecting live market rates for investment-grade gold worldwide."
+          }
+        }
+      },
+      "technicalDetails": {
+        "title": "Technical Implementation",
+        "creation": {
+          "title": "Creation",
+          "description": "GLD tokens are created when users purchase gold through the platform, mainly in USD. The equivalent amount of physical gold is securely stored, and tokens are issued to the buyer."
+        },
+        "redemption": {
+          "title": "Redemption",
+          "description": "At any time, users can redeem GLD tokens for the equivalent value in physical gold or fiat currency, based on the current market price."
+        },
+        "custody": {
+          "title": "Custody & Insurance",
+          "description": "Gold Tokens are secured with independent custodians and fully insured vault storage for maximum investor protection."
+        }
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "crossChain": {
+          "title": "Cross-Chain Consistency",
+          "description": "Gold Token supply is synchronized across supported blockchains to prevent over-issuance and ensure integrity."
+        },
+        "compliance": {
+          "title": "Global Compliance",
+          "description": "Our platform operates under strict AML/KYC standards and regulated vault jurisdictions to support global accessibility."
+        },
+        "infrastructure": {
+          "title": "Security Infrastructure",
+          "description": "Multi-layered wallet security, combining custodial and self-custody options, safeguards token holders at every step."
+        }
+      },
+      "tokenSpec": {
+        "title": "GLD Token Specification",
+        "ratio": "Token to Gold Ratio",
+        "backed": "Asset Backed",
+        "redeemable": "Redeemable"
+      },
+      "disclaimer": {
+        "title": "Regulatory Disclaimer",
+        "description": "Not financial advice. Availability subject to jurisdictional restrictions. Please see Terms & Conditions for details."
+      }
+    },
+    "silverTokens": {
+      "heroTitle": "Silver Token",
+      "heroSubtitle": "The Smartest Way to Own Silver in the Digital Age",
+      "heroDescription": "Invest, Spend, or Gift Silver Anytime, Anywhere. This platform enables investors to purchase SLV, backed by 1 gram of investment-grade silver, which is securely stored and fully audited. Whether you hold, gift, or transact, SLV brings the lasting value of silver into your everyday digital life.",
+      "features": {
+        "directlyBacked": {
+          "title": "Directly Backed by Silver",
+          "description": "1 SLV = 1 gram of physical silver, valued in real time according to global silver market prices."
+        },
+        "multiChain": {
+          "title": "Multi-Chain Flexibility",
+          "description": "Built on ERC-20 (Ethereum), SPL Token Program (Solana), or the Canton Network, SLV offers seamless interoperability and fast transfers."
+        },
+        "useYourWay": {
+          "title": "Use It Your Way",
+          "description": "Store in a secure hybrid wallet, gift to friends, make transactions, or trade SLV works like cash but is backed by real silver."
+        },
+        "auditsProof": {
+          "title": "Audits & Proof-of-Reserves",
+          "description": "Independent audits and a real-time Proof-of-Reserves dashboard ensure every Silver Token (SLV) is fully backed by vaulted silver."
+        },
+        "redeemable": {
+          "title": "Redeemable",
+          "description": "Exchange your SLV for physical silver (as per platform redemption policies) or convert it to local currency quickly and securely."
+        }
+      },
+      "cta": {
+        "title": "Experience Silver Like Never Before   On-Chain & Audited!",
+        "subtitle": "Backed by audited reserves and stored in fully insured vaults, every Silver Token (SLV) gives you verifiable ownership of physical silver accessible anytime, anywhere.",
+        "getStarted": "Get Started NOW",
+        "partnerWithUs": "Partner With Us"
+      },
+      "learnMore": {
+        "title": "Learn More About the Silver Token (SLV)",
+        "objective": {
+          "title": "Objective",
+          "description1": "Users can invest in silver through the platform and receive SLV digital tokens in return. These tokens can be stored, gifted, used for transactions, or redeemed at any time. SLV is an ERC-20, SPL Token Program, or Canton network-based token, backed 1:1 by physical silver.",
+          "description2": "This ensures your investment is fully secured by tangible assets while offering the flexibility of digital currency."
+        }
+      },
+      "technicalDetails": {
+        "title": "Technical Implementation",
+        "pricing": {
+          "title": "Pricing",
+          "description": "Pricing depends on market rates; for example, purchasing 1 gram of physical silver yields the investor exactly 1 SLV token."
+        },
+        "creation": {
+          "title": "Creation",
+          "description": "SLV tokens are created when users purchase silver through the platform, primarily in USD. The equivalent amount of physical silver is securely stored, and matching tokens are issued to the buyer."
+        },
+        "fees": {
+          "title": "Fees",
+          "description": "A nominal fee applies to transactions and redemptions to cover blockchain gas costs and operational expenses. Full details are available in our Terms & Conditions."
+        },
+        "redemption": {
+          "title": "Redemption",
+          "description": "At any time, users can redeem SLV tokens for the equivalent value in physical silver or fiat currency, based on the current market price."
+        }
+      },
+      "security": {
+        "title": "Security & Insurance",
+        "custody": {
+          "title": "Custody & Insurance",
+          "description": "All physical silver backing SLV tokens are stored in accredited, insured vaults. This ensures not only the highest standards of security but also investor peace of mind, knowing their assets are safeguarded against loss or theft."
+        }
+      },
+      "tokenSpec": {
+        "title": "SLV Token Specification",
+        "ratio": "Token to Silver Ratio",
+        "backed": "Asset Backed",
+        "redeemable": "Redeemable"
+      },
+      "disclaimer": {
+        "title": "Regulatory Disclaimer",
+        "description": "Silver Token (SLV) is not investment advice and does not represent an offer to sell or a solicitation to buy securities. Usage and redemption may be subject to jurisdictional restrictions. Please review our Terms & Conditions and consult with a qualified advisor before making financial decisions."
+      }
+    },
+    "termsOfService": {
+      "title": "Vaulted Assets  Security & Compliance Policy",
+      "effectiveDate": "Effective Date: [Insert Date]",
+      "introduction": "At Vaulted Assets, security and regulatory compliance are at the core of our operations. This policy outlines the measures we take to safeguard user assets, protect sensitive data, and ensure adherence to applicable legal and regulatory frameworks.",
+      "section1": {
+        "title": "1. Purpose",
+        "intro": "This Security & Compliance Policy aims to:",
+        "objectives": {
+          "protection": "Protect user funds and data against unauthorized access, theft, or misuse.",
+          "integrity": "Maintain the integrity of tokenized gold (GLD) and silver (SLV) systems.",
+          "compliance": "Comply with relevant financial, data protection, and anti-money laundering regulations."
+        }
+      },
+      "section2": {
+        "title": "2. Security Objectives",
+        "intro": "Our primary security objectives are:",
+        "objectives": {
+          "assetProtection": {
+            "title": "Asset Protection",
+            "description": "Safeguarding both physical precious metals and their digital tokenized equivalents."
+          },
+          "dataConfidentiality": {
+            "title": "Data Confidentiality",
+            "description": "Protecting user data from unauthorized access."
+          },
+          "transactionIntegrity": {
+            "title": "Transaction Integrity",
+            "description": "Preventing fraud, tampering, and unauthorized transfers."
+          },
+          "systemResilience": {
+            "title": "System Resilience",
+            "description": "Ensuring continuous platform availability and disaster recovery."
+          }
+        }
+      },
+      "section3": {
+        "title": "3. Scope",
+        "intro": "This policy applies to:",
+        "applies": {
+          "employees": "All Vaulted Assets' employees, contractors, and service providers.",
+          "accounts": "All user accounts and transactions conducted on the Platform.",
+          "assets": "All physical precious metals held in custody and their corresponding digital tokens."
+        }
+      },
+      "section4": {
+        "title": "4. Security Measures",
+        "custodial": {
+          "title": "4.1 Custodial Asset Security",
+          "description": "Physical gold and silver stored in high-security vaults with 24/7 monitoring, armed security, and biometric access controls. Custodians are vetted and approved based on international security certifications. Insurance coverage for stored assets against theft, fire, and natural disasters."
+        },
+        "blockchain": {
+          "title": "4.2 Blockchain Security",
+          "description": "Tokens issued on Ethereum (ERC-20), Solana (SPL Token Program), and Canton Network (private) follow respective network standards.",
+          "features": {
+            "standards": "Tokens issued on Ethereum (ERC-20), Solana (SPL Token Program), and Canton Network (private) follow respective network standards.",
+            "audits": "Smart contract code is independently audited to identify and fix vulnerabilities before deployment.",
+            "monitoring": "Continuous on-chain monitoring for suspicious activities."
+          }
+        },
+        "smartContracts": {
+          "title": "4.3 Smart Contract Audits",
+          "description": "All token and transaction-related smart contracts undergo independent third-party audits before deployment. Audit reports are published on the Vaulted Assets website for transparency. Post-deployment, contracts are monitored for vulnerabilities and upgraded if necessary."
+        },
+        "wallet": {
+          "title": "4.4 Wallet Infrastructure",
+          "features": {
+            "support": "Support for custodial and self-custody wallets.",
+            "multiSig": "Multi-signature and MPC (Multi-Party Computation) protection for custodial wallets.",
+            "coldStorage": "Cold storage for the majority of token reserves to minimize online exposure."
+          }
+        },
+        "dataProtection": {
+          "title": "4.5 Data Protection and Privacy",
+          "description": "All user data is stored using AES-256 encryption and protected during transmission via TLS 1.3. Access to user data is role-based and logged to ensure traceability. Data minimization principles are applied: we collect only what is required to deliver our services. User rights, including access, portability, and deletion, are governed by our Privacy Policy."
+        },
+        "userProtections": {
+          "title": "4.6 User-Specific Protections",
+          "description": "Phishing and Security Education: Vaulted Assets actively educates users on risks such as phishing, malicious links, and wallet key management. Two-Factor Authentication (2FA): Strong authentication mechanisms are required for account logins and withdrawals. Session Monitoring: Users are notified of unusual logins, geographic anomalies, or suspicious account activities. Wallet Safety Tips: Guidance on cold storage, hardware wallet usage, and personal key management is provided through tutorials and FAQs."
+        },
+        "custodyFees": {
+          "title": "4.7 Custody, Fees & Redemption Security",
+          "description": "Fee Model Safeguards: Transfer and redemption fees are monitored to prevent fraudulent or manipulative usage. Anti-Fraud Measures: Large redemption requests are subject to rate limits, velocity checks, and multi-level approval workflows to prevent abuse or coordinated attacks. Custodial Insurance: Third-party custodians are required to maintain insurance against theft, hacks, or operational failures."
+        }
+      },
+      "section5": {
+        "title": "5. Compliance Measures",
+        "regulatory": {
+          "title": "5.1 Regulatory Compliance",
+          "description": "Adherence to AML (Anti-Money Laundering) and KYC (Know Your Customer) regulations. Sanctions screening against global watchlists (OFAC, UN, EU). Compliance monitoring tools for suspicious transaction detection."
+        },
+        "audit": {
+          "title": "5.2 Audit & Transparency",
+          "description": "Third-party audits of physical metal holdings at regular intervals (monthly/quarterly). Smart contract audits are performed by independent blockchain security firms. Publicly available audit reports on the platform."
+        },
+        "dataCompliance": {
+          "title": "5.3 Data Protection Compliance",
+          "description": "Compliance with GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act). Clear user consent mechanisms for data collection and processing. User rights to access, update, or delete personal information."
+        },
+        "certifications": {
+          "title": "5.4 Certifications and Standards",
+          "intro": "Vaulted Assets partners with custodians, auditors, and technology providers who maintain internationally recognized certifications:",
+          "iso": {
+            "title": "ISO 27001",
+            "description": "Information Security Management Systems (ISMS)."
+          },
+          "soc": {
+            "title": "SOC 2 Type II",
+            "description": "Independent validation of internal security, availability, and confidentiality controls."
+          },
+          "aml": {
+            "title": "AML/KYC Audits",
+            "description": "Conducted by firms such as Chainalysis for blockchain monitoring and compliance assurance."
+          },
+          "smartContract": {
+            "title": "Smart Contract Security Audits",
+            "description": "Performed by independent firms such as CertiK and Trail of Bits before deployment."
+          }
+        }
+      },
+      "section6": {
+        "title": "6. Incident Response Plan",
+        "intro": "In case of a security breach or operational disruption:",
+        "steps": {
+          "detection": {
+            "title": "Detection:",
+            "description": "Real-time alerts from monitoring systems."
+          },
+          "containment": {
+            "title": "Containment:",
+            "description": "Isolate affected systems and wallets."
+          },
+          "notification": {
+            "title": "Notification:",
+            "description": "Inform affected users and regulatory authorities as required by law."
+          },
+          "remediation": {
+            "title": "Remediation:",
+            "description": "Apply security patches, restore services, and prevent recurrence."
+          }
+        }
+      },
+      "section7": {
+        "title": "7. Employee & Vendor Security",
+        "measures": {
+          "training": "Mandatory security awareness training for employees.",
+          "background": "Background checks for employees in sensitive roles.",
+          "vendor": "Vendor due diligence to ensure third parties meet Vaulted Assets' security and compliance standards."
+        }
+      },
+      "section8": {
+        "title": "8. Independent Audits",
+        "quarterly": {
+          "title": "Quarterly Physical Audits:",
+          "description": "Vault facilities undergo quarterly inspections to confirm reserve assets and storage integrity."
+        },
+        "annual": {
+          "title": "Annual Financial Audits:",
+          "description": "Conducted by licensed third-party auditors to validate Proof of Reserves (PoR)."
+        },
+        "ongoing": {
+          "title": "Ongoing Blockchain Monitoring:",
+          "description": "Real-time AML/CTF transaction screening is applied to all token flows."
+        }
+      },
+      "section9": {
+        "title": "9. Scalability and Emerging Risks",
+        "environmental": {
+          "title": "Environmental & Force Majeure Preparedness:",
+          "description": "In line with our whitepaper disclaimers, contingency protocols are in place for geopolitical risks, natural disasters, or regulatory shocks that may affect vault locations."
+        },
+        "multiRegion": {
+          "title": "Multi-Region Custody:",
+          "description": "Reserve assets are geographically diversified to minimize disruption risks."
+        },
+        "emergingRisk": {
+          "title": "Emerging Risk Surveillance:",
+          "description": "Regular assessments track risks related to new cyber threats, regulatory changes, and blockchain vulnerabilities."
+        }
+      },
+      "section10": {
+        "title": "10. Metrics and Reporting",
+        "security": {
+          "title": "Security KPIs:",
+          "uptime": "99.9% system uptime (monthly).",
+          "response": "Incident response time < 4 hours from detection.",
+          "remediation": "Audit remediation within 30 days of findings."
+        },
+        "transparency": {
+          "title": "Transparency Dashboard:",
+          "description": "A user-facing dashboard provides real-time Proof of Reserves (PoR), audit reports, and compliance certifications, aligned with our commitment to openness."
+        }
+      },
+      "section11": {
+        "title": "11. Policy Updates",
+        "description": "We review and update this policy regularly to address emerging threats, regulatory changes, and technology updates."
+      },
+      "contact": {
+        "title": "12. Contact Information",
+        "description": "For questions regarding this policy or to report a security issue:",
+        "info": "Email: security@vaultedassets.com\nMailing Address: 123 Financial District, Suite 456, New York, NY 10004\nWebsite: https://vaultedassets.com/security"
+      }
+    },
+    "about": {
+      "title": "About",
+      "subtitle": "From Vault to Wallet  Making Precious Metals Digital",
+      "heroDescription": "At Vaulted Assets, we believe that wealth should be both timeless and accessible. Precious metals like gold and silver have been trusted for centuries as a store of value. We're bringing that same stability into the digital age   enabling anyone, anywhere, to buy, hold, and use gold or silver instantly through blockchain-powered tokens.",
+      "platformOverview": "Our platform bridges the gap between traditional asset security and modern financial flexibility. With GLD (gold-backed) and SLV (silver-backed) tokens, you can invest in physical metals stored in secure, audited vaults   while enjoying the speed, usability, and transparency of digital assets.",
+      "vision": {
+        "title": "Our Vision",
+        "description": "To bridge the gap between traditional wealth and modern finance, empowering people to hold assets that are not only valuable but also usable in everyday life."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "We aim to make precious metal ownership accessible, transparent, and practical by providing a secure platform where users can:",
+        "points": {
+          "buyOnline": "Buy gold and silver online",
+          "receiveTokens": "Receive equivalent digital tokens (GLD for gold, SLV for silver)",
+          "manageTokens": "Store, gift, transfer, or redeem these tokens anytime"
+        }
+      },
+      "whatWeOffer": {
+        "title": "What We Offer?",
+        "assetBacked": {
+          "title": "1:1 Asset-Backed Tokens",
+          "description": "Every GLD and SLV token represents an equivalent amount of physical gold or silver"
+        },
+        "blockchainChoice": {
+          "title": "Blockchain Choice",
+          "description": "Use public blockchains like Solana for transparency or private blockchains like Canton for privacy"
+        },
+        "secureCustody": {
+          "title": "Secure Custody",
+          "description": "Metals stored in audited, insured vaults with full transparency"
+        },
+        "flexibleAccess": {
+          "title": "Flexible Access",
+          "description": "Buy, hold, gift, transfer, or redeem your tokens at any time"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Vaulted Assets?",
+        "trust": {
+          "title": "Trust",
+          "description": "Backed by tangible, verified assets"
+        },
+        "technology": {
+          "title": "Technology",
+          "description": "Built on secure, scalable blockchain infrastructure"
+        },
+        "transparency": {
+          "title": "Transparency",
+          "description": "Regular third-party audits of both assets and smart contracts"
+        },
+        "userCentric": {
+          "title": "User-Centric Design",
+          "description": "Simple onboarding, real-time portfolio tracking, and multi-device access"
+        }
+      },
+      "commitment": {
+        "title": "Our Commitment",
+        "description": "We're committed to transparency, security, and trust:",
+        "vaultAudits": {
+          "title": "Independent Vault Audits",
+          "description": "For full asset verification"
+        },
+        "contractAudits": {
+          "title": "Smart Contract Audits",
+          "description": "To ensure token integrity"
+        },
+        "fairFees": {
+          "title": "Clear, Fair Fees",
+          "description": "For every transaction"
+        }
+      },
+      "cta": {
+        "title": "Vaulted Assets Is More Than An Investment Platform",
+        "subtitle": "It's the next evolution in how people hold and use real value!",
+        "description": "Whether you're a first-time investor or an institution, our mission is the same: to give you a safe, flexible, and future-ready way to own precious metals.",
+        "getStarted": "Get Started Today",
+        "contactUs": "Contact Us"
+      }
+    },
+    "whitepaper": {
+      "title": "Whitepaper",
+      "subtitle": "From Vault to Wallet: Blockchain-Powered Gold & Silver Investment Platform",
+      "description": "Technical documentation for our precious metals tokenization platform",
+      "downloadPdf": "Download PDF",
+      "viewOnline": "View Online",
+      "lastUpdated": "Last updated: Sep 2025 Version 1.2",
+      "executiveSummary": {
+        "title": "Executive Summary",
+        "intro": "Vaulted Assets is launching a secure, multi-chain digital investment platform that allows users to easily buy gold and silver online and receive equivalent digital currency in return. These digital tokens GLD for gold and SLV for silver are available on Ethereum (ERC-20 standard), Solana (SPL-20), and Canton Network to cater to a wide range of user preferences across both public and private blockchain ecosystems and represent the value of the physical precious metals users invest in.",
+        "concept": "The idea is simple: users invest their money to purchase gold or silver, and in return, they receive digital tokens that can be stored, gifted, used for transactions, or redeemed later. The platform brings the stability of traditional assets like gold and silver into the convenience of a digital form.",
+        "tokens": "When users buy gold or silver through the platform, they are issued GLD or SLV tokens   digital currencies backed 1:1 by real physical assets and built on the ERC-20, SPL-20, or Canton network standard. These tokens act as digital representations of the user's investment, combining the safety of precious metals with the flexibility of digital usage.",
+        "features": "Designed for both new and experienced investors, the platform offers a seamless web experience for onboarding, token management, and transactions. Users can view their holdings, make redemptions, gift tokens to others, or even participate in referral programs. To ensure security and ease of access, the platform supports multi-wallet login, hybrid Web2/Web3 infrastructure, and fiat on-ramp options. Support for the Canton Network also allows institutional privacy for enterprise users who require confidential asset handling.",
+        "vision": "Vaulted Assets' vision is to make investing in gold and silver as simple and usable as spending digital money   giving users true value they can hold, use, and trust."
+      },
+      "problemStatement": {
+        "title": "Problem Statement",
+        "intro": "Investing in precious metals like gold and silver has always been seen as a safe and reliable way to preserve wealth. However, the traditional process of buying, storing, and using these assets comes with several challenges:",
+        "inaccessibility": {
+          "title": "Inaccessibility for the average user",
+          "description": "Physical gold and silver often require high upfront costs, complex documentation, and secure storage solutions, making them less practical for everyday investors."
+        },
+        "liquidity": {
+          "title": "Lack of liquidity and utility",
+          "description": "Once purchased, physical assets are difficult to use or transfer in day-to-day transactions. Investors cannot easily gift or spend their holdings without converting them back to cash, which can be time-consuming and costly."
+        },
+        "transparency": {
+          "title": "Limited transparency and control",
+          "description": "Many gold and silver investment schemes lack transparency regarding custody, pricing, and audit processes, leaving investors unsure about the safety and value of their holdings."
+        },
+        "digitalBarriers": {
+          "title": "Barriers to digital adoption",
+          "description": "While cryptocurrencies offer flexibility, they are often volatile and not backed by real-world value, which deters risk-averse users from adopting them."
+        },
+        "conclusion": "In short, there is a growing demand for an investment option that combines the stability of physical assets with the usability of digital currency   allowing people to safely invest in gold or silver and receive tokens that are easy to manage, transfer, and redeem in real time."
+      },
+      "marketOpportunity": {
+        "title": "Market Opportunity",
+        "intro": "Gold and silver have long been trusted as stable stores of value, especially in times of economic uncertainty. In parallel, digital payments and token-based economies are rapidly gaining global adoption. This creates a unique opportunity at the intersection of traditional investments and digital usability.",
+        "trends": {
+          "title": "Key market trends that support this shift:",
+          "risingDemand": {
+            "title": "Rising demand for gold/silver investments",
+            "description": "In recent years, retail interest in precious metals has surged, driven by inflation fears, geopolitical uncertainty, and a desire for financial security. According to World Gold Council data, global gold demand from retail investors has remained consistently strong, with gold seen as a reliable hedge against market volatility."
+          },
+          "digitalPayments": {
+            "title": "Growth in digital payment ecosystems",
+            "description": "Users around the world are moving away from traditional banking and looking for flexible, digital-first solutions. Digital wallets, tokenized assets, and mobile-first platforms are becoming mainstream."
+          },
+          "platformLack": {
+            "title": "Lack of user-friendly gold investment platforms",
+            "description": "Most existing solutions focus either on physical ownership (with storage and access hurdles) or purely speculative gold-backed tokens, which lack everyday usability and transparency."
+          },
+          "valueBacked": {
+            "title": "Shift toward value-backed digital currencies",
+            "description": "While cryptocurrencies have opened doors for digital financial tools, their high volatility limits real-world use. There's growing interest in digital tokens that are stable, asset-backed, and practical for transactions — a gap that Vaulted Assets aims to fill."
+          }
+        },
+        "goldSilverDemand": {
+          "title": "Strong Investment Appetite for Gold & Silver",
+          "q1Data": "In Q1 2025, global gold demand rose to 1,206 tonnes, a 1% year-over-year increase and the highest first-quarter total since 2016.",
+          "investmentSurge": "Investment demand alone surged by 170% YoY to 552t, driven mainly by ETF inflows and retail purchases in Asia.",
+          "sentiment": "Global sentiment toward gold remains strong: prices have climbed ~29% in 2025, trading near $3,398/oz, greatly outperforming equity indices such as the S&P 500 (~8.1%)",
+          "silverDemand": "In 2025, Silver demand (~1.148 bn oz) is expected to exceed supply (~1.031 bn oz) by approximately 117.6 million ounces.",
+          "q1Demand": "Q1 2025 global gold demand: 1,206t",
+          "investmentSurgePercent": "YoY investment demand surge: 170%",
+          "priceIncrease": "Gold price increase in 2025: 29%"
+        },
+        "trendsTable": {
+          "trend": "Trend",
+          "relevance": "Relevance to Vaulted Assets Platform",
+          "risingDemand": "Rising precious metal demand",
+          "risingDemandRelevance": "Users want gold/silver exposure in easy, divisible formats",
+          "digitalPayments": "Growth in digital payments",
+          "digitalPaymentsRelevance": "Consumers expect seamless digital access and usage",
+          "assetTokenization": "Expanding asset tokenization",
+          "assetTokenizationRelevance": "Validates market potential for tokens backed by real assets"
+        },
+        "conclusion": "By offering a platform that allows users to invest in gold or silver and receive usable digital currency in return, Vaulted Assets is tapping into two strong and growing markets: the enduring demand for precious metals and the accelerating shift toward digital financial tools. This positions the platform as a reliable, secure, and future-ready solution for both traditional investors and digitally savvy users."
+      },
+      "proposedSolution": {
+        "title": "Proposed Solution",
+        "intro": "Vaulted Assets presents a modern, secure, and accessible solution that allows individuals to invest in physical gold and silver   and receive equivalent digital currency tokens (GLD and SLV) in return. These tokens, built on the ERC-20, SPL-20, or Canton network standard, can be held, used, gifted, or redeemed by users at any time through a clean, intuitive platform interface.",
+        "keyHighlights": "Key Highlights of the Solution:",
+        "backedTokens": {
+          "title": "Gold and Silver-Backed Digital Tokens",
+          "description": "Users invest in real, fully backed physical gold or silver. In return, they receive GLD or SLV tokens that represent their holdings. These tokens are usable like digital currency   they can be transferred, gifted, or redeemed, making them more functional than traditional gold/silver investments."
+        },
+        "platform": {
+          "title": "Easy-to-Use Investor Platform",
+          "description": "A user-friendly web-based platform for onboarding, KYC, investing, and transaction management. Investors can view balances, track transaction history, redeem tokens, and send GLD/SLV to others. Gifting features and referral incentives are integrated to drive platform engagement."
+        },
+        "walletSupport": {
+          "title": "Hybrid Wallet Support",
+          "description": "Users can access their tokens through secure custodial wallets. The hybrid setup supports both Web2 (email/password) and Web3 (wallet connect) users. Custodial wallet integration ensures institutional-grade custody and security for all transactions."
+        },
+        "digitalExperience": {
+          "title": "Branded Digital Experience",
+          "description": "The platform will be deployed as a fully branded web application, with customizable identity and token visuals. Supports multi-wallet login and third-party fiat on-ramp services for quick fund transfers and conversions."
+        },
+        "adminDashboard": {
+          "title": "Powerful Admin Dashboard",
+          "description": "A backend system for Vaulted Assets to manage token minting and burning based on gold/silver reserves. Real-time oversight of AML compliance, user activity, and gifting thresholds. Built-in analytics to monitor platform usage, growth, and referral performance."
+        },
+        "cantonNetwork": {
+          "title": "Institutional Privacy Layer- Canton Network",
+          "description": "For enterprise or high-net-worth users, the Canton Network integration will offer private transaction layers. Ensures transaction confidentiality and regulatory flexibility for institutional investors."
+        },
+        "conclusion": "By combining the trust and value of physical precious metals with the convenience and usability of digital finance, Vaulted Assets provides a future-ready investment platform that appeals to both traditional investors and modern digital users."
+      },
+      "tokenStructure": {
+        "title": "Token Structure",
+        "gld": {
+          "title": "GLD Token (Gold-Backed Digital Currency)",
+          "backedAsset": {
+            "title": "Backed Asset",
+            "description": "1 GLD token = 1 gram (or equivalent unit) of physical gold"
+          },
+          "standard": {
+            "title": "Standard",
+            "description": "ERC-20, deployed on the Ethereum blockchain, SPL-20, deployed on the Solana blockchain, or deployed on the Canton network"
+          },
+          "features": {
+            "title": "Features",
+            "redeemable": "Redeemable: Users can redeem GLD for its gold equivalent (as per platform redemption policies)",
+            "usable": "Usable: Can be transferred, gifted, or held in a secure hybrid wallet",
+            "transparent": "Transparent: Each token is traceable on-chain, with reserves verified and audited"
+          }
+        },
+        "slv": {
+          "title": "SLV Token (Silver-Backed Digital Currency)",
+          "backedAsset": {
+            "title": "Backed Asset",
+            "description": "1 SLV token = 1 gram (or equivalent unit) of physical silver"
+          },
+          "standard": {
+            "title": "Standard",
+            "description": "ERC-20, deployed on the Ethereum blockchain, SPL-20, deployed on the Solana blockchain, or deployed on the Canton network"
+          },
+          "features": {
+            "title": "Features",
+            "realValue": "Real-world value: Reflects silver spot price",
+            "fullUtility": "Full utility: Transferable, giftable, and redeemable",
+            "transparent": "Transparent and audit-compliant"
+          }
+        },
+        "lifecycle": {
+          "title": "Token Lifecycle",
+          "step1": "User invests in gold or silver via fiat or digital payment",
+          "step2": "Equivalent GLD/SLV tokens are minted and credited to the user's wallet",
+          "step3": "Tokens can be held, transferred, or gifted through the investor platform",
+          "step4": "Users may choose to redeem tokens for the physical asset or convert back to fiat",
+          "step5": "Redeemed tokens are burned to maintain supply consistency with actual reserves"
+        }
+      },
+      "custodyFramework": {
+        "title": "Underlying Gold/Silver Custody Framework",
+        "intro": "The trustworthiness of the Vaulted Assets platform relies heavily on the strength and transparency of its gold and silver custody system. To ensure that every GLD or SLV token is securely backed by real-world assets, the platform has established a well-defined and audit-ready custody framework.",
+        "physicalCustody": {
+          "title": "Physical Asset Custody",
+          "assetType": {
+            "label": "Asset Type",
+            "description": "Physical investment-grade gold and silver (e.g., 999 purity bars or coins)"
+          },
+          "storagePartners": {
+            "label": "Storage Partners",
+            "description": "Vaulted Assets partners with certified and insured third-party vaulting providers to store the precious metals in secure facilities"
+          },
+          "geographic": {
+            "label": "Geographic Distribution",
+            "description": "Vaults are strategically located in compliant jurisdictions to ensure international access and regulatory reliability"
+          }
+        },
+        "guarantees": {
+          "assetBacked": "Asset-Backed",
+          "monitoring": "Monitoring",
+          "audited": "Audited",
+          "uptime": "Uptime"
+        },
+        "features": {
+          "guarantee": {
+            "title": "1:1 Asset-Backed Guarantee",
+            "description": "Each GLD or SLV token in circulation is fully backed by an equivalent amount of physical gold or silver held in custody. New tokens are minted only when actual metal deposits are confirmed; redemptions result in corresponding token burns."
+          },
+          "audits": {
+            "title": "Third-Party Audits & Transparency",
+            "description": "Independent auditors verify the quantity and quality of the stored gold and silver at regular intervals. Smart contract audits are conducted by reputed blockchain security firms to ensure token issuance, redemption, and custody mechanisms are safe, accurate, and tamper-proof."
+          },
+          "tracking": {
+            "title": "Real-Time Reserve Tracking",
+            "description": "Users can view token supply versus reserve holdings in real time via on-chain dashboards. A public Proof-of-Reserve mechanism ensures that token issuance never exceeds available vault holdings."
+          },
+          "logistics": {
+            "title": "Secure Logistics & Insurance",
+            "description": "All stored assets are insured against theft, loss, and damage through globally recognized underwriters. Logistics for redemption follow strict chain-of-custody and KYC-compliant procedures."
+          }
+        }
+      },
+      "platformArchitecture": {
+        "title": "Platform Architecture",
+        "intro": "This is the tech stack behind the platform. Smart contracts manage minting, burning, pricing, and security. The web portal will be user-friendly and mobile-compatible. The admin dashboard gives full control to manage users, tokens, redemptions, and compliance. The Canton Network can be used for institutional-grade privacy and control.",
+        "overview": "Here's a complete overview of platform architecture:",
+        "smartContracts": {
+          "title": "1. Smart Contracts & Token Logic",
+          "description": "Core platform functions like minting, burning, redemption, and price calculation are handled through secure smart contracts, ensuring transparency and minimizing human intervention."
+        },
+        "userDashboard": {
+          "title": "2. User Dashboard",
+          "description": "A responsive and intuitive dashboard allows users to register, buy tokens, track holdings in real-time, refer others, and initiate redemptions."
+        },
+        "hybridWallet": {
+          "title": "3. Hybrid Wallet Infrastructure",
+          "description": "Supporting both custodial and self-custody options, the platform accommodates users who prefer simple Web2-style access alongside those who want full Web3 control."
+        },
+        "multiChain": {
+          "title": "4. Multi-Chain Support",
+          "description": "Built to operate across Ethereum, Solana, and Canton networks, ensuring users can choose their preferred blockchain environment."
+        },
+        "adminControls": {
+          "title": "5. Admin Controls & Compliance",
+          "description": "Backend tools for managing token supply, monitoring transactions, enforcing AML/KYC requirements, and maintaining reserve ratios."
+        },
+        "security": {
+          "title": "6. Security & Auditing",
+          "description": "Multi-layer security protocols, regular smart contract audits, and continuous monitoring to protect user assets and platform integrity."
+        }
+      },
+      "cta": {
+        "title": "Join the Future of Digital Gold and Silver",
+        "subtitle": "Revolutionary blockchain-powered precious metals investment",
+        "description": "Experience the perfect combination of traditional asset security and modern digital convenience with Vaulted Assets.",
+        "getStarted": "Get Started Today",
+        "downloadWhitepaper": "Download Full Whitepaper"
+      }
+    },
+    "privacyPolicy": {
+      "title": "Vaulted Assets  Privacy Policy",
+      "effectiveDate": "Effective Date: [Insert Date]",
+      "introduction": {
+        "text1": "Vaulted Assets (\"we,\" \"our,\" \"us\") is committed to protecting your personal information and respecting your privacy. This Privacy Policy explains how we collect, use, store, and share your data when you use our platform, including our web and mobile applications, to purchase, hold, transfer, and redeem tokenized gold and silver.",
+        "text2": "By using Vaulted Assets, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use our services."
+      },
+      "section1": {
+        "title": "1. Information We Collect",
+        "intro": "We collect the following categories of information:",
+        "personal": {
+          "title": "Personal Information:",
+          "description": "Name, email, phone number, and identification documents (for KYC/AML compliance)."
+        },
+        "financial": {
+          "title": "Financial Information:",
+          "description": "Payment method details, transaction records, and wallet addresses."
+        },
+        "blockchain": {
+          "title": "Blockchain Data:",
+          "description": "Public wallet addresses, transaction hashes, and balances on Ethereum, Solana, and other supported blockchains. While this data is public and pseudonymous, users should be aware that advanced analytics may allow de-anonymization."
+        },
+        "institutional": {
+          "title": "Institutional Privacy (Canton Network):",
+          "description": "For institutional users leveraging Canton, enhanced privacy measures apply, ensuring that transaction data is not globally broadcast and remains accessible only to authorized parties."
+        },
+        "technical": {
+          "title": "Technical Data:",
+          "description": "IP addresses, device information, browser type, and cookies (see our Cookie Policy)."
+        },
+        "usage": {
+          "title": "Usage Analytics:",
+          "description": "Clickstream data, platform usage patterns, referral codes, and aggregated behavior for service improvement."
+        }
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "intro": "We process your information to:",
+        "uses": {
+          "provide": "Provide platform services and execute transactions.",
+          "verify": "Verify identities and comply with KYC/AML regulations.",
+          "improve": "Improve, customize, and secure the platform.",
+          "enable": "Enable fiat on/off-ramp functionality and cross-chain transfers.",
+          "conduct": "Conduct analytics for performance optimization.",
+          "support": "Provide customer support and respond to inquiries.",
+          "meet": "Meet regulatory and legal obligations."
+        }
+      },
+      "section3": {
+        "title": "3. Legal Basis for Processing",
+        "intro": "We process personal data under one or more of the following legal bases:",
+        "bases": {
+          "contract": {
+            "title": "Performance of a Contract",
+            "description": "To fulfill our obligations to you."
+          },
+          "legal": {
+            "title": "Legal Obligation",
+            "description": "To comply with laws and regulations."
+          },
+          "legitimate": {
+            "title": "Legitimate Interests",
+            "description": "To operate and improve our platform securely."
+          },
+          "consent": {
+            "title": "Consent",
+            "description": "Where you have explicitly agreed (e.g., for marketing)."
+          }
+        }
+      },
+      "section4": {
+        "title": "4. Data Sharing and Third-Party Integrations",
+        "intro": "We may share your information in the following cases:",
+        "cases": {
+          "blockchain": {
+            "title": "Blockchain Networks:",
+            "description": "Transactions submitted to blockchains are publicly visible and immutable. We cannot control how third parties analyze this data."
+          },
+          "fiat": {
+            "title": "Fiat On-Ramps / Payment Providers:",
+            "description": "To process deposits/withdrawals, relevant personal and financial data may be shared securely with licensed providers."
+          },
+          "wallets": {
+            "title": "Third-Party Wallets & Bridges:",
+            "description": "If you use external wallets or cross-chain services, certain identifiers (e.g., wallet address, transaction metadata) may be shared for transaction execution."
+          },
+          "analytics": {
+            "title": "Analytics Providers:",
+            "description": "Aggregated and anonymized usage data may be shared for platform improvement."
+          },
+          "legal": {
+            "title": "Legal/Regulatory Requests:",
+            "description": "We may disclose data to comply with applicable laws, regulators, or law enforcement."
+          }
+        },
+        "noSale": "We do not sell your personal information."
+      },
+      "section5": {
+        "title": "5. Data Storage & Security",
+        "measures": {
+          "encryption": {
+            "title": "Encryption:",
+            "description": "All sensitive data is encrypted at rest (AES-256) and in transit (TLS 1.3)."
+          },
+          "access": {
+            "title": "Access Control:",
+            "description": "Role-based permissions with multi-factor authentication (MFA)."
+          },
+          "backups": {
+            "title": "Backups:",
+            "description": "Geographically distributed encrypted backups for disaster recovery."
+          },
+          "physical": {
+            "title": "Physical Security:",
+            "description": "Custodian vaults comply with industry-leading safety standards."
+          }
+        }
+      },
+      "section6": {
+        "title": "6. Data Security and Breach Notification",
+        "protocols": "We apply strong security protocols including AES-256 encryption, Multi-Sig wallets, cold storage, and regular audits.",
+        "breachIntro": "In the event of a data breach involving personal data:",
+        "breachSteps": {
+          "users": "Affected users will be notified within 72 hours, in compliance with GDPR and other regulatory frameworks.",
+          "authorities": "Relevant authorities will also be informed as required."
+        }
+      },
+      "section7": {
+        "title": "7. Cookies, Tracking, and Opt-Outs",
+        "intro": "We use cookies and similar tracking technologies as described in our Cookie Policy. These include:",
+        "types": {
+          "essential": {
+            "title": "Essential Cookies:",
+            "description": "Required for platform security and login functionality."
+          },
+          "performance": {
+            "title": "Performance Analytics:",
+            "description": "Track usage trends to improve services."
+          },
+          "referral": {
+            "title": "Referral & Marketing Tags:",
+            "description": "Non-essential cookies for campaign performance and referral tracking."
+          }
+        },
+        "optOut": {
+          "title": "Opt-Out:",
+          "description": "You may disable non-essential cookies via your account settings or through your browser preferences. Certain features may not function if cookies are disabled."
+        }
+      },
+      "section8": {
+        "title": "8. Children's Privacy and Sensitive Data",
+        "children": "Our platform is intended only for users aged 18 and above. We do not knowingly collect data from children under 18. If we become aware that a minor has submitted data, we will delete it immediately.",
+        "sensitive": "Sensitive data, including biometric information for KYC purposes, is stored securely and processed only by approved third-party providers under strict compliance requirements."
+      },
+      "section9": {
+        "title": "9. International Data Transfers",
+        "description": "Your data may be transferred to and processed in jurisdictions outside your home country, including locations where data protection laws may differ. We ensure adequate protection through contractual safeguards or other lawful mechanisms."
+      },
+      "section10": {
+        "title": "10. Data Retention",
+        "intro": "We retain your personal data:",
+        "periods": {
+          "account": "For as long as you maintain an account with us.",
+          "regulations": "For a minimum period required under financial regulations (typically 57 years).",
+          "legal": "Longer if necessary for legal, audit, or dispute resolution purposes."
+        }
+      },
+      "section11": {
+        "title": "11. Your Rights",
+        "intro": "You have the right to:",
+        "rights": {
+          "access": {
+            "title": "Access",
+            "description": "the personal data we hold about you."
+          },
+          "correct": {
+            "title": "Correct",
+            "description": "inaccurate or incomplete information."
+          },
+          "delete": {
+            "title": "Delete",
+            "description": "your personal data (subject to legal retention requirements)."
+          },
+          "restrict": {
+            "title": "Restrict Processing",
+            "description": "in certain circumstances."
+          },
+          "object": {
+            "title": "Object",
+            "description": "to certain types of processing, including direct marketing."
+          },
+          "portability": {
+            "title": "Data Portability",
+            "description": " Request a copy of your data in a machine-readable format."
+          }
+        },
+        "contact": "To exercise these rights, contact us at ..."
+      },
+      "section12": {
+        "title": "12. Updates to This Privacy Policy",
+        "description": "We may update this Privacy Policy from time to time. Updates will be posted on our platform, and significant changes will be communicated via email or in-app notifications."
+      },
+      "links": {
+        "title": "Links to Other Policies",
+        "terms": "Terms of Use",
+        "cookie": "Cookie Policy",
+        "security": "Security & Compliance Policy"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have questions about this Privacy Policy or your personal data, please contact:",
+        "info": "Email: privacy@vaultedassets.com\nAddress: 123 Financial District, Suite 456, New York, NY 10004\nData Protection Officer: dpo@vaultedassets.com"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "titleHighlight": "Vaulted Assets",
+      "subtitle": "Get in touch with our team for support, partnerships, or inquiries",
+      "info": {
+        "title": "Get in Touch",
+        "email": {
+          "title": "Email",
+          "support": "support@vaultedassets.com",
+          "partnerships": "partnerships@vaultedassets.com"
+        },
+        "office": {
+          "title": "Office",
+          "address": "123 Financial District\nNew York, NY 10005\nUnited States"
+        },
+        "hours": {
+          "title": "Business Hours",
+          "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM EST",
+          "saturday": "Saturday: 10:00 AM - 2:00 PM EST",
+          "sunday": "Sunday: Closed"
+        }
+      },
+      "form": {
+        "title": "Send us a Message",
+        "fields": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "email": "Email Address",
+          "company": "Company (Optional)",
+          "subject": "Subject",
+          "message": "Message"
+        },
+        "placeholders": {
+          "firstName": "Enter your first name",
+          "lastName": "Enter your last name",
+          "email": "your.email@example.com",
+          "company": "Your company name",
+          "subject": "How can we help you?",
+          "message": "Tell us more about your inquiry..."
+        },
+        "buttons": {
+          "send": "Send Message",
+          "sending": "Sending...",
+          "clear": "Clear Form"
+        },
+        "success": {
+          "title": "Message Sent Successfully!",
+          "description": "Thank you for contacting us. We will get back to you soon."
+        },
+        "error": {
+          "title": "Failed to Send Message",
+          "description": "Please try again later."
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to common questions about Vaulted Assets",
+        "categories": {
+          "general": {
+            "title": "General Questions"
+          },
+          "tokens": {
+            "title": "Tokens & Blockchain"
+          },
+          "buying": {
+            "title": "Buying & Redeeming"
+          },
+          "fees": {
+            "title": "Fees & Transfers"
+          },
+          "security": {
+            "title": "Security & Compliance"
+          },
+          "crossChain": {
+            "title": "Cross-Chain Transfers"
+          },
+          "audit": {
+            "title": "Audit & Transparency"
+          },
+          "wallets": {
+            "title": "Wallets & Accessibility"
+          },
+          "gifting": {
+            "title": "Gifting & Referrals"
+          },
+          "jurisdictional": {
+            "title": "Jurisdictional Restrictions"
+          }
+        },
+        "questions": {
+          "q1": {
+            "question": "What is Vaulted Assets?",
+            "answer": "Vaulted Assets is a platform that allows you to buy, hold, transfer, and redeem gold- and silver-backed digital tokens. Each token represents direct ownership of fully allocated precious metals stored in secure vaults."
+          },
+          "q2": {
+            "question": "How is this different from buying gold or silver physically?",
+            "answer": "When you buy tokens through Vaulted Assets, you own real gold or silver stored in professional-grade vaults   but you can manage your holdings digitally, trade them instantly, and redeem them anytime."
+          },
+          "q3": {
+            "question": "Where are the metals stored?",
+            "answer": "All gold and silver are stored with approved custodians in high-security vaults located in regulated jurisdictions."
+          },
+          "q4": {
+            "question": "Are my holdings insured?",
+            "answer": "Yes, all vaulted assets are covered by comprehensive insurance policies provided by the custodians."
+          },
+          "q5": {
+            "question": "Which blockchains do you use?",
+            "answer": "Vaulted Assets supports both public blockchains (e.g., Solana, Ethereum) and private/permissioned blockchains (e.g., Canton) to meet different user needs."
+          },
+          "q6": {
+            "question": "Can I choose which blockchain my tokens are on?",
+            "answer": "Yes   you can select your preferred network when purchasing or transferring tokens."
+          },
+          "q7": {
+            "question": "Are blockchain transactions reversible?",
+            "answer": "No. Once a blockchain transaction is confirmed, it cannot be undone. Always double-check transaction details before confirming."
+          },
+          "q8": {
+            "question": "How can I buy tokens?",
+            "answer": "You can purchase tokens using supported fiat currencies or cryptocurrencies directly through our web or mobile app."
+          },
+          "q9": {
+            "question": "Can I redeem my tokens for physical gold or silver?",
+            "answer": "Yes. You can request redemption in the form of physical metals (subject to minimum amounts) or equivalent fiat value."
+          },
+          "q10": {
+            "question": "How long does redemption take?",
+            "answer": "Delivery timelines depend on your location, availability, and the selected method (physical delivery or cash settlement)."
+          },
+          "q11": {
+            "question": "What fees apply?",
+            "answer": "We charge fees for transactions, storage, and blockchain transfers. Fees vary depending on whether you use a public or private blockchain."
+          },
+          "q12": {
+            "question": "Are transfers between Vaulted Assets users free?",
+            "answer": "Transfers on private blockchains may have reduced or zero fees. Transfers on public blockchains may incur network gas fees."
+          },
+          "q13": {
+            "question": "How is my account secured?",
+            "answer": "We use strong encryption, two-factor authentication (2FA), and multiple security layers for both wallets and platform access."
+          },
+          "q14": {
+            "question": "Do I need to verify my identity?",
+            "answer": "Yes   all users must complete AML/KYC verification to comply with global regulations."
+          },
+          "q15": {
+            "question": "What happens if Vaulted Assets shuts down?",
+            "answer": "Your metals remain your property. In the event of platform closure, you will be able to redeem your holdings or transfer them to an alternative custodian."
+          },
+          "q16": {
+            "question": "Can I move my tokens between Ethereum, Solana, and Canton?",
+            "answer": "Yes. We support cross-chain transfers through trusted bridges and in some cases via separate issuance models (where a token can be redeemed on one chain and reissued on another). Our documentation explains the specific process for GLD and SLV."
+          },
+          "q17": {
+            "question": "Will bridging affect my ownership of the tokens?",
+            "answer": "No. Whether you hold GLD on Ethereum or Solana, each token is fully backed 1:1 by physical reserves in our vaults."
+          },
+          "q18": {
+            "question": "How do I know tokens are fully backed by gold and silver reserves?",
+            "answer": "Vaulted Assets maintains Proof-of-Reserves with regular third-party audits. We also publish a live dashboard showing token supply against audited vault holdings, so users can verify backing at any time."
+          },
+          "q19": {
+            "question": "Who conducts the audits?",
+            "answer": "Independent, accredited auditing firms conduct our reserve verifications to ensure transparency and trust."
+          },
+          "q20": {
+            "question": "Do I need a crypto wallet to use Vaulted Assets?",
+            "answer": "Not necessarily. Our hybrid wallet system allows you to choose between: Custodial wallets (simple, Web2-style login, no technical knowledge needed). Self-custody wallets (e.g., MetaMask, Phantom, or Canton-compatible solutions)."
+          },
+          "q21": {
+            "question": "Can I use my existing wallet?",
+            "answer": "Yes, you can connect your own Web3 wallet to manage your GLD and SLV tokens if you prefer self-custody."
+          },
+          "q22": {
+            "question": "Can I gift tokens to someone else?",
+            "answer": "Yes. Our platform enables token gifting, so you can send gold or silver to family and friends directly."
+          },
+          "q23": {
+            "question": "Do you offer referral incentives?",
+            "answer": "Yes. Vaulted Assets runs referral programs where existing users can invite others and earn rewards in tokens. Details are available in your account dashboard."
+          },
+          "q24": {
+            "question": "Can I use Vaulted Assets in my country?",
+            "answer": "Our services are subject to local laws and regulations. Some jurisdictions may restrict or prohibit participation in digital asset platforms. Please review our Terms of Use and consult your local regulations before investing."
+          },
+          "q25": {
+            "question": "Is the platform available to U.S. or EU users?",
+            "answer": "Availability varies by product. Certain features may be restricted based on compliance requirements. We will notify users during onboarding if access is limited."
+          }
+        }
+      }
+    }
+  },
+  "toasts": {
+    "transactionTimeout": "Transaction timeout - please try again",
+    "databaseUpdateFailed": "Database update failed",
+    "invalidRedemptionData": "Invalid redemption data",
+    "transactionSubmitted": "Transaction Submitted",
+    "waitingForConfirmation": "Waiting for blockchain confirmation...",
+    "unknownNetworkType": "Unknown network type - cannot cancel",
+    "referralLinkCopied": "Referral link copied to clipboard!",
+    "failedToCopyLink": "Failed to copy link",
+    "enterEmailAddress": "Please enter an email address",
+    "enterValidEmail": "Please enter a valid email address",
+    "authenticationRequired": "Authentication Required",
+    "sessionExpired": "Session Expired",
+    "walletConnected": "Wallet Connected",
+    "walletConnectionError": "Wallet Connection Error",
+    "transferInitiated": "{{token}} Transfer Initiated",
+    "transferringTokens": "Transferring {{amount}} {{symbol}} tokens to {{address}}",
+    "transferFailed": "{{token}} Transfer Failed",
+    "transferFailedDesc": "Failed to transfer {{token}} tokens",
+    "transferSuccessful": "{{token}} Transfer Successful",
+    "transferSuccessfulDesc": "{{token}} tokens transferred successfully! Transaction: {{hash}}...",
+    "transactionError": "{{token}} Transaction Error",
+    "transactionFailed": "Transaction failed",
+    "loginRequired": "Please log in to your account first",
+    "sessionExpiredDesc": "Your session has expired. Please log in again",
+    "connectWalletDesc": "Connect your wallet to continue",
+    "redemptionRequestInitiated": "{{token}} Redemption Request Initiated",
+    "redemptionRequestDescription": "Requesting redemption of {{quantity}} {{symbol}} tokens for physical delivery.",
+    "redemptionRequestFailed": "{{token}} Redemption Request Failed",
+    "redemptionRequestFailedDescription": "Failed to request {{token}} redemption",
+    "redemptionCancellationInitiated": "{{token}} Redemption Cancellation Initiated",
+    "redemptionCancellationDescription": "Cancelling redemption request #{{requestId}} for {{symbol}} tokens.",
+    "redemptionCancellationFailed": "{{token}} Redemption Cancellation Failed",
+    "redemptionCancellationFailedDescription": "Failed to cancel {{token}} redemption request"
+  },
+  "payment": {
+    "sessionCreated": "Payment Session Created",
+    "redirectingToPayment": "Redirecting to secure payment...",
+    "error": "Payment Error",
+    "initializingPayment": "Initializing payment...",
+    "paymentError": "Payment Error",
+    "tryAgain": "Try Again",
+    "goBack": "Go Back",
+    "readyToPay": "Ready to Pay",
+    "securePaymentReady": "Your secure payment session is ready to proceed.",
+    "amount": "Amount",
+    "purchasing": "Purchasing",
+    "tokens": "Tokens",
+    "walletAddress": "Wallet Address",
+    "proceedToPayment": "Proceed to Payment",
+    "cancel": "Cancel",
+    "secureNote": "Secure payment powered by Transak • Your funds are protected",
+    "windowClosed": "Payment Window Closed",
+    "checkTransactionStatus": "Please check your transaction history for payment status."
+  }
+}

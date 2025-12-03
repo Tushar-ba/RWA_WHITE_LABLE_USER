@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* New Brand Colors */
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(0, 0%, 0%);
+  --muted: hsl(42, 64%, 95%);
+  --muted-foreground: hsl(28, 67%, 33%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(0, 0%, 0%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(0, 0%, 0%);
+  --border: hsl(42, 64%, 85%);
+  --input: hsl(42, 64%, 85%);
+  --primary: hsl(28, 67%, 33%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(42, 61%, 51%);
+  --secondary-foreground: hsl(0, 0%, 0%);
+  --accent: hsl(42, 64%, 69%);
+  --accent-foreground: hsl(0, 0%, 0%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(28, 67%, 33%);
+  --radius: 0.5rem;
+}
+
+.dark {
+  /* Dark theme with pure black background */
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(42, 64%, 69%);
+  --muted: hsl(0, 0%, 8%);
+  --muted-foreground: hsl(42, 64%, 69%);
+  --popover: hsl(0, 0%, 0%);
+  --popover-foreground: hsl(42, 64%, 69%);
+  --card: hsl(0, 0%, 0%);
+  --card-foreground: hsl(42, 64%, 69%);
+  --border: hsl(0, 0%, 15%);
+  --input: hsl(0, 0%, 15%);
+  --primary: hsl(42, 64%, 69%);
+  --primary-foreground: hsl(0, 0%, 0%);
+  --secondary: hsl(42, 61%, 51%);
+  --secondary-foreground: hsl(0, 0%, 0%);
+  --accent: hsl(28, 67%, 33%);
+  --accent-foreground: hsl(42, 64%, 69%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(42, 64%, 69%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Background grid pattern */
+.bg-grid-pattern {
+  background-image: url("data:image/svg+xml,%3csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3e%3cg fill='none' fill-rule='evenodd'%3e%3cg fill='%239C92AC' fill-opacity='0.1'%3e%3ccircle cx='30' cy='30' r='4'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+}

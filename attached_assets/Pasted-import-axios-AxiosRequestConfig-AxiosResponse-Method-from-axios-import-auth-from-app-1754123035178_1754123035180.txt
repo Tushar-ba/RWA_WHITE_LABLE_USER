@@ -1,0 +1,103 @@
+import axios, { AxiosRequestConfig, AxiosResponse, Method } from 'axios';
+import { auth } from 'app';
+import { useAuthStore } from 'store/authStore'; 
+import { firebaseAuth } from '@/app/auth/firebase'; 
+
+// Main axios instance with default baseURL and headers
+const axiosMain = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+console.log(import.meta.env.VITE_API_BASE_URL);
+// Interceptor: Remove Content-Type if FormData is detected
+axiosMain.interceptors.request.use(
+  (config) => {
+    if (config.data instanceof FormData) {
+      if (config.headers && typeof config.headers === 'object') {
+        delete config.headers['Content-Type'];
+      }
+    }
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
+axiosMain.interceptors.response.use(
+  (response) => response,
+  async (error) => {
+    const originalRequest = error.config;
+
+    // If 401 and not already retried
+    if (error.response && error.response.status === 401 && !originalRequest._retry) {
+      originalRequest._retry = true;
+
+      // Try to refresh token
+      const user = firebaseAuth.currentUser;
+      if (user) {
+        try {
+          const newToken = await user.getIdToken(true); // force refresh
+          // Update Zustand store
+          const setAuth = useAuthStore.getState().setAuth;
+          setAuth(user, newToken);
+
+          // Update Authorization header and retry request
+          originalRequest.headers['Authorization'] = `Bearer ${newToken}`;
+          return axiosMain(originalRequest);
+        } catch (refreshError) {
+          // Optionally: handle refresh error (e.g., logout)
+        }
+      }
+    }
+    return Promise.reject(error);
+  }
+);
+
+// Utility to set the base URL dynamically
+export const setBaseUrl = (baseUrl: string) => {
+  axiosMain.defaults.baseURL = baseUrl;
+};
+
+// Clean utility function for API requests
+export interface AxiosRequestUtilOptions {
+  url: string;
+  method?: Method;
+  payload?: any;
+  baseUrl?: string;
+  token?: string;
+  customHeaders?: Record<string, string>;
+}
+
+export async function axiosRequestUtil<T = any>({
+  url,
+  method = 'GET',
+  payload,
+  baseUrl,
+  token,
+  customHeaders = {},
+}: AxiosRequestUtilOptions): Promise<T> {
+  // Set Authorization and merge custom headers
+  const headers: Record<string, string> = {
+    ...(token ? { Authorization: `Bearer ${token}` } : { }),
+    ...customHeaders,
+  };
+
+  // Optionally set base URL
+  if (baseUrl) setBaseUrl(baseUrl);
+
+  const config: AxiosRequestConfig = {
+    method,
+    url,
+    headers,
+  };
+
+  if (payload) {
+    config.data = payload;
+  }
+
+  const response = await axiosMain.request<T>(config);
+  return response.data;
+}
+
+export default axiosMain; 

@@ -1,0 +1,539 @@
+import { ethers } from 'ethers';
+import { storage } from '../storage/index.js';
+import { Logger } from '../utils/logger.js';
+
+// Contract ABIs - TransferWithFee and RedemptionRequested event structures
+const TransferWithFeeEvent = [
+  "event TransferWithFee(address indexed from, address indexed to, uint256 value, uint256 fee)"
+];
+
+const RedemptionRequestedEvent = [
+  "event RedemptionRequested(uint256 indexed requestId, address indexed user, uint256 amount)"
+];
+
+interface TransferWithFeeEventData {
+  from: string;
+  to: string;
+  value: bigint;
+  fee: bigint;
+  transactionHash: string;
+  blockNumber: number;
+  tokenAddress: string;
+}
+
+interface RedemptionRequestedEventData {
+  requestId: bigint;
+  user: string;
+  amount: bigint;
+  transactionHash: string;
+  blockNumber: number;
+  tokenAddress: string;
+}
+
+export class BlockchainListener {
+  private provider: ethers.JsonRpcProvider | null = null;
+  private goldContract: ethers.Contract | null = null;
+  private silverContract: ethers.Contract | null = null;
+  private isListening = false;
+
+  constructor() {
+    this.initializeProvider();
+  }
+
+  private initializeProvider() {
+    try {
+      // Use a public RPC endpoint or configure your own
+      const rpcUrl = process.env.ETHEREUM_RPC_URL || 'https://ethereum-holesky-rpc.publicnode.com';
+      this.provider = new ethers.JsonRpcProvider(rpcUrl);
+      
+      const goldTokenAddress = process.env.GOLD_TOKEN_CONTRACT?.trim();
+      const silverTokenAddress = process.env.SILVER_TOKEN_CONTRACT?.trim();
+
+      if (goldTokenAddress) {
+        this.goldContract = new ethers.Contract(
+          goldTokenAddress,
+          [...TransferWithFeeEvent, ...RedemptionRequestedEvent],
+          this.provider
+        );
+      }
+
+      if (silverTokenAddress) {
+        this.silverContract = new ethers.Contract(
+          silverTokenAddress,
+          [...TransferWithFeeEvent, ...RedemptionRequestedEvent],
+          this.provider
+        );
+      }
+
+      Logger.info('Blockchain listener initialized');
+    } catch (error) {
+      Logger.error('Failed to initialize blockchain listener:', error);
+    }
+  }
+
+  async startListening() {
+    if (this.isListening || !this.provider) {
+      return;
+    }
+
+    this.isListening = true;
+    Logger.info('Starting blockchain event listener for TransferWithFee events');
+
+    try {
+      // Get current block number to process recent events
+      const currentBlock = await this.provider.getBlockNumber();
+      const fromBlock = Math.max(0, currentBlock - 2000); // Process last 2000 blocks to catch the user's transaction
+      
+      Logger.info(`Processing events from block ${fromBlock} to ${currentBlock}`);
+
+      // Process historical events first
+      await this.processHistoricalEvents(fromBlock, currentBlock);
+
+      // Then set up real-time listeners
+      await this.setupRealtimeListeners();
+
+    } catch (error) {
+      Logger.error('Error setting up blockchain listeners:', error);
+      this.isListening = false;
+    }
+  }
+
+  private async processHistoricalEvents(fromBlock: number, toBlock: number) {
+    try {
+      // Process Gold token events
+      if (this.goldContract) {
+        // Process TransferWithFee events
+        const goldTransferEvents = await this.goldContract.queryFilter('TransferWithFee', fromBlock, toBlock);
+        Logger.info(`Found ${goldTransferEvents.length} historical Gold TransferWithFee events`);
+        
+        for (const event of goldTransferEvents) {
+          await this.processEventLog(event, 'GOLD');
+        }
+
+        // Process RedemptionRequested events
+        const goldRedemptionEvents = await this.goldContract.queryFilter('RedemptionRequested', fromBlock, toBlock);
+        Logger.info(`Found ${goldRedemptionEvents.length} historical Gold RedemptionRequested events`);
+        
+        for (const event of goldRedemptionEvents) {
+          await this.handleRedemptionEvent(event, 'GOLD');
+        }
+      }
+
+      // Process Silver token events
+      if (this.silverContract) {
+        // Process TransferWithFee events
+        const silverTransferEvents = await this.silverContract.queryFilter('TransferWithFee', fromBlock, toBlock);
+        Logger.info(`Found ${silverTransferEvents.length} historical Silver TransferWithFee events`);
+        
+        for (const event of silverTransferEvents) {
+          await this.processEventLog(event, 'SILVER');
+        }
+
+        // Process RedemptionRequested events
+        const silverRedemptionEvents = await this.silverContract.queryFilter('RedemptionRequested', fromBlock, toBlock);
+        Logger.info(`Found ${silverRedemptionEvents.length} historical Silver RedemptionRequested events`);
+        
+        for (const event of silverRedemptionEvents) {
+          await this.handleRedemptionEvent(event, 'SILVER');
+        }
+      }
+    } catch (error) {
+      Logger.error('Error processing historical events:', error);
+    }
+  }
+
+  private async setupRealtimeListeners() {
+    try {
+      // Listen for Gold token events
+      if (this.goldContract) {
+        // Listen for TransferWithFee events
+        this.goldContract.on('TransferWithFee', async (...args) => {
+          try {
+            Logger.info('Real-time Gold TransferWithFee event detected');
+            const event = args[args.length - 1]; // Last argument is always the event object
+            await this.processEventLog(event, 'GOLD');
+          } catch (error) {
+            Logger.error('Error processing real-time Gold TransferWithFee event:', error);
+          }
+        });
+
+        // Listen for RedemptionRequested events
+        this.goldContract.on('RedemptionRequested', async (...args) => {
+          try {
+            Logger.info('Real-time Gold RedemptionRequested event detected');
+            const event = args[args.length - 1]; // Last argument is always the event object
+            await this.handleRedemptionEvent(event, 'GOLD');
+          } catch (error) {
+            Logger.error('Error processing real-time Gold RedemptionRequested event:', error);
+          }
+        });
+      }
+
+      // Listen for Silver token events
+      if (this.silverContract) {
+        // Listen for TransferWithFee events
+        this.silverContract.on('TransferWithFee', async (...args) => {
+          try {
+            Logger.info('Real-time Silver TransferWithFee event detected');
+            const event = args[args.length - 1]; // Last argument is always the event object
+            await this.processEventLog(event, 'SILVER');
+          } catch (error) {
+            Logger.error('Error processing real-time Silver TransferWithFee event:', error);
+          }
+        });
+        
+        // Listen for RedemptionRequested events
+        this.silverContract.on('RedemptionRequested', async (...args) => {
+          try {
+            Logger.info('Real-time Silver RedemptionRequested event detected');
+            const event = args[args.length - 1]; // Last argument is always the event object
+            await this.handleRedemptionEvent(event, 'SILVER');
+          } catch (error) {
+            Logger.error('Error processing real-time Silver RedemptionRequested event:', error);
+          }
+        });
+      }
+    } catch (error) {
+      Logger.error('Error setting up real-time listeners:', error);
+    }
+  }
+
+  private async processEventLog(event: any, tokenType: 'GOLD' | 'SILVER') {
+    try {
+      // Add debug logging to understand the event structure
+      Logger.info(`Event object properties:`, {
+        hasTransactionHash: !!event.transactionHash,
+        hasLog: !!event.log,
+        hasGetTransaction: typeof event.getTransaction === 'function',
+        eventKeys: Object.keys(event),
+        logKeys: event.log ? Object.keys(event.log) : 'no log'
+      });
+
+      // Try to get transaction hash from different possible locations
+      let transactionHash = event.transactionHash || event.log?.transactionHash;
+      
+      // If still no transaction hash, try to get it from the transaction
+      if (!transactionHash && typeof event.getTransaction === 'function') {
+        try {
+          const transaction = await event.getTransaction();
+          transactionHash = transaction?.hash;
+        } catch (error) {
+          Logger.error('Could not get transaction from event:', error);
+        }
+      }
+
+      const eventData: TransferWithFeeEventData = {
+        from: event.args[0],
+        to: event.args[1],
+        value: event.args[2],
+        fee: event.args[3],
+        transactionHash: transactionHash || 'unknown',
+        blockNumber: event.blockNumber || event.log?.blockNumber || 0,
+        tokenAddress: event.address || event.log?.address || ''
+      };
+
+      await this.processTransferEvent(eventData, tokenType);
+    } catch (error) {
+      Logger.error(`Error processing ${tokenType} event log:`, error);
+    }
+  }
+
+  private async processTransferEvent(eventData: TransferWithFeeEventData, tokenType: 'GOLD' | 'SILVER') {
+    try {
+      Logger.info(`Processing TransferWithFee event for ${tokenType}:`, {
+        from: eventData.from,
+        to: eventData.to,
+        value: eventData.value.toString(),
+        fee: eventData.fee.toString(),
+        transactionHash: eventData.transactionHash,
+        eventBlockNumber: eventData
+      });
+
+      // Check if this transaction already exists in our gifting records
+      const existingGifting = await storage.getGiftingByTransactionHash(eventData.transactionHash);
+      
+      if (existingGifting) {
+        // If existing record has status 'pending', update it to 'success' with blockchain data
+        if (existingGifting.status === 'pending') {
+          Logger.info(`Updating pending gifting record to success for transaction ${eventData.transactionHash}`);
+          
+          // Convert Wei to token amount (assuming 18 decimals)
+          const tokenAmount = ethers.formatEther(eventData.value);
+          const feeAmount = ethers.formatEther(eventData.fee);
+
+          // Calculate values based on token type
+          const tokenValues = {
+            GOLD: { gramsPerToken: 1, price: 65.5 },
+            SILVER: { gramsPerToken: 31.1, price: 0.85 }
+          };
+
+          const tokenInfo = tokenValues[tokenType];
+          const gramsAmount = (parseFloat(tokenAmount) * tokenInfo.gramsPerToken).toString();
+          const tokenValueUSD = (parseFloat(tokenAmount) * tokenInfo.price).toString();
+          const networkFee = (parseFloat(feeAmount) * tokenInfo.price).toString(); // Approximate fee in USD
+          const totalCostUSD = (parseFloat(tokenValueUSD) + parseFloat(networkFee)).toString();
+
+          // Update the existing record with blockchain data (preserve message)
+          await storage.updateGifting(existingGifting.id, {
+            status: 'success',
+            quantity: tokenAmount,
+            networkFee,
+            tokenValueUSD,
+            totalCostUSD,
+            gramsAmount,
+            recipientWallet: eventData.to
+            // Note: we don't update the message field as per requirement
+          });
+
+          Logger.info(`Updated pending gifting record to success:`, {
+            giftingId: existingGifting.id,
+            transactionHash: eventData.transactionHash,
+            tokenType,
+            amount: tokenAmount,
+            preservedMessage: existingGifting.message
+          });
+          
+          return;
+        }
+        
+        // If status is already 'success', don't make any changes
+        if (existingGifting.status === 'success') {
+          Logger.info(`Gifting record already exists with success status for transaction ${eventData.transactionHash}`);
+          return;
+        }
+      }
+
+      // Convert Wei to token amount (assuming 18 decimals)
+      const tokenAmount = ethers.formatEther(eventData.value);
+      const feeAmount = ethers.formatEther(eventData.fee);
+
+      // Calculate values based on token type
+      const tokenValues = {
+        GOLD: { gramsPerToken: 1, price: 65.5 },
+        SILVER: { gramsPerToken: 31.1, price: 0.85 }
+      };
+
+      const tokenInfo = tokenValues[tokenType];
+      const gramsAmount = (parseFloat(tokenAmount) * tokenInfo.gramsPerToken).toString();
+      const tokenValueUSD = (parseFloat(tokenAmount) * tokenInfo.price).toString();
+      const networkFee = (parseFloat(feeAmount) * tokenInfo.price).toString(); // Approximate fee in USD
+      const totalCostUSD = (parseFloat(tokenValueUSD) + parseFloat(networkFee)).toString();
+
+      // Lookup user ID from the sender's wallet address
+      const senderUserId = await storage.getUserIdByWalletAddress(eventData.from);
+      
+      // Create gifting record from blockchain event
+      const giftingData = {
+        userId: senderUserId || 'blockchain-event', // Use actual user ID if found, fallback to placeholder
+        recipientWallet: eventData.to,
+        token: tokenType,
+        quantity: tokenAmount,
+        message: 'Auto-created from blockchain event',
+        network: 'Ethereum' as const,
+        status: 'success' as const,
+        transactionHash: eventData.transactionHash,
+        networkFee,
+        tokenValueUSD,
+        totalCostUSD,
+        gramsAmount
+      };
+
+      const gifting = await storage.createGifting(giftingData);
+      
+      Logger.info(`Created gifting record from blockchain event:`, {
+        giftingId: gifting.id,
+        transactionHash: eventData.transactionHash,
+        tokenType,
+        amount: tokenAmount,
+        senderUserId: senderUserId || 'unknown',
+        fromAddress: eventData.from
+      });
+
+    } catch (error) {
+      Logger.error('Error processing TransferWithFee event:', error);
+    }
+  }
+
+  stopListening() {
+    if (!this.isListening) {
+      return;
+    }
+
+    this.isListening = false;
+    
+    try {
+      if (this.goldContract) {
+        this.goldContract.removeAllListeners('TransferWithFee');
+      }
+      
+      if (this.silverContract) {
+        this.silverContract.removeAllListeners('TransferWithFee');
+        this.silverContract.removeAllListeners('RedemptionRequested');
+      }
+      
+      if (this.goldContract) {
+        this.goldContract.removeAllListeners('RedemptionRequested');
+      }
+      
+      Logger.info('Stopped blockchain event listener');
+    } catch (error) {
+      Logger.error('Error stopping blockchain listener:', error);
+    }
+  }
+
+  private async handleRedemptionEvent(event: any, tokenType: 'GOLD' | 'SILVER') {
+    try {
+      // Add debug logging to understand the redemption event structure
+      Logger.info(`Redemption event object properties:`, {
+        hasTransactionHash: !!event.transactionHash,
+        hasLog: !!event.log,
+        hasGetTransaction: typeof event.getTransaction === 'function',
+        eventKeys: Object.keys(event),
+        logKeys: event.log ? Object.keys(event.log) : 'no log'
+      });
+
+      // Try to get transaction hash from different possible locations
+      let transactionHash = event.transactionHash || event.log?.transactionHash;
+      
+      // If still no transaction hash, try to get it from the transaction
+      if (!transactionHash && typeof event.getTransaction === 'function') {
+        try {
+          const transaction = await event.getTransaction();
+          transactionHash = transaction?.hash;
+        } catch (error) {
+          Logger.error('Could not get transaction from redemption event:', error);
+        }
+      }
+
+      const eventData: RedemptionRequestedEventData = {
+        requestId: event.args[0], // First indexed param: requestId
+        user: event.args[1],      // Second indexed param: user address
+        amount: event.args[2],    // Third param: amount
+        transactionHash: transactionHash,
+        blockNumber: event.blockNumber || event.log?.blockNumber || 0,
+        tokenAddress: event.address || event.log?.address || ''
+      };
+
+      await this.processRedemptionEvent(eventData, tokenType);
+    } catch (error) {
+      Logger.error(`Error processing ${tokenType} redemption event log:`, error);
+    }
+  }
+
+  private async processRedemptionEvent(eventData: RedemptionRequestedEventData, tokenType: 'GOLD' | 'SILVER') {
+    try {
+      Logger.info(`Processing RedemptionRequested event for ${tokenType}:`, {
+        requestId: eventData.requestId.toString(),
+        user: eventData.user,
+        amount: eventData.amount.toString(),
+        transactionHash: eventData.transactionHash
+      });
+
+      // Check if this transaction already exists in our redemption records
+      const existingRedemption = await storage.getRedemptionByTransactionHash(eventData.transactionHash);
+      
+      if (existingRedemption) {
+        // If existing record has status 'pending', update it with blockchain data
+        if (existingRedemption.status === 'pending') {
+          Logger.info(`Updating pending redemption record for transaction ${eventData.transactionHash}`);
+          
+          // Convert Wei to token amount (assuming 18 decimals)
+          const tokenAmount = ethers.formatEther(eventData.amount);
+
+          // Calculate values based on token type
+          const tokenValues = {
+            GOLD: { gramsPerToken: 1, price: 65.5 },
+            SILVER: { gramsPerToken: 31.1, price: 0.85 }
+          };
+
+          const tokenInfo = tokenValues[tokenType];
+          const gramsAmount = (parseFloat(tokenAmount) * tokenInfo.gramsPerToken).toString();
+          const tokenValueUSD = (parseFloat(tokenAmount) * tokenInfo.price).toString();
+
+          // Update the existing record with blockchain data (preserve address)
+          await storage.updateRedemptionByTransactionHash(eventData.transactionHash, {
+            status: 'approved',
+            token: tokenType,
+            quantity: tokenAmount,
+            gramsAmount,
+            tokenValueUSD,
+            network: 'Ethereum'
+            // Note: we don't update the deliveryAddress field as per requirement
+          });
+
+          Logger.info(`Updated pending redemption record:`, {
+            transactionHash: eventData.transactionHash,
+            tokenType,
+            amount: tokenAmount,
+            preservedAddress: existingRedemption.deliveryAddress
+          });
+          
+          return;
+        }
+        
+        // If status is already 'approved' or other, don't make changes
+        Logger.info(`Redemption record already exists for transaction ${eventData.transactionHash}`);
+        return;
+      }
+
+      // Convert Wei to token amount (assuming 18 decimals)
+      const tokenAmount = ethers.formatEther(eventData.amount);
+
+      // Calculate values based on token type
+      const tokenValues = {
+        GOLD: { gramsPerToken: 1, price: 65.5 },
+        SILVER: { gramsPerToken: 31.1, price: 0.85 }
+      };
+
+      const tokenInfo = tokenValues[tokenType];
+      const gramsAmount = (parseFloat(tokenAmount) * tokenInfo.gramsPerToken).toString();
+      const tokenValueUSD = (parseFloat(tokenAmount) * tokenInfo.price).toString();
+
+      // Lookup user ID from the requester's wallet address
+      const userIdFromWallet = await storage.getUserIdByWalletAddress(eventData.user);
+      
+      // Create redemption record from blockchain event
+      const redemptionData = {
+        userId: userIdFromWallet || 'blockchain-event', // Use actual user ID if found, fallback to placeholder
+        token: tokenType,
+        quantity: tokenAmount,
+        gramsAmount,
+        tokenValueUSD,
+        network: 'Ethereum' as const,
+        deliveryAddress: 'From blockchain event', // Placeholder - address provided separately
+        status: 'approved' as const,
+        transactionHash: eventData.transactionHash,
+        deliveryFee: '25.99',
+        totalCostUSD: (parseFloat(tokenValueUSD) + 25.99).toString()
+      };
+
+      const redemption = await storage.createRedemption(redemptionData);
+      
+      Logger.info(`Created redemption record from blockchain event:`, {
+        redemptionId: redemption.id,
+        transactionHash: eventData.transactionHash,
+        tokenType,
+        amount: tokenAmount,
+        userIdFromWallet: userIdFromWallet || 'unknown',
+        userAddress: eventData.user
+      });
+
+    } catch (error) {
+      Logger.error('Error processing RedemptionRequested event:', error);
+    }
+  }
+
+  getStatus() {
+    return {
+      isListening: this.isListening,
+      hasProvider: !!this.provider,
+      hasGoldContract: !!this.goldContract,
+      hasSilverContract: !!this.silverContract,
+      goldContractAddress: this.goldContract?.target || null,
+      silverContractAddress: this.silverContract?.target || null
+    };
+  }
+}
+
+// Create and export singleton instance
+export const blockchainListener = new BlockchainListener();

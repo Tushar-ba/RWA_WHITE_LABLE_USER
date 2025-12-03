@@ -1,0 +1,56 @@
+(node:1654) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1654) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+[WARN] 2025-08-25T09:11:10.964Z - Failed to fetch gold price from API, using default: Error: Gold API authentication failed. Invalid API key.
+    at GoldApiService.getGoldPrice (/home/runner/workspace/server/services/goldapi.service.ts:73:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BlockchainListener.initializeTokenConfigs (/home/runner/workspace/server/services/blockchain-listener.ts:165:29)
+    at async BlockchainListener.initializeProvider (/home/runner/workspace/server/services/blockchain-listener.ts:146:7)
+❌ Failed to connect to PostgreSQL: error: The endpoint has been disabled. Enable it using Neon API and retry.
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresAdapter.initializeTables (/home/runner/workspace/server/storage/postgres-adapter.ts:209:5)
+    at async PostgresAdapter.connect (/home/runner/workspace/server/storage/postgres-adapter.ts:29:7)
+    at async <anonymous> (/home/runner/workspace/server/index.ts:57:5) {
+  length: 88,
+  severity: 'ERROR',
+  code: 'XX000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: undefined,
+  line: undefined,
+  routine: undefined
+}
+[ERROR] 2025-08-25T09:11:10.981Z - Failed to start server: error: The endpoint has been disabled. Enable it using Neon API and retry.
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresAdapter.initializeTables (/home/runner/workspace/server/storage/postgres-adapter.ts:209:5)
+    at async PostgresAdapter.connect (/home/runner/workspace/server/storage/postgres-adapter.ts:29:7)
+    at async <anonymous> (/home/runner/workspace/server/index.ts:57:5) {
+  length: 88,
+  severity: 'ERROR',
+  code: 'XX000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: undefined,
+  line: undefined,
+  routine: undefined
+}

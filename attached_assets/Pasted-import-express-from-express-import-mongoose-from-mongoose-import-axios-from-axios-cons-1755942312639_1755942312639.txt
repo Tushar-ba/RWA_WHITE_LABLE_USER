@@ -1,0 +1,146 @@
+import express from "express";
+import mongoose from "mongoose";
+import axios from "axios";
+
+const app = express();
+
+// Collections
+const Purchase = mongoose.model("Purchase", new mongoose.Schema({}, { strict: false }));
+const Redemption = mongoose.model("Redemption", new mongoose.Schema({}, { strict: false }));
+const Gifting = mongoose.model("Gifting", new mongoose.Schema({}, { strict: false }));
+
+// Helper: fetch prices
+async function getMetalPrices(start, end) {
+  const resp = await axios.get("https://api.metals.dev/v1/timeseries", {
+    params: { api_key: process.env.METALS_API_KEY, start_date: start, end_date: end },
+    headers: { Accept: "application/json" }
+  });
+  return resp.data.rates; // { "2025-07-01": { gold: 2350, silver: 28.5 }, ... }
+}
+
+app.get("/portfolio/:userId", async (req, res) => {
+  try {
+    const { userId } = req.params;
+
+    // Fetch all transactions
+    const purchases = await Purchase.find({ userId, status: "completed" });
+    const redemptions = await Redemption.find({ userId, status: "success" });
+    const gifts = await Gifting.find({ userId, status: "success" });
+
+    // Merge all into transaction events
+    let txns = [];
+
+    purchases.forEach(p =>
+      txns.push({
+        type: "buy",
+        asset: p.metal.toLowerCase(),
+        tokens: parseFloat(p.tokenAmount),
+        date: new Date(p.createdAt)
+      })
+    );
+
+    redemptions.forEach(r =>
+      txns.push({
+        type: "sell",
+        asset: r.token.toLowerCase(),
+        tokens: parseFloat(r.quantity),
+        date: new Date(r.createdAt)
+      })
+    );
+
+    gifts.forEach(g =>
+      txns.push({
+        type: "sell",
+        asset: g.token.toLowerCase(),
+        tokens: parseFloat(g.quantity),
+        date: new Date(g.createdAt)
+      })
+    );
+
+    if (txns.length === 0) {
+      return res.json({ message: "No portfolio data found", portfolio: [] });
+    }
+
+    txns.sort((a, b) => a.date - b.date); // oldest first
+
+    // Get date range for price history
+    const startDate = txns[0].date.toISOString().split("T")[0];
+    const endDate = new Date().toISOString().split("T")[0];
+    const prices = await getMetalPrices(startDate, endDate);
+
+    // Running balances
+    let goldUnits = 0;
+    let silverUnits = 0;
+
+    // Compute monthly portfolio values
+    let monthlyPortfolio = [];
+    let prevVal = null;
+
+    Object.entries(prices).forEach(([date, { gold, silver }]) => {
+      // process transactions on this date
+      txns
+        .filter(t => t.date.toISOString().split("T")[0] === date)
+        .forEach(t => {
+          if (t.asset === "gold") {
+            goldUnits += t.type === "buy" ? t.tokens : -t.tokens;
+          } else if (t.asset === "silver") {
+            silverUnits += t.type === "buy" ? t.tokens : -t.tokens;
+          }
+        });
+
+      // portfolio value for this day
+      const portfolioVal = goldUnits * gold + silverUnits * silver;
+
+      // record only month-end
+      const d = new Date(date);
+      const nextDay = new Date(d);
+      nextDay.setDate(d.getDate() + 1);
+      if (nextDay.getDate() === 1) {
+        const monthLabel = d.toLocaleString("default", { month: "short" }) + " " + d.getFullYear();
+        let change = 0;
+        if (prevVal !== null) {
+          change = ((portfolioVal - prevVal) / prevVal) * 100;
+        }
+        monthlyPortfolio.push({
+          date: monthLabel,
+          value: Math.round(portfolioVal),
+          change: +change.toFixed(2)
+        });
+        prevVal = portfolioVal;
+      }
+    });
+
+    // Latest prices
+    const today = Object.keys(prices).pop();
+    const { gold: goldPrice, silver: silverPrice } = prices[today];
+
+    // Current holdings
+    const goldValue = goldUnits * goldPrice;
+    const silverValue = silverUnits * silverPrice;
+    const totalValue = goldValue + silverValue;
+
+    // Response format
+    res.json({
+      _id: mongoose.Types.ObjectId(),
+      userId,
+      totalPortfolioValue: { amount: +totalValue.toFixed(8) },
+      goldHoldings: {
+        valueUSD: +goldValue.toFixed(8),
+        tokens: +goldUnits.toFixed(6)
+      },
+      silverHoldings: {
+        valueUSD: +silverValue.toFixed(8),
+        tokens: +silverUnits.toFixed(6)
+      },
+      assetAllocation: {
+        goldPercent: totalValue > 0 ? (goldValue / totalValue) * 100 : 0,
+        silverPercent: totalValue > 0 ? (silverValue / totalValue) * 100 : 0
+      },
+      portfolio: monthlyPortfolio,
+      lastUpdated: new Date()
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to calculate portfolio" });
+  }
+});

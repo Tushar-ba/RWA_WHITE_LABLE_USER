@@ -1,0 +1,74 @@
+const GOLD_TOKEN_PROGRAM_ID = new PublicKey(import.meta.env.SOLANA_GOLD_MINT
+);
+
+const SILVER_TOKEN_PROGRAM_ID = new PublicKey(import.meta.env.SOLANA_SILVER_MINT
+);
+  const publicKey = useMemo(() => {
+    if (!address) return null;
+    try {
+      return new PublicKey(address);
+    } catch (error) {
+      console.error("Invalid public key:", error);
+      return null;
+    }
+  }, [address]);
+
+  const provider = useMemo(() => {
+    if (!publicKey || !walletProvider || !isConnected) return null;
+
+    // Create a wallet-like interface for AnchorProvider
+    const walletInterface = {
+      publicKey,
+      signTransaction: async (transaction: any) => {
+        if (!(walletProvider as any).signTransaction) {
+          throw new Error("Wallet does not support transaction signing");
+        }
+        return await (walletProvider as any).signTransaction(transaction);
+      },
+      signAllTransactions: async (transactions: any[]) => {
+        if (!(walletProvider as any).signAllTransactions) {
+          throw new Error("Wallet does not support batch transaction signing");
+        }
+        return await (walletProvider as any).signAllTransactions(transactions);
+      },
+    };
+
+    return new AnchorProvider(connection, walletInterface as any, {
+      commitment: "confirmed",
+    });
+  }, [connection, publicKey, walletProvider, isConnected]);
+
+  const program = useMemo(() => {
+    if (!provider) return null;
+    console.log("program");
+    if (tokenType === "GOLD") return new Program(gold_idl as Idl, provider);
+    else return new Program(silver_idl as Idl, provider);
+  }, [provider]);
+
+  const getConfig = async () => {
+    if (!program || !connection) return null;
+    console.log("config");
+
+    const [configPda] = PublicKey.findProgramAddressSync(
+      [Buffer.from("config")],
+      PROGRAM_ID,
+    );
+
+    console.log("configPda", PROGRAM_ID.toString());
+    try {
+      console.log("Fetching config from PDA:", configPda.toString());
+      const config = await (program.account as any).config.fetch(configPda);
+      console.log("Fetched config:", config);
+      return {
+        admin: config.admin.toString(),
+        mint: config.mint.toString(),
+        gatekeeper_program: config.gatekeeperProgram.toString(),
+        redemption_request_counter: config.redemptionRequestCounter.toNumber(),
+        is_paused: config.isPaused,
+        configPda: configPda.toString(),
+      };
+    } catch (error) {
+      console.error("Error fetching config:", error);
+      return null;
+    }
+  };

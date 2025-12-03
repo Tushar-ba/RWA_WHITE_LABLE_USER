@@ -1,0 +1,180 @@
+You're absolutely right — the current setup is functional, but **overloaded and not modular enough**. Let’s redesign it with best practices to improve readability, maintainability, and scalability.
+
+---
+
+## ✅ Goal
+
+Refactor your `server/` structure to:
+
+* Follow **MVC-like architecture**
+* Introduce **controllers**, **middleware**, and **utils**
+* Keep **routes small and focused**
+* Support **scalable team collaboration**
+
+---
+
+## 🧱 Recommended Project Structure
+
+```
+server/
+├── controllers/            # Business logic
+│   └── auth.controller.ts
+│
+├── routes/                 # Route declarations
+│   └── auth.routes.ts
+│
+├── middleware/             # Middleware (auth, validation, error handling)
+│   ├── auth.middleware.ts
+│   ├── validate.middleware.ts
+│   └── error.middleware.ts
+│
+├── models/                 # Mongoose schemas
+│   └── user.model.ts
+│
+├── services/               # External services (email, JWT, OTP)
+│   ├── email.service.ts
+│   ├── jwt.service.ts
+│   └── otp.service.ts
+│
+├── utils/                  # Reusable helpers
+│   ├── logger.ts
+│   └── constants.ts
+│
+├── storage/                # DB abstraction (IStorage, MongoStorage, etc.)
+│   ├── storage.interface.ts
+│   ├── mongo.storage.ts
+│   └── mem.storage.ts
+│
+├── schemas/                # Zod or Joi schemas for input validation
+│   └── auth.schema.ts
+│
+├── index.ts                # Server entry point
+└── vite.ts                 # Dev server config
+```
+
+---
+
+## 🔁 Suggested Refactoring Steps
+
+### 1. **Break up routes.ts into `auth.routes.ts`**
+
+Move all routes to `/routes/auth.routes.ts`, and import individual controller methods.
+
+**Before** (too many lines in one file)
+**After:**
+
+```ts
+// routes/auth.routes.ts
+router.post('/signup', validate(signupSchema), AuthController.signup);
+router.post('/login', validate(loginSchema), AuthController.login);
+router.post('/verify-email', validate(verifyEmailSchema), AuthController.verifyEmail);
+```
+
+---
+
+### 2. **Introduce `controllers/auth.controller.ts`**
+
+Move your logic from routes into named controller functions.
+
+```ts
+// controllers/auth.controller.ts
+export const signup = async (req, res) => { /*...*/ }
+export const login = async (req, res) => { /*...*/ }
+export const verifyEmail = async (req, res) => { /*...*/ }
+```
+
+---
+
+### 3. **Move all storage logic to `storage/`**
+
+Separate `MongoStorage` and `MemStorage` into their own files. Define an interface (`IStorage`) in `storage.interface.ts`.
+
+---
+
+### 4. **Extract email logic to `services/email.service.ts`**
+
+Simplify `email.ts`:
+
+```ts
+// services/email.service.ts
+export const sendOtpEmail = (email, otp) => { /* SMTP or console log */ };
+```
+
+---
+
+### 5. **Use middleware for validation and auth**
+
+Create generic validators:
+
+```ts
+// middleware/validate.middleware.ts
+export const validate = (schema) => (req, res, next) => {
+  const result = schema.safeParse(req.body);
+  if (!result.success) {
+    return res.status(400).json({ message: "Validation failed", errors: result.error.errors });
+  }
+  req.validated = result.data;
+  next();
+};
+```
+
+JWT Auth:
+
+```ts
+// middleware/auth.middleware.ts
+export const requireAuth = (req, res, next) => {
+  // decode JWT and attach user to `req.user`
+};
+```
+
+---
+
+### 6. **Add `services/jwt.service.ts` and `otp.service.ts`**
+
+```ts
+// jwt.service.ts
+export const generateToken = (payload, expiresIn = '1h') => jwt.sign(payload, secret, { expiresIn });
+
+// otp.service.ts
+export const generateOtp = () => Math.floor(100000 + Math.random() * 900000).toString();
+```
+
+---
+
+### 7. **Create `models/user.model.ts`**
+
+Move Mongoose schema out of `storage.ts` into dedicated model file.
+
+---
+
+### 8. **Add centralized error handler**
+
+```ts
+// middleware/error.middleware.ts
+export const errorHandler = (err, req, res, next) => {
+  console.error(err);
+  res.status(500).json({ message: "Internal server error" });
+};
+```
+
+Use in `index.ts`:
+
+```ts
+app.use(errorHandler);
+```
+
+---
+
+## 📉 Benefits of This Refactor
+
+| Problem Before                   | Benefit After                            |
+| -------------------------------- | ---------------------------------------- |
+| 200–300+ line files              | Max 50–80 lines per file                 |
+| Business logic in routes         | Clean separation using controllers       |
+| Reused logic scattered           | Centralized `services/` & `utils/`       |
+| Tight coupling to Mongo logic    | Swappable via `IStorage` abstraction     |
+| No request validation middleware | Clean pre-validation with reusable logic |
+
+---
+
+Would you like me to generate a boilerplate version of this structure with starter files for Replit?

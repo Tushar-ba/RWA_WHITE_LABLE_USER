@@ -1,0 +1,1782 @@
+{
+  "navigation": {
+    "home": "首页",
+    "assets": "资产",
+    "portfolio": "我的投资组合",
+    "profile": "个人资料",
+    "transactionHistory": "交易历史",
+    "about": "关于我们",
+    "whitepaper": "白皮书",
+    "tokenomics": "代币经济学",
+    "contact": "联系我们",
+    "login": "登录",
+    "logout": "退出",
+    "getStarted": "开始投资",
+    "connectWallet": "连接钱包",
+    "disconnect": "断开连接",
+    "connected": "已连接",
+    "signIn": "登录",
+    "signUp": "注册",
+    "signOut": "退出",
+    "auditReport": "审计报告",
+    "gifting": "赠送",
+    "sendGift": "发送礼品",
+    "redemption": "赎回",
+    "addingWallet": "正在添加钱包...",
+    "adding": "添加中...",
+    "connect": "连接",
+    "close": "关闭",
+    "cancel": "取消",
+    "confirmLogout": "确认退出",
+    "logoutConfirmMessage": "您确定要退出吗？您需要重新登录才能访问您的账户。"
+  },
+  "landing": {
+    "heroTitle": "数字资产托管平台",
+    "heroSubtitle": "专业级代币化资产平台：通过区块链的安全性和传统信托和流动性将黄金和白银代币化。",
+    "startInvesting": "开始投资",
+    "learnMore": "了解更多",
+    "trustIndicators": {
+      "physicallyBacked": "100% 实物黄金支持",
+      "kycCompliant": "完全符合KYC规定，全球通用",
+      "priceAccuracy": "金价锚定精度：±0.01% 现货价格"
+    }
+  },
+  "features": {
+    "whyChoose": "为什么选择保险库资产？",
+    "subtitle": "为零售和机构投资者构建的专业级基础设施",
+    "bankGradeSecurity": "银行级安全",
+    "bankGradeDescription": "多层安全协议、冷储存和机构级托管解决方案保护您的数字资产。",
+    "instantLiquidity": "即时流动性",
+    "instantLiquidityDescription": "24/7全天候买卖贵金属代币，即时结算，具有竞争力的价差。",
+    "regulatoryCompliance": "监管合规",
+    "regulatoryComplianceDescription": "完全符合全球金融法规、KYC/AML要求以及定期第三方审计。"
+  },
+  "investment": {
+    "buyPreciousMetals": "购买贵金属",
+    "selectMetal": "选择金属",
+    "gold": "黄金",
+    "silver": "白银",
+    "usdcAmount": "USDC 金额",
+    "balance": "余额",
+    "useMax": "使用最大值",
+    "platformFee": "平台费用：1.5% • 最小购买额：$100",
+    "confirmPurchase": "确认购买",
+    "purchaseSummary": "购买摘要",
+    "currentPrice": "当前{{metal}}价格",
+    "amount": "金额",
+    "fee": "平台费用 (1.5%)",
+    "total": "总计",
+    "estimatedTokenAmount": "预估代币数量",
+    "recentPurchases": "最近购买",
+    "completed": "已完成"
+  },
+  "paymentModal": {
+    "choosePaymentMethod": "选择支付方式",
+    "completePurchase": "完成购买 {{amount}} 盎司 {{metal}}，价格 ${{price}}",
+    "selectPaymentMethod": "选择支付方式",
+    "payWithFiat": "法币支付",
+    "fiatDescription": "信用卡/借记卡，银行转账",
+    "payWithWallet": "钱包支付",
+    "walletDescription": "USDC，以太坊，比特币",
+    "cancel": "取消",
+    "confirmPayment": "确认支付"
+  },
+  "auth": {
+    "welcomeBack": "欢迎回来",
+    "signInDescription": "登录您的保险库资产账户",
+    "email": "邮箱",
+    "password": "密码",
+    "rememberMe": "记住我",
+    "forgotPassword": "忘记密码？",
+    "signIn": "登录",
+    "dontHaveAccount": "没有账户？",
+    "signUp": "注册",
+    "createAccount": "创建账户",
+    "joinVaultedAssets": "加入保险库资产，开始投资代币化贵金属",
+    "firstName": "名",
+    "lastName": "姓（可选）",
+    "confirmPassword": "确认密码",
+    "agreeToTerms": "我同意",
+    "alreadyHaveAccount": "已有账户？",
+    "emailPlaceholder": "请输入您的邮箱",
+    "passwordPlaceholder": "请输入您的密码",
+    "showPassword": "显示密码",
+    "hidePassword": "隐藏密码",
+    "wrongPassword": "密码错误。请重试或点击忘记密码重置。",
+    "verifyEmailFirst": "请先验证您的邮箱。",
+    "clickHere": "点击这里",
+    "signingIn": "登录中...",
+    "noAccount": "还没有账户？",
+    "backToLogin": "返回登录",
+    "twoFactorAuth": "双重身份验证",
+    "verifyEmail": "验证您的邮箱",
+    "enter2FACode": "输入发送到以下地址的6位2FA验证码",
+    "enterOTPCode": "输入发送到以下地址的6位OTP验证码",
+    "resendOTPIn": "重新发送OTP在",
+    "seconds": "秒后",
+    "resending": "发送中...",
+    "resendOTP": "重新发送OTP",
+    "verifying": "验证中...",
+    "verifyLogin": "验证并登录",
+    "continue": "继续",
+    "backToSignUp": "返回注册",
+    "joinPlatform": "加入我们的平台",
+    "mobileNumber": "手机号码（可选）",
+    "organizationName": "组织名称（可选）",
+    "country": "国家",
+    "stateProvince": "州/省",
+    "enterFirstName": "请输入您的名",
+    "enterLastName": "请输入您的姓",
+    "enterPhoneNumber": "+86 138 0013 8000",
+    "enterOrganizationName": "您的组织名称",
+    "selectCountry": "选择您的国家",
+    "selectStateProvince": "选择您的州/省",
+    "enterStateProvince": "输入您的州/省",
+    "termsOfService": "服务条款",
+    "and": "和",
+    "privacyPolicy": "隐私政策",
+    "creating": "创建中...",
+    "verifyYourEmail": "验证您的邮箱",
+    "enterOTPSent": "输入发送到以下地址的6位OTP验证码",
+    "didntReceiveOTP": "没有收到OTP验证码？"
+  },
+  "dashboard": {
+    "assets": "资产",
+    "browseAndInvest": "浏览并投资贵金属",
+    "totalPortfolioValue": "投资组合总价值",
+    "goldHoldings": "黄金持有量",
+    "silverHoldings": "白银持有量",
+    "assetAllocation": "资产配置",
+    "tokens": "代币",
+    "transactionHistory": "交易历史",
+    "completeRecord": "您交易活动的完整记录",
+    "date": "日期",
+    "type": "类型",
+    "asset": "资产",
+    "amount": "数量",
+    "value": "价值",
+    "status": "状态",
+    "purchase": "购买",
+    "redeem": "赎回",
+    "gold": "黄金",
+    "silver": "白银",
+    "completed": "已完成",
+    "pending": "待处理",
+    "failed": "失败",
+    "buyGold": "购买黄金",
+    "buySilver": "购买白银",
+    "selectAmount": "选择金额",
+    "enterAmount": "输入美元金额",
+    "paymentMethod": "支付方式",
+    "creditCard": "信用卡",
+    "walletPay": "钱包支付",
+    "review": "确认",
+    "purchaseDetails": "购买详情",
+    "metalType": "金属类型",
+    "investmentAmount": "投资金额",
+    "estimatedTokens": "预估代币",
+    "networkFee": "网络费用",
+    "totalCost": "总费用",
+    "confirmPurchase": "确认购买",
+    "processing": "处理中",
+    "purchaseHistory": "购买历史",
+    "recentTransactions": "最近交易",
+    "viewAll": "查看全部",
+    "noTransactions": "未找到交易记录",
+    "loadingTransactions": "加载交易中...",
+    "errorLoadingTransactions": "加载交易时出错",
+    "selectMetal": "选择金属",
+    "walletAddress": "钱包地址",
+    "enterWalletAddress": "输入您的钱包地址",
+    "walletAddressTooltip": "输入您想要接收贵金属代币的钱包地址。",
+    "usdAmount": "美元金额",
+    "enterAmountPlaceholder": "输入金额（例如：100）",
+    "platformFee": "平台费用：1.5% • 最低购买：$10",
+    "purchaseSummary": "购买摘要",
+    "livePrice": "实时",
+    "pricePerGram": "价格（每克）",
+    "loading": "加载中...",
+    "purchaseSuccessful": "购买成功",
+    "purchaseRecordCreated": "购买记录创建成功。您的交易正在处理中。",
+    "registrationSuccessful": "注册成功",
+    "registrationFailed": "注册失败",
+    "authenticationRequired": "需要身份验证",
+    "buyPreciousMetals": "购买贵金属",
+    "liveMarketPrices": "实时市场价格",
+    "platformPurchases": "平台购买",
+    "metal": "金属",
+    "tokenAmount": "代币数量",
+    "fee": "费用",
+    "network": "网络",
+    "payment": "付款方式",
+    "show": "显示",
+    "records": "记录",
+    "first": "首页",
+    "previous": "上一页",
+    "page": "页",
+    "of": "共",
+    "next": "下一页",
+    "last": "末页",
+    "myPortfolio": "我的投资组合",
+    "portfolioOverview": "您的贵金属投资概览",
+    "totalValue": "投资组合总价值",
+    "totalBalance": "总余额",
+    "portfolioGrowth": "投资组合增长",
+    "performanceChart": "业绩图表",
+    "priceHistory": "价格历史",
+    "marketValue": "市场价值",
+    "grams": "克",
+    "connectWalletToView": "请连接钱包查看投资组合详情",
+    "connectWalletDescription": "连接钱包以访问实时代币余额和投资组合信息。",
+    "portfolioPerformance": "投资组合表现",
+    "currentValue": "当前价值",
+    "monthlyChange": "月度变化",
+    "ytd": "年初至今",
+    "strongPerformanceTrend": "强劲表现趋势",
+    "bestMonth": "最佳月份",
+    "platformFeeShort": "平台费用 (1.5%)",
+    "netAmount": "净金额",
+    "estimatedTokenAmount": "预估代币数量",
+    "continueToNetworkSelection": "继续选择网络",
+    "selectNetwork": "选择网络",
+    "privateNetwork": "私有网络",
+    "publicNetwork": "公共网络",
+    "solanaNetwork": "Solana 网络",
+    "enhancedSecurityAndPrivacy": "增强安全性和隐私",
+    "standardBlockchainNetwork": "标准区块链网络",
+    "fastAndLowCostTransactions": "快速且低成本交易",
+    "confirmPayment": "确认付款",
+    "unableToFetchLivePrices": "无法获取实时价格",
+    "usingFallbackData": "使用备用数据",
+    "noPlatformPurchasesFound": "未找到平台购买记录",
+    "noPurchaseHistoryFound": "未找到购买历史记录",
+    "securePaymentProcessing": "为您的{{metal}}购买提供安全的法币支付处理"
+  },
+  "gifting": {
+    "sendGift": "发送礼品",
+    "recipientWalletAddress": "收件人钱包地址",
+    "recipientWalletTooltip": "钱包地址应该是本平台注册用户，以便成功接收礼品代币。",
+    "enterWalletAddress": "输入钱包地址",
+    "cannotSendToSelf": "您不能向自己的钱包地址发送代币。请输入不同的收件人地址。",
+    "token": "代币",
+    "network": "网络",
+    "tokenQuantityGrams": "代币数量（克）",
+    "balance": "余额",
+    "loadingBalance": "加载余额中...",
+    "enterQuantity": "输入数量（例如：1.5）",
+    "insufficientBalance": "余额不足。您有 {{balance}} {{token}} 代币，但尝试发送 {{quantity}}。",
+    "loadingLivePrices": "加载实时价格中...",
+    "usingFallbackPrices": "使用备用价格（价格服务不可用）",
+    "grams": "克",
+    "tokenValue": "代币价值",
+    "platformFee": "平台费用（2%）",
+    "totalCost": "总费用",
+    "updating": "更新中...",
+    "fallbackPrices": "备用价格",
+    "livePrices": "实时价格",
+    "blockchainTransfer": "区块链转账：{{token}} 代币将通过智能合约直接发送",
+    "messageOptional": "消息（可选）",
+    "addPersonalMessage": "添加个人消息",
+    "walletConnectionRequired": "以太坊网络上的代币转账需要连接钱包。",
+    "transferFailed": "转账失败：{{error}}",
+    "giftSentSuccessfully": "{{token}} 礼品发送成功！",
+    "transaction": "交易",
+    "validatingWallet": "验证钱包中...",
+    "confirmingTransfer": "确认转账中...",
+    "sendingGift": "发送礼品中...",
+    "giftTokens": "礼品代币",
+    "giftingHistory": "礼品历史",
+    "recipient": "收件人",
+    "quantity": "数量",
+    "message": "消息",
+    "date": "日期",
+    "status": "状态",
+    "share": "分享",
+    "errorLoadingHistory": "加载历史记录错误：{error}",
+    "noGiftingHistory": "未找到礼品历史记录",
+    "confirmGift": "确认礼品",
+    "confirmGiftMessage": "向 {{wallet}} 发送 {{quantity}} {{token}} 代币？",
+    "confirmGiftButton": "确认礼品",
+    "transferSuccessful": "转账成功！",
+    "giftSent": "礼品已发送",
+    "giftSentDescription": "成功向 {{wallet}} 发送了 {{quantity}} {{token}} 代币",
+    "giftSentSuccessfullyTitle": "礼品发送成功",
+    "giftSentSuccessfullyDescription": "成功通过Canton私有网络发送了 {{quantity}} {{token}} 代币",
+    "transferCompleted": "转账完成",
+    "transferCompletedDescription": "Canton转账完成，但记录日志失败",
+    "cantonTransferFailed": "Canton转账失败",
+    "cantonTransferFailedDescription": "通过Canton网络转账代币失败",
+    "invalidRecipient": "无效收件人",
+    "invalidRecipientDescription": "您不能向自己的钱包地址发送代币。",
+    "insufficientBalanceTitle": "余额不足",
+    "insufficientBalanceDescription": "您有 {{balance}} {{token}} 代币，但尝试发送 {{quantity}}。",
+    "walletNotFound": "未找到钱包",
+    "walletNotFoundDescription": "此钱包未在我们平台注册。收件人需要先创建账户才能接收代币。",
+    "validationError": "验证错误",
+    "validationErrorDescription": "验证钱包失败",
+    "walletNotConnected": "钱包未连接",
+    "walletNotConnectedDescription": "请连接您的钱包以在以太坊网络上发送代币。",
+    "recipientWillReceive": "接收方将很快在其钱包中收到代币。",
+    "shareOnTelegram": "在 Telegram 上分享",
+    "shareOnWhatsApp": "在 WhatsApp 上分享",
+    "giftRecordedSuccessfully": "礼品记录成功",
+    "giftRecordedSuccessfullyDescription": "您的礼品交易已记录在我们的系统中。",
+    "giftRecordingFailed": "礼品记录失败",
+    "giftRecordingFailedDescription": "记录礼品交易失败。请重试。",
+    "failedToFetchHistory": "获取礼品历史失败"
+  },
+  "profile": {
+    "title": "我的个人资料",
+    "subtitle": "管理您的个人信息并查看账户状态",
+    "personalInformation": "个人信息",
+    "personalInformationDescription": "更新您的个人详细信息和联系信息",
+    "editProfile": "编辑个人资料",
+    "firstName": "名字",
+    "firstNameRequired": "名字为必填项",
+    "lastName": "姓氏",
+    "lastNameRequired": "姓氏为必填项",
+    "email": "电子邮箱",
+    "emailCannotChange": "邮箱地址无法更改",
+    "phoneNumber": "电话号码",
+    "phoneOptional": "可选",
+    "country": "国家",
+    "countryRequired": "国家为必填项",
+    "state": "州/省",
+    "stateRequired": "州/省为必填项",
+    "organization": "组织机构",
+    "organizationOptional": "可选",
+    "saveChanges": "保存更改",
+    "saving": "保存中...",
+    "cancel": "取消",
+    "accountStatus": "账户状态",
+    "accountStatusDescription": "查看您的钱包信息和账户验证状态",
+    "connectedWallets": "已连接钱包",
+    "wallet": "钱包",
+    "noWalletsConnected": "尚未连接钱包",
+    "connectWalletToTrade": "连接您的钱包开始交易贵金属",
+    "verified": "已验证",
+    "pendingVerification": "待验证",
+    "suspended": "已暂停",
+    "unknown": "未知",
+    "loading": "加载中...",
+    "accountStatusInfo": "高级功能需要账户验证",
+    "verificationStatus": "验证状态",
+    "emailVerified": "邮箱已验证",
+    "emailNotVerified": "邮箱验证待处理",
+    "referralCode": "推荐码",
+    "noReferralCode": "未设置推荐码",
+    "lastLogin": "最后登录",
+    "memberSince": "会员起始时间",
+    "termsAccepted": "已接受条款和条件",
+    "yes": "是",
+    "no": "否",
+    "updateProfileSuccess": "个人资料更新成功",
+    "updateProfileError": "个人资料更新失败",
+    "accountVerifiedMessage": "您的账户已成功验证。",
+    "accountPendingMessage": "您的账户验证正在处理中。",
+    "accountSuspendedMessage": "您的账户已被暂停。请联系客服。",
+    "securityInfo": "出于安全考虑，某些信息无法直接更改。如果您需要更新邮箱地址或其他受限字段，请联系我们的客服团队。",
+    "updatePassword": "更新密码",
+    "updatePasswordDescription": "更改您的账户密码以增强安全性",
+    "changePassword": "更改密码",
+    "currentPassword": "当前密码",
+    "currentPasswordPlaceholder": "输入您的当前密码",
+    "newPassword": "新密码",
+    "newPasswordPlaceholder": "输入您的新密码",
+    "confirmPassword": "确认新密码",
+    "confirmPasswordPlaceholder": "确认您的新密码",
+    "currentPasswordRequired": "当前密码是必需的",
+    "newPasswordRequired": "新密码是必需的",
+    "confirmPasswordRequired": "请确认您的新密码",
+    "passwordTooShort": "密码必须至少8个字符",
+    "passwordsDoNotMatch": "密码不匹配",
+    "newPasswordSameAsOld": "新密码必须与当前密码不同",
+    "passwordUpdateSuccess": "密码更新成功",
+    "passwordUpdateError": "密码更新失败",
+    "updating": "更新中...",
+    "passwordSecurityNote": "选择一个强密码，至少8个字符，包括大写字母、小写字母、数字和特殊字符。",
+    "passwordHidden": "您的密码已安全加密，无法显示。",
+    "passwordLastUpdated": "出于安全考虑，我们不显示密码最后更新的时间。"
+  },
+  "redemption": {
+    "title": "兑换实物贵金属",
+    "subtitle": "将您的代币化贵金属转换为实物交付",
+    "redemptionRequest": "兑换请求",
+    "selectToken": "选择代币",
+    "selectTokenPlaceholder": "选择代币类型",
+    "goldGRT": "黄金 (GRT)",
+    "silverSRT": "白银 (SRT)",
+    "quantity": "数量",
+    "quantityPlaceholder": "输入数量",
+    "quantityInfo": "{{grams}}克 {{metal}} • ${{value}} 美元",
+    "quantityInvalid": "数量必须大于0",
+    "network": "网络",
+    "networkPlaceholder": "选择网络",
+    "ethereum": "以太坊",
+    "solana": "Solana",
+    "private": "私有网络",
+    "deliveryAddress": "收货地址",
+    "streetAddress": "街道地址",
+    "streetAddressPlaceholder": "主街123号",
+    "city": "城市",
+    "cityPlaceholder": "城市",
+    "zipCode": "邮政编码",
+    "zipCodePlaceholder": "邮政编码",
+    "country": "国家",
+    "countryPlaceholder": "选择国家",
+    "state": "州/省",
+    "statePlaceholder": "选择州",
+    "blockchainError": "区块链错误：{error}",
+    "confirmTransaction": "请在您的钱包中确认交易...",
+    "transactionSubmitted": "交易已提交。等待确认中...",
+    "transactionConfirmed": "交易已确认：{{hash}}",
+    "processing": "处理中",
+    "walletNotConnected": "钱包未连接",
+    "connectWalletToCancel": "连接您的钱包以取消兑换",
+    "wrongWallet": "连接了错误的钱包",
+    "connectCorrectWallet": "连接创建此兑换请求的钱包",
+    "submitRedemptionRequest": "提交兑换请求",
+    "costBreakdown": "费用明细",
+    "tokenValue": "代币价值",
+    "networkFee": "网络费用",
+    "deliveryFee": "配送费用",
+    "totalCost": "总费用",
+    "redemptionHistory": "兑换历史",
+    "noRedemptionHistory": "未找到兑换历史",
+    "errorLoadingHistory": "加载历史失败：{error}",
+    "loadingHistory": "正在加载兑换历史...",
+    "id": "ID",
+    "token": "代币",
+    "amount": "数量",
+    "grams": "克",
+    "value": "价值",
+    "status": "状态",
+    "date": "日期",
+    "address": "地址",
+    "txHash": "交易哈希",
+    "action": "操作",
+    "cancelRedemption": "取消",
+    "cancelSuccess": "赎回已成功取消",
+    "cancelError": "取消赎回失败",
+    "pending": "待处理",
+    "confirmed": "已确认",
+    "shipped": "已发货",
+    "delivered": "已交付",
+    "failed": "失败",
+    "cancelled": "已取消",
+    "walletNotConnectedTitle": "钱包未连接",
+    "walletNotConnectedDescription": "请连接您的钱包以在以太坊上兑换代币",
+    "redemptionFailedTitle": "兑换失败",
+    "redemptionFailedDescription": "区块链兑换处理失败",
+    "successTitle": "成功",
+    "successDescription": "兑换请求提交成功",
+    "errorTitle": "错误",
+    "errorDescription": "兑换请求提交失败",
+    "warningTitle": "警告",
+    "warningDescription": "区块链交易成功但数据库记录失败",
+    "createFailedDescription": "创建兑换请求失败",
+    "gold": "黄金",
+    "silver": "白银",
+    "completed": "已完成"
+  },
+  "common": {
+    "loading": "加载中...",
+    "processing": "处理中...",
+    "failedToLoadData": "数据加载失败",
+    "error": "错误",
+    "success": "成功",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "more": "更多",
+    "less": "更少",
+    "done": "完成",
+    "notAvailable": "不可用"
+  },
+  "footer": {
+    "company": "公司",
+    "about": "关于我们",
+    "careers": "职业机会",
+    "investors": "投资者",
+    "blog": "博客",
+    "legal": "法律",
+    "termsOfService": "服务条款",
+    "privacyPolicy": "隐私政策",
+    "cookiePolicy": "Cookie政策",
+    "support": "支持",
+    "helpCenter": "帮助中心",
+    "contactUs": "联系我们",
+    "statusPage": "状态页面",
+    "allRightsReserved": "版权所有。",
+    "description": "专业级贵金属代币化平台。为零售和机构投资者提供安全、透明、合规的数字资产托管服务。",
+    "copyright": "© 2025 保险库资产。版权所有。",
+    "products": "产品",
+    "goldTokens": "黄金代币",
+    "silverTokens": "白银代币",
+    "portfolioManagement": "投资组合管理",
+    "institutionalSolutions": "机构解决方案",
+    "apiAccess": "API访问",
+    "security": "安全",
+    "compliance": "合规",
+    "securityAndCompliance": "安全与合规",
+    "press": "新闻",
+    "importantNotice": "重要声明",
+    "complianceNotice": "代币由存储在安全、经审计金库中的实物贵金属支持。所有投资都有风险。过往表现不代表未来结果。投资前请阅读我们的风险披露。保险库资产受监管且符合适用的金融法规。"
+  },
+  "toasts": {
+    "transactionTimeout": "交易超时 - 请重试",
+    "databaseUpdateFailed": "数据库更新失败",
+    "invalidRedemptionData": "无效的赎回数据",
+    "transactionSubmitted": "交易已提交",
+    "waitingForConfirmation": "等待区块链确认...",
+    "unknownNetworkType": "未知网络类型 - 无法取消",
+    "referralLinkCopied": "推荐链接已复制到剪贴板！",
+    "failedToCopyLink": "复制链接失败",
+    "enterEmailAddress": "请输入电子邮件地址",
+    "enterValidEmail": "请输入有效的电子邮件地址",
+    "authenticationRequired": "需要身份验证",
+    "sessionExpired": "会话已过期",
+    "walletConnected": "钱包已连接",
+    "walletConnectionError": "钱包连接错误",
+    "transferInitiated": "{{token}} 转账已启动",
+    "transferringTokens": "正在转账 {{amount}} {{symbol}} 代币到 {{address}}",
+    "transferFailed": "{{token}} 转账失败",
+    "transferFailedDesc": "{{token}} 代币转账失败",
+    "transferSuccessful": "{{token}} 转账成功",
+    "transferSuccessfulDesc": "{{token}} 代币转账成功！交易：{{hash}}...",
+    "transactionError": "{{token}} 交易错误",
+    "transactionFailed": "交易失败",
+    "loginRequired": "请先登录您的账户",
+    "sessionExpiredDesc": "您的会话已过期，请重新登录",
+    "connectWalletDesc": "连接您的钱包以继续",
+    "redemptionRequestInitiated": "{{token}} 赎回请求已启动",
+    "redemptionRequestDescription": "正在请求赎回 {{quantity}} {{symbol}} 代币以进行实物交付。",
+    "redemptionRequestFailed": "{{token}} 赎回请求失败",
+    "redemptionRequestFailedDescription": "{{token}} 赎回请求失败",
+    "redemptionCancellationInitiated": "{{token}} 赎回取消已启动",
+    "redemptionCancellationDescription": "正在取消赎回请求 #{{requestId}} 的 {{symbol}} 代币。",
+    "redemptionCancellationFailed": "{{token}} 赎回取消失败",
+    "redemptionCancellationFailedDescription": "{{token}} 赎回请求取消失败"
+  },
+  "pages": {
+    "faq":{
+      "title": "常见问题",
+      "subtitle": "查找有关 Vaulted Assets 的常见问题答案",
+      "categories": {
+        "general": {
+          "title": "一般问题"
+        },
+        "tokens": {
+          "title": "代币与区块链"
+        },
+        "buying": {
+          "title": "购买与赎回"
+        },
+        "fees": {
+          "title": "费用与转账"
+        },
+        "security": {
+          "title": "安全与合规"
+        },
+        "crossChain": {
+          "title": "跨链转移"
+        },
+        "audit": {
+          "title": "审计与透明度"
+        },
+        "wallets": {
+          "title": "钱包与可访问性"
+        },
+        "gifting": {
+          "title": "赠送与推荐"
+        },
+        "jurisdictional": {
+          "title": "司法管辖限制"
+        }
+      },
+      "questions": {
+        "q1": {
+          "question": "什么是 Vaulted Assets？",
+          "answer": "Vaulted Assets 是一个平台，可让您购买、持有、转移和兑换由黄金和白银支持的数字代币。每个代币代表安全金库中完全分配的贵金属的直接所有权。"
+        },
+        "q2": {
+          "question": "这与实际购买黄金或白银有何不同？",
+          "answer": "通过 Vaulted Assets 购买代币时，您拥有存放在专业级金库中的真实黄金或白银，但您可以数字方式管理持有量，即时交易并随时赎回。"
+        },
+        "q3": {
+          "question": "这些金属存放在哪里？",
+          "answer": "所有黄金和白银都存放在经批准的托管人那里，这些高安全性的金库位于受监管的司法管辖区。"
+        },
+        "q4": {
+          "question": "我的持有资产有保险吗？",
+          "answer": "有，所有保管资产都由托管人提供的全面保险政策覆盖。"
+        },
+        "q5": {
+          "question": "你们使用哪些区块链？",
+          "answer": "Vaulted Assets 支持公共区块链（如 Solana、Ethereum）和私有/许可区块链（如 Canton），以满足不同用户需求。"
+        },
+        "q6": {
+          "question": "我可以选择我的代币所在的区块链吗？",
+          "answer": "可以 — 您可以在购买或转账代币时选择您喜欢的网络。"
+        },
+        "q7": {
+          "question": "区块链交易可以撤销吗？",
+          "answer": "不行。一旦区块链交易确认，就无法撤销。请在确认前仔细检查交易细节。"
+        },
+        "q8": {
+          "question": "我如何购买代币？",
+          "answer": "您可以通过我们的网页或移动应用直接使用支持的法定货币或加密货币购买代币。"
+        },
+        "q9": {
+          "question": "我可以将代币赎回为实物金或银吗？",
+          "answer": "可以。您可以申请以实物形式赎回（须满足最低数量）或等值的法币。"
+        },
+        "q10": {
+          "question": "赎回需要多长时间？",
+          "answer": "交付时间取决于您所在地区、可用性和所选方式（实物交付或现金结算）。"
+        },
+        "q11": {
+          "question": "有哪些费用？",
+          "answer": "我们对交易、存储和区块链转账收取费用。费用因您使用的是公链还是私链而不同。"
+        },
+        "q12": {
+          "question": "Vaulted Assets 用户之间的转账是免费的？",
+          "answer": "在私有区块链上的转账可能费用较低或为零。公链上的转账可能会产生网络 gas 费用。"
+        },
+        "q13": {
+          "question": "我的账户如何得到保障？",
+          "answer": "我们使用强加密、双因素身份验证（2FA）以及多重安全层来保护钱包和平台访问。"
+        },
+        "q14": {
+          "question": "我需要验证身份吗？",
+          "answer": "是的 — 所有用户都必须完成 AML/KYC 验证以符合全球法规。"
+        },
+        "q15": {
+          "question": "如果 Vaulted Assets 关闭会发生什么？",
+          "answer": "您的金属仍然归您所有。如果平台关闭，您将能够赎回您的持有或将其转移到其他托管人。"
+        },
+        "q16": {
+          "question": "我可以在 Ethereum、Solana 和 Canton 之间转移我的代币吗？",
+          "answer": "可以。我们通过可信桥支持跨链转移，在某些情况下通过单独的发行模型支持（在一条链上赎回并在另一条链上重新发行）。我们的文档解释了 GLD 和 SLV 的具体流程。"
+        },
+        "q17": {
+          "question": "跨链会影响我对代币的所有权吗？",
+          "answer": "不会。无论您在 Ethereum 还是 Solana 持有 GLD，每个代币都以 1:1 的比例由我们金库中的实物储备完全支撑。"
+        },
+        "q18": {
+          "question": "我如何知道代币由金银储备完全支撑？",
+          "answer": "Vaulted Assets 通过定期的第三方审计维持储备证明（Proof of Reserves）。我们还发布实时仪表板，显示代币供应与审计库藏的对比，让用户随时验证支撑。"
+        },
+        "q19": {
+          "question": "谁进行审计？",
+          "answer": "独立的、获得认证的审计公司进行我们的储备验证，以确保透明和信任。"
+        },
+        "q20": {
+          "question": "使用 Vaulted Assets 我需要加密钱包吗？",
+          "answer": "不一定。我们的混合钱包系统允许您选择托管钱包（Web2 式登录，不需要技术知识）或自托管钱包（如 MetaMask、Phantom 或兼容 Canton 的解决方案）。"
+        },
+        "q21": {
+          "question": "我可以使用现有的钱包吗？",
+          "answer": "可以，如果您更喜欢自托管，可以连接您自己的 Web3 钱包来管理您的 GLD 和 SLV 代币。"
+        },
+        "q22": {
+          "question": "我可以送代币给别人吗？",
+          "answer": "可以。我们的平台允许赠送代币，您可以直接将黄金或白银发送给家人和朋友。"
+        },
+        "q23": {
+          "question": "你们提供推荐奖励吗？",
+          "answer": "有。Vaulted Assets 有推荐计划，现有用户可以邀请他人并获得代币奖励。详情在您的账户仪表板中提供。"
+        },
+        "q24": {
+          "question": "我可以在我的国家/地区使用 Vaulted Assets 吗？",
+          "answer": "我们的服务受当地法律和法规约束。一些司法管辖区可能限制或禁止参与数字资产平台。在投资前，请阅读我们的使用条款并咨询当地法规。"
+        },
+        "q25": {
+          "question": "该平台对美国或欧盟用户开放吗？",
+          "answer": "可用性取决于产品。某些功能可能由于合规要求而受到限制。我们会在注册过程中通知您是否有限制。"
+        }
+      },
+      "stillHaveQuestions": {
+        "title": "还有疑问？",
+        "description": "找不到想要的内容？请联系我们的支持团队以获得个性化帮助。"
+      },
+      "contactSupport": "联系支持"
+    },
+    "cookiePolicy": {
+      "title": "Vaulted Assets – Cookie 政策",
+      "effectiveDate": "生效日期：[插入日期]",
+      "introduction": {
+        "text1": "Vaulted Assets（\"我们\"、\"我们的\"或\"我们公司\"）使用 cookies 及类似技术来改善您的体验，分析平台使用情况并提供个性化内容和服务。本 Cookie 政策解释了什么是 cookie，我们如何使用它们以及您对其使用的选择。",
+        "text2": "使用 Vaulted Assets 平台即表示您同意本政策所述的 cookie 使用。"
+      },
+      "section1": {
+        "title": "1. 什么是 Cookie？",
+        "intro": "Cookie 是您访问网站或使用应用时存放在您的计算机或移动设备上的小型文本文件。它们允许我们识别您的设备，存储偏好并改善您的浏览体验。",
+        "types": {
+          "intro": "Cookie 可以是：",
+          "session": {
+            "title": "会话 Cookie",
+            "description": "当您关闭浏览器时被删除的临时 cookie。"
+          },
+          "persistent": {
+            "title": "持久性 Cookie",
+            "description": "存储在您的设备上，直到设定期限结束后被删除。"
+          },
+          "firstParty": {
+            "title": "第一方 Cookie",
+            "description": "由 Vaulted Assets 直接设置。"
+          },
+          "thirdParty": {
+            "title": "第三方 Cookie",
+            "description": "由第三方服务提供商设置，用于分析、广告或安全目的。"
+          }
+        }
+      },
+      "section2": {
+        "title": "2. 我们如何使用 Cookie",
+        "intro": "Vaulted Assets 使用 cookie 用于以下目的：",
+        "categories": {
+          "essential": {
+            "title": "1. 必要 Cookie",
+            "description": "平台正常运行所必需（例如登录、管理代币购买、启用安全交易）。"
+          },
+          "performance": {
+            "title": "2. 性能与分析 Cookie",
+            "description": "帮助我们了解用户如何与平台互动，跟踪使用趋势并改进用户体验。",
+            "example": "例如：监控用户查看实时金/银组合的频率。"
+          },
+          "functionality": {
+            "title": "3. 功能性 Cookie",
+            "description": "存储用户偏好，例如语言、货币显示（黄金按美元/克）以及登录会话详情。"
+          },
+          "security": {
+            "title": "4. 安全 Cookie",
+            "description": "检测和预防欺诈活动，保护账户，并在公共和私有区块链上保护交易安全。"
+          },
+          "marketing": {
+            "title": "5. 营销与个性化 Cookie",
+            "description": "提供相关内容，例如降低区块链转账费用的促销或忠诚计划。"
+          }
+        }
+      },
+      "section3": {
+        "title": "3. 第三方 Cookie",
+        "intro": "我们可能使用第三方服务在您的设备上放置 cookies，以提供：",
+        "services": {
+          "analytics": "分析（如 Google Analytics、区块链交易监控工具）",
+          "advertising": "广告（如基于以往访问 Vaulted Assets 的再营销）",
+          "payment": "支付处理集成",
+          "blockchain": "区块链网络交互（如 Solana 或 Ethereum 浏览器）"
+        },
+        "note": "这些第三方可能会收集您在不同网站上的浏览习惯信息。"
+      },
+      "section4": {
+        "title": "4. 管理 Cookie",
+        "intro": "您可以在浏览器设置中控制和管理 Cookie。大多数浏览器允许您：",
+        "actions": {
+          "view": "查看存储在您设备上的 cookies",
+          "delete": "删除 cookies",
+          "block": "阻止特定站点的 cookies",
+          "blockAll": "阻止所有 cookies（可能影响功能）"
+        }
+      },
+      "section5": {
+        "title": "5. Cookie 保留期限",
+        "periods": {
+          "session": {
+            "title": "会话 Cookie：",
+            "description": "在您关闭浏览器时过期。"
+          },
+          "persistent": {
+            "title": "持久性 Cookie：",
+            "description": "在您的设备上存储固定时间。示例：",
+            "examples": {
+              "login": "登录和安全 cookies：最长 1 年",
+              "preference": "偏好 cookies：最长 6 个月",
+              "analytics": "分析 cookies：通常 30–90 天"
+            }
+          }
+        },
+        "note": "您可以通过浏览器设置提前删除 cookies。"
+      },
+      "section6": {
+        "title": "6. 特定司法管辖区的合规",
+        "intro": "我们遵守适用的数据保护和电子隐私法律，包括：",
+        "laws": {
+          "gdpr": {
+            "title": "GDPR（欧盟/欧洲经济区用户）",
+            "description": "设置非必要 cookie 之前需要合法依据。"
+          },
+          "ccpa": {
+            "title": "CCPA/CPRA（加州用户）",
+            "description": "用户有权选择不参与基于 cookie 的数据共享。"
+          },
+          "other": {
+            "title": "其他司法管辖区",
+            "description": "在需要的情况下，我们应用类似的保护措施。"
+          }
+        }
+      },
+      "section7": {
+        "title": "7. 用户权利与选择",
+        "rights": {
+          "adjust": "您可以通过浏览器设置或我们的 Cookie 横幅/设置面板调整 Cookie 偏好。",
+          "essential": "必要 cookies 无法禁用，因为它们对于安全和核心功能是必需的。",
+          "rejecting": "拒绝某些 cookies（例如功能或分析 cookies）可能会限制您在平台上的体验。"
+        }
+      },
+      "section8": {
+        "title": "8. 您的同意",
+        "description": "当您第一次访问 Vaulted Assets 平台时，会出现一个 cookie 横幅，允许您接受所有 cookies 或管理您的偏好。继续使用我们的平台而不调整浏览器设置，即表示您同意我们使用 cookies。"
+      },
+      "section9": {
+        "title": "9. 此政策的更新",
+        "description": "我们可能会不时更新本 Cookie 政策，以反映技术变化、法律要求或我们的运营。更新后的政策将发布并注明新的生效日期。"
+      },
+      "contact": {
+        "title": "10. 联系我们",
+        "description": "如果您对我们使用 cookies 有任何疑问或担忧，请联系我们：",
+        "info": "电子邮件：privacy@vaultedassets.com"
+      }
+    },
+    "goldTokens":{
+      "heroTitle": "黄金代币",
+      "heroSubtitle": "在数字时代拥有黄金的最聪明方式",
+      "heroDescription": "GLD 代币 – 您的黄金，您的方式。该平台使投资者能够购买 GLD，每枚代币由1克投资级黄金支持，安全存储并完全审计。无论您是持有、赠送还是交易，GLD 都将黄金的永恒价值带入您的日常数字生活。",
+      "features": {
+        "directlyBacked": {
+          "title": "直接由黄金支持",
+          "description": "1 GLD = 1克实物黄金，为您提供跟随全球黄金市场实时价格的资产。"
+        },
+        "multiChain": {
+          "title": "多链灵活性",
+          "description": "基于 ERC-20（以太坊）、SPL 代币程序（索拉纳）或 Canton 网络，GLD 可确保最大的互操作性和转账速度。"
+        },
+        "useYourWay": {
+          "title": "自由使用",
+          "description": "在安全的混合钱包中持有，赠送给朋友，用于交易或交易—GLD 像现金一样使用，但由黄金支撑。"
+        },
+        "auditsProof": {
+          "title": "审计与储备证明",
+          "description": "独立第三方定期审计，验证每枚黄金代币都完全由金库中的黄金支持。"
+        },
+        "redeemable": {
+          "title": "随时可兑换",
+          "description": "将您的 GLD 再次转换为实物黄金（根据平台的赎回政策）或快速兑换为本地货币。"
+        }
+      },
+      "cta": {
+        "title": "拥有黄金的未来，由信任支持！",
+        "subtitle": "与 Vaulted Assets 的黄金代币（GLD）一起迈入财富保存的新纪元——一种100%由投保且独立审计的实物黄金支撑的数字资产。",
+        "getStarted": "立即开始",
+        "partnerWithUs": "与我们合作"
+      },
+      "learnMore": {
+        "title": "了解有关黄金代币 (GLD) 的更多信息",
+        "objective": {
+          "title": "目标",
+          "description1": "用户可以通过平台投资黄金并获得数字代币作为回报。这些代币——黄金代币 GLD——可以存储、赠送、用于交易，或随时赎回。",
+          "description2": "GLD 是基于 ERC-20、SPL 代币程序或 Canton 网络的代币，每枚代币都以 1:1 比例由实物黄金支撑。这确保您的投资完全由真实资产保障，同时提供数字货币的灵活性和便利。",
+          "pricing": {
+            "label": "价格",
+            "description": "价格取决于市场利率；例如，购买 1 克实物黄金可获得正好 1 枚 GLD 代币。然而，黄金代币的价格每天都在变化，反映全球投资级黄金的实时市场利率。"
+          }
+        }
+      },
+      "technicalDetails": {
+        "title": "技术实现",
+        "creation": {
+          "title": "创建",
+          "description": "当用户通过平台购买黄金（主要以美元）时，就会创建 GLD 代币。等量的实物黄金被安全存储，代币发放给买家。"
+        },
+        "redemption": {
+          "title": "赎回",
+          "description": "任何时候，用户都可以将 GLD 代币兑换成相等价值的实物黄金或法币，根据当前市场价格。"
+        },
+        "custody": {
+          "title": "托管与保险",
+          "description": "黄金代币通过独立的托管人保管，并在完全投保的金库中存放，为投资者提供最大程度的保护。"
+        }
+      },
+      "security": {
+        "title": "安全与合规",
+        "crossChain": {
+          "title": "跨链一致性",
+          "description": "黄金代币的供应在支持的区块链之间同步，以防止超额发行并确保完整性。"
+        },
+        "compliance": {
+          "title": "全球合规",
+          "description": "我们的平台在严格的 AML/KYC 标准和受监管的金库司法管辖区内运营，以支持全球可访问性。"
+        },
+        "infrastructure": {
+          "title": "安全基础设施",
+          "description": "多层钱包安全，结合托管和自托管选项，在每一步都保护代币持有者。"
+        }
+      },
+      "tokenSpec": {
+        "title": "GLD 代币规格",
+        "ratio": "代币与黄金的比例",
+        "backed": "资产支持",
+        "redeemable": "可兑换"
+      },
+      "disclaimer": {
+        "title": "监管免责声明",
+        "description": "不构成财务建议。可用性受限于司法管辖规定。请参阅条款和条件以了解详情。"
+      }
+    },
+    "silverTokens":{
+      "heroTitle": "白银代币",
+      "heroSubtitle": "在数字时代拥有白银的最聪明方式",
+      "heroDescription": "随时随地投资、支出或赠送白银。本平台使投资者能够购买 SLV，每个 SLV 由 1 克投资级白银背书，安全存储并完全审计。无论你持有、赠与还是交易，SLV 都将白银的持久价值带入你的日常数字生活。",
+      "features": {
+        "directlyBacked": {
+          "title": "直接由白银背书",
+          "description": "1 SLV = 1 克实物白银，按全球白银市场价格实时估值。"
+        },
+        "multiChain": {
+          "title": "多链灵活性",
+          "description": "SLV 建立在 ERC-20（以太坊）、SPL Token Program（Solana）或 Canton 网络之上，提供无缝互操作性和快速转账。"
+        },
+        "useYourWay": {
+          "title": "按你的方式使用",
+          "description": "存储在安全的混合钱包中，赠送给朋友，进行交易或交易——SLV 的使用方式像现金，但由真实的白银背书。"
+        },
+        "auditsProof": {
+          "title": "审计与储备证明",
+          "description": "独立审计和实时储备证明仪表板确保每个 Silver Token (SLV) 都完全由库存白银支撑。"
+        },
+        "redeemable": {
+          "title": "可兑换",
+          "description": "根据平台兑换政策，你可以将 SLV 兑换成实物白银或快速安全地兑换成当地货币。"
+        }
+      },
+      "cta": {
+        "title": "体验前所未有的白银——链上且审计！",
+        "subtitle": "在经审计的储备背书并存储在全额投保的金库中，每个 Silver Token (SLV) 为你提供可验证的实物白银所有权——随时随地可访问。",
+        "getStarted": "立即开始",
+        "partnerWithUs": "与我们合作"
+      },
+      "learnMore": {
+        "title": "了解更多关于 Silver Token (SLV) 的信息",
+        "objective": {
+          "title": "目标",
+          "description1": "用户可以通过平台投资白银并获得 SLV 数字代币。此代币可存储、赠送、用于交易或随时赎回。SLV 是一种基于 ERC-20、SPL Token Program 或 Canton 网络的代币，1:1 由实物白银支撑。",
+          "description2": "这确保了你的投资完全由有形资产担保，同时提供数字货币的灵活性。"
+        }
+      },
+      "technicalDetails": {
+        "title": "技术实施",
+        "pricing": {
+          "title": "定价",
+          "description": "定价取决于市场利率；例如，购买 1 克实物白银会给投资者带来 1 个 SLV 代币。"
+        },
+        "creation": {
+          "title": "发行",
+          "description": "当用户通过平台购买白银（主要以美元）时，即会创建 SLV 代币。等量的实物白银安全存储，并为购买者发行相匹配的代币。"
+        },
+        "fees": {
+          "title": "费用",
+          "description": "交易和赎回会收取名义费用，用以支付区块链的燃料成本和运营费用。完整详情可参见我们的条款和条件。"
+        },
+        "redemption": {
+          "title": "赎回",
+          "description": "任何时候，用户都可以根据当前市场价格将 SLV 代币赎回为等值的实物白银或法定货币。"
+        }
+      },
+      "security": {
+        "title": "安全与保险",
+        "custody": {
+          "title": "托管与保险",
+          "description": "所有支撑 SLV 代币的实物白银都存储在经认可、投保的金库中。这不仅确保了最高的安全标准，也让投资者安心，知道他们的资产受到防止损失或盗窃的保障。"
+        }
+      },
+      "tokenSpec": {
+        "title": "SLV 代币规范",
+        "ratio": "代币与白银的比例",
+        "backed": "资产背书",
+        "redeemable": "可兑换"
+      },
+      "disclaimer": {
+        "title": "监管免责声明",
+        "description": "Silver Token (SLV) 不是投资建议，也不代表出售或购买证券的要约或招揽。使用和赎回可能受制于司法管辖区限制。在做出财务决定之前，请阅读我们的条款和条件并咨询专业顾问。"
+      }
+    },
+    "termsOfService": {
+      "title": "保险库资产 – 安全与合规政策",
+      "effectiveDate": "生效日期：[插入日期]",
+      "introduction": "在保险库资产，安全和监管合规是我们运营的核心。本政策概述了我们为保护用户资产、保护敏感数据以及确保遵守适用的法律和监管框架而采取的措施。",
+      "section1": {
+        "title": "1. 目的",
+        "intro": "本安全与合规政策旨在：",
+        "objectives": {
+          "protection": "保护用户资金和数据免受未经授权的访问、盗窃或滥用。",
+          "integrity": "维护代币化黄金（GLD）和白银（SLV）系统的完整性。",
+          "compliance": "遵守相关的金融、数据保护和反洗钱法规。"
+        }
+      },
+      "section2": {
+        "title": "2. 安全目标",
+        "intro": "我们的主要安全目标是：",
+        "objectives": {
+          "assetProtection": {
+            "title": "资产保护",
+            "description": "保护物理贵金属及其数字代币化等价物。"
+          },
+          "dataConfidentiality": {
+            "title": "数据机密性",
+            "description": "保护用户数据免受未经授权的访问。"
+          },
+          "transactionIntegrity": {
+            "title": "交易完整性",
+            "description": "防止欺诈、篡改和未经授权的转账。"
+          },
+          "systemResilience": {
+            "title": "系统韧性",
+            "description": "确保平台的持续可用性和灾难恢复。"
+          }
+        }
+      },
+      "section3": {
+        "title": "3. 范围",
+        "intro": "本政策适用于：",
+        "applies": {
+          "employees": "所有保险库资产的员工、承包商和服务提供商。",
+          "accounts": "平台上进行的所有用户账户和交易。",
+          "assets": "托管的所有物理贵金属及其相应的数字代币。"
+        }
+      },
+      "section4": {
+        "title": "4. 安全措施",
+        "custodial": {
+          "title": "4.1 托管资产安全",
+          "description": "物理黄金和白银储存在高安全性保险库中，配备24/7监控、武装安保和生物识别访问控制。托管人根据国际安全认证进行审查和批准。储存资产的保险覆盖包括盗窃、火灾和自然灾害。"
+        },
+        "blockchain": {
+          "title": "4.2 区块链安全",
+          "description": "在以太坊（ERC-20）、Solana（SPL代币程序）和Canton网络（私有）上发行的代币遵循各自的网络标准。",
+          "features": {
+            "standards": "在以太坊（ERC-20）、Solana（SPL代币程序）和Canton网络（私有）上发行的代币遵循各自的网络标准。",
+            "audits": "智能合约代码在部署前经过独立审计，以识别和修复漏洞。",
+            "monitoring": "持续的链上监控可疑活动。"
+          }
+        },
+        "smartContracts": {
+          "title": "4.3 智能合约审计",
+          "description": "所有代币和交易相关的智能合约在部署前都会接受独立的第三方审计。审计报告在保险库资产网站上公布以确保透明度。部署后，合约会受到漏洞监控，如有必要会进行升级。"
+        },
+        "wallet": {
+          "title": "4.4 钱包基础设施",
+          "features": {
+            "support": "支持托管和自托管钱包。",
+            "multiSig": "托管钱包的多重签名和MPC（多方计算）保护。",
+            "coldStorage": "大部分代币储备的冷储存以最小化在线暴露。"
+          }
+        },
+        "dataProtection": {
+          "title": "4.5 数据保护和隐私",
+          "description": "所有用户数据使用AES-256加密存储，通过TLS 1.3在传输过程中保护。对用户数据的访问基于角色并记录以确保可追溯性。应用数据最小化原则：我们只收集提供服务所需的数据。用户权利，包括访问、可携性和删除，由我们的隐私政策管理。"
+        },
+        "userProtections": {
+          "title": "4.6 用户特定保护",
+          "description": "钓鱼和安全教育：保险库资产积极教育用户有关钓鱼、恶意链接和钱包密钥管理等风险。双因子认证（2FA）：账户登录和取款需要强认证机制。会话监控：用户会收到异常登录、地理异常或可疑账户活动的通知。钱包安全提示：通过教程和常见问题解答提供关于冷储存、硬件钱包使用和个人密钥管理的指导。"
+        },
+        "custodyFees": {
+          "title": "4.7 托管、费用和赎回安全",
+          "description": "费用模型保障：监控转账和赎回费用以防止欺诈或操纵性使用。反欺诈措施：大额赎回请求受到速率限制、速度检查和多级审批工作流程的约束，以防止滥用或协调攻击。托管保险：第三方托管人必须维护针对盗窃、黑客攻击或运营失败的保险。"
+        }
+      },
+      "section5": {
+        "title": "5. 合规措施",
+        "regulatory": {
+          "title": "5.1 监管合规",
+          "description": "遵守反洗钱（AML）和了解您的客户（KYC）法规。对全球监管名单（OFAC、联合国、欧盟）进行制裁筛查。用于可疑交易检测的合规监控工具。"
+        },
+        "audit": {
+          "title": "5.2 审计与透明度",
+          "description": "定期（每月/季度）对物理金属持有进行第三方审计。智能合约审计由独立的区块链安全公司执行。平台上提供公开的审计报告。"
+        },
+        "dataCompliance": {
+          "title": "5.3 数据保护合规",
+          "description": "遵守GDPR（通用数据保护条例）和CCPA（加利福尼亚消费者隐私法）。明确的用户同意机制用于数据收集和处理。用户有权访问、更新或删除个人信息。"
+        },
+        "certifications": {
+          "title": "5.4 认证和标准",
+          "intro": "保险库资产与维护国际认可认证的托管人、审计师和技术提供商合作：",
+          "iso": {
+            "title": "ISO 27001",
+            "description": "信息安全管理系统（ISMS）。"
+          },
+          "soc": {
+            "title": "SOC 2 Type II",
+            "description": "内部安全、可用性和机密性控制的独立验证。"
+          },
+          "aml": {
+            "title": "AML/KYC审计",
+            "description": "由诸如Chainalysis等公司进行区块链监控和合规保证。"
+          },
+          "smartContract": {
+            "title": "智能合约安全审计",
+            "description": "由CertiK和Trail of Bits等独立公司在部署前执行。"
+          }
+        }
+      },
+      "section6": {
+        "title": "6. 事件响应计划",
+        "intro": "在发生安全漏洞或运营中断的情况下：",
+        "steps": {
+          "detection": {
+            "title": "检测：",
+            "description": "来自监控系统的实时警报。"
+          },
+          "containment": {
+            "title": "遏制：",
+            "description": "隔离受影响的系统和钱包。"
+          },
+          "notification": {
+            "title": "通知：",
+            "description": "根据法律要求通知受影响的用户和监管当局。"
+          },
+          "remediation": {
+            "title": "补救：",
+            "description": "应用安全补丁，恢复服务，并防止再次发生。"
+          }
+        }
+      },
+      "section7": {
+        "title": "7. 员工和供应商安全",
+        "measures": {
+          "training": "员工强制性安全意识培训。",
+          "background": "敏感角色员工的背景调查。",
+          "vendor": "供应商尽职调查以确保第三方符合保险库资产的安全和合规标准。"
+        }
+      },
+      "section8": {
+        "title": "8. 独立审计",
+        "quarterly": {
+          "title": "季度物理审计：",
+          "description": "保险库设施接受季度检查以确认储备资产和储存完整性。"
+        },
+        "annual": {
+          "title": "年度财务审计：",
+          "description": "由持牌第三方审计师进行以验证储备证明（PoR）。"
+        },
+        "ongoing": {
+          "title": "持续区块链监控：",
+          "description": "对所有代币流实施实时AML/CTF交易筛查。"
+        }
+      },
+      "section9": {
+        "title": "9. 可扩展性和新兴风险",
+        "environmental": {
+          "title": "环境和不可抗力准备：",
+          "description": "根据我们白皮书免责声明，针对可能影响保险库位置的地缘政治风险、自然灾害或监管冲击制定了应急协议。"
+        },
+        "multiRegion": {
+          "title": "多地区托管：",
+          "description": "储备资产在地理上分散以最小化中断风险。"
+        },
+        "emergingRisk": {
+          "title": "新兴风险监控：",
+          "description": "定期评估追踪与新网络威胁、监管变化和区块链漏洞相关的风险。"
+        }
+      },
+      "section10": {
+        "title": "10. 指标和报告",
+        "security": {
+          "title": "安全KPI：",
+          "uptime": "99.9%系统正常运行时间（每月）。",
+          "response": "从检测开始的事件响应时间<4小时。",
+          "remediation": "审计补救在发现后30天内完成。"
+        },
+        "transparency": {
+          "title": "透明度仪表板：",
+          "description": "面向用户的仪表板提供实时储备证明（PoR）、审计报告和合规认证，与我们对开放性的承诺保持一致。"
+        }
+      },
+      "section11": {
+        "title": "11. 政策更新",
+        "description": "我们定期审查和更新此政策以应对新兴威胁、监管变化和技术更新。"
+      },
+      "contact": {
+        "title": "12. 联系信息",
+        "description": "如有关于此政策的问题或报告安全问题：",
+        "info": "电子邮件：security@vaultedassets.com\n邮寄地址：123 Financial District, Suite 456, New York, NY 10004\n网站：https://vaultedassets.com/security"
+      }
+    },
+    "privacyPolicy": {
+      "title": "保险库资产 - 隐私政策",
+      "effectiveDate": "生效日期：[插入日期]",
+      "introduction": {
+        "text1": "保险库资产（\"我们\"、\"我们的\"、\"我们\"）致力于保护您的个人信息并尊重您的隐私。本隐私政策解释了当您使用我们的平台（包括我们的网络和移动应用程序）购买、持有、转让和赎回代币化黄金和白银时，我们如何收集、使用、存储和共享您的数据。",
+        "text2": "通过使用保险库资产，您同意本隐私政策中描述的做法。如果您不同意，请不要使用我们的服务。"
+      },
+      "section1": {
+        "title": "1. 我们收集的信息",
+        "intro": "我们收集以下类别的信息：",
+        "personal": {
+          "title": "个人信息：",
+          "description": "姓名、电子邮件、电话号码和身份证明文件（用于KYC/AML合规）。"
+        },
+        "financial": {
+          "title": "财务信息：",
+          "description": "支付方式详细信息、交易记录和钱包地址。"
+        },
+        "blockchain": {
+          "title": "区块链数据：",
+          "description": "以太坊、Solana和其他支持的区块链上的公共钱包地址、交易哈希和余额。虽然这些数据是公开的和假名的，但用户应该意识到高级分析可能允许去匿名化。"
+        },
+        "institutional": {
+          "title": "机构隐私（Canton网络）：",
+          "description": "对于利用Canton的机构用户，适用增强的隐私措施，确保交易数据不会全球广播，只有授权方才能访问。"
+        },
+        "technical": {
+          "title": "技术数据：",
+          "description": "IP地址、设备信息、浏览器类型和cookie（请参阅我们的Cookie政策）。"
+        },
+        "usage": {
+          "title": "使用分析：",
+          "description": "点击流数据、平台使用模式、推荐代码和用于服务改进的聚合行为。"
+        }
+      },
+      "section2": {
+        "title": "2. 我们如何使用您的信息",
+        "intro": "我们处理您的信息以：",
+        "uses": {
+          "provide": "提供平台服务并执行交易。",
+          "verify": "验证身份并遵守KYC/AML法规。",
+          "improve": "改进、定制和保护平台。",
+          "enable": "启用法币进出功能和跨链转账。",
+          "conduct": "进行性能优化分析。",
+          "support": "提供客户支持并回应询问。",
+          "meet": "满足监管和法律义务。"
+        }
+      },
+      "section3": {
+        "title": "3. 处理的法律依据",
+        "intro": "我们在以下一个或多个法律依据下处理个人数据：",
+        "bases": {
+          "contract": {
+            "title": "合同履行",
+            "description": "履行我们对您的义务。"
+          },
+          "legal": {
+            "title": "法律义务",
+            "description": "遵守法律法规。"
+          },
+          "legitimate": {
+            "title": "合法利益",
+            "description": "安全地运营和改进我们的平台。"
+          },
+          "consent": {
+            "title": "同意",
+            "description": "您明确同意的地方（例如，用于营销）。"
+          }
+        }
+      },
+      "section4": {
+        "title": "4. 数据共享和第三方集成",
+        "intro": "我们可能在以下情况下共享您的信息：",
+        "cases": {
+          "blockchain": {
+            "title": "区块链网络：",
+            "description": "提交到区块链的交易是公开可见和不可变的。我们无法控制第三方如何分析这些数据。"
+          },
+          "fiat": {
+            "title": "法币入口/支付提供商：",
+            "description": "为了处理存款/提款，相关的个人和财务数据可能会与许可的提供商安全共享。"
+          },
+          "wallets": {
+            "title": "第三方钱包和桥接：",
+            "description": "如果您使用外部钱包或跨链服务，某些标识符（例如，钱包地址、交易元数据）可能会被共享以执行交易。"
+          },
+          "analytics": {
+            "title": "分析提供商：",
+            "description": "聚合和匿名的使用数据可能会被共享以改进平台。"
+          },
+          "legal": {
+            "title": "法律/监管请求：",
+            "description": "我们可能会披露数据以遵守适用的法律、监管机构或执法部门。"
+          }
+        },
+        "noSale": "我们不出售您的个人信息。"
+      },
+      "section5": {
+        "title": "5. 数据存储和安全",
+        "measures": {
+          "encryption": {
+            "title": "加密：",
+            "description": "所有敏感数据在静止时（AES-256）和传输中（TLS 1.3）都经过加密。"
+          },
+          "access": {
+            "title": "访问控制：",
+            "description": "基于角色的权限与多因素身份验证（MFA）。"
+          },
+          "backups": {
+            "title": "备份：",
+            "description": "地理分布的加密备份用于灾难恢复。"
+          },
+          "physical": {
+            "title": "物理安全：",
+            "description": "托管金库符合行业领先的安全标准。"
+          }
+        }
+      },
+      "section6": {
+        "title": "6. 数据安全和违规通知",
+        "protocols": "我们应用强大的安全协议，包括AES-256加密、多重签名钱包、冷存储和定期审计。",
+        "breachIntro": "如果发生涉及个人数据的数据违规：",
+        "breachSteps": {
+          "users": "受影响的用户将在72小时内收到通知，符合GDPR和其他监管框架。",
+          "authorities": "相关当局也将根据要求被告知。"
+        }
+      },
+      "section7": {
+        "title": "7. Cookie、跟踪和选择退出",
+        "intro": "我们使用cookie和类似的跟踪技术，如我们的Cookie政策中所述。这些包括：",
+        "types": {
+          "essential": {
+            "title": "基本Cookie：",
+            "description": "平台安全和登录功能所需。"
+          },
+          "performance": {
+            "title": "性能分析：",
+            "description": "跟踪使用趋势以改进服务。"
+          },
+          "referral": {
+            "title": "推荐和营销标签：",
+            "description": "用于活动绩效和推荐跟踪的非必需cookie。"
+          }
+        },
+        "optOut": {
+          "title": "选择退出：",
+          "description": "您可以通过您的账户设置或通过您的浏览器偏好禁用非必需的cookie。如果禁用cookie，某些功能可能无法正常工作。"
+        }
+      },
+      "section8": {
+        "title": "8. 儿童隐私和敏感数据",
+        "children": "我们的平台仅适用于18岁及以上的用户。我们不会故意收集18岁以下儿童的数据。如果我们得知未成年人提交了数据，我们将立即删除。",
+        "sensitive": "敏感数据，包括用于KYC目的的生物识别信息，在严格的合规要求下安全存储并仅由经批准的第三方提供商处理。"
+      },
+      "section9": {
+        "title": "9. 国际数据传输",
+        "description": "您的数据可能会被传输到您所在国家/地区以外的司法管辖区并在那里进行处理，包括数据保护法可能有所不同的地方。我们通过合同保护措施或其他合法机制确保充分保护。"
+      },
+      "section10": {
+        "title": "10. 数据保留",
+        "intro": "我们保留您的个人数据：",
+        "periods": {
+          "account": "只要您与我们保持账户。",
+          "regulations": "根据适用的监管要求（通常为7年）。",
+          "legal": "如果法律义务或争议需要，时间会更长。"
+        }
+      },
+      "section11": {
+        "title": "11. 您的权利",
+        "intro": "根据适用的数据保护法，您可能有权：",
+        "rights": {
+          "access": {
+            "title": "访问",
+            "description": "请求我们持有的关于您的信息副本。"
+          },
+          "rectify": {
+            "title": "纠正",
+            "description": "更新或更正不准确的信息。"
+          },
+          "delete": {
+            "title": "删除",
+            "description": "请求删除您的个人数据（\\\"被遗忘权\\\"）。"
+          },
+          "restrict": {
+            "title": "限制处理",
+            "description": "限制我们如何使用您的数据。"
+          },
+          "object": {
+            "title": "反对处理",
+            "description": "反对某些类型的数据处理。"
+          },
+          "portability": {
+            "title": "数据可移植性",
+            "description": "以结构化格式接收您的数据。"
+          }
+        },
+        "contact": "要行使这些权利，请通过[联系信息]与我们联系。"
+      },
+      "section12": {
+        "title": "12. 本隐私政策的更新",
+        "description": "我们可能会不时更新本隐私政策。重大变更将通过电子邮件或平台通知告知您。继续使用我们的服务即表示您接受修订后的政策。"
+      },
+      "links": {
+        "title": "其他政策的链接",
+        "terms": "服务条款",
+        "cookie": "Cookie政策",
+        "security": "安全政策"
+      },
+      "contact": {
+        "title": "联系我们",
+        "description": "如果您对本隐私政策或您的个人数据有疑问，请联系：",
+        "email": "电子邮件：privacy@vaultedassets.com",
+        "address": "地址：纽约州纽约市金融区123号456室，邮编10004",
+        "dpo": "数据保护官：dpo@vaultedassets.com"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "titleHighlight": "保险库资产",
+      "subtitle": "联系我们的团队寻求支持、合作伙伴关系或咨询",
+      "info": {
+        "title": "取得联系",
+        "email": {
+          "title": "电子邮件",
+          "support": "support@vaultedassets.com",
+          "partnerships": "partnerships@vaultedassets.com"
+        },
+        "office": {
+          "title": "办公室",
+          "address": "纽约金融区123号\n纽约州纽约市10005\n美国"
+        },
+        "hours": {
+          "title": "营业时间",
+          "weekdays": "周一至周五：上午9:00 - 下午6:00（东部时间）",
+          "saturday": "周六：上午10:00 - 下午2:00（东部时间）",
+          "sunday": "周日：休息"
+        }
+      },
+      "form": {
+        "title": "向我们发送消息",
+        "fields": {
+          "firstName": "名",
+          "lastName": "姓",
+          "email": "电子邮箱地址",
+          "company": "公司（可选）",
+          "subject": "主题",
+          "message": "消息"
+        },
+        "placeholders": {
+          "firstName": "请输入您的名字",
+          "lastName": "请输入您的姓氏",
+          "email": "your.email@example.com",
+          "company": "您的公司名称",
+          "subject": "我们能帮您什么吗？",
+          "message": "告诉我们更多关于您的咨询..."
+        },
+        "buttons": {
+          "send": "发送消息",
+          "sending": "发送中...",
+          "clear": "清空表单"
+        },
+        "success": {
+          "title": "消息发送成功！",
+          "description": "感谢您联系我们。我们将很快回复您。"
+        },
+        "error": {
+          "title": "发送消息失败",
+          "description": "请稍后再试。"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "subtitle": "寻找有关保险库资产的常见问题的答案",
+        "categories": {
+          "general": {
+            "title": "一般问题"
+          },
+          "tokens": {
+            "title": "代币和区块链"
+          },
+          "buying": {
+            "title": "购买和赎回"
+          },
+          "fees": {
+            "title": "费用和转账"
+          },
+          "security": {
+            "title": "安全和合规"
+          },
+          "crossChain": {
+            "title": "跨链转账"
+          },
+          "audit": {
+            "title": "审计和透明度"
+          },
+          "wallets": {
+            "title": "钱包和可访问性"
+          },
+          "gifting": {
+            "title": "礼品和推荐"
+          },
+          "jurisdictional": {
+            "title": "司法管辖区限制"
+          }
+        },
+        "questions": {
+          "q1": {
+            "question": "什么是保险库资产？",
+            "answer": "保险库资产是一个允许您购买、持有、转移和赎回黄金和白银支持的数字代币的平台。每个代币代表存储在安全保险库中的完全分配贵金属的直接所有权。"
+          },
+          "q2": {
+            "question": "这与物理购买黄金或白银有何不同？",
+            "answer": "当您通过保险库资产购买代币时，您拥有存储在专业级保险库中的真正黄金或白银——但您可以数字化管理您的持有，即时交易，并随时赎回。"
+          },
+          "q3": {
+            "question": "金属存储在哪里？",
+            "answer": "所有黄金和白银都与批准的托管人一起存储在位于受监管司法管辖区的高安全性保险库中。"
+          },
+          "q4": {
+            "question": "我的持有是否有保险？",
+            "answer": "是的，所有保险库资产都由托管人提供的综合保险单承保。"
+          },
+          "q5": {
+            "question": "您使用哪些区块链？",
+            "answer": "保险库资产支持公共区块链（例如Solana、以太坊）和私有/许可区块链（例如Canton）以满足不同的用户需求。"
+          },
+          "q6": {
+            "question": "我可以选择我的代币在哪个区块链上吗？",
+            "answer": "是的——您可以在购买或转移代币时选择您偏好的网络。"
+          },
+          "q7": {
+            "question": "区块链交易是可逆的吗？",
+            "answer": "不是。一旦区块链交易被确认，就无法撤销。在确认之前请务必仔细检查交易详情。"
+          },
+          "q8": {
+            "question": "我如何购买代币？",
+            "answer": "您可以直接通过我们的网页或移动应用程序使用支持的法定货币或加密货币购买代币。"
+          },
+          "q9": {
+            "question": "我可以将我的代币赎回为物理黄金或白银吗？",
+            "answer": "是的。您可以要求以物理金属形式赎回（受最低数量限制）或等值法币价值。"
+          },
+          "q10": {
+            "question": "赎回需要多长时间？",
+            "answer": "交付时间取决于您的位置、可用性和选择的方法（物理交付或现金结算）。"
+          },
+          "q11": {
+            "question": "适用哪些费用？",
+            "answer": "我们对交易、存储和区块链转账收费。费用因您使用公共还是私有区块链而异。"
+          },
+          "q12": {
+            "question": "保险库资产用户之间的转账是免费的吗？",
+            "answer": "私有区块链上的转账可能有减少或零费用。公共区块链上的转账可能产生网络gas费用。"
+          },
+          "q13": {
+            "question": "我的账户如何保护？",
+            "answer": "我们使用强加密、双因素认证（2FA）和多层安全措施来保护钱包和平台访问。"
+          },
+          "q14": {
+            "question": "我需要验证我的身份吗？",
+            "answer": "是的——所有用户必须完成AML/KYC验证以符合全球法规。"
+          },
+          "q15": {
+            "question": "如果保险库资产关闭会怎样？",
+            "answer": "您的金属仍然是您的财产。在平台关闭的情况下，您将能够赎回您的持有或将其转移到替代托管人。"
+          },
+          "q16": {
+            "question": "我可以在以太坊、Solana和Canton之间移动我的代币吗？",
+            "answer": "是的。我们支持通过可信桥梁进行跨链转账，在某些情况下通过单独的发行模型（代币可以在一个链上赎回并在另一个链上重新发行）。我们的文档解释了GLD和SLV的具体流程。"
+          },
+          "q17": {
+            "question": "桥接会影响我对代币的所有权吗？",
+            "answer": "不会。无论您在以太坊还是Solana上持有GLD，每个代币都由我们保险库中的物理储备1:1完全支持。"
+          },
+          "q18": {
+            "question": "我如何知道代币完全由黄金和白银储备支持？",
+            "answer": "保险库资产通过定期第三方审计维护储备证明。我们还发布一个实时仪表板，显示代币供应量对比审计的保险库持有量，因此用户可以随时验证支持。"
+          },
+          "q19": {
+            "question": "谁进行审计？",
+            "answer": "独立的认证审计公司进行我们的储备验证以确保透明度和信任。"
+          },
+          "q20": {
+            "question": "我需要加密钱包来使用保险库资产吗？",
+            "answer": "不一定。我们的混合钱包系统允许您选择：托管钱包（简单，Web2风格登录，不需要技术知识）。自托管钱包（例如MetaMask、Phantom或Canton兼容解决方案）。"
+          },
+          "q21": {
+            "question": "我可以使用我现有的钱包吗？",
+            "answer": "是的，如果您偏好自托管，您可以连接您自己的Web3钱包来管理您的GLD和SLV代币。"
+          },
+          "q22": {
+            "question": "我可以将代币赠送给其他人吗？",
+            "answer": "是的。我们的平台支持代币赠送，因此您可以直接向家人和朋友发送黄金或白银。"
+          },
+          "q23": {
+            "question": "您提供推荐奖励吗？",
+            "answer": "是的。保险库资产运行推荐计划，现有用户可以邀请他人并获得代币奖励。详情在您的账户仪表板中可用。"
+          },
+          "q24": {
+            "question": "我可以在我的国家使用保险库资产吗？",
+            "answer": "我们的服务受当地法律法规约束。某些司法管辖区可能限制或禁止参与数字资产平台。投资前请查看我们的使用条款并咨询您的当地法规。"
+          },
+          "q25": {
+            "question": "该平台是否向美国或欧盟用户开放？",
+            "answer": "可用性因产品而异。某些功能可能基于合规要求受到限制。如果访问受限，我们将在入职过程中通知用户。"
+          }
+        }
+      }
+    },
+    "whitepaper": {
+      "title": "白皮书",
+      "subtitle": "通过区块链技术数字化贵金属投资",
+      "description": "探索保险库资产在以太坊、Solana和Canton网络上革命性方法，将物理贵金属转换为可访问、流动的数字资产。我们的全面白皮书详细介绍了市场机会、技术实现、代币经济学和我们的规模计划。",
+      "downloadPdf": "下载PDF",
+      "viewOnline": "在线阅读",
+      "lastUpdated": "最后更新：2024年4月",
+      "executiveSummary": {
+        "title": "执行摘要",
+        "intro": "保险库资产是一个开创性的数字资产平台，平弥了传统贵金属投资与现代区块链技术之间的鸿沟。我们在国际安全保险库中存储物理黄金和白银，并在以太坊、Solana和Canton网络上发行相应的数字代币。",
+        "concept": "我们的核心概念简单而强大：每个数字代币都由实物贵金属存储的等值支持，用户可以随时随地进行兑换。这种方法消除了传统贵金属所有权的存储、保险和流动性问题，同时提供了数字资产的灵活性和潜在增长。",
+        "tokens": "我们的平台主要推出两种代币：支持黄金的GLD和支持白银的SLV。每种代币都享受相同的安全性、透明度和流动性益处，但受各自商品的独特市场动态驱动。",
+        "features": "我们的技术平台包括综合投资组合管理、自动化订单处理、实时定价反馈以及面向投资者和机构伙伴的高级分析工具。我们还提供实物资产的交付选项，依照用户的最终需求和地理位置。",
+        "vision": "我们的愿景是成为全球领先的代币化贵金属平台，为个人和机构投资者在数字时代提供一个安全、可靠和综合的贵金属暴露途径。"
+      },
+      "problemStatement": {
+        "title": "问题陈述",
+        "intro": "贵金属投资一直被认为是财富保值和投资组合多元化的基石。然而，传统的贵金属投资存在一些重大限制，阻碍了其在数字经济中的采用和效用性。",
+        "inaccessibility": {
+          "title": "不可访问性",
+          "description": "传统贵金属投资需要大量前期资本、存储安排和保险，使得许多潜在投资者难以参与。"
+        },
+        "liquidity": {
+          "title": "流动性问题",
+          "description": "物理贵金属难以快速流动，存在高交易成本和市场出入壁垒。"
+        },
+        "transparency": {
+          "title": "缺乏透明度",
+          "description": "在传统市场中，验证实物贵金属的真实性和可靠性往往困难且成本高昂。"
+        },
+        "digitalBarriers": {
+          "title": "数字化障碍",
+          "description": "现有的贵金属市场缺乏与现代数字金融系统的集成，限制了新的金融产品和服务的可能性。"
+        },
+        "conclusion": "这些问题为一个综合解决方案创造了市场机会，该方案能够在保持贵金属本身价值的同时，利用区块链技术的优势。"
+      },
+      "marketOpportunity": {
+        "title": "市场机会",
+        "intro": "全球贵金属市场正经历前所未有的增长，需求由通胀性担忧、地缘政治不稳定和数字化资产采用驱动。",
+        "trends": {
+          "title": "关键市场趋势"
+        },
+        "goldSilverDemand": {
+          "title": "黄金和白银需求飙升",
+          "q1Demand": "2024年第一季度全球黄金需求",
+          "investmentSurge": "投资需求增长",
+          "priceIncrease": "价格上涨（同比）"
+        },
+        "trendsTable": {
+          "trend": "趋势",
+          "relevance": "相关性",
+          "risingDemand": "贵金属需求上升",
+          "risingDemandRelevance": "可持续的全球贵金属需求推动我们的市场增长潜力。",
+          "digitalPayments": "数字支付采用",
+          "digitalPaymentsRelevance": "对数字支付方式的接受不断增加，让我们的数字化贵金属代币变得更容易被接受。",
+          "assetTokenization": "资产代币化增长",
+          "assetTokenizationRelevance": "代币化资产的快速增长表明市场对数字资产所有权的理解和接受度不断提高。"
+        },
+        "conclusion": "这些趋势指向一个重大机会，即通过创建一个综合平台来满足用户对安全、可访问和流动的贵金属投资的不断增长需求。"
+      },
+      "proposedSolution": {
+        "title": "建议解决方案",
+        "intro": "保险库资产通过一个全面的数字平台解决这些问题，该平台传统贵金属投资的安全性与现代区块链技术的灵活性相结合。",
+        "keyHighlights": "关键亮点",
+        "backedTokens": {
+          "title": "实物支持的代币",
+          "description": "每个数字代币都由在安全保险库中的物理贵金属存储支持。"
+        },
+        "platform": {
+          "title": "多链平台",
+          "description": "支持以太坊、Solana和Canton网络，为用户提供灵活的选择。"
+        },
+        "walletSupport": {
+          "title": "托管和自托管支持",
+          "description": "支持托管和自托管钱包，适应不同的用户需求和专业水平。"
+        },
+        "digitalExperience": {
+          "title": "综合数字体验",
+          "description": "提供无缝的用户体验，包括实时定价、投资组合管理和对表服务。"
+        },
+        "adminDashboard": {
+          "title": "管理员仪表板",
+          "description": "面向机构用户和管理员的高级管理工具和分析功能。"
+        },
+        "cantonNetwork": {
+          "title": "Canton网络集成",
+          "description": "与大型机构合作伙伴的私有区块链解决方案，加强了数据保护和合规性。"
+        },
+        "conclusion": "我们的方法不仅解决了现有的市场限制，还为贵金属投资的未来建立了一个可扩展和可持续的基础。"
+      },
+      "tokenStructure": {
+        "title": "代币结构",
+        "gld": {
+          "title": "GLD代币（黄金）",
+          "backedAsset": {
+            "title": "支持资产",
+            "description": "每个 GLD 代币代表在安全保险库中储存的 1 克黄金。"
+          },
+          "standard": {
+            "title": "代币标准",
+            "description": "ERC-20（以太坊）、SPL（Solana）和 Canton 网络兼容。"
+          },
+          "features": {
+            "title": "主要特性",
+            "redeemable": "可随时兑换为物理黄金",
+            "usable": "可用于支付和转账",
+            "transparent": "完全透明的储备证明"
+          }
+        },
+        "slv": {
+          "title": "SLV代币（白银）",
+          "backedAsset": {
+            "title": "支持资产",
+            "description": "每个 SLV 代币代表在安全保险库中储存的 1 克白银。"
+          },
+          "standard": {
+            "title": "代币标准",
+            "description": "ERC-20（以太坊）、SPL（Solana）和 Canton 网络兼容。"
+          },
+          "features": {
+            "title": "主要特性",
+            "realValue": "反映真实的白银市场价值",
+            "liquid": "高流动性和低成本交易",
+            "secure": "与 GLD 相同的安全和监管标准"
+          }
+        },
+        "keyFeatures": {
+          "title": "所有代币的关键特性",
+          "fullyCoded": "完全支持",
+          "fullyCodedDescription": "每个数字代币都由等值的物理贵金属支持。",
+          "instant": "即时兑换",
+          "instantDescription": "随时将代币兑换为物理贵金属，受地理和法律限制。",
+          "regulated": "受监管",
+          "regulatedDescription": "在监管框架内运行，包括完整的 KYC/AML 和审计流程。",
+          "multiChain": "多链支持",
+          "multiChainDescription": "在多个区块链网络上可用，提供灵活性和选择。"
+        }
+      }
+    }
+  },
+  "payment": {
+    "sessionCreated": "支付会话已创建",
+    "redirectingToPayment": "重定向到安全支付...",
+    "error": "支付错误",
+    "initializingPayment": "正在初始化支付...",
+    "paymentError": "支付错误",
+    "tryAgain": "重试",
+    "goBack": "返回",
+    "readyToPay": "准备支付",
+    "securePaymentReady": "您的安全支付会话已准备就绪。",
+    "amount": "金额",
+    "purchasing": "购买",
+    "tokens": "代币",
+    "walletAddress": "钱包地址",
+    "proceedToPayment": "继续支付",
+    "cancel": "取消",
+    "secureNote": "由Transak提供的安全支付 • 您的资金受保护",
+    "windowClosed": "支付窗口已关闭",
+    "checkTransactionStatus": "请检查您的交易历史记录以了解支付状态。"
+  }
+}

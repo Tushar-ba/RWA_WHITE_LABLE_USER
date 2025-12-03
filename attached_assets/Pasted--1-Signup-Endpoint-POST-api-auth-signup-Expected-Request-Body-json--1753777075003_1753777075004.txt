@@ -1,0 +1,110 @@
+### 1. 📬 **Signup Endpoint** (`POST /api/auth/signup`)
+
+#### Expected Request Body:
+
+```json
+{
+  "email": "john@domain.com",
+  "password": "Password123!",
+  "user_type": "retail",
+  "first_name": "John",
+  "last_name": "Doe",
+  "phone_number": "+1234567890",
+  "country": "US",
+  "date_of_birth": "1990-01-01",
+  "terms_accepted": true
+}
+```
+
+If `user_type` is `institutional`, require `entity_name`.
+
+#### Flow:
+
+1. Validate required fields.
+2. Generate:
+
+   * `user_id`: Use UUID v4
+   * `password_hash`: `bcrypt.hash`
+   * `email_verification_token`: 6-digit OTP (`123456`)
+   * `email_verification_expires`: now + 10 mins
+   * `referral_code`: optional — can be generated as a short UUID or slugified name+digits.
+3. Save user in MongoDB with `account_status: 'unverified'` & `email_verified: false`.
+4. Send OTP to email via Nodemailer/SendGrid.
+5. Return:
+
+```json
+{
+  "message": "Signup successful. Please verify your email using the OTP sent."
+}
+```
+
+---
+
+### 2. ✅ **Verify OTP Endpoint** (`POST /api/auth/verify-email`)
+
+#### Request Body:
+
+```json
+{
+  "email": "john@domain.com",
+  "otp": "123456"
+}
+```
+
+#### Flow:
+
+1. Lookup user by `email`.
+2. Check:
+
+   * `otp === email_verification_token`
+   * `email_verification_expires > now`
+3. If valid:
+
+   * Set `account_status: 'verified'`
+   * Set `email_verified: true`
+   * Clear `email_verification_token`, `email_verification_expires`
+4. Save changes.
+5. Return:
+
+```json
+{ "message": "Email verified successfully." }
+```
+
+---
+
+## 📤 Email OTP Format Example
+
+Subject: **Verify your email for MITS RWA Platform**
+
+```plaintext
+Hi John,
+
+Your OTP to verify your email address is: 123456
+
+This code will expire in 10 minutes.
+
+If you didn’t sign up, please ignore this email.
+
+Thank you,
+MITS Team
+```
+
+---
+
+## 🧱 MongoDB Document Example (Before Verification)
+
+```json
+{
+  "user_id": "uuid-v4",
+  "email": "john@domain.com",
+  "password_hash": "...",
+  "user_type": "retail",
+  "first_name": "John",
+  "last_name": "Doe",
+  "account_status": "unverified",
+  "email_verified": false,
+  "email_verification_token": "123456",
+  "email_verification_expires": "2025-07-29T10:10:00Z",
+  ...
+}
+```

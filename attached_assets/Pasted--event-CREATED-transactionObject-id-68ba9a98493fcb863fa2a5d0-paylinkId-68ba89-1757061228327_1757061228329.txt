@@ -1,0 +1,31 @@
+ event: 'CREATED',
+  transactionObject: {
+    id: '68ba9a98493fcb863fa2a5d0',
+    paylinkId: '68ba8927345ef03ca41b2b44',
+    fee: '20000000000000',
+    quantity: 1,
+    createdAt: '2025-09-05T08:08:56.826Z',
+    paymentType: 'PAYLINK',
+    meta: {
+      id: '68ba9a98493fcb863fa2a5ce',
+      amount: '980000000000000',
+      senderPK: '0x538745E690a9F2f5cD3B70aCE907351746d3Ff22',
+      recipientPK: '0xB85916Ee95545a39C83b50976c3b7bB6b4d0A2d9',
+      transactionType: 'PAYLINK',
+      customerDetails: {},
+      productDetails: null,
+      additionalProductDetails: [],
+      transactionSignature: '0x20e92a35d457e06e4c31b10a50aef86d4c702fda2de3a845a00d7a8657bf42c8',
+      transactionStatus: 'SUCCESS',
+      splitRevenue: false,
+      remainingAccounts: [],
+      totalAmount: '980000000000000',
+      totalAmountAsUSD: '4321942',
+      tokenQuote: [Object],
+      shopifyPaymentDetails: null,
+      submitGeolocation: 'IN',
+      currency: [Object]
+    }
+  },
+  transaction: '{"id":"68ba9a98493fcb863fa2a5d0","paylinkId":"68ba8927345ef03ca41b2b44","fee":"20000000000000","quantity":1,"createdAt":"2025-09-05T08:08:56.826Z","paymentType":"PAYLINK","meta":{"id":"68ba9a98493fcb863fa2a5ce","amount":"980000000000000","senderPK":"0x538745E690a9F2f5cD3B70aCE907351746d3Ff22","recipientPK":"0xB85916Ee95545a39C83b50976c3b7bB6b4d0A2d9","transactionType":"PAYLINK","customerDetails":{},"productDetails":null,"additionalProductDetails":[],"transactionSignature":"0x20e92a35d457e06e4c31b10a50aef86d4c702fda2de3a845a00d7a8657bf42c8","transactionStatus":"SUCCESS","splitRevenue":false,"remainingAccounts":[],"totalAmount":"980000000000000","totalAmountAsUSD":"4321942","tokenQuote":{"from":"ETH","fromAmountDecimal":"0.001","to":"ETH","toAmountMinimal":"1000000000000000"},"shopifyPaymentDetails":null,"submitGeolocation":"IN","currency":{"id":"6729d9a415f34893ea4cad91","name":"Ethereum Base","decimals":18,"mintAddress":"0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43","coinMarketCapId":1027,"symbol":"ETH","blockchain":{"id":"671a2d7168ef24934ca70622","name":"BASE","symbol":"BASE"}}}}'
+}

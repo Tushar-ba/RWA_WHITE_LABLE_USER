@@ -1,0 +1,1789 @@
+{
+  "navigation": {
+    "home": "首頁",
+    "assets": "資產",
+    "portfolio": "我的投資組合",
+    "profile": "個人資料",
+    "transactionHistory": "交易歷史",
+    "about": "關於我們",
+    "whitepaper": "白皮書",
+    "tokenomics": "代幣經濟學",
+    "contact": "聯絡我們",
+    "login": "登入",
+    "logout": "登出",
+    "getStarted": "開始投資",
+    "connectWallet": "連接錢包",
+    "disconnect": "中斷連線",
+    "connected": "已連接",
+    "signIn": "登入",
+    "signUp": "註冊",
+    "signOut": "登出",
+    "auditReport": "審計報告",
+    "gifting": "贈送",
+    "sendGift": "發送禮品",
+    "redemption": "贖回",
+    "addingWallet": "正在添加錢包...",
+    "adding": "添加中...",
+    "connect": "連接",
+    "close": "關閉",
+    "cancel": "取消",
+    "confirmLogout": "確認登出",
+    "logoutConfirmMessage": "您確定要登出嗎？您需要重新登入才能訪問您的賬戶。"
+  },
+  "landing": {
+    "heroTitle": "數位資產託管平台",
+    "heroSubtitle": "專業級代幣化資產平台：透過區塊鏈的安全性和傳統信託和流動性將黃金和白銀代幣化。",
+    "startInvesting": "開始投資",
+    "learnMore": "了解更多",
+    "trustIndicators": {
+      "physicallyBacked": "100% 實物黃金支持",
+      "kycCompliant": "完全符合KYC規定，全球通用",
+      "priceAccuracy": "金價錨定精度：±0.01% 現貨價格"
+    }
+  },
+  "features": {
+    "whyChoose": "為什麼選擇保險庫資產？",
+    "subtitle": "為零售和機構投資者構建的專業級基礎設施",
+    "bankGradeSecurity": "銀行級安全",
+    "bankGradeDescription": "多層安全協議、冷儲存和機構級託管解決方案保護您的數位資產。",
+    "instantLiquidity": "即時流動性",
+    "instantLiquidityDescription": "24/7全天候買賣貴金屬代幣，即時結算，具有競爭力的價差。",
+    "regulatoryCompliance": "監管合規",
+    "regulatoryComplianceDescription": "完全符合全球金融法規、KYC/AML要求以及定期第三方審計。"
+  },
+  "investment": {
+    "buyPreciousMetals": "購買貴金屬",
+    "selectMetal": "選擇金屬",
+    "gold": "黃金",
+    "silver": "白銀",
+    "usdcAmount": "USDC 金額",
+    "balance": "餘額",
+    "useMax": "使用最大值",
+    "platformFee": "平台費用：1.5% • 最小購買額：$100",
+    "confirmPurchase": "確認購買",
+    "purchaseSummary": "購買摘要",
+    "currentPrice": "當前{{metal}}價格",
+    "amount": "金額",
+    "fee": "平台費用 (1.5%)",
+    "total": "總計",
+    "estimatedTokenAmount": "預估代幣數量",
+    "recentPurchases": "最近購買",
+    "completed": "已完成"
+  },
+  "paymentModal": {
+    "choosePaymentMethod": "選擇支付方式",
+    "completePurchase": "完成購買 {{amount}} 盎司 {{metal}}，價格 ${{price}}",
+    "selectPaymentMethod": "選擇支付方式",
+    "payWithFiat": "法幣支付",
+    "fiatDescription": "信用卡/借記卡，銀行轉帳",
+    "payWithWallet": "錢包支付",
+    "walletDescription": "USDC，以太坊，比特幣",
+    "cancel": "取消",
+    "confirmPayment": "確認支付"
+  },
+  "auth": {
+    "welcomeBack": "歡迎回來",
+    "signInDescription": "登入您的保險庫資產帳戶",
+    "email": "電子郵件",
+    "password": "密碼",
+    "rememberMe": "記住我",
+    "forgotPassword": "忘記密碼？",
+    "signIn": "登入",
+    "dontHaveAccount": "沒有帳戶？",
+    "signUp": "註冊",
+    "createAccount": "建立帳戶",
+    "joinVaultedAssets": "加入保險庫資產，開始投資代幣化貴金屬",
+    "firstName": "名字",
+    "lastName": "姓氏（可選）",
+    "confirmPassword": "確認密碼",
+    "agreeToTerms": "我同意",
+    "alreadyHaveAccount": "已有帳戶？",
+    "emailPlaceholder": "請輸入您的郵箱",
+    "passwordPlaceholder": "請輸入您的密碼",
+    "showPassword": "顯示密碼",
+    "hidePassword": "隱藏密碼",
+    "wrongPassword": "密碼錯誤。請重試或點擊忘記密碼重置。",
+    "verifyEmailFirst": "請先驗證您的郵箱。",
+    "clickHere": "點擊這裡",
+    "signingIn": "登錄中...",
+    "noAccount": "還沒有帳戶？",
+    "backToLogin": "返回登錄",
+    "twoFactorAuth": "雙重身份驗證",
+    "verifyEmail": "驗證您的郵箱",
+    "enter2FACode": "輸入發送到以下地址的6位2FA驗證碼",
+    "enterOTPCode": "輸入發送到以下地址的6位OTP驗證碼",
+    "resendOTPIn": "重新發送OTP在",
+    "seconds": "秒後",
+    "resending": "發送中...",
+    "resendOTP": "重新發送OTP",
+    "verifying": "驗證中...",
+    "verifyLogin": "驗證並登錄",
+    "continue": "繼續",
+    "backToSignUp": "返回註冊",
+    "joinPlatform": "加入我們的平台",
+    "mobileNumber": "手機號碼（可選）",
+    "organizationName": "組織名稱（可選）",
+    "country": "國家",
+    "stateProvince": "州/省",
+    "enterFirstName": "請輸入您的名字",
+    "enterLastName": "請輸入您的姓氏",
+    "enterPhoneNumber": "+886 912 345 678",
+    "enterOrganizationName": "您的組織名稱",
+    "selectCountry": "選擇您的國家",
+    "selectStateProvince": "選擇您的州/省",
+    "enterStateProvince": "輸入您的州/省",
+    "termsOfService": "服務條款",
+    "and": "和",
+    "privacyPolicy": "隱私政策",
+    "creating": "建立中...",
+    "verifyYourEmail": "驗證您的郵箱",
+    "enterOTPSent": "輸入發送到以下地址的6位OTP驗證碼",
+    "didntReceiveOTP": "沒有收到OTP驗證碼？"
+  },
+  "dashboard": {
+    "assets": "資產",
+    "browseAndInvest": "瀏覽並投資貴金屬",
+    "totalPortfolioValue": "投資組合總價值",
+    "goldHoldings": "黃金持有量",
+    "silverHoldings": "白銀持有量",
+    "assetAllocation": "資產配置",
+    "tokens": "代幣",
+    "transactionHistory": "交易歷史",
+    "completeRecord": "您交易活動的完整記錄",
+    "date": "日期",
+    "type": "類型",
+    "asset": "資產",
+    "amount": "數量",
+    "value": "價值",
+    "status": "狀態",
+    "purchase": "購買",
+    "redeem": "贖回",
+    "gold": "黃金",
+    "silver": "白銀",
+    "completed": "已完成",
+    "pending": "待處理",
+    "failed": "失敗",
+    "buyGold": "購買黃金",
+    "buySilver": "購買白銀",
+    "selectAmount": "選擇金額",
+    "enterAmount": "輸入美元金額",
+    "paymentMethod": "支付方式",
+    "creditCard": "信用卡",
+    "walletPay": "錢包支付",
+    "review": "確認",
+    "purchaseDetails": "購買詳情",
+    "metalType": "金屬類型",
+    "investmentAmount": "投資金額",
+    "estimatedTokens": "預估代幣",
+    "networkFee": "網絡費用",
+    "totalCost": "總費用",
+    "confirmPurchase": "確認購買",
+    "processing": "處理中",
+    "purchaseHistory": "購買歷史",
+    "recentTransactions": "最近交易",
+    "viewAll": "查看全部",
+    "noTransactions": "未找到交易記錄",
+    "loadingTransactions": "載入交易中...",
+    "errorLoadingTransactions": "載入交易時出錯",
+    "selectMetal": "選擇金屬",
+    "walletAddress": "錢包地址",
+    "enterWalletAddress": "輸入您的錢包地址",
+    "walletAddressTooltip": "輸入您想要接收貴金屬代幣的錢包地址。",
+    "usdAmount": "美元金額",
+    "enterAmountPlaceholder": "輸入金額（例如：100）",
+    "platformFee": "平台費用：1.5% • 最低購買：$10",
+    "platformFeeShort": "平台費用 (1.5%)",
+    "netAmount": "淨金額",
+    "estimatedTokenAmount": "預估代幣數量",
+    "continueToNetworkSelection": "繼續選擇網路",
+    "selectNetwork": "選擇網路",
+    "privateNetwork": "私有網路",
+    "publicNetwork": "公共網路",
+    "solanaNetwork": "Solana 網路",
+    "enhancedSecurityAndPrivacy": "增強安全性和隱私",
+    "standardBlockchainNetwork": "標準區塊鏈網路",
+    "fastAndLowCostTransactions": "快速且低成本交易",
+    "confirmPayment": "確認付款",
+    "reviewOrder": "確認您的訂單",
+    "chooseNetworkType": "選擇網路類型",
+    "completePayment": "完成付款",
+    "purchaseSummary": "購買摘要",
+    "livePrice": "實時",
+    "pricePerGram": "價格（每克）",
+    "loading": "載入中...",
+    "purchaseSuccessful": "購買成功",
+    "purchaseRecordCreated": "購買記錄創建成功。您的交易正在處理中。",
+    "registrationSuccessful": "註冊成功",
+    "registrationFailed": "註冊失敗",
+    "authenticationRequired": "需要身份驗證",
+    "buyPreciousMetals": "購買貴金屬",
+    "liveMarketPrices": "實時市場價格",
+    "platformPurchases": "平台購買",
+    "metal": "金屬",
+    "tokenAmount": "代幣數量",
+    "fee": "費用",
+    "network": "網路",
+    "payment": "付款方式",
+    "show": "顯示",
+    "records": "記錄",
+    "first": "首頁",
+    "previous": "上一頁",
+    "page": "頁",
+    "of": "共",
+    "next": "下一頁",
+    "last": "末頁",
+    "myPortfolio": "我的投資組合",
+    "portfolioOverview": "您的貴金屬投資概覽",
+    "totalValue": "投資組合總價值",
+    "totalBalance": "總餘額",
+    "portfolioGrowth": "投資組合增長",
+    "performanceChart": "業績圖表",
+    "priceHistory": "價格歷史",
+    "marketValue": "市場價值",
+    "grams": "克",
+    "connectWalletToView": "請連接錢包查看投資組合詳情",
+    "connectWalletDescription": "連接錢包以訪問實時代幣餘額和投資組合信息。",
+    "portfolioPerformance": "投資組合表現",
+    "currentValue": "當前價值",
+    "monthlyChange": "月度變化",
+    "ytd": "年初至今",
+    "strongPerformanceTrend": "強勁表現趨勢",
+    "bestMonth": "最佳月份",
+    "cantonRegistrationSuccess": "成功註冊至 Canton 私有區塊鏈網路",
+    "loginRequiredForPrivateNetwork": "請登入以註冊私有區塊鏈網路",
+    "unableToFetchLivePrices": "無法獲取即時價格",
+    "usingFallbackData": "使用備用資料",
+    "failedToLoadPlatformPurchases": "載入平台購買記錄失敗",
+    "failedToLoadPurchaseHistory": "載入購買歷史失敗",
+    "noPlatformPurchasesFound": "未找到平台購買記錄",
+    "noPurchaseHistoryFound": "未找到購買歷史記錄",
+    "securePaymentProcessing": "為您的{{metal}}購買提供安全的法幣支付處理"
+  },
+  "gifting": {
+    "sendGift": "發送禮品",
+    "recipientWalletAddress": "收件人錢包地址",
+    "recipientWalletTooltip": "錢包地址應該是本平台註冊用戶，以便成功接收禮品代幣。",
+    "enterWalletAddress": "輸入錢包地址",
+    "cannotSendToSelf": "您不能向自己的錢包地址發送代幣。請輸入不同的收件人地址。",
+    "token": "代幣",
+    "network": "網絡",
+    "tokenQuantityGrams": "代幣數量（克）",
+    "balance": "餘額",
+    "loadingBalance": "載入餘額中...",
+    "enterQuantity": "輸入數量（例如：1.5）",
+    "insufficientBalance": "餘額不足。您有 {{balance}} {{token}} 代幣，但嘗試發送 {{quantity}}。",
+    "loadingLivePrices": "載入實時價格中...",
+    "usingFallbackPrices": "使用備用價格（價格服務不可用）",
+    "grams": "克",
+    "tokenValue": "代幣價值",
+    "platformFee": "平台費用（2%）",
+    "totalCost": "總費用",
+    "updating": "更新中...",
+    "fallbackPrices": "備用價格",
+    "livePrices": "實時價格",
+    "blockchainTransfer": "區塊鏈轉賬：{{token}} 代幣將通過智能合約直接發送",
+    "messageOptional": "訊息（可選）",
+    "addPersonalMessage": "添加個人訊息",
+    "walletConnectionRequired": "以太坊網絡上的代幣轉賬需要連接錢包。",
+    "transferFailed": "轉賬失敗：{{error}}",
+    "giftSentSuccessfully": "{{token}} 禮品發送成功！",
+    "transaction": "交易",
+    "validatingWallet": "驗證錢包中...",
+    "confirmingTransfer": "確認轉賬中...",
+    "sendingGift": "發送禮品中...",
+    "giftTokens": "禮品代幣",
+    "giftingHistory": "禮品歷史",
+    "recipient": "收件人",
+    "quantity": "數量",
+    "message": "訊息",
+    "date": "日期",
+    "status": "狀態",
+    "share": "分享",
+    "errorLoadingHistory": "載入歷史記錄錯誤：{error}",
+    "noGiftingHistory": "未找到禮品歷史記錄",
+    "confirmGift": "確認禮品",
+    "confirmGiftMessage": "向 {{wallet}} 發送 {{quantity}} {{token}} 代幣？",
+    "confirmGiftButton": "確認禮品",
+    "transferSuccessful": "轉賬成功！",
+    "giftSent": "禮品已發送",
+    "giftSentDescription": "成功向 {{wallet}} 發送了 {{quantity}} {{token}} 代幣",
+    "giftSentSuccessfullyTitle": "禮品發送成功",
+    "giftSentSuccessfullyDescription": "成功通過Canton私有網絡發送了 {quantity} {token} 代幣",
+    "transferCompleted": "轉賬完成",
+    "transferCompletedDescription": "Canton轉賬完成，但記錄日誌失敗",
+    "cantonTransferFailed": "Canton轉賬失敗",
+    "cantonTransferFailedDescription": "通過Canton網絡轉賬代幣失敗",
+    "invalidRecipient": "無效收件人",
+    "invalidRecipientDescription": "您不能向自己的錢包地址發送代幣。",
+    "insufficientBalanceTitle": "餘額不足",
+    "insufficientBalanceDescription": "您有 {{balance}} {{token}} 代幣，但嘗試發送 {{quantity}}。",
+    "walletNotFound": "未找到錢包",
+    "walletNotFoundDescription": "此錢包未在我們平台註冊。收件人需要先創建賬戶才能接收代幣。",
+    "validationError": "驗證錯誤",
+    "validationErrorDescription": "驗證錢包失敗",
+    "walletNotConnected": "錢包未連接",
+    "walletNotConnectedDescription": "請連接您的錢包以在以太坊網絡上發送代幣。",
+    "recipientWillReceive": "收件者將很快在其錢包中收到代幣。",
+    "shareOnTelegram": "在 Telegram 上分享",
+    "shareOnWhatsApp": "在 WhatsApp 上分享",
+    "giftRecordedSuccessfully": "禮品記錄成功",
+    "giftRecordedSuccessfullyDescription": "您的禮品交易已記錄在我們的系統中。",
+    "giftRecordingFailed": "禮品記錄失敗",
+    "giftRecordingFailedDescription": "記錄禮品交易失敗。請重試。",
+    "failedToFetchHistory": "獲取禮品歷史失敗"
+  },
+  "profile": {
+    "title": "我的個人資料",
+    "subtitle": "管理您的個人資訊並查看帳戶狀態",
+    "personalInformation": "個人資訊",
+    "personalInformationDescription": "更新您的個人詳細資訊和聯絡資訊",
+    "editProfile": "編輯個人資料",
+    "firstName": "名字",
+    "firstNameRequired": "名字為必填項",
+    "lastName": "姓氏",
+    "lastNameRequired": "姓氏為必填項",
+    "email": "電子郵箱",
+    "emailCannotChange": "郵箱地址無法更改",
+    "phoneNumber": "電話號碼",
+    "phoneOptional": "可選",
+    "country": "國家",
+    "countryRequired": "國家為必填項",
+    "state": "州/省",
+    "stateRequired": "州/省為必填項",
+    "organization": "組織機構",
+    "organizationOptional": "可選",
+    "saveChanges": "儲存更改",
+    "saving": "儲存中...",
+    "cancel": "取消",
+    "accountStatus": "帳戶狀態",
+    "accountStatusDescription": "查看您的錢包資訊和帳戶驗證狀態",
+    "connectedWallets": "已連接錢包",
+    "wallet": "錢包",
+    "noWalletsConnected": "尚未連接錢包",
+    "connectWalletToTrade": "連接您的錢包開始交易貴金屬",
+    "verified": "已驗證",
+    "pendingVerification": "待驗證",
+    "suspended": "已暫停",
+    "unknown": "未知",
+    "loading": "載入中...",
+    "accountStatusInfo": "進階功能需要帳戶驗證",
+    "verificationStatus": "驗證狀態",
+    "emailVerified": "郵箱已驗證",
+    "emailNotVerified": "郵箱驗證待處理",
+    "referralCode": "推薦碼",
+    "noReferralCode": "未設置推薦碼",
+    "lastLogin": "最後登入",
+    "memberSince": "會員起始時間",
+    "termsAccepted": "已接受條款和條件",
+    "yes": "是",
+    "no": "否",
+    "updateProfileSuccess": "個人資料更新成功",
+    "updateProfileError": "個人資料更新失敗",
+    "accountVerifiedMessage": "您的帳戶已成功驗證。",
+    "accountPendingMessage": "您的帳戶驗證正在處理中。",
+    "accountSuspendedMessage": "您的帳戶已被暫停。請聯絡客服。",
+    "securityInfo": "出於安全考慮，某些資訊無法直接更改。如果您需要更新郵箱地址或其他受限字段，請聯絡我們的客服團隊。",
+    "updatePassword": "更新密碼",
+    "updatePasswordDescription": "更改您的帳戶密碼以增強安全性",
+    "changePassword": "更改密碼",
+    "currentPassword": "目前密碼",
+    "currentPasswordPlaceholder": "輸入您目前的密碼",
+    "newPassword": "新密碼",
+    "newPasswordPlaceholder": "輸入您的新密碼",
+    "confirmPassword": "確認新密碼",
+    "confirmPasswordPlaceholder": "確認您的新密碼",
+    "currentPasswordRequired": "目前密碼是必需的",
+    "newPasswordRequired": "新密碼是必需的",
+    "confirmPasswordRequired": "請確認您的新密碼",
+    "passwordTooShort": "密碼必須至少8個字符",
+    "passwordsDoNotMatch": "密碼不符合",
+    "newPasswordSameAsOld": "新密碼必須與目前密碼不同",
+    "passwordUpdateSuccess": "密碼更新成功",
+    "passwordUpdateError": "密碼更新失敗",
+    "updating": "更新中...",
+    "passwordSecurityNote": "選擇一個強密碼，至少8個字符，包括大寫字母、小寫字母、數字和特殊字符。",
+    "passwordHidden": "您的密碼已安全加密，無法顯示。",
+    "passwordLastUpdated": "出於安全考慮，我們不顯示密碼最後更新的時間。"
+  },
+  "redemption": {
+    "title": "兌換實物貴金屬",
+    "subtitle": "將您的代幣化貴金屬轉換為實物交付",
+    "redemptionRequest": "兌換請求",
+    "selectToken": "選擇代幣",
+    "selectTokenPlaceholder": "選擇代幣類型",
+    "goldGRT": "黃金 (GRT)",
+    "silverSRT": "白銀 (SRT)",
+    "quantity": "數量",
+    "quantityPlaceholder": "輸入數量",
+    "quantityInfo": "{{grams}}克 {{metal}} • ${{value}} 美元",
+    "quantityInvalid": "數量必須大於0",
+    "network": "網絡",
+    "networkPlaceholder": "選擇網絡",
+    "ethereum": "以太坊",
+    "solana": "Solana",
+    "private": "私有網絡",
+    "deliveryAddress": "收貨地址",
+    "streetAddress": "街道地址",
+    "streetAddressPlaceholder": "主街123號",
+    "city": "城市",
+    "cityPlaceholder": "城市",
+    "zipCode": "郵政編碼",
+    "zipCodePlaceholder": "郵政編碼",
+    "country": "國家",
+    "countryPlaceholder": "選擇國家",
+    "state": "州/省",
+    "statePlaceholder": "選擇州",
+    "blockchainError": "區塊鏈錯誤：{error}",
+    "confirmTransaction": "請在您的錢包中確認交易...",
+    "transactionSubmitted": "交易已提交。等待確認中...",
+    "transactionConfirmed": "交易已確認：{{hash}}",
+    "processing": "處理中...",
+    "walletNotConnected": "錢包未連接",
+    "connectWalletToCancel": "連接您的錢包以取消兌換",
+    "wrongWallet": "連接了錯誤的錢包",
+    "connectCorrectWallet": "連接創建此兌換請求的錢包",
+    "submitRedemptionRequest": "提交兌換請求",
+    "costBreakdown": "費用明細",
+    "tokenValue": "代幣價值",
+    "networkFee": "網絡費用",
+    "deliveryFee": "配送費用",
+    "totalCost": "總費用",
+    "redemptionHistory": "兌換歷史",
+    "noRedemptionHistory": "未找到兌換歷史",
+    "errorLoadingHistory": "載入歷史失敗：{error}",
+    "loadingHistory": "正在載入兌換歷史...",
+    "id": "ID",
+    "token": "代幣",
+    "amount": "數量",
+    "grams": "克",
+    "value": "價值",
+    "status": "狀態",
+    "date": "日期",
+    "address": "地址",
+    "txHash": "交易哈希",
+    "action": "操作",
+    "cancelRedemption": "取消",
+    "cancelSuccess": "贖回已成功取消",
+    "cancelError": "取消贖回失敗",
+    "pending": "待處理",
+    "confirmed": "已確認",
+    "shipped": "已發貨",
+    "delivered": "已交付",
+    "failed": "失敗",
+    "cancelled": "已取消",
+    "walletNotConnectedTitle": "錢包未連接",
+    "walletNotConnectedDescription": "請連接您的錢包以在以太坊上兌換代幣",
+    "redemptionFailedTitle": "兌換失敗",
+    "redemptionFailedDescription": "區塊鏈兌換處理失敗",
+    "successTitle": "成功",
+    "successDescription": "兌換請求提交成功",
+    "errorTitle": "錯誤",
+    "errorDescription": "兌換請求提交失敗",
+    "warningTitle": "警告",
+    "warningDescription": "區塊鏈交易成功但資料庫記錄失敗",
+    "createFailedDescription": "建立兌換請求失敗",
+    "gold": "黃金",
+    "silver": "白銀"
+  },
+  "common": {
+    "loading": "載入中...",
+    "processing": "處理中...",
+    "failedToLoadData": "數據加載失敗",
+    "error": "錯誤",
+    "success": "成功",
+    "close": "關閉",
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "back": "返回",
+    "confirmPayment": "確認付款",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "more": "更多",
+    "less": "更少",
+    "done": "完成",
+    "notAvailable": "不可用"
+  },
+  "footer": {
+    "company": "公司",
+    "about": "關於我們",
+    "careers": "職業機會",
+    "investors": "投資者",
+    "blog": "部落格",
+    "legal": "法律",
+    "termsOfService": "服務條款",
+    "privacyPolicy": "隱私政策",
+    "cookiePolicy": "Cookie政策",
+    "support": "支援",
+    "helpCenter": "幫助中心",
+    "contactUs": "聯絡我們",
+    "statusPage": "狀態頁面",
+    "allRightsReserved": "版權所有。",
+    "description": "專業級貴金屬代幣化平台。為零售和機構投資者提供安全、透明、合規的數位資產託管服務。",
+    "copyright": "© 2025 保險庫資產。版權所有。",
+    "products": "產品",
+    "goldTokens": "黃金代幣",
+    "silverTokens": "白銀代幣",
+    "portfolioManagement": "投資組合管理",
+    "institutionalSolutions": "機構解決方案",
+    "apiAccess": "API存取",
+    "security": "安全",
+    "compliance": "合規",
+    "securityAndCompliance": "安全與合規",
+    "press": "新聞",
+    "importantNotice": "重要聲明",
+    "complianceNotice": "代幣由存儲在安全、經審計金庫中的實物貴金屬支持。所有投資都有風險。過往表現不代表未來結果。投資前請閱讀我們的風險披露。保險庫資產受監管且符合適用的金融法規。"
+  },
+  "toasts": {
+    "transactionTimeout": "交易超時 - 請重試",
+    "databaseUpdateFailed": "資料庫更新失敗",
+    "invalidRedemptionData": "無效的贖回資料",
+    "transactionSubmitted": "交易已提交",
+    "waitingForConfirmation": "等待區塊鏈確認...",
+    "unknownNetworkType": "未知網路類型 - 無法取消",
+    "referralLinkCopied": "推薦連結已複製到剪貼簿！",
+    "failedToCopyLink": "複製連結失敗",
+    "enterEmailAddress": "請輸入電子郵件地址",
+    "enterValidEmail": "請輸入有效的電子郵件地址",
+    "authenticationRequired": "需要身份驗證",
+    "sessionExpired": "會話已過期",
+    "walletConnected": "錢包已連接",
+    "walletConnectionError": "錢包連接錯誤",
+    "transferInitiated": "{{token}} 轉賬已啟動",
+    "transferringTokens": "正在轉賬 {{amount}} {{symbol}} 代幣到 {{address}}",
+    "transferFailed": "{{token}} 轉賬失敗",
+    "transferFailedDesc": "{{token}} 代幣轉賬失敗",
+    "transferSuccessful": "{{token}} 轉賬成功",
+    "transferSuccessfulDesc": "{{token}} 代幣轉賬成功！交易：{{hash}}...",
+    "transactionError": "{{token}} 交易錯誤",
+    "transactionFailed": "交易失敗",
+    "loginRequired": "請先登錄您的帳戶",
+    "sessionExpiredDesc": "您的會話已過期，請重新登錄",
+    "connectWalletDesc": "連接您的錢包以繼續",
+    "redemptionRequestInitiated": "{{token}} 贖回請求已啟動",
+    "redemptionRequestDescription": "正在請求贖回 {{quantity}} {{symbol}} 代幣以進行實物交付。",
+    "redemptionRequestFailed": "{{token}} 贖回請求失敗",
+    "redemptionRequestFailedDescription": "{{token}} 贖回請求失敗",
+    "redemptionCancellationInitiated": "{{token}} 贖回取消已啟動",
+    "redemptionCancellationDescription": "正在取消贖回請求 #{{requestId}} 的 {{symbol}} 代幣。",
+    "redemptionCancellationFailed": "{{token}} 贖回取消失敗",
+    "redemptionCancellationFailedDescription": "{{token}} 贖回請求取消失敗"
+  },
+  "pages": {
+    "faq":{
+      "title": "常見問題",
+      "subtitle": "尋找關於 Vaulted Assets 常見問題的解答",
+      "categories": {
+        "general": {
+          "title": "一般問題"
+        },
+        "tokens": {
+          "title": "代幣與區塊鏈"
+        },
+        "buying": {
+          "title": "購買與贖回"
+        },
+        "fees": {
+          "title": "費用與轉帳"
+        },
+        "security": {
+          "title": "安全與合規"
+        },
+        "crossChain": {
+          "title": "跨鏈轉移"
+        },
+        "audit": {
+          "title": "審計與透明度"
+        },
+        "wallets": {
+          "title": "錢包與可近性"
+        },
+        "gifting": {
+          "title": "贈送與推薦"
+        },
+        "jurisdictional": {
+          "title": "司法管轄限制"
+        }
+      },
+      "questions": {
+        "q1": {
+          "question": "什麼是 Vaulted Assets？",
+          "answer": "Vaulted Assets 是一個平台，讓您可以購買、持有、轉移和兌換由黃金和白銀支持的數位代幣。每個代幣代表安全金庫中完全分配的貴金屬的直接所有權。"
+        },
+        "q2": {
+          "question": "這與實際購買黃金或白銀有何不同？",
+          "answer": "透過 Vaulted Assets 購買代幣時，您擁有存放在專業級保險庫中的真實黃金或白銀，但可以以數位方式管理持有量、立即交易並隨時兌換。"
+        },
+        "q3": {
+          "question": "金屬儲存在哪裡？",
+          "answer": "所有黃金和白銀都存放在經批准的保管人處的高安全金庫，位於受監管的司法管轄區。"
+        },
+        "q4": {
+          "question": "我的持有資產有保險嗎？",
+          "answer": "有，所有保管資產都由保管人提供的全面保險政策覆蓋。"
+        },
+        "q5": {
+          "question": "你們使用哪些區塊鏈？",
+          "answer": "Vaulted Assets 支援公共區塊鏈（例如 Solana、Ethereum）和私有/許可區塊鏈（例如 Canton），以滿足不同使用者的需求。"
+        },
+        "q6": {
+          "question": "我可以選擇我的代幣所在的區塊鏈嗎？",
+          "answer": "可以 — 您可以在購買或轉移代幣時選擇偏好的網路。"
+        },
+        "q7": {
+          "question": "區塊鏈交易可以撤銷嗎？",
+          "answer": "不可以。一旦區塊鏈交易確認，就無法撤銷。請在確認前仔細檢查交易細節。"
+        },
+        "q8": {
+          "question": "我如何購買代幣？",
+          "answer": "您可以透過我們的網頁或移動應用直接使用支援的法定貨幣或加密貨幣購買代幣。"
+        },
+        "q9": {
+          "question": "我可以將代幣兌換為實體黃金或白銀嗎？",
+          "answer": "可以。您可以申請以實體金屬（須符合最低數量）或等值的法幣形式兌換。"
+        },
+        "q10": {
+          "question": "兌換需要多久？",
+          "answer": "交付時間取決於您的地理位置、可用性以及所選方法（實體交付或現金結算）。"
+        },
+        "q11": {
+          "question": "有哪些費用？",
+          "answer": "我們對交易、存儲和區塊鏈轉移收取費用。費用視您使用公共鏈或私有鏈而異。"
+        },
+        "q12": {
+          "question": "Vaulted Assets 使用者之間的轉帳是免費的嗎？",
+          "answer": "在私有區塊鏈上的轉移費用可能較低或為零。公共鏈上的轉移可能會產生網路 gas 費。"
+        },
+        "q13": {
+          "question": "我的帳戶如何得到保護？",
+          "answer": "我們使用強大的加密、雙因素驗證（2FA）以及多層安全保護錢包和平台訪問。"
+        },
+        "q14": {
+          "question": "我需要驗證身份嗎？",
+          "answer": "是的 — 所有使用者都必須完成 AML/KYC 驗證以符合全球規範。"
+        },
+        "q15": {
+          "question": "如果 Vaulted Assets 停止運營會怎麼樣？",
+          "answer": "您的金屬仍然屬於您。如果平台關閉，您可以兌換您的持有或轉移到其他保管人。"
+        },
+        "q16": {
+          "question": "我可以在 Ethereum、Solana 和 Canton 之間移動我的代幣嗎？",
+          "answer": "可以。我們支援透過受信任的橋樑進行跨鏈轉移，在某些情況下透過單獨的發行模型（在一條鏈上兌換並在另一條鏈上重新發行）。我們的文件說明了 GLD 和 SLV 的具體流程。"
+        },
+        "q17": {
+          "question": "跨鏈會影響我對代幣的所有權嗎？",
+          "answer": "不會。不論您在 Ethereum 還是 Solana 持有 GLD，每個代幣都以 1:1 的比例由我們金庫中的實體儲備完全支撐。"
+        },
+        "q18": {
+          "question": "我如何知道代幣完全由金銀儲備支撐？",
+          "answer": "Vaulted Assets 維護儲備證明，並定期由第三方審計。我們還提供實時儀表板，顯示代幣供應和審計後庫藏之間的對比，讓使用者隨時核實支撐。"
+        },
+        "q19": {
+          "question": "誰進行審計？",
+          "answer": "獨立且經認證的審計公司對我們的儲備進行驗證，以確保透明度和信任。"
+        },
+        "q20": {
+          "question": "使用 Vaulted Assets 我需要加密貨幣錢包嗎？",
+          "answer": "不一定。我們的混合錢包系統允許您在托管錢包（Web2 登入，無需技術知識）和自托管錢包（如 MetaMask、Phantom 或相容 Canton 的解決方案）之間選擇。"
+        },
+        "q21": {
+          "question": "我可以使用現有的錢包嗎？",
+          "answer": "可以，如果您喜歡自托管，可以連接您自己的 Web3 錢包以管理 GLD 和 SLV 代幣。"
+        },
+        "q22": {
+          "question": "我可以贈送代幣給別人嗎？",
+          "answer": "可以。我們的平台允許贈送代幣，您可以直接將黃金或白銀送給家人和朋友。"
+        },
+        "q23": {
+          "question": "你們提供推薦獎勵嗎？",
+          "answer": "有。Vaulted Assets 運行推薦計畫，現有使用者可以邀請他人並獲得代幣獎勵。詳情請見您的帳戶儀表板。"
+        },
+        "q24": {
+          "question": "我可以在我的國家使用 Vaulted Assets 嗎？",
+          "answer": "我們的服務受當地法律和規範約束。有些司法管轄區可能限制或禁止參與數位資產平台。投資前，請閱讀我們的使用條款並諮詢您的當地法規。"
+        },
+        "q25": {
+          "question": "平台是否對美國或歐盟使用者開放？",
+          "answer": "可用性根據產品而異。某些功能可能因合規要求而受到限制。我們會在註冊期間通知您是否有限制。"
+        }
+      },
+      "stillHaveQuestions": {
+        "title": "還有疑問？",
+        "description": "找不到所需內容？請聯繫我們的支援團隊以獲得個人化協助。"
+      },
+      "contactSupport": "聯繫支援"
+    },
+    "cookiePolicy": {
+      "title": "Vaulted Assets – Cookie 政策",
+      "effectiveDate": "生效日期：[插入日期]",
+      "introduction": {
+        "text1": "Vaulted Assets（「我們」、「我們的」或「本公司」）使用 Cookie 及類似技術來改善您的體驗、分析平台使用情況並提供個人化內容和服務。本 Cookie 政策說明了什麼是 Cookie，我們如何使用它們，以及您對其使用的選擇。",
+        "text2": "使用 Vaulted Assets 平台即表示您同意按照本政策所述使用 Cookies。"
+      },
+      "section1": {
+        "title": "1. 什麼是 Cookie？",
+        "intro": "Cookie 是您造訪網站或使用應用程式時放置在您的電腦或行動裝置上的小型文字檔案。它們讓我們能識別您的裝置、儲存偏好並提升您的瀏覽體驗。",
+        "types": {
+          "intro": "Cookie 可能是：",
+          "session": {
+            "title": "工作階段 Cookie",
+            "description": "您關閉瀏覽器時刪除的臨時 Cookie。"
+          },
+          "persistent": {
+            "title": "持久性 Cookie",
+            "description": "儲存在您的裝置上，直到固定期限後被刪除。"
+          },
+          "firstParty": {
+            "title": "第一方 Cookie",
+            "description": "直接由 Vaulted Assets 設定。"
+          },
+          "thirdParty": {
+            "title": "第三方 Cookie",
+            "description": "由第三方服務提供者設定，用於分析、廣告或安全目的。"
+          }
+        }
+      },
+      "section2": {
+        "title": "2. 我們如何使用 Cookie",
+        "intro": "Vaulted Assets 使用 Cookie 以達到以下目的：",
+        "categories": {
+          "essential": {
+            "title": "1. 必要 Cookie",
+            "description": "平台正常運作所必需（例如登入、管理代幣購買、啟用安全交易）。"
+          },
+          "performance": {
+            "title": "2. 效能與分析 Cookie",
+            "description": "幫助我們了解使用者如何與平台互動，追蹤使用趨勢並改善使用者體驗。",
+            "example": "例如：監控使用者查看其實時金/銀投資組合的頻率。"
+          },
+          "functionality": {
+            "title": "3. 功能性 Cookie",
+            "description": "儲存使用者偏好，例如語言、貨幣顯示（黃金以美元/克）和登入會話細節。"
+          },
+          "security": {
+            "title": "4. 安全 Cookie",
+            "description": "偵測並防止詐騙活動，保護帳戶，並在公共和私有區塊鏈上確保交易安全。"
+          },
+          "marketing": {
+            "title": "5. 行銷與個性化 Cookie",
+            "description": "提供相關內容，例如降低區塊鏈轉帳費用的促銷或忠誠計畫。"
+          }
+        }
+      },
+      "section3": {
+        "title": "3. 第三方 Cookie",
+        "intro": "我們可能使用第三方服務，在您的裝置上放置 Cookies，以提供：",
+        "services": {
+          "analytics": "分析（例如 Google Analytics、區塊鏈交易監控工具）",
+          "advertising": "廣告（例如基於先前造訪 Vaulted Assets 的再行銷）",
+          "payment": "支付處理整合",
+          "blockchain": "區塊鏈網路互動（例如 Solana 或 Ethereum 瀏覽器）"
+        },
+        "note": "這些第三方可能會收集您在不同網站上的瀏覽習慣資訊。"
+      },
+      "section4": {
+        "title": "4. 管理 Cookie",
+        "intro": "您可以在瀏覽器設定中控制和管理 Cookie。大多數瀏覽器允許您：",
+        "actions": {
+          "view": "查看儲存在您裝置上的 Cookies",
+          "delete": "刪除 Cookies",
+          "block": "封鎖特定網站的 Cookies",
+          "blockAll": "封鎖所有 Cookies（可能影響功能）"
+        }
+      },
+      "section5": {
+        "title": "5. Cookie 保存期限",
+        "periods": {
+          "session": {
+            "title": "工作階段 Cookie：",
+            "description": "在您關閉瀏覽器時過期。"
+          },
+          "persistent": {
+            "title": "持久性 Cookie：",
+            "description": "在您的裝置上儲存固定時間。範例：",
+            "examples": {
+              "login": "登入與安全 Cookies：最長 1 年",
+              "preference": "偏好 Cookies：最長 6 個月",
+              "analytics": "分析 Cookies：通常 30–90 天"
+            }
+          }
+        },
+        "note": "您可以透過瀏覽器設定提前刪除 Cookies。"
+      },
+      "section6": {
+        "title": "6. 特定法域的合規",
+        "intro": "我們遵守適用的資料保護及電子隱私法，包括：",
+        "laws": {
+          "gdpr": {
+            "title": "GDPR（歐盟/歐洲經濟區使用者）",
+            "description": "在設定非必要 Cookies 前需要合法依據。"
+          },
+          "ccpa": {
+            "title": "CCPA/CPRA（加州使用者）",
+            "description": "使用者有權選擇退出基於 Cookies 的資料分享。"
+          },
+          "other": {
+            "title": "其他法域",
+            "description": "我們在必要時提供類似的保護措施。"
+          }
+        }
+      },
+      "section7": {
+        "title": "7. 使用者權利與選擇",
+        "rights": {
+          "adjust": "您可以透過瀏覽器設定或我們的 Cookie 橫幅/設定面板調整 Cookie 偏好。",
+          "essential": "必要 Cookies 無法停用，因為它們對安全和核心功能是必需的。",
+          "rejecting": "拒絕某些 Cookies（例如功能或分析）可能會限制您在平台上的體驗。"
+        }
+      },
+      "section8": {
+        "title": "8. 您的同意",
+        "description": "當您第一次造訪 Vaulted Assets 平台時，會顯示一個 Cookie 橫幅，允許您接受所有 Cookies 或管理您的偏好。持續使用本平台而不調整瀏覽器設定，即表示您同意我們使用 Cookies。"
+      },
+      "section9": {
+        "title": "9. 政策更新",
+        "description": "我們可能會定期更新本 Cookie 政策，以反映技術變化、法律要求或我們的營運。更新後的政策將發布並標明新的生效日期。"
+      },
+      "contact": {
+        "title": "10. 聯繫我們",
+        "description": "如果您對我們使用 Cookies 有任何疑問或疑慮，請聯繫我們：",
+        "info": "電子郵件：privacy@vaultedassets.com"
+      }
+    },
+    "goldTokens":{
+      "heroTitle": "黃金代幣",
+      "heroSubtitle": "在數位時代擁有黃金的最聰明方式",
+      "heroDescription": "GLD 代幣 – 您的黃金，您的方式。此平台讓投資者購買 GLD，每枚代幣以 1 克投資級黃金為後盾，安全儲存並經過完全審計。無論您是持有、贈送或交易，GLD 都將黃金的永恆價值帶入您的日常數位生活。",
+      "features": {
+        "directlyBacked": {
+          "title": "直接由黃金支持",
+          "description": "1 GLD = 1 克實體黃金，為您提供跟隨全球黃金市場即時價格的資產。"
+        },
+        "multiChain": {
+          "title": "多鏈靈活性",
+          "description": "建立在 ERC-20（以太坊）、SPL 代幣計畫（Solana）或 Canton 網路之上，GLD 確保最大的互操作性與轉帳速度。"
+        },
+        "useYourWay": {
+          "title": "隨心所用",
+          "description": "在安全的混合錢包中持有，贈送給朋友，用於交易或買賣—GLD 如同現金使用，但由黃金支持。"
+        },
+        "auditsProof": {
+          "title": "審計與儲備證明",
+          "description": "獨立第三方定期審計，確認每枚黃金代幣均完全由金庫中的黃金支持。"
+        },
+        "redeemable": {
+          "title": "隨時可兌換",
+          "description": "按照平台兌換政策，將您的 GLD 轉回實體黃金，或迅速兌換為當地貨幣。"
+        }
+      },
+      "cta": {
+        "title": "擁有黃金的未來，由信任支撐！",
+        "subtitle": "與 Vaulted Assets 的黃金代幣（GLD）一起踏入財富保存的新紀元 — 一種 100% 由投保且獨立審計的實體黃金支撐的數位資產。",
+        "getStarted": "立即開始",
+        "partnerWithUs": "與我們合作"
+      },
+      "learnMore": {
+        "title": "深入了解黃金代幣 (GLD)",
+        "objective": {
+          "title": "目標",
+          "description1": "使用者可以透過平台投資黃金並獲得數位代幣作為回報。這些代幣—GLD—可以儲存、贈送、用於交易或隨時兌換。",
+          "description2": "GLD 是基於 ERC-20、SPL 代幣計畫或 Canton 網路的代幣，每枚代幣都以 1:1 的比例由實體黃金支撐。這確保您的投資完全由真實資產保障，同時提供數位貨幣的彈性與便利。",
+          "pricing": {
+            "label": "定價",
+            "description": "定價取決於市場價格；例如，購買 1 克實體黃金會獲得恰好 1 枚 GLD 代幣。然而，黃金代幣的價格每日波動，反映全球投資級黃金的即時市場價格。"
+          }
+        }
+      },
+      "technicalDetails": {
+        "title": "技術實施",
+        "creation": {
+          "title": "創建",
+          "description": "當使用者透過平台購買黃金（主要以美元）時，便會創建 GLD 代幣。等量的實體黃金被安全儲存，代幣則發放給購買者。"
+        },
+        "redemption": {
+          "title": "兌換",
+          "description": "使用者可隨時按照當前市場價格將 GLD 代幣兌換為等值的實體黃金或法定貨幣。"
+        },
+        "custody": {
+          "title": "保管與保險",
+          "description": "黃金代幣由獨立保管人保管並存放在充分保險的金庫中，以提供最大的投資者保護。"
+        }
+      },
+      "security": {
+        "title": "安全與合規",
+        "crossChain": {
+          "title": "跨鏈一致性",
+          "description": "黃金代幣的供應在支援的區塊鏈之間同步，以防止超發並確保完整性。"
+        },
+        "compliance": {
+          "title": "全球合規",
+          "description": "我們的平台在嚴格的 AML/KYC 標準及受監管的金庫司法管轄下運作，以支援全球可近性。"
+        },
+        "infrastructure": {
+          "title": "安全基礎設施",
+          "description": "多層次的錢包安全，結合托管與自托管選項，在每個步驟中保護代幣持有者。"
+        }
+      },
+      "tokenSpec": {
+        "title": "GLD 代幣規格",
+        "ratio": "代幣與黃金比率",
+        "backed": "資產支撐",
+        "redeemable": "可兌換"
+      },
+      "disclaimer": {
+        "title": "監管免責聲明",
+        "description": "不構成財務建議。可用性受司法限制。詳情請參閱條款與條件。"
+      }
+    },
+    "silverTokens":{
+      "heroTitle": "白銀代幣",
+      "heroSubtitle": "在數位時代擁有白銀的最聰明方式",
+      "heroDescription": "隨時隨地投資、支出或贈送白銀。本平台讓投資者能購買 SLV，每個 SLV 由 1 克投資級白銀支持，安全存放並經完整稽核。無論你持有、贈送或交易，SLV 都將白銀的持久價值帶入你的日常數位生活。",
+      "features": {
+        "directlyBacked": {
+          "title": "直接由白銀支持",
+          "description": "1 SLV = 1 克實體白銀，根據全球白銀市場價格實時估值。"
+        },
+        "multiChain": {
+          "title": "多鏈靈活性",
+          "description": "SLV 建立於 ERC-20（以太坊）、SPL Token Program（Solana）或 Canton 網路上，提供無縫互操作性和快速轉帳。"
+        },
+        "useYourWay": {
+          "title": "按你的方式使用",
+          "description": "存放於安全的混合錢包，贈送給朋友，進行交易或買賣——SLV 的運作就像現金，但由真正的白銀支持。"
+        },
+        "auditsProof": {
+          "title": "稽核與儲備證明",
+          "description": "獨立稽核與即時儲備證明儀表板確保每個 Silver Token (SLV) 都完全由封存的白銀支持。"
+        },
+        "redeemable": {
+          "title": "可兌換",
+          "description": "你可以依據平台兌換政策將 SLV 兌換成實體白銀，或快速安全地兌換成當地貨幣。"
+        }
+      },
+      "cta": {
+        "title": "體驗前所未有的白銀——鏈上且經稽核！",
+        "subtitle": "在經稽核的儲備支持並存於全額保險保管庫內，每個 Silver Token (SLV) 為你提供可驗證的實體白銀所有權——隨時隨地皆可存取。",
+        "getStarted": "立即開始",
+        "partnerWithUs": "與我們合作"
+      },
+      "learnMore": {
+        "title": "了解更多關於 Silver Token (SLV) 的資訊",
+        "objective": {
+          "title": "目標",
+          "description1": "用戶可以透過平台投資白銀並獲得 SLV 數位代幣。這些代幣可以存放、贈送、用於交易或隨時兌換。SLV 是一個基於 ERC-20、SPL Token Program 或 Canton 網路的代幣，1:1 由實體白銀支持。",
+          "description2": "這確保你的投資由有形資產完全保障，同時提供數位貨幣的靈活性。"
+        }
+      },
+      "technicalDetails": {
+        "title": "技術實施",
+        "pricing": {
+          "title": "定價",
+          "description": "定價取決於市場價格；例如，購買 1 克實體白銀為投資者提供 1 個 SLV 代幣。"
+        },
+        "creation": {
+          "title": "創建",
+          "description": "當用戶透過平台購買白銀時（主要以美元），便會創建 SLV 代幣。等量的實體白銀被安全存放，並向購買者發行相應的代幣。"
+        },
+        "fees": {
+          "title": "費用",
+          "description": "為支付區塊鏈燃料成本和運營開支，交易與兌換會收取名義費用。完整細節請參閱我們的條款與條件。"
+        },
+        "redemption": {
+          "title": "兌換",
+          "description": "隨時，使用者可以根據當前的市場價格將 SLV 代幣兌換成等值的實體白銀或法幣。"
+        }
+      },
+      "security": {
+        "title": "安全與保險",
+        "custody": {
+          "title": "保管與保險",
+          "description": "所有支援 SLV 代幣的實體白銀都存放在認證且投保的金庫中。這不僅確保最高標準的安全，也讓投資者安心，知道他們的資產受到防止遺失或盜竊的保障。"
+        }
+      },
+      "tokenSpec": {
+        "title": "SLV 代幣規格",
+        "ratio": "代幣與白銀比",
+        "backed": "資產支持",
+        "redeemable": "可兌換"
+      },
+      "disclaimer": {
+        "title": "監管聲明",
+        "description": "Silver Token (SLV) 並非投資建議，也不代表出售或購入證券的提議或招攬。使用與兌換可能受到司法管轄區限制。在做出財務決策前，請閱讀我們的條款與條件並諮詢專業顧問。"
+      }
+    },
+    "termsOfService": {
+      "title": "保險庫資產 – 安全與合規政策",
+      "effectiveDate": "生效日期：[插入日期]",
+      "introduction": "在保險庫資產，安全和監管合規是我們運營的核心。本政策概述了我們為保護用戶資產、保護敏感數據以及確保遵守適用的法律和監管框架而採取的措施。",
+      "section1": {
+        "title": "1. 目的",
+        "intro": "本安全與合規政策旨在：",
+        "objectives": {
+          "protection": "保護用戶資金和數據免受未經授權的訪問、盜竊或濫用。",
+          "integrity": "維護代幣化黃金（GLD）和白銀（SLV）系統的完整性。",
+          "compliance": "遵守相關的金融、數據保護和反洗錢法規。"
+        }
+      },
+      "section2": {
+        "title": "2. 安全目標",
+        "intro": "我們的主要安全目標是：",
+        "objectives": {
+          "assetProtection": {
+            "title": "資產保護",
+            "description": "保護物理貴金屬及其數字代幣化等價物。"
+          },
+          "dataConfidentiality": {
+            "title": "數據機密性",
+            "description": "保護用戶數據免受未經授權的訪問。"
+          },
+          "transactionIntegrity": {
+            "title": "交易完整性",
+            "description": "防止欺詐、篡改和未經授權的轉帳。"
+          },
+          "systemResilience": {
+            "title": "系統韌性",
+            "description": "確保平台的持續可用性和災難恢復。"
+          }
+        }
+      },
+      "section3": {
+        "title": "3. 範圍",
+        "intro": "本政策適用於：",
+        "applies": {
+          "employees": "所有保險庫資產的員工、承包商和服務提供商。",
+          "accounts": "平台上進行的所有用戶帳戶和交易。",
+          "assets": "託管的所有物理貴金屬及其相應的數字代幣。"
+        }
+      },
+      "section4": {
+        "title": "4. 安全措施",
+        "custodial": {
+          "title": "4.1 託管資產安全",
+          "description": "物理黃金和白銀儲存在高安全性保險庫中，配備24/7監控、武裝安保和生物識別訪問控制。託管人根據國際安全認證進行審查和批准。儲存資產的保險覆蓋包括盜竊、火災和自然災害。"
+        },
+        "blockchain": {
+          "title": "4.2 區塊鏈安全",
+          "description": "在以太坊（ERC-20）、Solana（SPL代幣程序）和Canton網絡（私有）上發行的代幣遵循各自的網絡標準。",
+          "features": {
+            "standards": "在以太坊（ERC-20）、Solana（SPL代幣程序）和Canton網絡（私有）上發行的代幣遵循各自的網絡標準。",
+            "audits": "智能合約代碼在部署前經過獨立審計，以識別和修復漏洞。",
+            "monitoring": "持續的鏈上監控可疑活動。"
+          }
+        },
+        "smartContracts": {
+          "title": "4.3 智能合約審計",
+          "description": "所有代幣和交易相關的智能合約在部署前都會接受獨立的第三方審計。審計報告在保險庫資產網站上公佈以確保透明度。部署後，合約會受到漏洞監控，如有必要會進行升級。"
+        },
+        "wallet": {
+          "title": "4.4 錢包基礎設施",
+          "features": {
+            "support": "支持託管和自託管錢包。",
+            "multiSig": "託管錢包的多重簽名和MPC（多方計算）保護。",
+            "coldStorage": "大部分代幣儲備的冷儲存以最小化線上暴露。"
+          }
+        },
+        "dataProtection": {
+          "title": "4.5 數據保護和隱私",
+          "description": "所有用戶數據使用AES-256加密存儲，通過TLS 1.3在傳輸過程中保護。對用戶數據的訪問基於角色並記錄以確保可追溯性。應用數據最小化原則：我們只收集提供服務所需的數據。用戶權利，包括訪問、可攜性和刪除，由我們的隱私政策管理。"
+        },
+        "userProtections": {
+          "title": "4.6 用戶特定保護",
+          "description": "釣魚和安全教育：保險庫資產積極教育用戶有關釣魚、惡意鏈接和錢包密鑰管理等風險。雙因子認證（2FA）：帳戶登錄和提款需要強認證機制。會話監控：用戶會收到異常登錄、地理異常或可疑帳戶活動的通知。錢包安全提示：通過教程和常見問題解答提供關於冷儲存、硬件錢包使用和個人密鑰管理的指導。"
+        },
+        "custodyFees": {
+          "title": "4.7 託管、費用和贖回安全",
+          "description": "費用模型保障：監控轉帳和贖回費用以防止欺詐或操縱性使用。反欺詐措施：大額贖回請求受到速率限制、速度檢查和多級審批工作流程的約束，以防止濫用或協調攻擊。託管保險：第三方託管人必須維護針對盜竊、黑客攻擊或運營失敗的保險。"
+        }
+      },
+      "section5": {
+        "title": "5. 合規措施",
+        "regulatory": {
+          "title": "5.1 監管合規",
+          "description": "遵守反洗錢（AML）和了解您的客戶（KYC）法規。對全球監管名單（OFAC、聯合國、歐盟）進行制裁篩查。用於可疑交易檢測的合規監控工具。"
+        },
+        "audit": {
+          "title": "5.2 審計與透明度",
+          "description": "定期（每月/季度）對物理金屬持有進行第三方審計。智能合約審計由獨立的區塊鏈安全公司執行。平台上提供公開的審計報告。"
+        },
+        "dataCompliance": {
+          "title": "5.3 數據保護合規",
+          "description": "遵守GDPR（通用數據保護條例）和CCPA（加利福尼亞消費者隱私法）。明確的用戶同意機制用於數據收集和處理。用戶有權訪問、更新或刪除個人信息。"
+        },
+        "certifications": {
+          "title": "5.4 認證和標準",
+          "intro": "保險庫資產與維護國際認可認證的託管人、審計師和技術提供商合作：",
+          "iso": {
+            "title": "ISO 27001",
+            "description": "信息安全管理系統（ISMS）。"
+          },
+          "soc": {
+            "title": "SOC 2 Type II",
+            "description": "內部安全、可用性和機密性控制的獨立驗證。"
+          },
+          "aml": {
+            "title": "AML/KYC審計",
+            "description": "由諸如Chainalysis等公司進行區塊鏈監控和合規保證。"
+          },
+          "smartContract": {
+            "title": "智能合約安全審計",
+            "description": "由CertiK和Trail of Bits等獨立公司在部署前執行。"
+          }
+        }
+      },
+      "section6": {
+        "title": "6. 事件響應計劃",
+        "intro": "在發生安全漏洞或運營中斷的情況下：",
+        "steps": {
+          "detection": {
+            "title": "檢測：",
+            "description": "來自監控系統的實時警報。"
+          },
+          "containment": {
+            "title": "遏制：",
+            "description": "隔離受影響的系統和錢包。"
+          },
+          "notification": {
+            "title": "通知：",
+            "description": "根據法律要求通知受影響的用戶和監管當局。"
+          },
+          "remediation": {
+            "title": "補救：",
+            "description": "應用安全補丁，恢復服務，並防止再次發生。"
+          }
+        }
+      },
+      "section7": {
+        "title": "7. 員工和供應商安全",
+        "measures": {
+          "training": "員工強制性安全意識培訓。",
+          "background": "敏感角色員工的背景調查。",
+          "vendor": "供應商盡職調查以確保第三方符合保險庫資產的安全和合規標準。"
+        }
+      },
+      "section8": {
+        "title": "8. 獨立審計",
+        "quarterly": {
+          "title": "季度物理審計：",
+          "description": "保險庫設施接受季度檢查以確認儲備資產和儲存完整性。"
+        },
+        "annual": {
+          "title": "年度財務審計：",
+          "description": "由持牌第三方審計師進行以驗證儲備證明（PoR）。"
+        },
+        "ongoing": {
+          "title": "持續區塊鏈監控：",
+          "description": "對所有代幣流實施實時AML/CTF交易篩查。"
+        }
+      },
+      "section9": {
+        "title": "9. 可擴展性和新興風險",
+        "environmental": {
+          "title": "環境和不可抗力準備：",
+          "description": "根據我們白皮書免責聲明，針對可能影響保險庫位置的地緣政治風險、自然災害或監管衝擊制定了應急協議。"
+        },
+        "multiRegion": {
+          "title": "多地區託管：",
+          "description": "儲備資產在地理上分散以最小化中斷風險。"
+        },
+        "emergingRisk": {
+          "title": "新興風險監控：",
+          "description": "定期評估追蹤與新網絡威脅、監管變化和區塊鏈漏洞相關的風險。"
+        }
+      },
+      "section10": {
+        "title": "10. 指標和報告",
+        "security": {
+          "title": "安全KPI：",
+          "uptime": "99.9%系統正常運行時間（每月）。",
+          "response": "從檢測開始的事件響應時間<4小時。",
+          "remediation": "審計補救在發現後30天內完成。"
+        },
+        "transparency": {
+          "title": "透明度儀表板：",
+          "description": "面向用戶的儀表板提供實時儲備證明（PoR）、審計報告和合規認證，與我們對開放性的承諾保持一致。"
+        }
+      },
+      "section11": {
+        "title": "11. 政策更新",
+        "description": "我們定期審查和更新此政策以應對新興威脅、監管變化和技術更新。"
+      },
+      "contact": {
+        "title": "12. 聯絡信息",
+        "description": "如有關於此政策的問題或報告安全問題：",
+        "info": "電子郵件：security@vaultedassets.com\n郵寄地址：123 Financial District, Suite 456, New York, NY 10004\n網站：https://vaultedassets.com/security"
+      }
+    },
+    "privacyPolicy": {
+      "title": "保險庫資產 – 隱私政策",
+      "effectiveDate": "生效日期：[插入日期]",
+      "introduction": {
+        "text1": "保險庫資產（\"我們\"、\"我們的\"、\"我們\"）致力於保護您的個人資訊並尊重您的隱私。本隱私政策解釋了當您使用我們的平台（包括我們的網頁和移動應用程式）購買、持有、轉移和贖回代幣化黃金和白銀時，我們如何收集、使用、儲存和分享您的資料。",
+        "text2": "透過使用保險庫資產，您同意本隱私政策中描述的做法。如果您不同意，請不要使用我們的服務。"
+      },
+      "section1": {
+        "title": "1. 我們收集的資訊",
+        "intro": "我們收集以下類別的資訊：",
+        "personal": {
+          "title": "個人資訊：",
+          "description": "姓名、電子郵件、電話號碼和身份文件（用於KYC/AML合規）。"
+        },
+        "financial": {
+          "title": "財務資訊：",
+          "description": "付款方式詳情、交易記錄和錢包地址。"
+        },
+        "blockchain": {
+          "title": "區塊鏈資料：",
+          "description": "以太坊、Solana和其他支援區塊鏈上的公開錢包地址、交易雜湊和餘額。雖然這些資料是公開且假名的，但用戶應該意識到先進的分析可能會允許去匿名化。"
+        },
+        "institutional": {
+          "title": "機構隱私（Canton網路）：",
+          "description": "對於利用Canton的機構用戶，適用增強的隱私措施，確保交易資料不會全球廣播，並僅對授權方可見。"
+        },
+        "technical": {
+          "title": "技術資料：",
+          "description": "IP地址、設備資訊、瀏覽器類型和cookie（見我們的Cookie政策）。"
+        },
+        "usage": {
+          "title": "使用分析：",
+          "description": "點擊流資料、平台使用模式、推薦代碼和聚合行為，用於服務改進。"
+        }
+      },
+      "section2": {
+        "title": "2. 我們如何使用您的資訊",
+        "intro": "我們處理您的資訊以：",
+        "uses": {
+          "provide": "提供平台服務並執行交易。",
+          "verify": "驗證身份並符合KYC/AML法規。",
+          "improve": "改進、個性化和保護平台。",
+          "enable": "啟用法幣入口/出口功能和跨鏈轉移。",
+          "conduct": "進行性能優化分析。",
+          "support": "提供客戶支援並回應查詢。",
+          "meet": "滿足監管和法律義務。"
+        }
+      },
+      "section3": {
+        "title": "3. 處理的法律基礎",
+        "intro": "我們基於以下一個或多個法律基礎處理個人資料：",
+        "bases": {
+          "contract": {
+            "title": "合約履行",
+            "description": "為履行我們對您的義務。"
+          },
+          "legal": {
+            "title": "法律義務",
+            "description": "為遵守法律法規。"
+          },
+          "legitimate": {
+            "title": "合法利益",
+            "description": "為安全地運營和改進我們的平台。"
+          },
+          "consent": {
+            "title": "同意",
+            "description": "您明確同意的地方（例如行銷）。"
+          }
+        }
+      },
+      "section4": {
+        "title": "4. 資料分享和第三方整合",
+        "intro": "我們可能在以下情況下分享您的資訊：",
+        "cases": {
+          "blockchain": {
+            "title": "區塊鏈網路：",
+            "description": "提交到區塊鏈的交易是公開可見且不可變的。我們無法控制第三方如何分析這些資料。"
+          },
+          "fiat": {
+            "title": "法幣入口/支付提供商：",
+            "description": "為處理存款/提款，相關的個人和財務資料可能會與許可的供應商安全分享。"
+          },
+          "wallets": {
+            "title": "第三方錢包和橋接：",
+            "description": "如果您使用外部錢包或跨鏈服務，某些識別符（例如錢包地址、交易元資料）可能會為交易執行而分享。"
+          },
+          "analytics": {
+            "title": "分析提供商：",
+            "description": "聚合和匿名化的使用資料可能會為平台改進而分享。"
+          },
+          "legal": {
+            "title": "法律/監管請求：",
+            "description": "我們可能會披露資料以遵守適用法律、監管機構或執法部門。"
+          }
+        },
+        "noSale": "我們不出售您的個人資訊。"
+      },
+      "section5": {
+        "title": "5. 資料儲存和安全",
+        "measures": {
+          "encryption": {
+            "title": "加密：",
+            "description": "所有敏感資料都在靜止時（AES-256）和傳輸中（TLS 1.3）加密。"
+          },
+          "access": {
+            "title": "存取控制：",
+            "description": "基於角色的權限與多因素身份驗證（MFA）。"
+          },
+          "backups": {
+            "title": "備份：",
+            "description": "地理分散的加密備份用於災難恢復。"
+          },
+          "physical": {
+            "title": "實體安全：",
+            "description": "托管金庫符合行業領先的安全標準。"
+          }
+        }
+      },
+      "section6": {
+        "title": "6. 資料安全和洩露通知",
+        "protocols": "我們實施強健的安全協議，包括AES-256加密、多重簽名錢包、冷儲存和定期審計。",
+        "breachIntro": "如果發生涉及個人資料的資料洩露：",
+        "breachSteps": {
+          "users": "受影響的用戶將在72小時內得到通知，符合GDPR和其他監管框架。",
+          "authorities": "相關當局也將根據要求得到通知。"
+        }
+      },
+      "section7": {
+        "title": "7. Cookie、追蹤和選擇退出",
+        "intro": "我們使用cookie和類似的追蹤技術，如我們的Cookie政策中所述。這些包括：",
+        "types": {
+          "essential": {
+            "title": "必要Cookie：",
+            "description": "平台安全和登錄功能所需。"
+          },
+          "performance": {
+            "title": "性能分析：",
+            "description": "追蹤使用趨勢以改進服務。"
+          },
+          "referral": {
+            "title": "推薦和行銷標籤：",
+            "description": "用於活動性能和推薦追蹤的非必要cookie。"
+          }
+        },
+        "optOut": {
+          "title": "選擇退出：",
+          "description": "您可以通過帳戶設定或瀏覽器偏好設定停用非必要cookie。如果cookie被停用，某些功能可能無法運作。"
+        }
+      },
+      "section8": {
+        "title": "8. 兒童隱私和敏感資料",
+        "children": "我們的平台僅適用於18歲及以上的用戶。我們不會有意收集18歲以下兒童的資料。如果我們得知未成年人已提交資料，我們將立即刪除。",
+        "sensitive": "敏感資料，包括用於KYC目的的生物識別資訊，會被安全儲存，並僅由經批准的第三方供應商在嚴格的合規要求下處理。"
+      },
+      "section9": {
+        "title": "9. 國際資料轉移",
+        "description": "您的資料可能會被轉移到您原籍國以外的司法管轄區並在其中處理，包括資料保護法可能不同的地方。我們通過合約保障或其他法律機制確保適當的保護。"
+      },
+      "section10": {
+        "title": "10. 資料保留",
+        "intro": "我們保留您的個人資料：",
+        "periods": {
+          "account": "只要您在我們這裡維持帳戶。",
+          "regulations": "符合適用的監管要求（通常是7年）。",
+          "legal": "如果法律義務或爭議需要，時間更長。"
+        }
+      },
+      "section11": {
+        "title": "11. 您的權利",
+        "intro": "根據適用的資料保護法，您可能有權：",
+        "rights": {
+          "access": {
+            "title": "存取",
+            "description": "要求我們持有的關於您的資訊副本。"
+          },
+          "rectify": {
+            "title": "更正",
+            "description": "更新或更正不準確的資訊。"
+          },
+          "delete": {
+            "title": "刪除",
+            "description": "要求刪除您的個人資料（\"被遺忘權\"）。"
+          },
+          "restrict": {
+            "title": "限制處理",
+            "description": "限制我們如何使用您的資料。"
+          },
+          "object": {
+            "title": "反對處理",
+            "description": "反對某些類型的資料處理。"
+          },
+          "portability": {
+            "title": "資料可攜性",
+            "description": "以結構化格式接收您的資料。"
+          }
+        },
+        "contact": "要行使這些權利，請通過[聯繫資訊]與我們聯繫。"
+      },
+      "section12": {
+        "title": "12. 本隱私政策的更新",
+        "description": "我們可能會不時更新本隱私政策。重大變更將通過電子郵件或平台通知告知您。繼續使用我們的服務即表示您接受修訂後的政策。"
+      },
+      "links": {
+        "title": "其他政策連結",
+        "terms": "服務條款",
+        "cookie": "Cookie政策",
+        "security": "安全政策"
+      },
+      "contact": {
+        "title": "聯絡我們",
+        "description": "如果您對本隱私政策或您的個人資料有疑問，請聯絡：",
+        "email": "電子郵件：privacy@vaultedassets.com",
+        "address": "地址：紐約州紐約市金融區123號456室，郵編10004",
+        "dpo": "資料保護官：dpo@vaultedassets.com"
+      }
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "titleHighlight": "保險庫資產",
+      "subtitle": "聯絡我們的團隊尋求支援、合作夥伴關係或諮詢",
+      "info": {
+        "title": "取得聯絡",
+        "email": {
+          "title": "電子郵件",
+          "support": "support@vaultedassets.com",
+          "partnerships": "partnerships@vaultedassets.com"
+        },
+        "office": {
+          "title": "辦公室",
+          "address": "紐約金融區123號\n紐約州紐約市10005\n美國"
+        },
+        "hours": {
+          "title": "營業時間",
+          "weekdays": "週一至週五：上午9:00 - 下午6:00（東部時間）",
+          "saturday": "週六：上午10:00 - 下午2:00（東部時間）",
+          "sunday": "週日：休息"
+        }
+      },
+      "form": {
+        "title": "向我們發送訊息",
+        "fields": {
+          "firstName": "名",
+          "lastName": "姓",
+          "email": "電子郵件地址",
+          "company": "公司（可選）",
+          "subject": "主題",
+          "message": "訊息"
+        },
+        "placeholders": {
+          "firstName": "請輸入您的名字",
+          "lastName": "請輸入您的姓氏",
+          "email": "your.email@example.com",
+          "company": "您的公司名稱",
+          "subject": "我們能幫您什麼嗎？",
+          "message": "告訴我們更多關於您的諮詢..."
+        },
+        "buttons": {
+          "send": "發送訊息",
+          "sending": "發送中...",
+          "clear": "清空表單"
+        },
+        "success": {
+          "title": "訊息發送成功！",
+          "description": "感謝您聯絡我們。我們將很快回覆您。"
+        },
+        "error": {
+          "title": "發送訊息失敗",
+          "description": "請稍後再試。"
+        }
+      },
+      "faq": {
+        "title": "常見問題",
+        "subtitle": "尋找有關保險庫資產的常見問題的答案",
+        "categories": {
+          "general": {
+            "title": "一般問題"
+          },
+          "tokens": {
+            "title": "代幣和區塊鏈"
+          },
+          "buying": {
+            "title": "購買和贖回"
+          },
+          "fees": {
+            "title": "費用和轉帳"
+          },
+          "security": {
+            "title": "安全和合規"
+          },
+          "crossChain": {
+            "title": "跨鏈轉帳"
+          },
+          "audit": {
+            "title": "審計和透明度"
+          },
+          "wallets": {
+            "title": "錢包和可訪問性"
+          },
+          "gifting": {
+            "title": "禮品和推薦"
+          },
+          "jurisdictional": {
+            "title": "司法管轄區限制"
+          }
+        },
+        "questions": {
+          "q1": {
+            "question": "什麼是保險庫資產？",
+            "answer": "保險庫資產是一個允許您購買、持有、轉移和贖回黃金和白銀支持的數位代幣的平台。每個代幣代表存儲在安全保險庫中的完全分配貴金屬的直接所有權。"
+          },
+          "q2": {
+            "question": "這與物理購買黃金或白銀有何不同？",
+            "answer": "當您透過保險庫資產購買代幣時，您擁有存儲在專業級保險庫中的真正黃金或白銀——但您可以數位化管理您的持有，即時交易，並隨時贖回。"
+          },
+          "q3": {
+            "question": "金屬儲存在哪裡？",
+            "answer": "所有黃金和白銀都與批准的託管人一起儲存在位於受監管司法管轄區的高安全性保險庫中。"
+          },
+          "q4": {
+            "question": "我的持有是否有保險？",
+            "answer": "是的，所有保險庫資產都由託管人提供的綜合保險單承保。"
+          },
+          "q5": {
+            "question": "您使用哪些區塊鏈？",
+            "answer": "保險庫資產支援公共區塊鏈（例如Solana、以太坊）和私有/許可區塊鏈（例如Canton）以滿足不同的用戶需求。"
+          },
+          "q6": {
+            "question": "我可以選擇我的代幣在哪個區塊鏈上嗎？",
+            "answer": "是的——您可以在購買或轉移代幣時選擇您偏好的網路。"
+          },
+          "q7": {
+            "question": "區塊鏈交易是可逆的嗎？",
+            "answer": "不是。一旦區塊鏈交易被確認，就無法撤銷。在確認之前請務必仔細檢查交易詳情。"
+          },
+          "q8": {
+            "question": "我如何購買代幣？",
+            "answer": "您可以直接透過我們的網頁或移動應用程式使用支援的法定貨幣或加密貨幣購買代幣。"
+          },
+          "q9": {
+            "question": "我可以將我的代幣贖回為物理黃金或白銀嗎？",
+            "answer": "是的。您可以要求以物理金屬形式贖回（受最低數量限制）或等值法幣價值。"
+          },
+          "q10": {
+            "question": "贖回需要多長時間？",
+            "answer": "交付時間取決於您的位置、可用性和選擇的方法（物理交付或現金結算）。"
+          },
+          "q11": {
+            "question": "適用哪些費用？",
+            "answer": "我們對交易、儲存和區塊鏈轉帳收費。費用因您使用公共還是私有區塊鏈而異。"
+          },
+          "q12": {
+            "question": "保險庫資產用戶之間的轉帳是免費的嗎？",
+            "answer": "私有區塊鏈上的轉帳可能有減少或零費用。公共區塊鏈上的轉帳可能產生網路gas費用。"
+          },
+          "q13": {
+            "question": "我的帳戶如何保護？",
+            "answer": "我們使用強加密、雙因素認證（2FA）和多層安全措施來保護錢包和平台存取。"
+          },
+          "q14": {
+            "question": "我需要驗證我的身份嗎？",
+            "answer": "是的——所有用戶必須完成AML/KYC驗證以符合全球法規。"
+          },
+          "q15": {
+            "question": "如果保險庫資產關閉會怎樣？",
+            "answer": "您的金屬仍然是您的財產。在平台關閉的情況下，您將能夠贖回您的持有或將其轉移到替代託管人。"
+          },
+          "q16": {
+            "question": "我可以在以太坊、Solana和Canton之間移動我的代幣嗎？",
+            "answer": "是的。我們支援透過可信橋樑進行跨鏈轉帳，在某些情況下透過單獨的發行模型（代幣可以在一個鏈上贖回並在另一個鏈上重新發行）。我們的文件解釋了GLD和SLV的具體流程。"
+          },
+          "q17": {
+            "question": "橋接會影響我對代幣的所有權嗎？",
+            "answer": "不會。無論您在以太坊還是Solana上持有GLD，每個代幣都由我們保險庫中的物理儲備1:1完全支援。"
+          },
+          "q18": {
+            "question": "我如何知道代幣完全由黃金和白銀儲備支援？",
+            "answer": "保險庫資產透過定期第三方審計維護儲備證明。我們還發布一個即時儀表板，顯示代幣供應量對比審計的保險庫持有量，因此用戶可以隨時驗證支援。"
+          },
+          "q19": {
+            "question": "誰進行審計？",
+            "answer": "獨立的認證審計公司進行我們的儲備驗證以確保透明度和信任。"
+          },
+          "q20": {
+            "question": "我需要加密錢包來使用保險庫資產嗎？",
+            "answer": "不一定。我們的混合錢包系統允許您選擇：託管錢包（簡單，Web2風格登入，不需要技術知識）。自託管錢包（例如MetaMask、Phantom或Canton相容解決方案）。"
+          },
+          "q21": {
+            "question": "我可以使用我現有的錢包嗎？",
+            "answer": "是的，如果您偏好自託管，您可以連接您自己的Web3錢包來管理您的GLD和SLV代幣。"
+          },
+          "q22": {
+            "question": "我可以將代幣贈送給其他人嗎？",
+            "answer": "是的。我們的平台支援代幣贈送，因此您可以直接向家人和朋友發送黃金或白銀。"
+          },
+          "q23": {
+            "question": "您提供推薦獎勵嗎？",
+            "answer": "是的。保險庫資產運行推薦計劃，現有用戶可以邀請他人並獲得代幣獎勵。詳情在您的帳戶儀表板中可用。"
+          },
+          "q24": {
+            "question": "我可以在我的國家使用保險庫資產嗎？",
+            "answer": "我們的服務受當地法律法規約束。某些司法管轄區可能限制或禁止參與數位資產平台。投資前請查看我們的使用條款並諮詢您的當地法規。"
+          },
+          "q25": {
+            "question": "該平台是否向美國或歐盟用戶開放？",
+            "answer": "可用性因產品而異。某些功能可能基於合規要求受到限制。如果存取受限，我們將在入職過程中通知用戶。"
+          }
+        }
+      }
+    },
+    "whitepaper": {
+      "title": "白皮書",
+      "subtitle": "通過區塊鏈技術數字化貴金屬投資",
+      "description": "探索保險庫資產在以太坊、Solana和Canton網絡上革命性方法，將物理貴金屬轉換為可訪問、流動的數字資產。我們的全面白皮書詳細介紹了市場機會、技術實現、代幣經濟學和我們的規模計劃。",
+      "downloadPdf": "下載PDF",
+      "viewOnline": "線上閱讀",
+      "lastUpdated": "最後更新：2024年4月",
+      "executiveSummary": {
+        "title": "執行摘要",
+        "intro": "保險庫資產是一個開創性的數字資產平台，平彌了傳統貴金屬投資與現代區塊鏈技術之間的鴿溝。我們在國際安全保險庫中存儲物理黃金和白銀，並在以太坊、Solana和Canton網絡上發行相應的數字代幣。",
+        "concept": "我們的核心概念簡單而強大：每個數字代幣都由實物貴金屬存儲的等值支持，用戶可以隨時隨地進行兌換。這種方法消除了傳統貴金屬所有權的存儲、保險和流動性問題，同時提供了數字資產的靈活性和潛在增長。",
+        "tokens": "我們的平台主要推出兩種代幣：支持黃金的GLD和支持白銀的SLV。每種代幣都享受相同的安全性、透明度和流動性益處，但受各自商品的獨特市場動態驅動。",
+        "features": "我們的技術平台包括綜合投資組合管理、自動化訂單處理、實時定價反饋以及面向投資者和機構伙伴的高級分析工具。我們還提供實物資產的交付選項，依照用戶的最終需求和地理位置。",
+        "vision": "我們的願景是成為全球領先的代幣化貴金屬平台，為個人和機構投資者在數字時代提供一個安全、可靠和綜合的貴金屬暴露途徑。"
+      },
+      "problemStatement": {
+        "title": "問題陳述",
+        "intro": "貴金屬投資一直被認為是財富保值和投資組合多元化的基石。然而，傳統的貴金屬投資存在一些重大限制，阻碍了其在數字經濟中的採用和效用性。",
+        "inaccessibility": {
+          "title": "不可訪問性",
+          "description": "傳統貴金屬投資需要大量前期資本、存儲安排和保險，使得許多潛在投資者難以參與。"
+        },
+        "liquidity": {
+          "title": "流動性問題",
+          "description": "物理貴金屬難以快速流動，存在高交易成本和市場出入壁壘。"
+        },
+        "transparency": {
+          "title": "缺乏透明度",
+          "description": "在傳統市場中，驗證實物貴金屬的真實性和可靠性往往困難且成本高昂。"
+        },
+        "digitalBarriers": {
+          "title": "數字化障碍",
+          "description": "現有的貴金屬市場缺乏與現代數字金融系統的集成，限制了新的金融產品和服務的可能性。"
+        },
+        "conclusion": "這些問題為一個綜合解決方案創造了市場機會，該方案能夠在保持貴金屬本身價值的同時，利用區塊鏈技術的優勢。"
+      },
+      "marketOpportunity": {
+        "title": "市場機會",
+        "intro": "全球貴金屬市場正經歷前所未有的增長，需求由通脹性擔憂、地緣政治不穩定和數字化資產採用驅動。",
+        "trends": {
+          "title": "關鍵市場质勢"
+        },
+        "goldSilverDemand": {
+          "title": "黃金和白銀需求飆升",
+          "q1Demand": "2024年第一季度全球黃金需求",
+          "investmentSurge": "投資需求增長",
+          "priceIncrease": "價格上漲（同比）"
+        },
+        "trendsTable": {
+          "trend": "质勢",
+          "relevance": "相關性",
+          "risingDemand": "貴金屬需求上升",
+          "risingDemandRelevance": "可持續的全球貴金屬需求推動我們的市場增長潛力。",
+          "digitalPayments": "數字支付採用",
+          "digitalPaymentsRelevance": "對數字支付方式的接受不斷增加，讓我們的數字化貴金屬代幣變得更容易被接受。",
+          "assetTokenization": "資產代幣化增長",
+          "assetTokenizationRelevance": "代幣化資產的快速墝長表明市場對數字資產所有權的理解和接受度不斷提高。"
+        },
+        "conclusion": "這些质勢指向一個重大機會，即通過創建一個綜合平台來滿足用戶對安全、可訪問和流動的貴金屬投資的不斷增長需求。"
+      },
+      "proposedSolution": {
+        "title": "建議解決方案",
+        "intro": "保險庫資產通過一個全面的數字平台解決這些問題，該平台結合了傳統貴金屬投資的安全性與現代區塊鏈技術的靈活性。",
+        "keyHighlights": "關鍵亮點",
+        "backedTokens": {
+          "title": "實物支持的代幣",
+          "description": "每個數字代幣都由在安全保險庫中的物理貴金屬存儲支持。"
+        },
+        "platform": {
+          "title": "多鏈平台",
+          "description": "支持以太坊、Solana和Canton網絡，為用戶提供靈活的選擇。"
+        },
+        "walletSupport": {
+          "title": "託管和自託管支持",
+          "description": "支持託管和自託管錢包，適應不同的用戶需求和專業水平。"
+        },
+        "digitalExperience": {
+          "title": "綜合數字體驗",
+          "description": "提供無縫的用戶體驗，包括實時定價、投資組合管理和對手服務。"
+        },
+        "adminDashboard": {
+          "title": "管理員儀表板",
+          "description": "面向機構用戶和管理員的高級管理工具和分析功能。"
+        },
+        "cantonNetwork": {
+          "title": "Canton網絡集成",
+          "description": "與大型機構合作伙伴的私有區塊鏈解決方案，加強了數據保護和合規性。"
+        },
+        "conclusion": "我們的方法不僅解決了現有的市場限制，還為貴金屬投資的未來建立了一個可擴展和可持續的基礎。"
+      },
+      "tokenStructure": {
+        "title": "代幣結構",
+        "gld": {
+          "title": "GLD代幣（黃金）",
+          "backedAsset": {
+            "title": "支持資產",
+            "description": "每個 GLD 代幣代表在安全保險庫中儲存的 1 克黃金。"
+          },
+          "standard": {
+            "title": "代幣標準",
+            "description": "ERC-20（以太坊）、SPL（Solana）和 Canton 網絡兼容。"
+          },
+          "features": {
+            "title": "主要特性",
+            "redeemable": "可隨時兌換為物理黃金",
+            "usable": "可用於支付和轉帳",
+            "transparent": "完全透明的儲備證明"
+          }
+        },
+        "slv": {
+          "title": "SLV代幣（白銀）",
+          "backedAsset": {
+            "title": "支持資產",
+            "description": "每個 SLV 代幣代表在安全保險庫中儲存的 1 克白銀。"
+          },
+          "standard": {
+            "title": "代幣標準",
+            "description": "ERC-20（以太坊）、SPL（Solana）和 Canton 網絡兼容。"
+          },
+          "features": {
+            "title": "主要特性",
+            "realValue": "反映真實的白銀市場價值",
+            "liquid": "高流動性和低成本交易",
+            "secure": "與 GLD 相同的安全和監管標準"
+          }
+        },
+        "keyFeatures": {
+          "title": "所有代幣的關鍵特性",
+          "fullyCoded": "完全支持",
+          "fullyCodedDescription": "每個數字代幣都由等值的物理貴金屬支持。",
+          "instant": "即時兌換",
+          "instantDescription": "隨時將代幣兌換為物理貴金屬，受地理和法律限制。",
+          "regulated": "受監管",
+          "regulatedDescription": "在監管框架內運行，包括完整的 KYC/AML 和審計流程。",
+          "multiChain": "多鏈支持",
+          "multiChainDescription": "在多個區塊鏈網絡上可用，提供靈活性和選擇。"
+        }
+      }
+    }
+  },
+  "payment": {
+    "sessionCreated": "支付會話已創建",
+    "redirectingToPayment": "重定向到安全支付...",
+    "error": "支付錯誤",
+    "initializingPayment": "正在初始化支付...",
+    "paymentError": "支付錯誤",
+    "tryAgain": "重試",
+    "goBack": "返回",
+    "readyToPay": "準備支付",
+    "securePaymentReady": "您的安全支付會話已準備就緒。",
+    "amount": "金額",
+    "purchasing": "購買",
+    "tokens": "代幣",
+    "walletAddress": "錢包地址",
+    "proceedToPayment": "繼續支付",
+    "cancel": "取消",
+    "secureNote": "由Transak提供的安全支付 • 您的資金受保護",
+    "windowClosed": "支付窗口已關閉",
+    "checkTransactionStatus": "請檢查您的交易歷史記錄以了解支付狀態。"
+  }
+}

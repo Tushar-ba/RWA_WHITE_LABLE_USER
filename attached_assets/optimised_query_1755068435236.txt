@@ -1,0 +1,39 @@
+async getRedemptionsWithUserInfoPaginated(
+  userId: string,
+  skip: number,
+  limit: number
+): Promise<{ redemptions: any[]; total: number }> {
+  // Fetch redemptions and total count in parallel
+  const [redemptions, total] = await Promise.all([
+    Redemption.find({ user: userId })
+      .populate('user', 'email first_name last_name country state') // fetch only required fields
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
+      .lean(), // better performance, plain JS objects
+
+    Redemption.countDocuments({ user: userId })
+  ]);
+
+  // Format data
+  const formatted = redemptions.map(r => ({
+    id: r._id,
+    token: r.token,
+    quantity: r.quantity,
+    gramsAmount: r.gramsAmount,
+    tokenValueUSD: r.tokenValueUSD,
+    network: r.network,
+    deliveryAddress: r.deliveryAddress,
+    status: r.status,
+    requestId: r.requestId,
+    transactionHash: r.transactionHash,
+    errorMessage: r.errorMessage,
+    deliveryFee: r.deliveryFee,
+    totalCostUSD: r.totalCostUSD,
+    user_info: r.user || null,
+    createdAt: r.createdAt,
+    updatedAt: r.updatedAt
+  }));
+
+  return { redemptions: formatted, total };
+}

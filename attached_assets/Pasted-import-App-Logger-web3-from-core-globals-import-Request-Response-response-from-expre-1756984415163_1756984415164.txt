@@ -1,0 +1,109 @@
+import { App, Logger, web3 } from '@core/globals'
+import { Request, Response, response } from 'express'
+import crypto from 'crypto'
+import IcoJSON from '../../../../abis/ico.json'
+import markleHelper from '@helpers/markel'
+import Web3 from 'web3'
+import { ethers } from 'ethers'
+import {
+  calculateGasPriceForFiatPurchase,
+  ethToDollarRate,
+  calculateRate,
+} from '@helpers/utils'
+
+export default async function _MoonpayWebhook(req: Request, res: Response) {
+  // console.log(req.header);
+  // console.log(req.headers);
+  //   const receivedSignature = req.headers['moonpay-signature'];
+
+  //   const hmac = crypto.createHmac('sha256', 'wk_test_pgLHT3nPNxEoATrbcZhr3xD8MWdwTAh');
+  //   const calculatedSignature = hmac.update(requestBody).digest('hex');
+  //   console.log(receivedSignature);
+  //   console.log(calculatedSignature);
+  //   if (receivedSignature === calculatedSignature) {
+  // Signature is valid, process the webhook payload
+
+  const {
+    data: {
+      stages,
+      id,
+      cryptoTransactionId,
+      walletAddress,
+      baseCurrencyAmount,
+      quoteCurrencyAmount,
+      externalTransactionId,
+    },
+    type,
+    externalCustomerId,
+  } = req.body
+  if (type == 'transaction_updated') {
+    const [orderStage, verificationStage, processStage, deliveryStage] = stages
+    const userData = await App.Models.User.findOne({
+      walletAddress: externalCustomerId.toLowerCase(),
+    })
+    if (deliveryStage?.status == 'success') {
+      const isExist = await App.Models.Transaction.findOne({
+        transactionHash: cryptoTransactionId,
+      })
+      if (isExist) {
+        return res.status(200).send('Transaction Exist')
+      }
+      const fiatTransaction = await App.Models.Transaction.create({
+        fiatCurrency: 'USD',
+        cryptoAmount: quoteCurrencyAmount,
+        fiatValue: baseCurrencyAmount,
+        walletAddress: walletAddress,
+        transactionHash: cryptoTransactionId,
+        name: userData.name,
+        status: 'complete',
+      })
+
+      const totalToken = externalTransactionId
+      const Ico = new web3.eth.Contract(
+        IcoJSON,
+        App.Config.RC_ICO_CONTRACT_ADDRESS
+      )
+      try {
+        const icoDetails: any = await Ico.methods.getICORoundDetails().call()
+        const roundCount = await Ico.methods.round().call()
+
+        const getCurrentPhaseDetails: any = await App.Models.IcoConfig.findOne(
+          {}
+        ).lean()
+        const phaseRoundData = getCurrentPhaseDetails?.IcoPhase[roundCount]
+        // const calculateEthAmount = Number((totalToken / phaseRoundData.rate).toFixed(9));
+        const t = BigInt(Number(totalToken) * 1000000000000000000)
+        console.log(t.toString)
+        const provider = new ethers.JsonRpcProvider(App.Config.RPC_URL)
+        const signer = new ethers.Wallet(App.Config.ADMIN_PRIVATE_KEY, provider)
+
+        const seedUsers = await App.Models.User.find({
+          isWalletWhiteListedForSeed: true,
+        })
+        const addressArr = []
+        seedUsers.forEach((e) => {
+          addressArr.push(e.walletAddress)
+        })
+        const tree = new markleHelper(addressArr)
+        const data = await tree.getProof(userData.walletAddress)
+
+        console.log(userData.walletAddress, t.toString(), data)
+        const tx = await signer.sendTransaction({
+          to: App.Config.RC_ICO_CONTRACT_ADDRESS,
+          data: Ico.methods
+            .buyTokensUsingFiat(userData.walletAddress, t.toString(), data)
+            .encodeABI(),
+        })
+        await tx.wait()
+      } catch (error) {
+        console.log(error)
+      }
+    }
+  }
+  res.status(200).send('Webhook received and verified.')
+  // } else {
+  //   // Signature is invalid, reject the request
+  //   console.error('Invalid signature, potential security threat!');
+  //   res.status(403).send('Invalid signature.');
+  // }
+}

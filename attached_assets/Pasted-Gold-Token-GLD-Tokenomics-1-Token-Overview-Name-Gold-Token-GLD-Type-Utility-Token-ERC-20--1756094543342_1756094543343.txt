@@ -1,0 +1,78 @@
+Gold Token (GLD) Tokenomics
+1. Token Overview
+Name: Gold Token (GLD)
+Type: Utility Token (ERC-20 Standard)
+Decimals: 18 (supports fractional ownership down to micro-grams)
+Networks: Polygon and Solana (multi-chain expansion planned)
+Purpose:
+GLD represents a digitized claim on vaulted physical gold. For every GLD minted, an equivalent unit of gold (1 gram) is purchased and stored in an insured, audited vault. This ensures that each GLD token functions as a stable store of value, enabling:
+Payments and peer-to-peer transfers
+Portfolio diversification
+Peg and Backing:
+1 GLD = 1 gram of fine gold
+Fully collateralized with audited reserves
+Minting/Burning mechanism maintains the peg by synchronizing token supply with gold vault holdings
+
+
+Initial Supply: Dynamic. Tokens are minted only when gold is purchased and burned when redeemed. No fixed supply cap.
+
+2. Token Supply and Allocation
+2.1 Dynamic Supply
+Minting:
+
+
+Only the Issuer contract can mint new GLD.
+Triggered when user funds are received and gold acquisition is verified.
+Tokens minted 1:1 with gold purchased (1 GLD = 1 gram).
+Each batch is linked to bar IDs for full auditability.
+
+
+Burning:
+
+
+Occurs when users redeem tokens for physical gold.
+Redeemed tokens are locked and permanently removed from circulation.
+The equivalent bullion is shipped to the user.
+Result: Circulating supply = total vaulted gold reserves.
+
+3. Token Utility
+3.1 Investment and Holding
+Users buy GLD using fiat (via on-ramp partners) or crypto.
+Tokens can be stored in custodial or self-custody Web3 wallets.
+Offers exposure to gold without handling logistics of storage/transportation.
+3.2 Transfers and Gifting
+Peer-to-peer transfers available 24/7.
+Transaction Fee: 0.2% protocol fee (supports vault insurance and platform operations).
+Compliance Triggers:
+
+
+Small transfers may bypass additional checks.
+Large transfers require AML verification.
+3.3 Redemption
+Physical Redemption:
+
+
+Minimum redemption: 10 grams.
+Redemption Fee: 1% of value (min. $50), covering handling, shipping, and insurance.
+Tokens burned upon redemption, gold removed from vault.
+
+
+
+
+
+4. Governance and Compliance
+4.1 Role-Based Access
+Admin: Configure fees, referral programs, and upgrades.
+Issuer: Mint and burn tokens after verifying physical gold movements.
+Compliance Officers: KYC/AML onboarding, transaction monitoring, and reporting.
+4.2 KYC/AML
+Multi-tier verification (document + liveness checks).
+Restricted jurisdictions enforced.
+4.3 Proof of Reserves
+Regular independent audits ensure circulating GLD = vaulted reserves.
+Metadata & bar ID mapping enhance transparency.
+Inspired by on-chain reserve verification standards.
+4.4 Smart Contract Upgradeability
+OpenZeppelin proxy pattern for secure contract upgrades without disrupting token supply.
+
+

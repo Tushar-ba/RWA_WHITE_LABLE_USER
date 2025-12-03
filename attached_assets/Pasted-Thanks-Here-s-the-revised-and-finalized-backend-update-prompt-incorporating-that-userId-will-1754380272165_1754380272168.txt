@@ -1,0 +1,89 @@
+Thanks! Here's the revised and finalized **backend update prompt**, incorporating that `userId` will be extracted from the **Bearer token** (i.e., `req.user.id`):
+
+---
+
+🚨 **Backend Update Task: Refactor Wallet Storage into a Separate Collection**
+
+---
+
+### ✅ **Objective:**
+
+Decouple wallets from the `users` collection by moving them into a dedicated `wallets` collection. Update all related APIs accordingly, using `userId` extracted from the Bearer token.
+
+---
+
+### 🛠️ **Required Changes:**
+
+---
+
+#### 1️⃣ Create a new `wallets` collection:
+
+Each wallet document should contain:
+
+```json
+{
+  "_id": "wallet123",
+  "userId": "user123",         // From Bearer token (req.user.id)
+  "address": "0xabc...",
+  "type": "Metamask",
+  "status": "active",
+  "createdAt": "2025-08-05T12:00:00Z"
+}
+```
+
+---
+
+#### 2️⃣ Update the `/me` endpoint:
+
+* Extract `userId` from the Bearer token (`req.user.id`).
+* Fetch the user profile from the `users` collection.
+* Separately fetch all wallets from the `wallets` collection where `userId = req.user.id`.
+* Include the list of wallets in the `/me` response like so:
+
+```json
+{
+  "user": {
+    "_id": "user123",
+    "name": "John Doe",
+    ...
+  },
+  "wallets": [
+    {
+      "address": "0xabc...",
+      "type": "Metamask",
+      ...
+    }
+  ]
+}
+```
+
+---
+
+#### 3️⃣ Refactor **Add Wallet API**:
+
+* Extract `userId` from the Bearer token (`req.user.id`).
+* Create a new wallet document in the `wallets` collection using the provided data and associate it with the user.
+* **Do not** update the user document itself.
+
+---
+
+#### 4️⃣ (Optional) Write a **migration script**:
+
+* For all existing users who have wallets embedded in their documents:
+
+  * Extract each wallet.
+  * Create corresponding entries in the `wallets` collection with `userId` set.
+  * Remove the embedded wallet array from the user document (if required).
+
+---
+
+### ✅ Final Output:
+
+* `/me` returns user + wallet list.
+* Add wallet works via `wallets` collection only.
+* All new wallets go to the `wallets` collection.
+* No wallets are stored inside the user document anymore.
+
+---
+
+Let me know if you want help with actual Express/FastAPI code for this.

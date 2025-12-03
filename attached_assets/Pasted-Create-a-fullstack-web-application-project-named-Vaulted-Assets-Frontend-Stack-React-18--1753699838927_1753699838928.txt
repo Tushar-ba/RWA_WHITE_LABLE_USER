@@ -1,0 +1,170 @@
+Create a fullstack web application project named "Vaulted Assets".
+
+**Frontend Stack**:
+- React 18+ with TypeScript
+- Tailwind CSS for styling
+- Dark/Light mode toggle (globally updates theme using Tailwind and context)
+
+**Backend Stack**:
+- Create a placeholder folder structure for backend logic using Express + TypeScript (or leave as stub)
+- No need to implement any backend logic or database integration at this stage
+
+**User Roles**:
+- Retail Investor
+- Institutional Investor
+
+**Current Focus**:
+- Implement a modern, responsive UI prototype based on detailed user stories
+- Do not include actual data fetching, API logic, or backend validation
+- Build the following **UI screens** only:
+  - Landing Page (user selects Retail or Institutional)
+  - Role-based Onboarding (Sign Up) pages
+  - Login Page
+  - Dashboard (stubbed for both Retail and Institutional users)
+  - Theme Toggle (Dark/Light) available globally
+
+**Design References**:
+- https://www.paxos.com/pax-gold
+- https://app.tether.to/app/login
+
+**UI/UX Requirements**:
+- Use a centralized layout system (components + pages folder in `src`)
+- Responsive design with Tailwind CSS
+- Accessible dark/light theme toggle using Context API or Zustand
+- Buttons and UI elements must be styled to reflect a modern financial application (rounded edges, hover states, form validations)
+- Use dummy media/images where necessary
+
+**Theme Toggle Details**:
+- Use Tailwind's `darkMode: 'class'` configuration
+- Implement a global toggle (e.g. in Navbar or Header)
+- Store theme preference in localStorage and apply it on load
+- Example tailwind utility classes: `bg-white dark:bg-gray-900`, `text-black dark:text-white`, etc.
+
+**Use placeholders or dummy handlers for routing**:
+- All navigation should use React Router
+- Pages must be visually functional but do not require backend integration
+
+modules overview:
+
+Platform Role: Retail User:
+
+Platform Introduction - Landing Page
+Objective: Provide an engaging entry point for Retail Investors to explore individual investment opportunities.
+Description: As a Retail Investor, I want to land on a homepage that introduces the platform’s value proposition, encouraging me to sign up or log in.
+Features and Functionalities:
+Display platform branding (logo and tagline) tailored for retail investors.
+Showcase investment benefits via a video or carousel (e.g., personal wealth growth, security).
+Offer buttons to proceed to User Selection or Login.
+
+User Onboarding - Signup Process
+Objective: Enable Retail Investors to initiate account creation with a tailored experience.
+Description: As a Retail Investor, I want to select my role and provide personal details to start the signup process.
+Features and Functionalities:
+Allow selection of "Retail Investor" role with a description.
+Collect Email, Password, Mobile (optional), and Country, with real-time validation.
+Proceed to KYC verification on "Next".
+
+KYC Verification - Identity Validation
+Objective: Verify Retail Investor identity to ensure compliance and security.
+Description: As a Retail Investor, I want to verify my identity using Sumsub SDK to activate my account.
+Features and Functionalities:
+Open Sumsub SDK pop-up for ID upload and facial recognition.
+Provide real-time feedback during verification.
+Redirect to email verification on success, allow retry on failure.
+Acceptance Criteria:
+Given I click "Next" on the signup form, the Sumsub SDK pop-up opens.
+On successful verification, I am redirected to the email verification step.
+On failure, I can retry within the SDK interface.
+
+User Authentication
+Objective: Allow Retail Investors to securely access their accounts with 2fa
+Description: As a Retail Investor, I want to log in to manage my investments with robust security measures.
+Features and Functionalities:
+Enter Email and Password for authentication.
+
+Main Page - Retail Dashboard
+Objective: Provide a centralized hub for Retail Investors to manage their investments.
+Description: As a Retail Investor, I want a dashboard to monitor and manage my personal investments.
+Features and Functionalities:
+Display a welcome message with my name.
+Provide a navigation menu for Portfolio, Investments, and History.
+Default to the Portfolio module.
+Acceptance Criteria:
+Given I log in successfully, I see a welcome message and navigation menu.
+Clicking menu items navigates to respective modules.
+The page loads within 3 seconds.
+
+Investment Management - Retail Purchase
+Objective: Enable Retail Investors to purchase gold or silver tokens.
+Description: As a Retail Investor, I want to buy gold or silver tokens to grow my portfolio.
+Description: As a Retail Investor, I want to buy gold or silver tokens to grow my portfolio.
+Features and Functionalities:
+Select a metal (Gold or Silver).
+Enter USDC amount with balance check.
+Display current market price.
+Confirm investment and mint tokens.
+
+Portfolio Management - Retail Redemption
+Objective: Allow Retail Investors to monitor and redeem their assets.
+Description: As a Retail Investor, I want to view and redeem my asset holdings.
+Features and Functionalities:
+Display Gold, Silver, and USDC widgets with details on click.
+Allow data refresh on demand.
+Select a metal, enter an amount, and queue redemption for approval.
+
+Transaction Monitoring
+Objective: Enable Retail Investors to track their transaction history.
+Description: As a Retail Investor, I want to view my transaction history for transparency.
+Features and Functionalities:
+Filter transactions by date range.
+Display a table with transaction details.
+Export to PDF.
+Acceptance Criteria:
+Given I navigate to History, I can filter transactions and export to PDF.
+Data updates based on filter selection.
+
+Platform Role: Institutional User:
+Platform Introduction - Landing Page
+Objective: Attract Institutional Investors with bulk investment opportunities.
+Description: As an Institutional Investor, I want to land on a homepage tailored for bulk investment management.
+Features and Functionalities:
+Display branding and tagline for institutional focus.
+Showcase benefits via video or carousel (e.g., bulk asset management).
+Options to proceed to User Selection or Login.
+
+User Onboarding - Signup Process
+Objective: Facilitate Institutional Investor account creation.
+Description: As an Institutional Investor, I want to select my role and provide organizational details.
+Features and Functionalities:
+Select "Institutional Investor" role.
+Collect Email, Password, Organization Name, Country, proceed to KYC.
+
+KYC Verification - Identity Validation
+Objective: Verify Institutional Investor identity.
+Description: As an Institutional Investor, I want to verify my organization’s identity.
+Features and Functionalities:
+Upload organizational ID, facial recognition, real-time feedback.
+
+User Authentication
+Objective: Secure access for Institutional Investors.
+Description: As an Institutional Investor, I want to log in to manage bulk investments.
+Features and Functionalities:
+Enter Email and Password with 2fa
+
+Main Page - Institutional Dashboard
+Objective: Provide a dashboard for bulk investment management.
+Description: As an Institutional Investor, I want a dashboard for bulk operations.
+Features and Functionalities:
+Welcome message, menu (Portfolio, Investments, History), default Portfolio.
+Acceptance Criteria:
+Given I log in, I see welcome and menu, load Portfolio with bulk data.
+
+Investment Management - Institutional Purchase
+Objective: Facilitate bulk purchases for Institutional Investors.
+Description: As an Institutional Investor, I want to buy tokens in bulk.
+Features and Functionalities:
+Select metal, enter large USDC, view price, confirm bulk purchase.
+Acceptance Criteria:
+Given I’m in Investments, I buy bulk with valid input, tokens mint.
+
+NOTE: KEEP LANDING PAGE SAME FOR BOTH USERS

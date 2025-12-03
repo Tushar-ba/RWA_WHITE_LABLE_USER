@@ -1,0 +1,111 @@
+Objective:
+Create a Signup API that registers a user in the system. Upon signup, the user details are saved in the users MongoDB collection with an initial status of unverified. An OTP is sent to the user’s email, and the user must verify it to activate their account.
+
+📌 Requirements
+1. Signup API (POST /api/auth/signup)
+🔹 Request Body:
+json
+Copy
+Edit
+{
+  "fullName": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "securePassword123",
+  "userType": "retail" // or "institutional"
+}
+🔹 Validations:
+All fields are required.
+
+email must be unique.
+
+userType should only accept retail or institutional.
+
+Password should meet basic strength rules (min 6 characters, etc.)
+
+🔹 Process:
+Hash the password using bcrypt.
+
+Generate a 6-digit numeric OTP (e.g., Math.floor(100000 + Math.random() * 900000)).
+
+Save the user in MongoDB with the following fields:
+
+json
+Copy
+Edit
+{
+  "fullName": "John Doe",
+  "email": "johndoe@example.com",
+  "passwordHash": "...",
+  "userType": "retail",
+  "isVerified": false,
+  "otp": "123456",
+  "otpExpiresAt": "timestamp 10 mins from now",
+  "createdAt": "...",
+  "updatedAt": "..."
+}
+Send the OTP via email using a mail service (e.g., Nodemailer or SendGrid).
+
+Respond with:
+
+json
+Copy
+Edit
+{
+  "message": "Signup successful. Please verify your email using the OTP sent to you."
+}
+2. OTP Verification API (POST /api/auth/verify-otp)
+🔹 Request Body:
+json
+Copy
+Edit
+{
+  "email": "johndoe@example.com",
+  "otp": "123456"
+}
+🔹 Process:
+Find the user by email.
+
+Check if:
+
+OTP matches
+
+OTP has not expired
+
+If valid:
+
+Set isVerified = true
+
+Remove or clear the otp and otpExpiresAt fields
+
+Respond with:
+
+json
+Copy
+Edit
+{
+  "message": "Account verified successfully."
+}
+If OTP is invalid or expired, return a 400 response with:
+
+json
+Copy
+Edit
+{
+  "error": "Invalid or expired OTP."
+}
+🧱 MongoDB: users Collection Schema Example
+js
+Copy
+Edit
+{
+  _id: ObjectId,
+  fullName: String,
+  email: String,
+  passwordHash: String,
+  userType: "retail" | "institutional",
+  isVerified: Boolean,
+  otp: String,
+  otpExpiresAt: Date,
+  createdAt: Date,
+  updatedAt: Date
+}
