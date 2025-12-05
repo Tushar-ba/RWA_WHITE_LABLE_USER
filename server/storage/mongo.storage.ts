@@ -88,7 +88,9 @@ export class MongoStorage {
       await this.transactions.createIndex({ userId: 1 });
       await this.transactions.createIndex({ createdAt: -1 });
       await this.wallets.createIndex({ userId: 1 });
-      await this.wallets.createIndex({ address: 1 }, { unique: true });
+      // Allow multiple users to register the same wallet address if business rules require it.
+      // Uniqueness (per-user or global) is enforced in application logic instead of DB constraint.
+      await this.wallets.createIndex({ address: 1 });
       await this.giftings.createIndex({ userId: 1 });
       await this.giftings.createIndex({ recipientWallet: 1 });
       await this.giftings.createIndex({ createdAt: -1 });

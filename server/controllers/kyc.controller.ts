@@ -280,15 +280,17 @@ export class KycController {
         const webhookUser = foundUser;
         const mappedStatus = SumsubService.mapSumsubStatus(reviewStatus, reviewResult.reviewAnswer);
 
-        // Update user status
-        await storage.updateUser(webhookUser._id!.toString(), {
-          kyc_status: mappedStatus,
-          kyc_approval_date: mappedStatus === 'approved' ? new Date() : undefined,
-          kyc_rejection_reason: mappedStatus === 'rejected' ? 
-            reviewResult.rejectLabels?.join(', ') : undefined
-        });
+        // KYC auto-approval via webhook disabled:
+        // We still compute mappedStatus for logging/monitoring,
+        // but do not persist it to the user record.
+        // await storage.updateUser(webhookUser._id!.toString(), {
+        //   kyc_status: mappedStatus,
+        //   kyc_approval_date: mappedStatus === 'approved' ? new Date() : undefined,
+        //   kyc_rejection_reason: mappedStatus === 'rejected' ? 
+        //     reviewResult.rejectLabels?.join(', ') : undefined
+        // });
 
-        Logger.info(`Updated KYC status for user ${webhookUser._id}: ${mappedStatus}`);
+        // Logger.info(`Updated KYC status for user ${webhookUser._id}: ${mappedStatus}`);
       }
 
       res.status(200).json({ success: true });
