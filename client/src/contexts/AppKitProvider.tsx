@@ -16,7 +16,7 @@ import { SolanaAdapter } from "@reown/appkit-adapter-solana/react";
 const queryClient = new QueryClient();
 
 // 1. Get projectId from environment (Reown dashboard)
-const projectId = "ebe9c55f5555613ca9fef084169c9e21";
+const projectId = "7b39e78fb1848ff518252fe1d2153800";
 
 // 2. Define Hoodi Testnet as a custom chain using viem
 const hoodiChainId = Number(
