@@ -1175,6 +1175,15 @@ export class MongoStorage {
 
     const now = new Date();
 
+    // Normalize initial status:
+    // - default to 'pending'
+    // - force 'pending' on create for public network to avoid premature 'processing'
+    const normalizedNetwork = (purchaseData.networkType?.toLowerCase() || 'private') as any;
+    const normalizedStatus =
+      normalizedNetwork === 'public'
+        ? 'pending'
+        : (purchaseData.status || 'pending');
+
     const purchase: PurchaseHistory = {
       userId: new ObjectId(purchaseData.userId as string), // Store as ObjectId for proper references
       metal: (purchaseData.metal?.toLowerCase() || 'gold') as any, // Default to 'gold' if not provided
@@ -1183,8 +1192,8 @@ export class MongoStorage {
       feeAmount: purchaseData.feeAmount,
       date: purchaseData.date,
       time: purchaseData.time,
-      status: purchaseData.status,
-      networkType: (purchaseData.networkType?.toLowerCase() || 'private') as any, // Default to 'private' if not provided
+      status: normalizedStatus,
+      networkType: normalizedNetwork, // Default to 'private' if not provided
       paymentMethod: purchaseData.paymentMethod,
       transactionHash: purchaseData.transactionHash,
       walletAddress: purchaseData.walletAddress,
