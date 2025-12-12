@@ -16,14 +16,14 @@ import { SolanaAdapter } from "@reown/appkit-adapter-solana/react";
 const queryClient = new QueryClient();
 
 // 1. Get projectId from environment (Reown dashboard)
-const projectId = "7b39e78fb1848ff518252fe1d2153800";
+const projectId = "ebe9c55f5555613ca9fef084169c9e21";
 
 // 2. Define Hoodi Testnet as a custom chain using viem
 const hoodiChainId = Number(
   import.meta.env.VITE_HOODI_CHAIN_ID || "560048",
 );
 const hoodiRpcUrl =
-  import.meta.env.VITE_ETHEREUM_RPC_URL || "https://0xrpc.io/hoodi";
+  import.meta.env.VITE_ETHEREUM_RPC_URL || "https://eth-hoodi.g.alchemy.com/v2/AVi7ZUdETBLSsCTTAMMzU";
 
 const hoodiChain = defineChain({
   id: hoodiChainId,
