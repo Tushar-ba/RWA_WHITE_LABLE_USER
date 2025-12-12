@@ -59,7 +59,7 @@ export class MoonPayService {
         baseCurrencyCode: 'usd',
         walletAddress: params.walletAddress,
         ...(params.externalTransactionId && { externalTransactionId: params.externalTransactionId }),
-         redirectURL: 'http://localhost:3000/assets'
+         redirectURL: 'http://51.20.249.75:3000/assets'
         // ...(params.externalCustomerId && { externalCustomerId: params.externalCustomerId }),
         // ...(params.redirectURL && { redirectURL: params.redirectURL })
       });
