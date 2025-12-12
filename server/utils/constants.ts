@@ -20,10 +20,10 @@ export const DATABASE = {
 // Email constants
 export const EMAIL = {
   SUBJECTS: {
-    EMAIL_VERIFICATION: 'Verify your email for Vaulted Assets Platform',
-    PASSWORD_RESET: 'Reset your Vaulted Assets password',
+    EMAIL_VERIFICATION: 'Verify your email for Solulab Assets Platform',
+    PASSWORD_RESET: 'Reset your Solulab Assets password',
   },
-  FROM_NAME: 'Vaulted Assets Team',
+  FROM_NAME: 'Solulab Assets Team',
 } as const;
 
 // API Response messages

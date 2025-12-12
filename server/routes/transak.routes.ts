@@ -87,7 +87,7 @@ router.post('/create-session', requireAuth, requireKycApproval, asyncHandler(asy
       email: email,
       partnerCustomerId:mode === 'BUY' ? userId :'68ac305e3d05da093f297f4f',
       mode: mode || 'BUY',
-      themeColor: '#D4AF37', // Vaulted Assets gold color
+      themeColor: '#D4AF37', // Solulab Assets gold color
       redirectURL: `${process.env.TRANSAK_BASE_URL || 'https://dev-user.mits.net'}/assets?purchase=${purchaseHistoryId}`,
       sessionId:sessionId,
       webhookURL: `${'https://dev-user.mits.net'

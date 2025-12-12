@@ -85,7 +85,7 @@ export class SendGridEmailService {
     const emailParams: EmailParams = {
       to: email,
       from: this.FROM_EMAIL,
-      subject: "Verify your email for Vaulted Assets Platform",
+      subject: "Verify your email for Solulab Assets Platform",
       text: `Hi ${userName},
 
 Your OTP to verify your email address is: ${otp}
@@ -95,10 +95,10 @@ This code will expire in 10 minutes.
 If you didn't sign up, please ignore this email.
 
 Thank you,
-Vaulted Assets Team`,
+Solulab Assets Team`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #8F541D;">Verify your email for Vaulted Assets Platform</h2>
+          <h2 style="color: #8F541D;">Verify your email for Solulab Assets Platform</h2>
           
           <p>Hi ${userName},</p>
           
@@ -110,11 +110,11 @@ Vaulted Assets Team`,
             <p style="color: #666; font-size: 14px; margin: 0;">This code will expire in 10 minutes</p>
           </div>
           
-          <p>If you didn't sign up for Vaulted Assets, please ignore this email.</p>
+          <p>If you didn't sign up for Solulab Assets, please ignore this email.</p>
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
           <p style="color: #666; font-size: 12px;">
-            This is an automated message from Vaulted Assets Platform.<br>
+            This is an automated message from Solulab Assets Platform.<br>
             Please do not reply to this email.
           </p>
         </div>
@@ -163,7 +163,7 @@ Vaulted Assets Team`,
     const emailParams: EmailParams = {
       to: email,
       from: this.FROM_EMAIL,
-      subject: "Vaulted Assets - Two-Factor Authentication Code",
+      subject: "Solulab Assets - Two-Factor Authentication Code",
       text: `Hi ${userName},
 
 Your two-factor authentication code is: ${otp}
@@ -173,14 +173,14 @@ This code will expire in 10 minutes.
 If you didn't request this login, please secure your account immediately.
 
 Thank you,
-Vaulted Assets Team`,
+Solulab Assets Team`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #8F541D;">Two-Factor Authentication Code</h2>
           
           <p>Hi ${userName},</p>
           
-          <p>Someone is trying to access your Vaulted Assets account. If this is you, use the code below to complete your login:</p>
+          <p>Someone is trying to access your Solulab Assets account. If this is you, use the code below to complete your login:</p>
           
           <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; text-align: center; margin: 20px 0;">
             <h3 style="color: #8F541D; margin: 0;">Your 2FA verification code:</h3>
@@ -196,7 +196,7 @@ Vaulted Assets Team`,
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
           <p style="color: #666; font-size: 12px;">
-            This is an automated message from Vaulted Assets Platform.<br>
+            This is an automated message from Solulab Assets Platform.<br>
             Please do not reply to this email.
           </p>
         </div>
@@ -251,10 +251,10 @@ Vaulted Assets Team`,
     const emailParams: EmailParams = {
       to: email,
       from: this.FROM_EMAIL,
-      subject: "Reset your Vaulted Assets password",
+      subject: "Reset your Solulab Assets password",
       text: `Hi ${userName},
 
-You requested to reset your password for Vaulted Assets Platform.
+You requested to reset your password for Solulab Assets Platform.
 
 Click the link below to reset your password:
 ${resetUrl}
@@ -264,14 +264,14 @@ This link will expire in 1 hour.
 If you didn't request this, please ignore this email.
 
 Thank you,
-Vaulted Assets Team`,
+Solulab Assets Team`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #8F541D;">Reset your Vaulted Assets password</h2>
+          <h2 style="color: #8F541D;">Reset your Solulab Assets password</h2>
           
           <p>Hi ${userName},</p>
           
-          <p>You requested to reset your password for Vaulted Assets Platform.</p>
+          <p>You requested to reset your password for Solulab Assets Platform.</p>
           
           <div style="text-align: center; margin: 30px 0;">
             <!--[if mso]>
@@ -304,7 +304,7 @@ Vaulted Assets Team`,
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
           <p style="color: #666; font-size: 12px;">
-            This is an automated message from Vaulted Assets Platform.<br>
+            This is an automated message from Solulab Assets Platform.<br>
             Please do not reply to this email.
           </p>
         </div>
@@ -361,7 +361,7 @@ Vaulted Assets Team`,
     const emailParams: EmailParams = {
       to: email,
       from: this.FROM_EMAIL,
-      subject: `${subject} - Vaulted Assets`,
+      subject: `${subject} - Solulab Assets`,
       text: `Hi ${userName},
 
 ${content}
@@ -376,7 +376,7 @@ Event Details:
 - Block: ${event.blockNumber || event.slot || 'N/A'}
 
 Thank you,
-Vaulted Assets Team`,
+Solulab Assets Team`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #8F541D;">${subject}</h2>
@@ -397,7 +397,7 @@ Vaulted Assets Team`,
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
           <p style="color: #666; font-size: 12px;">
-            This is an automated message from Vaulted Assets Platform.<br>
+            This is an automated message from Solulab Assets Platform.<br>
             Please do not reply to this email.
           </p>
         </div>
@@ -470,7 +470,7 @@ Vaulted Assets Team`,
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
           <p style="color: #666; font-size: 12px;">
-            This is an automated notification from Vaulted Assets Platform.<br>
+            This is an automated notification from Solulab Assets Platform.<br>
             Please do not reply to this email.
           </p>
         </div>

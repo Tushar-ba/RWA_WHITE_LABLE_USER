@@ -79,11 +79,11 @@ export function Navbar({ isAuthenticated = false, onLogout }: NavbarProps) {
             <div className="flex items-center space-x-2 sm:space-x-3 cursor-pointer">
               <img
                 src={logoPath}
-                alt="Vaulted Assets Logo"
+                alt="Solulab Assets Logo"
                 className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
               />
               <span className="text-lg sm:text-xl font-bold text-brand-dark-gold dark:text-brand-gold">
-                Vaulted Assets
+                Solulab Assets
               </span>
             </div>
           </Link>

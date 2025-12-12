@@ -1,4 +1,4 @@
-# Vaulted Assets API Documentation
+# Solulab Assets API Documentation
 
 ## Mint API Endpoints
 

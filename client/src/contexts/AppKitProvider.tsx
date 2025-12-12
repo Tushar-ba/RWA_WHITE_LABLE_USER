@@ -76,7 +76,7 @@ const solanaWeb3JsAdapter = new SolanaAdapter();
 
 // 6. Configure metadata
 const metadata = {
-  name: "Vaulted Assets",
+  name: "Solulab Assets",
   description: "Digital Asset Vaulting Platform",
   url:
     typeof window !== "undefined"

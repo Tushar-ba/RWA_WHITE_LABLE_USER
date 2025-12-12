@@ -124,7 +124,7 @@ export class TransakService {
         walletAddress: "0xaB4dbDD5Fb141E08Da7b3E77C08fc706aF2D1Fcc",
         email: data.email,
         partnerCustomerId: data.partnerCustomerId,
-        themeColor: data.themeColor || "#D4AF37", // Vaulted Assets gold color
+        themeColor: data.themeColor || "#D4AF37", // Solulab Assets gold color
         redirectURL:
           data.redirectURL ||
           `${process.env.BASE_URL || "https://dev-user.mits.net"}/assets`,

@@ -128,7 +128,7 @@ export class ZendeskService {
    */
   private formatTicketBody(contactData: ContactFormData): string {
     return `
-Contact Form Submission from Vaulted Assets Website
+Contact Form Submission from Solulab Assets Website
 
 Name: ${contactData.firstName} ${contactData.lastName}
 Email: ${contactData.email}
@@ -139,7 +139,7 @@ Message:
 ${contactData.message}
 
 ---
-Submitted via Vaulted Assets contact form on ${new Date().toLocaleString()}
+Submitted via Solulab Assets contact form on ${new Date().toLocaleString()}
     `.trim();
   }
 

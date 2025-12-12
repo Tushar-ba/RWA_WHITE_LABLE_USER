@@ -490,15 +490,21 @@ export default function Onboarding() {
         if (response.data.user && setUser) {
           setUser(response.data.user);
         }
-      //  if (user?.kyc_status !== 'approved'){
-      //   // Move to KYC step instead of redirecting
-      //   setCurrentStep(STEPS.KYC);
-      //   setError("");
-      //  }else{
-      //   setLocation("/assets");
-      //  }
-      setLocation("/assets");
-      window.location.reload();
+        // Mark KYC as approved on onboarding completion
+        try {
+          const kycUpdate = await axios.patch('/api/users/me', {
+            kyc_status: 'approved',
+            kyc_approval_date: new Date().toISOString(),
+          });
+          if (kycUpdate.data?.user && setUser) {
+            setUser(kycUpdate.data.user);
+          }
+        } catch (kycErr) {
+          console.warn('KYC auto-approve after onboarding failed (non-blocking):', kycErr);
+        }
+
+        setLocation("/assets");
+        window.location.reload();
       } else {
         setError(response.data.message || "Failed to save onboarding data");
       }
